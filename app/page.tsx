@@ -327,7 +327,7 @@ function Dashboard() {
   const data = aisri.data;
   const score = data?.score ?? 0;
   const status: AISRIData["status"] = data?.status ?? "ready";
-  const tone: RingTone = STATUS_TO_TONE[status];
+  const tone: RingTone = (STATUS_TO_TONE[status as keyof typeof STATUS_TO_TONE] ?? 'yellow') as RingTone;
   const meta = TONE_META[tone];
   const insight = buildActions(score, tone);
   const todayWorkout = workouts.data?.[0];
