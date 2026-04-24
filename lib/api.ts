@@ -112,28 +112,22 @@ export interface CheckinPayload {
 }
 
 export async function submitCheckin(payload: CheckinPayload): Promise<AISRIData> {
-  // Send both the raw "check-in" shape and the legacy fields the
-  // /aisri/calculate endpoint expects so the server can pick whichever
-  // it understands. Sleep is in hours; fatigue/mood are 1-5.
-  const body = {
-    ...payload,
-    hrv: 60,
-    sleep: payload.sleep_hours,
-    load: 50,
-    fatigue: payload.fatigue,
-    mood: payload.mood,
-  };
-  const { data } = await api.post('/api/aisri/calculate', body);
+  // Map UI fields -> backend DTO (CalculateAisriDto expects: hrv, sleep, load, fatigue 1-10, mood 1-10)
+  const sleepHours = Math.max(4, Math.min(10, payload.sleep_hours));
+  const sleep = Math.round(((sleepHours - 4) / 6) * 100);
+  const fatigue = Math.max(1, Math.min(10, Math.round(payload.fatigue * 2)));
+  const mood = Math.max(1, Math.min(10, Math.round(payload.mood * 2)));
+  const hrv = 65;
+  const load = payload.injury ? 75 : 50;
+
+  const dto = { hrv, sleep, load, fatigue, mood };
+  const { data } = await api.post('/api/aisri/calculate', dto);
   return {
-    score: data.score,
-    status: (data.status ?? 'ready') as AISRIData['status'],
-    pillars: Object.entries(data.breakdown ?? {}).map(([name, score]) => ({
-      name: name.charAt(0).toUpperCase() + name.slice(1),
-      score: Math.round(score as number),
-    })),
+    score: (data?.score as number) ?? 0,
+    status: (data?.status as AISRIData['status']) ?? 'moderate',
+    pillars: Array.isArray(data?.pillars) ? data.pillars : [],
   };
 }
-
 // ---------------------------------------------------------------------------
 // Workouts
 // ---------------------------------------------------------------------------

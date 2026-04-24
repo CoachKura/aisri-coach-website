@@ -1,6 +1,7 @@
 "use client";
 
-import { createContext, useCallback, useContext, useEffect, useMemo, useState } from "react";
+import React, { createContext, useCallback, useContext, useEffect, useMemo, useState } from "react";
+import { createPortal } from "react-dom";
 import { login as apiLogin, register as apiRegister, logout as apiLogout, tokenStorage } from "@/lib/api";
 
 interface User { id: string; email: string; name: string }
@@ -124,13 +125,16 @@ function AuthModal({
     }
   }
 
-  return (
+  const [mounted, setMounted] = React.useState(false);
+  React.useEffect(() => { setMounted(true); }, []);
+  if (!mounted || typeof document === 'undefined') return null;
+  const node = (
     <div
-      className="fixed inset-0 z-[200] flex items-center justify-center bg-black/70 backdrop-blur-sm px-4"
+      className="fixed inset-0 z-[9999] flex items-start sm:items-center justify-center bg-black/85 backdrop-blur-sm px-4 py-8 overflow-y-auto"
       onClick={onClose}
     >
       <div
-        className="max-w-md w-full rounded-2xl border border-gray-700 p-6 sm:p-8 relative bg-gray-900 shadow-2xl"
+        className="max-w-md w-full rounded-2xl border border-gray-700 p-6 sm:p-8 relative bg-gray-950 shadow-2xl my-auto"
         onClick={(e) => e.stopPropagation()}
       >
         <button
@@ -226,4 +230,5 @@ function AuthModal({
       </div>
     </div>
   );
+  return createPortal(node, document.body);
 }
