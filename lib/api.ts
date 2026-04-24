@@ -22,11 +22,10 @@ export const tokenStorage = {
 // ---------------------------------------------------------------------------
 const api = axios.create({
   baseURL: process.env.NEXT_PUBLIC_API_URL,
-  timeout: 10000,
+  timeout: 12000,
   headers: { 'Content-Type': 'application/json' },
 });
 
-// Attach JWT on every request when a token exists
 api.interceptors.request.use((config) => {
   const token = tokenStorage.get();
   if (token) config.headers.Authorization = `Bearer ${token}`;
@@ -67,7 +66,7 @@ export function logout(): void {
 }
 
 // ---------------------------------------------------------------------------
-// AISRI  — GET /api/aisri/latest
+// AISRI
 // ---------------------------------------------------------------------------
 export async function fetchAISRI(): Promise<AISRIData> {
   const { data } = await api.get<{
@@ -76,7 +75,6 @@ export async function fetchAISRI(): Promise<AISRIData> {
     breakdown: Record<string, number>;
   }>('/api/aisri/latest');
 
-  // Map the backend shape to the frontend AISRIData type
   return {
     score: data.score,
     status: data.status as AISRIData['status'],
@@ -87,7 +85,6 @@ export async function fetchAISRI(): Promise<AISRIData> {
   };
 }
 
-// POST /api/aisri/calculate
 export async function calculateAISRI(input: {
   hrv: number;
   sleep: number;
@@ -106,8 +103,39 @@ export async function calculateAISRI(input: {
   };
 }
 
+// New: daily check-in payload (raw, server interprets)
+export interface CheckinPayload {
+  sleep_hours: number;
+  fatigue: number;
+  mood: number;
+  injury: boolean;
+}
+
+export async function submitCheckin(payload: CheckinPayload): Promise<AISRIData> {
+  // Send both the raw "check-in" shape and the legacy fields the
+  // /aisri/calculate endpoint expects so the server can pick whichever
+  // it understands. Sleep is in hours; fatigue/mood are 1-5.
+  const body = {
+    ...payload,
+    hrv: 60,
+    sleep: payload.sleep_hours,
+    load: 50,
+    fatigue: payload.fatigue,
+    mood: payload.mood,
+  };
+  const { data } = await api.post('/api/aisri/calculate', body);
+  return {
+    score: data.score,
+    status: (data.status ?? 'ready') as AISRIData['status'],
+    pillars: Object.entries(data.breakdown ?? {}).map(([name, score]) => ({
+      name: name.charAt(0).toUpperCase() + name.slice(1),
+      score: Math.round(score as number),
+    })),
+  };
+}
+
 // ---------------------------------------------------------------------------
-// Workouts  — GET /api/workouts  |  POST /api/workouts
+// Workouts
 // ---------------------------------------------------------------------------
 export async function fetchWorkouts(): Promise<Workout[]> {
   const { data } = await api.get<Workout[]>('/api/workouts');
@@ -121,8 +149,43 @@ export async function createWorkout(
   return data;
 }
 
+export interface WorkoutStats {
+  totalKm: number;
+  sessions: number;
+  calories: number;
+  perDay?: number[]; // 0..6 distance per day (most recent last)
+}
+
+export async function fetchWorkoutStats(days: number = 7): Promise<WorkoutStats> {
+  try {
+    const { data } = await api.get<Partial<WorkoutStats> & Record<string, unknown>>(
+      `/api/workouts/stats?days=${days}`,
+    );
+    return {
+      totalKm: Math.round(((data.totalKm as number) ?? 0) * 10) / 10,
+      sessions: (data.sessions as number) ?? 0,
+      calories: Math.round((data.calories as number) ?? 0),
+      perDay: (data.perDay as number[]) ?? undefined,
+    };
+  } catch {
+    // Derive locally from /workouts list as a soft fallback
+    try {
+      const list = await fetchWorkouts();
+      const totalMinutes = list.reduce((s, w) => s + (w.duration ?? 0), 0);
+      return {
+        totalKm: Math.round(totalMinutes / 6) / 10, // very rough fallback
+        sessions: list.length,
+        calories: Math.round(totalMinutes * 9),
+        perDay: undefined,
+      };
+    } catch {
+      return { totalKm: 0, sessions: 0, calories: 0 };
+    }
+  }
+}
+
 // ---------------------------------------------------------------------------
-// Biomechanics  — POST /api/biomechanics/analyze
+// Biomechanics
 // ---------------------------------------------------------------------------
 export async function analyzeBiomechanics(
   input: BiomechanicsInput,
@@ -136,10 +199,9 @@ export async function analyzeBiomechanics(
     strideLength: input.strideLength,
     verticalOscillation: input.verticalOscillation,
     groundContactTime: input.groundContactTime,
-    balance: 90, // default when not provided by the page
+    balance: 90,
   });
 
-  // Map backend shape → frontend BiomechanicsData shape
   const metricMap: { key: keyof BiomechanicsInput; unit: string; label: string }[] = [
     { key: 'cadence', unit: 'spm', label: 'Cadence' },
     { key: 'strideLength', unit: 'm', label: 'Stride Length' },
@@ -177,4 +239,27 @@ export async function analyzeBiomechanics(
   });
 
   return { overallScore: data.overallScore, insights };
+}
+
+// ---------------------------------------------------------------------------
+// Coach chat
+// ---------------------------------------------------------------------------
+export interface CoachMessage {
+  role: 'user' | 'assistant';
+  content: string;
+}
+
+export async function sendCoachMessage(
+  message: string,
+  history: CoachMessage[] = [],
+): Promise<string> {
+  try {
+    const { data } = await api.post<{ reply?: string; message?: string; content?: string }>(
+      '/api/voice-coach',
+      { message, history },
+    );
+    return data.reply || data.message || data.content || "I'm here. Tell me more.";
+  } catch {
+    return "I'm warming up — try again in a moment 🏃";
+  }
 }
