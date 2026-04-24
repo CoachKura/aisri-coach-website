@@ -1,0 +1,12 @@
+# Netlify config for the Next.js site (this folder IS the repo root).
+[build]
+  command = "npm install --legacy-peer-deps && npm run build"
+  publish = ".next"
+
+[build.environment]
+  NODE_VERSION = "20"
+  NPM_FLAGS    = "--legacy-peer-deps"
+
+# Set in Netlify UI → Site settings → Environment variables:
+#   NEXT_PUBLIC_API_URL     = https://aisri-backend.onrender.com
+#   NEXT_PUBLIC_BACKEND_URL = https://aisri-backend.onrender.com/api
