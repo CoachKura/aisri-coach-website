@@ -6,6 +6,7 @@ import Card from "@/components/Card";
 import WorkoutPreview from "@/components/WorkoutPreview";
 import BiomechanicsPanel from "@/components/BiomechanicsPanel";
 import { useAISRI, useWorkouts, useBiomechanics } from "@/hooks/useApi";
+import { useAuth } from "@/lib/auth-context";
 
 const SAMPLE_BIOMECHANICS_INPUT = {
   cadence: 172,
@@ -47,6 +48,7 @@ export default function Home() {
   const aisri = useAISRI();
   const workouts = useWorkouts();
   const biomechanics = useBiomechanics(SAMPLE_BIOMECHANICS_INPUT);
+  const { isAuthed, user, openAuth, logout } = useAuth();
 
   const score = aisri.data?.score ?? 72;
   const status = aisri.data?.status ?? "ready";
@@ -96,11 +98,11 @@ export default function Home() {
             variants={itemVariants}
             className="flex flex-col sm:flex-row gap-4 justify-center mb-12"
           >
-            <button className="px-8 py-3 rounded-lg bg-green-600 hover:bg-green-700 font-semibold transition-colors text-white">
-              Get Started Free
+            <button onClick={() => isAuthed ? logout() : openAuth("register")} className="px-8 py-3 rounded-lg bg-green-600 hover:bg-green-700 font-semibold transition-colors text-white">
+              {isAuthed ? `Sign out (${user?.name ?? user?.email ?? ""})` : "Get Started Free"}
             </button>
-            <button className="px-8 py-3 rounded-lg glass border border-gray-600 hover:border-green-500 font-semibold transition-colors">
-              Watch Demo
+            <button onClick={() => openAuth("login")} className="px-8 py-3 rounded-lg glass border border-gray-600 hover:border-green-500 font-semibold transition-colors">
+              {isAuthed ? "Refresh data" : "Sign in"}
             </button>
           </motion.div>
 

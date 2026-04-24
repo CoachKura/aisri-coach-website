@@ -1,8 +1,9 @@
-'use client';
+"use client";
 
-import { useState, useEffect } from 'react';
-import { fetchAISRI, fetchWorkouts, analyzeBiomechanics } from '@/lib/api';
-import type { AISRIData, Workout, BiomechanicsData, BiomechanicsInput } from '@/lib/types';
+import { useState, useEffect } from "react";
+import { fetchAISRI, fetchWorkouts, analyzeBiomechanics } from "@/lib/api";
+import { useAuth } from "@/lib/auth-context";
+import type { AISRIData, Workout, BiomechanicsData, BiomechanicsInput } from "@/lib/types";
 
 interface AsyncState<T> {
   data: T | null;
@@ -10,7 +11,7 @@ interface AsyncState<T> {
   error: string | null;
 }
 
-function useAsync<T>(fn: () => Promise<T>): AsyncState<T> {
+function useAsync<T>(fn: () => Promise<T>, deps: unknown[] = []): AsyncState<T> {
   const [state, setState] = useState<AsyncState<T>>({
     data: null,
     loading: true,
@@ -19,57 +20,42 @@ function useAsync<T>(fn: () => Promise<T>): AsyncState<T> {
 
   useEffect(() => {
     let cancelled = false;
+    setState((s) => ({ ...s, loading: true, error: null }));
 
     fn()
-      .then((data) => {
-        if (!cancelled) setState({ data, loading: false, error: null });
-      })
+      .then((data) => { if (!cancelled) setState({ data, loading: false, error: null }); })
       .catch((err: unknown) => {
-        if (!cancelled) {
-          const message = err instanceof Error ? err.message : 'Something went wrong';
-          setState({ data: null, loading: false, error: message });
-        }
+        if (cancelled) return;
+        // axios error shape
+        const e = err as { response?: { status?: number; data?: { message?: string | string[] } }; message?: string };
+        const status = e?.response?.status;
+        const raw = e?.response?.data?.message;
+        const msg = Array.isArray(raw) ? raw.join(", ") : raw;
+        const friendly =
+          status === 401 ? "Sign in to view this data."
+          : status === 403 ? "Not allowed."
+          : msg || e?.message || "Something went wrong";
+        setState({ data: null, loading: false, error: friendly });
       });
 
     return () => { cancelled = true; };
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  }, deps);
 
   return state;
 }
 
 export function useAISRI(): AsyncState<AISRIData> {
-  return useAsync(fetchAISRI);
+  const { token } = useAuth();
+  return useAsync(fetchAISRI, [token]);
 }
 
 export function useWorkouts(): AsyncState<Workout[]> {
-  return useAsync(fetchWorkouts);
+  const { token } = useAuth();
+  return useAsync(fetchWorkouts, [token]);
 }
 
 export function useBiomechanics(input: BiomechanicsInput): AsyncState<BiomechanicsData> {
-  const [state, setState] = useState<AsyncState<BiomechanicsData>>({
-    data: null,
-    loading: true,
-    error: null,
-  });
-
-  useEffect(() => {
-    let cancelled = false;
-
-    analyzeBiomechanics(input)
-      .then((data) => {
-        if (!cancelled) setState({ data, loading: false, error: null });
-      })
-      .catch((err: unknown) => {
-        if (!cancelled) {
-          const message = err instanceof Error ? err.message : 'Something went wrong';
-          setState({ data: null, loading: false, error: message });
-        }
-      });
-
-    return () => { cancelled = true; };
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
-
-  return state;
+  const { token } = useAuth();
+  return useAsync(() => analyzeBiomechanics(input), [token]);
 }

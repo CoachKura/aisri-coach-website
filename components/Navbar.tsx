@@ -3,9 +3,11 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
+import { useAuth } from '@/lib/auth-context';
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
+  const { isAuthed, user, openAuth, logout } = useAuth();
 
   const navItems = [
     { label: 'Features', href: '#features' },
@@ -47,8 +49,8 @@ export default function Navbar() {
 
           {/* CTA Button */}
           <div className="hidden md:flex items-center gap-4">
-            <button className="px-6 py-2 rounded-lg bg-green-600 hover:bg-green-700 transition-colors font-medium text-sm">
-              Get Started
+            <button onClick={() => isAuthed ? logout() : openAuth("register")} className="px-6 py-2 rounded-lg bg-green-600 hover:bg-green-700 transition-colors font-medium text-sm">
+              {isAuthed ? "Sign out" : "Get Started"}
             </button>
           </div>
 
@@ -101,8 +103,8 @@ export default function Navbar() {
                   {item.label}
                 </Link>
               ))}
-              <button className="w-full mt-4 px-4 py-2 rounded-lg bg-green-600 hover:bg-green-700 transition font-medium">
-                Get Started
+              <button onClick={() => { setIsOpen(false); isAuthed ? logout() : openAuth("register"); }} className="w-full mt-4 px-4 py-2 rounded-lg bg-green-600 hover:bg-green-700 transition font-medium">
+                {isAuthed ? "Sign out" : "Get Started"}
               </button>
             </div>
           </motion.div>
