@@ -40,7 +40,7 @@ export default function AnimatedCircle({
         <motion.div
           animate={{ opacity: [0.3, 0.5, 0.3] }}
           transition={{ duration: 3, repeat: Infinity }}
-          className={`absolute inset-0 rounded-full bg-gradient-to-br ${(statusColors[status] ?? statusColors.recovery).bg} blur-2xl opacity-40`}
+          className={`absolute inset-0 rounded-full bg-gradient-to-br ${(statusColors[status as keyof typeof statusColors] ?? statusColors.recovery).bg} blur-2xl opacity-40`}
         />
 
         {/* Main circle container */}
@@ -96,7 +96,7 @@ export default function AnimatedCircle({
             </motion.div>
             <p className="text-xs sm:text-sm text-gray-400 mt-2">AISRI Score</p>
             <p className={`text-xs mt-1 font-medium`}>
-              {(statusColors[status] ?? statusColors.recovery).text}
+              {(statusColors[status as keyof typeof statusColors] ?? statusColors.recovery).text}
             </p>
           </motion.div>
         </div>
