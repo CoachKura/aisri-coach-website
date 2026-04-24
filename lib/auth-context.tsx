@@ -126,11 +126,11 @@ function AuthModal({
 
   return (
     <div
-      className="fixed inset-0 z-[100] flex items-center justify-center bg-black/70 backdrop-blur-sm px-4"
+      className="fixed inset-0 z-[200] flex items-center justify-center bg-black/70 backdrop-blur-sm px-4"
       onClick={onClose}
     >
       <div
-        className="glass max-w-md w-full rounded-2xl border border-gray-700/50 p-6 sm:p-8 relative"
+        className="max-w-md w-full rounded-2xl border border-gray-700 p-6 sm:p-8 relative bg-gray-900 shadow-2xl"
         onClick={(e) => e.stopPropagation()}
       >
         <button
@@ -156,7 +156,7 @@ function AuthModal({
               required
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              className="w-full mt-1 px-3 py-2 rounded-lg bg-black/40 border border-gray-700 focus:border-green-500 focus:outline-none text-white"
+              className="w-full mt-1 px-3 py-2 rounded-lg bg-gray-950 border border-gray-700 focus:border-green-500 focus:outline-none text-white placeholder-gray-500 [color-scheme:dark]"
               autoComplete="email"
             />
           </div>
@@ -168,7 +168,7 @@ function AuthModal({
                 type="text"
                 value={name}
                 onChange={(e) => setName(e.target.value)}
-                className="w-full mt-1 px-3 py-2 rounded-lg bg-black/40 border border-gray-700 focus:border-green-500 focus:outline-none text-white"
+                className="w-full mt-1 px-3 py-2 rounded-lg bg-gray-950 border border-gray-700 focus:border-green-500 focus:outline-none text-white placeholder-gray-500 [color-scheme:dark]"
                 autoComplete="name"
               />
             </div>
@@ -182,7 +182,7 @@ function AuthModal({
               minLength={8}
               value={password}
               onChange={(e) => setPassword(e.target.value)}
-              className="w-full mt-1 px-3 py-2 rounded-lg bg-black/40 border border-gray-700 focus:border-green-500 focus:outline-none text-white"
+              className="w-full mt-1 px-3 py-2 rounded-lg bg-gray-950 border border-gray-700 focus:border-green-500 focus:outline-none text-white placeholder-gray-500 [color-scheme:dark]"
               autoComplete={mode === "login" ? "current-password" : "new-password"}
             />
           </div>
