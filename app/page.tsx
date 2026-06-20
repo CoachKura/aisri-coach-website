@@ -7,6 +7,7 @@ import { useAuth } from "@/lib/auth-context";
 import { useAISRI, useWorkouts } from "@/hooks/useApi";
 import InsightCard, { type InsightSeverity } from "@/components/InsightCard";
 import SkeletonCard from "@/components/SkeletonCard";
+import BentoGrid from "@/components/BentoGrid";
 import type { AISRIData, Workout } from "@/lib/types";
 
 type RingTone = "green" | "yellow" | "red";
@@ -197,11 +198,6 @@ function RunnerSilhouette() {
 
 function LoggedOutHero() {
   const { openAuth } = useAuth();
-  const features = [
-    { icon: "📊", title: "AISRI Score", desc: "Real-time readiness rating from sleep, fatigue, mood, and load — calibrated to your training history." },
-    { icon: "🤖", title: "AI Coach", desc: "Plain-English daily guidance: what to do today, what to skip, and how hard to push." },
-    { icon: "🎯", title: "Adaptive Plans", desc: "Workouts that re-shape themselves based on recovery, biomechanics, and weekly load." },
-  ];
 
   return (
     <main className="overflow-hidden">
@@ -265,28 +261,7 @@ function LoggedOutHero() {
         </div>
       </section>
 
-      <section id="features" className="px-4 sm:px-6 lg:px-8 py-16 sm:py-24 max-w-7xl mx-auto">
-        <motion.div
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true, amount: 0.3 }}
-          variants={{ hidden: {}, visible: { transition: { staggerChildren: 0.12 } } }}
-          className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5"
-        >
-          {features.map((f) => (
-            <motion.div
-              key={f.title}
-              variants={{ hidden: { opacity: 0, y: 24 }, visible: { opacity: 1, y: 0, transition: { duration: 0.5 } } }}
-              whileHover={{ scale: 1.02, y: -4 }}
-              className="glass-strong rounded-xl2 p-6 border border-white/10 hover:border-accent-green/40 transition"
-            >
-              <div className="text-3xl mb-3">{f.icon}</div>
-              <h3 className="text-xl font-semibold mb-2 text-white">{f.title}</h3>
-              <p className="text-sm text-gray-400 leading-relaxed">{f.desc}</p>
-            </motion.div>
-          ))}
-        </motion.div>
-      </section>
+      <BentoGrid />
     </main>
   );
 }
