@@ -1,8 +1,8 @@
 "use client";
 
 import Link from "next/link";
-import { motion, useMotionValue, useTransform, animate } from "framer-motion";
-import { useEffect, useMemo, useState } from "react";
+import { motion, useMotionValue, useTransform, animate, useInView, AnimatePresence } from "framer-motion";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { useAuth } from "@/lib/auth-context";
 import { useAISRI, useWorkouts } from "@/hooks/useApi";
 import InsightCard, { type InsightSeverity } from "@/components/InsightCard";
@@ -195,12 +195,298 @@ function RunnerSilhouette() {
   );
 }
 
+/* Section heading used across the marketing page */
+function SectionHeading({ eyebrow, title, sub }: { eyebrow: string; title: React.ReactNode; sub?: string }) {
+  return (
+    <motion.div
+      initial={{ opacity: 0, y: 20 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true, amount: 0.4 }}
+      transition={{ duration: 0.5 }}
+      className="text-center max-w-2xl mx-auto mb-12"
+    >
+      <span className="inline-block px-3 py-1 rounded-full glass text-xs font-semibold tracking-wide text-accent-green border border-accent-green/30 mb-4">
+        {eyebrow}
+      </span>
+      <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold leading-tight">{title}</h2>
+      {sub && <p className="mt-4 text-gray-400 leading-relaxed">{sub}</p>}
+    </motion.div>
+  );
+}
+
+/* Count-up number that animates the first time it scrolls into view */
+function CountUp({ to, suffix = "", decimals = 0 }: { to: number; suffix?: string; decimals?: number }) {
+  const ref = useRef<HTMLSpanElement>(null);
+  const inView = useInView(ref, { once: true, amount: 0.6 });
+  const value = useMotionValue(0);
+  const [shown, setShown] = useState("0");
+
+  useEffect(() => {
+    if (!inView) return;
+    const controls = animate(value, to, { duration: 1.6, ease: "easeOut" });
+    const unsub = value.on("change", (v) => setShown(v.toFixed(decimals)));
+    return () => {
+      controls.stop();
+      unsub();
+    };
+  }, [inView, to, value, decimals]);
+
+  return (
+    <span ref={ref} className="tabular-nums">
+      {shown}
+      {suffix}
+    </span>
+  );
+}
+
+function StatsBand() {
+  const stats = [
+    { value: 27, suffix: "%", label: "Fewer overuse injuries" },
+    { value: 92, suffix: "%", label: "Hit their weekly targets" },
+    { value: 4.9, suffix: "★", label: "Average athlete rating", decimals: 1 },
+    { value: 18, suffix: "k+", label: "Sessions analysed" },
+  ];
+  return (
+    <section className="px-4 sm:px-6 lg:px-8 py-12">
+      <motion.div
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true, amount: 0.3 }}
+        variants={{ hidden: {}, visible: { transition: { staggerChildren: 0.1 } } }}
+        className="max-w-7xl mx-auto glass-strong rounded-xl2 border border-white/10 grid grid-cols-2 lg:grid-cols-4 divide-x divide-y lg:divide-y-0 divide-white/5"
+      >
+        {stats.map((s) => (
+          <motion.div
+            key={s.label}
+            variants={{ hidden: { opacity: 0, y: 16 }, visible: { opacity: 1, y: 0, transition: { duration: 0.5 } } }}
+            className="p-6 sm:p-8 text-center"
+          >
+            <div className="text-3xl sm:text-4xl font-extrabold gradient-text">
+              <CountUp to={s.value} suffix={s.suffix} decimals={s.decimals ?? 0} />
+            </div>
+            <div className="mt-2 text-xs sm:text-sm text-gray-400">{s.label}</div>
+          </motion.div>
+        ))}
+      </motion.div>
+    </section>
+  );
+}
+
+function HowItWorks() {
+  const steps = [
+    { n: "01", icon: "📝", title: "Daily check-in", desc: "30 seconds each morning — sleep, fatigue, mood, and soreness. That's all the model needs." },
+    { n: "02", icon: "🧠", title: "AISRI computes readiness", desc: "Your inputs blend with training load and biomechanics into one honest readiness score." },
+    { n: "03", icon: "🚀", title: "Train the right amount", desc: "The AI coach tells you exactly what to do today — push, hold, or recover — and adapts tomorrow." },
+  ];
+  return (
+    <section id="how-it-works" className="px-4 sm:px-6 lg:px-8 py-16 sm:py-24 max-w-7xl mx-auto scroll-mt-24">
+      <SectionHeading
+        eyebrow="How it works"
+        title={<>From guesswork to a <span className="gradient-text">plan that adapts</span></>}
+        sub="Three steps, every day. No spreadsheets, no second-guessing."
+      />
+      <motion.div
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true, amount: 0.25 }}
+        variants={{ hidden: {}, visible: { transition: { staggerChildren: 0.15 } } }}
+        className="relative grid md:grid-cols-3 gap-5"
+      >
+        {steps.map((s) => (
+          <motion.div
+            key={s.n}
+            variants={{ hidden: { opacity: 0, y: 28 }, visible: { opacity: 1, y: 0, transition: { duration: 0.55 } } }}
+            whileHover={{ y: -6 }}
+            className="relative glass-strong rounded-xl2 p-7 border border-white/10 hover:border-accent-green/40 transition"
+          >
+            <div className="absolute top-6 right-6 text-5xl font-black text-white/5 select-none">{s.n}</div>
+            <div className="text-3xl mb-4">{s.icon}</div>
+            <h3 className="text-xl font-semibold text-white mb-2">{s.title}</h3>
+            <p className="text-sm text-gray-400 leading-relaxed">{s.desc}</p>
+          </motion.div>
+        ))}
+      </motion.div>
+    </section>
+  );
+}
+
+function Testimonials() {
+  const quotes = [
+    {
+      quote: "I stopped second-guessing every session. The readiness score is brutally honest and my races have never been faster.",
+      name: "Maya R.",
+      role: "Marathoner · 3:08 PB",
+      initials: "MR",
+    },
+    {
+      quote: "It caught my fatigue spiking days before I'd have felt it. First season in years without an overuse injury.",
+      name: "Dan K.",
+      role: "Trail ultra runner",
+      initials: "DK",
+    },
+    {
+      quote: "Feels like having a coach in my pocket. The daily action is one sentence and it's always right.",
+      name: "Priya S.",
+      role: "5K → half marathon",
+      initials: "PS",
+    },
+  ];
+  return (
+    <section className="px-4 sm:px-6 lg:px-8 py-16 sm:py-24 max-w-7xl mx-auto">
+      <SectionHeading
+        eyebrow="Loved by athletes"
+        title={<>Real runners, <span className="gradient-text">real breakthroughs</span></>}
+      />
+      <motion.div
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true, amount: 0.2 }}
+        variants={{ hidden: {}, visible: { transition: { staggerChildren: 0.12 } } }}
+        className="grid md:grid-cols-3 gap-5"
+      >
+        {quotes.map((t) => (
+          <motion.figure
+            key={t.name}
+            variants={{ hidden: { opacity: 0, y: 24 }, visible: { opacity: 1, y: 0, transition: { duration: 0.5 } } }}
+            whileHover={{ scale: 1.02, y: -4 }}
+            className="glass-strong rounded-xl2 p-7 border border-white/10 flex flex-col"
+          >
+            <div className="text-accent-yellow text-sm mb-3" aria-hidden="true">★★★★★</div>
+            <blockquote className="text-sm text-gray-200 leading-relaxed flex-1">“{t.quote}”</blockquote>
+            <figcaption className="mt-5 flex items-center gap-3">
+              <div className="w-10 h-10 rounded-full bg-gradient-to-br from-accent-green to-accent-blue flex items-center justify-center text-black font-bold text-xs">
+                {t.initials}
+              </div>
+              <div>
+                <div className="text-sm font-semibold text-white">{t.name}</div>
+                <div className="text-xs text-gray-400">{t.role}</div>
+              </div>
+            </figcaption>
+          </motion.figure>
+        ))}
+      </motion.div>
+    </section>
+  );
+}
+
+function FaqItem({ q, a }: { q: string; a: string }) {
+  const [open, setOpen] = useState(false);
+  return (
+    <div className="glass-strong rounded-xl2 border border-white/10 overflow-hidden">
+      <button
+        onClick={() => setOpen((v) => !v)}
+        className="w-full flex items-center justify-between gap-4 px-5 sm:px-6 py-5 text-left"
+        aria-expanded={open}
+      >
+        <span className="text-sm sm:text-base font-semibold text-white">{q}</span>
+        <motion.span
+          animate={{ rotate: open ? 45 : 0 }}
+          transition={{ duration: 0.2 }}
+          className="shrink-0 w-6 h-6 rounded-full bg-accent-green/15 text-accent-green flex items-center justify-center text-lg leading-none"
+        >
+          +
+        </motion.span>
+      </button>
+      <AnimatePresence initial={false}>
+        {open && (
+          <motion.div
+            initial={{ height: 0, opacity: 0 }}
+            animate={{ height: "auto", opacity: 1 }}
+            exit={{ height: 0, opacity: 0 }}
+            transition={{ duration: 0.25, ease: "easeInOut" }}
+          >
+            <p className="px-5 sm:px-6 pb-5 text-sm text-gray-400 leading-relaxed">{a}</p>
+          </motion.div>
+        )}
+      </AnimatePresence>
+    </div>
+  );
+}
+
+function Faq() {
+  const faqs = [
+    { q: "What exactly is the AISRI score?", a: "AISRI (AI Sport Readiness Index) blends your daily check-in, recent training load, and biomechanics into a single 0–100 readiness score, calibrated to your own history rather than population averages." },
+    { q: "Do I need a wearable or special device?", a: "No. The daily check-in is enough to get a meaningful score. If you do connect data sources later, the model simply gets sharper." },
+    { q: "How long does the daily check-in take?", a: "About 30 seconds. A few quick taps on sleep, fatigue, mood, and soreness — then the coach does the rest." },
+    { q: "Is it suitable for beginners?", a: "Absolutely. Whether you're building up to your first 5K or chasing a marathon PB, the plan scales to your level and recovery." },
+    { q: "Can I try it for free?", a: "Yes — get started free, no card required. There's also a demo account on the hero above if you just want to look around." },
+  ];
+  return (
+    <section className="px-4 sm:px-6 lg:px-8 py-16 sm:py-24 max-w-3xl mx-auto">
+      <SectionHeading eyebrow="FAQ" title="Questions, answered" />
+      <motion.div
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true, amount: 0.2 }}
+        variants={{ hidden: {}, visible: { transition: { staggerChildren: 0.08 } } }}
+        className="space-y-3"
+      >
+        {faqs.map((f) => (
+          <motion.div
+            key={f.q}
+            variants={{ hidden: { opacity: 0, y: 16 }, visible: { opacity: 1, y: 0, transition: { duration: 0.45 } } }}
+          >
+            <FaqItem q={f.q} a={f.a} />
+          </motion.div>
+        ))}
+      </motion.div>
+    </section>
+  );
+}
+
+function CtaBanner() {
+  const { openAuth } = useAuth();
+  return (
+    <section className="px-4 sm:px-6 lg:px-8 py-16 sm:py-24 max-w-7xl mx-auto">
+      <motion.div
+        initial={{ opacity: 0, y: 24 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true, amount: 0.4 }}
+        transition={{ duration: 0.6 }}
+        className="relative overflow-hidden rounded-3xl border border-white/10 px-6 sm:px-12 py-14 sm:py-20 text-center"
+      >
+        <div className="absolute inset-0 bg-gradient-to-br from-accent-green/20 via-accent-blue/10 to-secondary/20" />
+        <div className="absolute -top-20 -left-16 w-72 h-72 bg-accent-green/30 rounded-full blur-3xl animate-blob" />
+        <div className="absolute -bottom-24 -right-16 w-72 h-72 bg-accent-blue/30 rounded-full blur-3xl animate-blob" style={{ animationDelay: "5s" }} />
+        <div className="relative z-10 max-w-2xl mx-auto">
+          <h2 className="text-3xl sm:text-5xl font-extrabold leading-tight mb-4">
+            Train smarter <span className="gradient-text">starting today</span>
+          </h2>
+          <p className="text-gray-300 mb-8 max-w-lg mx-auto">
+            Join thousands of runners who let the data — not their ego — decide how hard to go.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-3 justify-center">
+            <motion.button
+              whileTap={{ scale: 0.96 }}
+              whileHover={{ scale: 1.03 }}
+              onClick={() => openAuth("register")}
+              className="px-8 py-4 rounded-xl bg-accent-green text-black font-bold shadow-glow-green"
+            >
+              Get Started Free
+            </motion.button>
+            <Link
+              href="/contact"
+              className="px-8 py-4 rounded-xl glass-strong text-white font-semibold border border-white/15 hover:border-accent-green/60 transition"
+            >
+              Talk to us
+            </Link>
+          </div>
+          <p className="mt-5 text-xs text-gray-400">No credit card required · Free forever plan</p>
+        </div>
+      </motion.div>
+    </section>
+  );
+}
+
 function LoggedOutHero() {
   const { openAuth } = useAuth();
   const features = [
     { icon: "📊", title: "AISRI Score", desc: "Real-time readiness rating from sleep, fatigue, mood, and load — calibrated to your training history." },
     { icon: "🤖", title: "AI Coach", desc: "Plain-English daily guidance: what to do today, what to skip, and how hard to push." },
     { icon: "🎯", title: "Adaptive Plans", desc: "Workouts that re-shape themselves based on recovery, biomechanics, and weekly load." },
+    { icon: "🦿", title: "Biomechanics", desc: "Cadence, ground contact, and form trends turned into cues you can actually feel on your next run." },
+    { icon: "🔥", title: "Streaks & Trends", desc: "See momentum build with weekly readiness trends and a streak that rewards consistency." },
+    { icon: "🛡️", title: "Injury Guardrails", desc: "Early-warning flags slow you down before a niggle becomes a six-week layoff." },
   ];
 
   return (
@@ -246,7 +532,24 @@ function LoggedOutHero() {
                 Sign In
               </motion.button>
             </div>
-            <div className="mt-6 text-xs text-gray-500">
+            <div className="mt-8 flex items-center gap-4">
+              <div className="flex -space-x-2.5">
+                {["AR", "MK", "PS", "DK"].map((i, idx) => (
+                  <div
+                    key={i}
+                    className="w-9 h-9 rounded-full border-2 border-dark-900 bg-gradient-to-br from-accent-green to-accent-blue flex items-center justify-center text-[10px] font-bold text-black"
+                    style={{ zIndex: 10 - idx }}
+                  >
+                    {i}
+                  </div>
+                ))}
+              </div>
+              <div className="text-xs text-gray-400 leading-tight">
+                <div className="text-accent-yellow">★★★★★</div>
+                <div>Loved by <span className="text-gray-200 font-semibold">3,000+</span> runners</div>
+              </div>
+            </div>
+            <div className="mt-5 text-xs text-gray-500">
               Demo account: <span className="text-gray-300">demo@aisricoach.com</span> / <span className="text-gray-300">Demo1234!</span>
             </div>
           </motion.div>
@@ -265,12 +568,19 @@ function LoggedOutHero() {
         </div>
       </section>
 
-      <section id="features" className="px-4 sm:px-6 lg:px-8 py-16 sm:py-24 max-w-7xl mx-auto">
+      <StatsBand />
+
+      <section id="features" className="px-4 sm:px-6 lg:px-8 py-16 sm:py-24 max-w-7xl mx-auto scroll-mt-24">
+        <SectionHeading
+          eyebrow="Everything you need"
+          title={<>One platform for <span className="gradient-text">smarter training</span></>}
+          sub="Readiness, coaching, and biomechanics working together — so every session counts."
+        />
         <motion.div
           initial="hidden"
           whileInView="visible"
-          viewport={{ once: true, amount: 0.3 }}
-          variants={{ hidden: {}, visible: { transition: { staggerChildren: 0.12 } } }}
+          viewport={{ once: true, amount: 0.2 }}
+          variants={{ hidden: {}, visible: { transition: { staggerChildren: 0.1 } } }}
           className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5"
         >
           {features.map((f) => (
@@ -287,6 +597,11 @@ function LoggedOutHero() {
           ))}
         </motion.div>
       </section>
+
+      <HowItWorks />
+      <Testimonials />
+      <Faq />
+      <CtaBanner />
     </main>
   );
 }
