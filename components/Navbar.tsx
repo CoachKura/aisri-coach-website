@@ -21,6 +21,7 @@ export default function Navbar() {
     { label: "Dashboard", href: "/" },
     { label: "Check-in", href: "/checkin" },
     { label: "Workouts", href: "/workouts" },
+    { label: "Settings", href: "/settings" },
   ];
 
   const items = isAuthed ? authedItems : marketingItems;
