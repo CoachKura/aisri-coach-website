@@ -30,3 +30,6 @@ yarn-error.log*
 .nyc_output
 
 .build*.log
+
+# TS build info
+tsconfig.tsbuildinfo
