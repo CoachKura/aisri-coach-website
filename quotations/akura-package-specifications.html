@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>AKURA — Construction Package Specifications</title>
+<style>
+  :root{
+    --ink:#12324a; --muted:#5b6470; --line:#d7dde4; --soft:#f3f6f9;
+    --navy:#12324a; --teal:#1e8fae; --teal2:#2ba6cc; --orange:#f07d1e; --green:#1f9d55;
+    --silver:#7d8794; --gold:#c69a2f; --diamond:#2b7fae;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0}
+  body{font-family:"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:var(--ink);
+        background:#e9edf2;line-height:1.45;font-size:13px}
+  .page{max-width:1000px;margin:24px auto;background:#fff;padding:34px 40px;
+        box-shadow:0 4px 24px rgba(0,0,0,.10);border-radius:6px}
+
+  /* Header */
+  header.top{display:flex;justify-content:space-between;align-items:center;gap:24px;
+    border-bottom:3px solid var(--navy);padding-bottom:16px;margin-bottom:6px}
+  header.top .logo{width:230px;flex:0 0 auto}
+  header.top .logo svg{width:100%;height:auto;display:block}
+  header.top .meta{text-align:right}
+  header.top .meta .doc{font-size:20px;font-weight:800;color:var(--navy);letter-spacing:.5px}
+  header.top .meta .sub{font-size:12px;color:var(--muted);margin-top:2px}
+  header.top .meta .firm{font-size:12px;color:var(--muted);margin-top:8px;line-height:1.5}
+  .ribbon{height:5px;background:linear-gradient(90deg,var(--teal),var(--teal2) 45%,var(--orange));
+    border-radius:3px;margin:2px 0 16px}
+
+  /* Package heading strip */
+  table.spec{width:100%;border-collapse:collapse;table-layout:fixed}
+  table.spec col.label{width:24%}
+  table.spec col.pkg{width:25.33%}
+  thead.pkghead th{padding:12px 12px;text-align:center;vertical-align:middle;border:1px solid var(--line)}
+  thead.pkghead th.first{text-align:left;background:var(--navy);color:#fff;border-color:var(--navy)}
+  .pkgname{font-size:16px;font-weight:800;letter-spacing:.5px}
+  .pkgrate{font-size:12px;font-weight:600;margin-top:3px;opacity:.95}
+  th.silver{background:#eef1f4;color:#3b4652;border-top:4px solid var(--silver)}
+  th.gold{background:#fbf5e6;color:#7a5c12;border-top:4px solid var(--gold)}
+  th.diamond{background:#e9f3f9;color:#155a80;border-top:4px solid var(--diamond)}
+
+  /* Section band */
+  tr.section td{background:var(--navy);color:#fff;font-weight:700;letter-spacing:1.2px;
+    text-transform:uppercase;font-size:11.5px;padding:7px 12px;border:1px solid var(--navy)}
+  tr.section td .em{color:var(--orange)}
+
+  /* Rows */
+  tbody td{border:1px solid var(--line);padding:6px 12px;vertical-align:top;font-size:12.2px}
+  tbody td.k{font-weight:600;color:var(--navy);background:var(--soft)}
+  tbody td.c{text-align:center}
+  tbody tr:nth-child(even) td.c{background:#fafbfc}
+  .yes{color:var(--green);font-weight:700}
+  .no{color:#b0451f;font-weight:600}
+  .dash{color:#9aa3ac}
+  .val{font-size:11.8px}
+
+  h2.sechead{font-size:13px;text-transform:uppercase;letter-spacing:1px;color:var(--navy);
+    margin:22px 0 8px;padding-bottom:6px;border-bottom:1px solid var(--line)}
+  ol.notes{margin:6px 0;padding-left:20px}
+  ol.notes li{margin:5px 0;font-size:12px;color:#374049}
+  .legend{display:flex;gap:18px;flex-wrap:wrap;font-size:11.5px;color:var(--muted);margin:10px 0 2px}
+  .legend b{color:var(--navy)}
+
+  footer.foot{margin-top:22px;border-top:1px solid var(--line);padding-top:12px;
+    font-size:11px;color:var(--muted);display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+
+  .callout{background:#fff8ec;border:1px solid #f0d9b0;border-left:4px solid var(--orange);
+    padding:11px 14px;border-radius:6px;font-size:12px;color:#6b4a1c;margin:14px 0}
+
+  @media print{
+    body{background:#fff;font-size:11px}
+    .page{box-shadow:none;margin:0;max-width:100%;border-radius:0;padding:8px 10px}
+    thead.pkghead th{position:static}
+    tr.section{break-inside:avoid}
+    tbody tr{break-inside:avoid}
+    thead.pkghead{display:table-header-group}
+  }
+  @media (max-width:680px){
+    header.top{flex-direction:column;align-items:flex-start}
+    header.top .meta{text-align:left}
+    .page{padding:18px}
+    table.spec{font-size:11px}
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <header class="top">
+    <div class="logo">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 360" role="img" aria-label="AKURA — Powered by AISRI">
+        <defs>
+          <linearGradient id="teal" x1="0" y1="1" x2="1" y2="0">
+            <stop offset="0" stop-color="#0f3d55"/><stop offset="0.45" stop-color="#1a86a6"/><stop offset="1" stop-color="#31b4d6"/>
+          </linearGradient>
+          <linearGradient id="orange" x1="0" y1="1" x2="1" y2="0">
+            <stop offset="0" stop-color="#e2571a"/><stop offset="0.6" stop-color="#f07d1e"/><stop offset="1" stop-color="#f79433"/>
+          </linearGradient>
+        </defs>
+        <path d="M96 40 L128 40 L74 250 L34 250 Z" fill="url(#teal)"/>
+        <path d="M128 40 L160 40 L214 250 L174 250 Z" fill="url(#orange)"/>
+        <path d="M28 205 C 95 150 150 150 205 108 C 168 118 150 132 120 150 C 92 166 66 182 28 205 Z" fill="url(#teal)" opacity="0.95"/>
+        <path d="M120 150 C 150 132 172 116 214 96 C 230 90 244 82 258 66 C 210 92 170 112 128 138 C 122 142 120 146 120 150 Z" fill="url(#orange)"/>
+        <circle cx="124" cy="196" r="15" fill="#2ba6cc"/>
+        <text x="18" y="318" font-family="'Segoe UI',Arial,sans-serif" font-weight="800" font-size="86" letter-spacing="6" fill="#12324a">AKUR<tspan fill="#f07d1e">A</tspan></text>
+        <text x="60" y="350" font-family="'Segoe UI',Arial,sans-serif" font-weight="700" font-size="20" letter-spacing="6" fill="#12324a">POWERED BY <tspan fill="#2ba6cc">AISRI</tspan></text>
+      </svg>
+    </div>
+    <div class="meta">
+      <div class="doc">CONSTRUCTION PACKAGE SPECIFICATIONS</div>
+      <div class="sub">Turnkey Home Construction · Silver · Gold · Diamond</div>
+      <div class="firm">AKURA (Powered by AISRI) · Civil Contractors &amp; Turnkey Builders<br/>
+        GST: __________ · Phone: __________ · Email: __________</div>
+    </div>
+  </header>
+  <div class="ribbon"></div>
+
+  <table class="spec">
+    <colgroup><col class="label"/><col class="pkg"/><col class="pkg"/><col class="pkg"/></colgroup>
+
+    <thead class="pkghead">
+      <tr>
+        <th class="first">Specification</th>
+        <th class="silver"><div class="pkgname">SILVER</div><div class="pkgrate">₹ 2,250 / sq ft</div></th>
+        <th class="gold"><div class="pkgname">GOLD</div><div class="pkgrate">₹ 2,450 / sq ft</div></th>
+        <th class="diamond"><div class="pkgname">DIAMOND</div><div class="pkgrate">₹ 2,800 / sq ft</div></th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <!-- DESIGN -->
+      <tr class="section"><td colspan="4"><span class="em">01</span>&nbsp;&nbsp;Design</td></tr>
+      <tr><td class="k">Soil Test</td><td class="c"><span class="no">No</span></td><td class="c"><span class="yes">Yes</span></td><td class="c"><span class="yes">Yes</span></td></tr>
+      <tr><td class="k">Bore Water Test</td><td class="c"><span class="no">No</span></td><td class="c"><span class="yes">Yes</span></td><td class="c"><span class="yes">Yes</span></td></tr>
+      <tr><td class="k">2D Floor Plan</td><td class="c"><span class="yes">Yes</span></td><td class="c"><span class="yes">Yes</span></td><td class="c"><span class="yes">Yes</span></td></tr>
+      <tr><td class="k">3D Interior Design</td><td class="c"><span class="no">No</span></td><td class="c"><span class="yes">Yes</span></td><td class="c"><span class="yes">Yes</span></td></tr>
+      <tr><td class="k">3D Elevation Design</td><td class="c"><span class="yes">Yes</span></td><td class="c"><span class="yes">Yes</span></td><td class="c"><span class="yes">Yes</span></td></tr>
+      <tr><td class="k">Structural Drawing</td><td class="c"><span class="no">No</span></td><td class="c"><span class="yes">Yes</span></td><td class="c"><span class="yes">Yes</span></td></tr>
+      <tr><td class="k">3D Interior Walkthrough</td><td class="c"><span class="no">No</span></td><td class="c"><span class="no">No</span></td><td class="c"><span class="yes">Yes</span></td></tr>
+
+      <!-- STRUCTURE -->
+      <tr class="section"><td colspan="4"><span class="em">02</span>&nbsp;&nbsp;Structure</td></tr>
+      <tr><td class="k">RCC Grade</td><td class="c val">M20</td><td class="c val">M20</td><td class="c val">M25</td></tr>
+      <tr><td class="k">Foundation</td><td class="c val" colspan="3">Isolated footing up to 6′ depth from present ground level</td></tr>
+      <tr><td class="k">Foundation Waterproofing</td><td class="c val" colspan="3">Dr. Fixit Bitufix</td></tr>
+      <tr><td class="k">Ground Floor Height</td><td class="c val">Up to 3′ from PGL</td><td class="c val">Up to 3′ from PGL</td><td class="c val">Up to 4′ from PGL</td></tr>
+      <tr><td class="k">Car Parking Height</td><td class="c val">Up to 1′6″ from PGL</td><td class="c val">Up to 1′6″ from PGL</td><td class="c val">Up to 2′6″ from PGL</td></tr>
+      <tr><td class="k">Ceiling Height</td><td class="c val">10′ (FFL to FFL)</td><td class="c val">10′ (FFL to FFL)</td><td class="c val">11′ (FFL to FFL)</td></tr>
+      <tr><td class="k">Block / Brick Work</td><td class="c val" colspan="3">Red Brick</td></tr>
+      <tr><td class="k">Parapet Wall</td><td class="c val" colspan="3">4.5″ brick work up to 3′ height</td></tr>
+      <tr><td class="k">Rain Water Harvesting</td><td class="c"><span class="yes">Yes</span></td><td class="c"><span class="yes">Yes</span></td><td class="c"><span class="yes">Yes</span></td></tr>
+      <tr><td class="k">Waterproofing</td><td class="c val" colspan="3">Fosroc — 2 Stage</td></tr>
+      <tr><td class="k">Termite Treatment</td><td class="c val" colspan="3">Foundation + Basement</td></tr>
+      <tr><td class="k">Damp Proof Course</td><td class="c"><span class="yes">Yes</span></td><td class="c"><span class="yes">Yes</span></td><td class="c"><span class="yes">Yes</span></td></tr>
+      <tr><td class="k">Mesh Plastering</td><td class="c"><span class="yes">Yes</span></td><td class="c"><span class="yes">Yes</span></td><td class="c"><span class="yes">Yes</span></td></tr>
+      <tr><td class="k">AC Points</td><td class="c val">Bedrooms only</td><td class="c val">Hall &amp; Bedrooms</td><td class="c val">Hall &amp; Bedrooms</td></tr>
+      <tr><td class="k">AC Concealed</td><td class="c"><span class="yes">Yes</span></td><td class="c"><span class="yes">Yes</span></td><td class="c"><span class="yes">Yes</span></td></tr>
+      <tr><td class="k">Lintel</td><td class="c val">Cut Lintel</td><td class="c val">Cut Lintel</td><td class="c val">Through Lintel</td></tr>
+      <tr><td class="k">EV Charging Point</td><td class="c"><span class="yes">Yes</span></td><td class="c"><span class="yes">Yes</span></td><td class="c"><span class="yes">Yes</span></td></tr>
+      <tr><td class="k">Inverter Wiring</td><td class="c"><span class="yes">Yes</span></td><td class="c"><span class="yes">Yes</span></td><td class="c"><span class="yes">Yes</span></td></tr>
+      <tr><td class="k">Pressure Motor Provision</td><td class="c"><span class="dash">—</span></td><td class="c"><span class="dash">—</span></td><td class="c"><span class="yes">Yes</span></td></tr>
+      <tr><td class="k">Solar Heater Provision</td><td class="c"><span class="dash">—</span></td><td class="c"><span class="dash">—</span></td><td class="c"><span class="yes">Yes</span></td></tr>
+      <tr><td class="k">CCTV Wiring</td><td class="c"><span class="no">No</span></td><td class="c"><span class="yes">Yes</span></td><td class="c"><span class="yes">Yes</span></td></tr>
+
+      <!-- SUPER DETAILS -->
+      <tr class="section"><td colspan="4"><span class="em">03</span>&nbsp;&nbsp;Super Details</td></tr>
+      <tr><td class="k">Tile Flooring with Spacers</td><td class="c"><span class="no">No</span></td><td class="c"><span class="yes">Yes</span></td><td class="c"><span class="yes">Yes</span></td></tr>
+      <tr><td class="k">Large Format Tile Laying</td><td class="c"><span class="no">No</span></td><td class="c"><span class="yes">Yes</span></td><td class="c"><span class="yes">Yes</span></td></tr>
+      <tr><td class="k">Tile Door Sills</td><td class="c"><span class="yes">Yes</span></td><td class="c"><span class="yes">Yes</span></td><td class="c"><span class="yes">Yes</span></td></tr>
+      <tr><td class="k">Epoxy Grouting in Bathrooms</td><td class="c"><span class="no">No</span></td><td class="c"><span class="yes">Yes</span></td><td class="c"><span class="yes">Yes</span></td></tr>
+      <tr><td class="k">Bathroom Niches</td><td class="c"><span class="yes">Yes</span></td><td class="c"><span class="yes">Yes</span></td><td class="c"><span class="yes">Yes</span></td></tr>
+      <tr><td class="k">Breakfast Counter Top</td><td class="c val">Yes</td><td class="c val">Granite @ ₹120/sqft</td><td class="c val">Granite @ ₹150/sqft</td></tr>
+
+      <!-- TILES -->
+      <tr class="section"><td colspan="4"><span class="em">04</span>&nbsp;&nbsp;Tiles &amp; Flooring</td></tr>
+      <tr><td class="k">Flooring Brand</td><td class="c val">KAG</td><td class="c val">Johnson</td><td class="c val">Kajaria</td></tr>
+      <tr><td class="k">Parking Area</td><td class="c val">Parking tiles @ ₹40/sqft</td><td class="c val">Parking tiles @ ₹60/sqft</td><td class="c val">Parking tiles @ ₹75/sqft</td></tr>
+      <tr><td class="k">Living &amp; Dining</td><td class="c val">Vitrified @ ₹60/sqft</td><td class="c val">Vitrified @ ₹75/sqft</td><td class="c val">Vitrified @ ₹90/sqft</td></tr>
+      <tr><td class="k">Master Bedroom</td><td class="c val">Vitrified @ ₹60/sqft</td><td class="c val">Vitrified @ ₹75/sqft</td><td class="c val">Vitrified @ ₹90/sqft</td></tr>
+      <tr><td class="k">Other Bedrooms</td><td class="c val">Vitrified @ ₹60/sqft</td><td class="c val">Vitrified @ ₹75/sqft</td><td class="c val">Vitrified @ ₹90/sqft</td></tr>
+      <tr><td class="k">Staircase</td><td class="c val">Granite @ ₹65/sqft</td><td class="c val">Granite @ ₹90/sqft</td><td class="c val">Granite @ ₹120/sqft</td></tr>
+      <tr><td class="k">Balcony</td><td class="c val">Anti-skid @ ₹40/sqft</td><td class="c val">Anti-skid @ ₹60/sqft</td><td class="c val">Anti-skid @ ₹75/sqft</td></tr>
+      <tr><td class="k">Wall Dadoing</td><td class="c val">Ceramic @ ₹50/sqft (2′ above counter)</td><td class="c val">Ceramic @ ₹75/sqft (2′ above counter)</td><td class="c val">Ceramic @ ₹90/sqft (2′ above counter)</td></tr>
+
+      <!-- KITCHEN -->
+      <tr class="section"><td colspan="4"><span class="em">05</span>&nbsp;&nbsp;Kitchen</td></tr>
+      <tr><td class="k">Flooring</td><td class="c val">Vitrified @ ₹65/sqft</td><td class="c val">Vitrified @ ₹75/sqft</td><td class="c val">Vitrified @ ₹90/sqft</td></tr>
+      <tr><td class="k">Counter Top</td><td class="c val">Granite @ ₹120/sqft</td><td class="c val">Granite @ ₹200/sqft</td><td class="c val">Granite @ ₹250/sqft</td></tr>
+      <tr><td class="k">Sink</td><td class="c val">Quartz Sink @ ₹5,500</td><td class="c val">Quartz Sink @ ₹9,000</td><td class="c val">Quartz Sink @ ₹12,000</td></tr>
+      <tr><td class="k">CP Fittings &amp; Accessories</td><td class="c val">Up to ₹2,000</td><td class="c val">Up to ₹3,000</td><td class="c val">Up to ₹5,000</td></tr>
+
+      <!-- UTILITY -->
+      <tr class="section"><td colspan="4"><span class="em">06</span>&nbsp;&nbsp;Utility</td></tr>
+      <tr><td class="k">Wall Dadoing</td><td class="c val"><span class="dash">—</span></td><td class="c val">Ceramic @ ₹75/sqft (up to 3′)</td><td class="c val">Ceramic @ ₹90/sqft (up to 3′)</td></tr>
+      <tr><td class="k">Flooring</td><td class="c val">Vitrified @ ₹50/sqft</td><td class="c val">Vitrified @ ₹75/sqft</td><td class="c val">Vitrified @ ₹90/sqft</td></tr>
+      <tr><td class="k">Counter Top</td><td class="c"><span class="dash">—</span></td><td class="c"><span class="dash">—</span></td><td class="c"><span class="yes">Yes</span></td></tr>
+      <tr><td class="k">CP Fittings &amp; Accessories</td><td class="c val">Up to ₹2,000</td><td class="c val">Up to ₹3,000</td><td class="c val">Up to ₹4,000</td></tr>
+      <tr><td class="k">SS Sink</td><td class="c"><span class="dash">—</span></td><td class="c"><span class="dash">—</span></td><td class="c"><span class="yes">Yes</span></td></tr>
+
+      <!-- BATHROOMS -->
+      <tr class="section"><td colspan="4"><span class="em">07</span>&nbsp;&nbsp;Bathrooms</td></tr>
+      <tr><td class="k">Wall Dadoing</td><td class="c val">Ceramic @ ₹50/sqft (7′ from floor)</td><td class="c val">Ceramic @ ₹60/sqft (7′ from floor)</td><td class="c val">Ceramic @ ₹70/sqft (7′ from floor)</td></tr>
+      <tr><td class="k">Flooring</td><td class="c val">Anti-skid @ ₹50/sqft</td><td class="c val">Anti-skid @ ₹75/sqft</td><td class="c val">Anti-skid @ ₹90/sqft</td></tr>
+      <tr><td class="k">Sanitaryware (per bathroom)</td><td class="c val">₹20,000 / bathroom</td><td class="c val">₹30,000 / bathroom</td><td class="c val">₹40,000 / bathroom</td></tr>
+      <tr><td class="k">WC &amp; Basin</td><td class="c val">WC Floor Mount · Basin Wall Mount</td><td class="c val">WC Wall Mount + Concealed Tank · Basin Surface Mount</td><td class="c val">WC Wall Mount + Concealed Tank · Basin Surface Mount</td></tr>
+
+      <!-- JOINERY -->
+      <tr class="section"><td colspan="4"><span class="em">08</span>&nbsp;&nbsp;Joinery — Doors &amp; Windows</td></tr>
+      <tr><td class="k">Main Door — Frame</td><td class="c val">Teak @ ₹9,000</td><td class="c val">Teak @ ₹10,000</td><td class="c val">Teak @ ₹12,000</td></tr>
+      <tr><td class="k">Main Door — Shutter</td><td class="c val">Teak @ ₹12,000</td><td class="c val">Teak @ ₹25,000</td><td class="c val">Teak @ ₹30,000</td></tr>
+      <tr><td class="k">Main Door — Accessories</td><td class="c val">Up to ₹5,000</td><td class="c val">Up to ₹7,500</td><td class="c val">Up to ₹10,000</td></tr>
+      <tr><td class="k">Main Door — Dimensions</td><td class="c val">3′6″ × 7′0″</td><td class="c val">3′6″ × 7′0″</td><td class="c val">3′6″ × 8′0″</td></tr>
+      <tr><td class="k">Digital Lock</td><td class="c"><span class="no">No</span></td><td class="c"><span class="yes">Yes</span></td><td class="c"><span class="yes">Yes</span></td></tr>
+      <tr><td class="k">Internal Door — Frame</td><td class="c val">Teak @ ₹3,500</td><td class="c val">Teak @ ₹5,500</td><td class="c val">Teak @ ₹6,500</td></tr>
+      <tr><td class="k">Internal Door — Shutter</td><td class="c val" colspan="3">Laminate Doors</td></tr>
+      <tr><td class="k">Internal Door — Accessories</td><td class="c val">Up to ₹2,000</td><td class="c val">Up to ₹4,000</td><td class="c val">Up to ₹5,000</td></tr>
+      <tr><td class="k">Internal Door — Dimensions</td><td class="c val">3′0″ × 7′0″</td><td class="c val">3′0″ × 7′0″</td><td class="c val">3′0″ × 8′0″</td></tr>
+      <tr><td class="k">Bathroom Door — Frame</td><td class="c val">UPVC Solid @ ₹3,000</td><td class="c val">Teak @ ₹3,500</td><td class="c val">Teak @ ₹3,500</td></tr>
+      <tr><td class="k">Bathroom Door — Shutter</td><td class="c val">PVC Flush Door</td><td class="c val">BWP Flush Door with PVC Laminate</td><td class="c val">BWP Flush Door with PVC Laminate</td></tr>
+      <tr><td class="k">Bathroom Door — Accessories</td><td class="c val">Up to ₹1,000</td><td class="c val">Up to ₹1,000</td><td class="c val">Up to ₹1,500</td></tr>
+      <tr><td class="k">Bathroom Door — Dimensions</td><td class="c val">2′6″ × 7′0″</td><td class="c val">2′6″ × 7′0″</td><td class="c val">2′6″ × 8′0″</td></tr>
+      <tr><td class="k">Windows</td><td class="c val" colspan="3">Openable with glass for hall &amp; bedrooms; sliding windows with glass for kitchen</td></tr>
+
+      <!-- RAILINGS -->
+      <tr class="section"><td colspan="4"><span class="em">09</span>&nbsp;&nbsp;Railings, Grills &amp; Gates</td></tr>
+      <tr><td class="k">Staircase Hand Rail</td><td class="c val">SS Railing</td><td class="c val">SS Railing</td><td class="c val">Teak Wood with Glass Railing</td></tr>
+      <tr><td class="k">Balcony Railing</td><td class="c val">SS Railing</td><td class="c val">SS with Glass</td><td class="c val">Wood with Glass</td></tr>
+      <tr><td class="k">Window Grills</td><td class="c val" colspan="3">MS Grill</td></tr>
+      <tr><td class="k">Main Door Grill</td><td class="c val">MS Gate</td><td class="c val">MS Gate</td><td class="c val">MS Gate with CNC Design</td></tr>
+      <tr><td class="k">Service / Terrace Grill</td><td class="c val" colspan="3">MS Gate</td></tr>
+
+      <!-- PAINTING -->
+      <tr class="section"><td colspan="4"><span class="em">10</span>&nbsp;&nbsp;Painting</td></tr>
+      <tr><td class="k">External Paint (1+2 coats)</td><td class="c val">Dr. Fixit Star (5 yr warranty)</td><td class="c val">Asian Paints Apex (7 yr warranty)</td><td class="c val">Asian Paints Ultima Protect (15 yr warranty)</td></tr>
+      <tr><td class="k">Internal Walls (2+1+2 coats)</td><td class="c val">Dr. Fixit Haisha (5 yr warranty)</td><td class="c val">Asian Paints Premium Emulsion</td><td class="c val">Asian Paints Royal</td></tr>
+
+      <!-- ELECTRICAL -->
+      <tr class="section"><td colspan="4"><span class="em">11</span>&nbsp;&nbsp;Electrical &amp; Plumbing</td></tr>
+      <tr><td class="k">Switches</td><td class="c val">Legrand Mylinc</td><td class="c val">Legrand Arteor</td><td class="c val">Legrand Arteor</td></tr>
+      <tr><td class="k">Main Board / MCB</td><td class="c val">Wooden base board (open type)</td><td class="c val">Panel Box</td><td class="c val">Panel Box</td></tr>
+      <tr><td class="k">Concealed &amp; Hot Water Pipes</td><td class="c val" colspan="3">CPVC</td></tr>
+      <tr><td class="k">Potable Cold Water Pipes</td><td class="c val" colspan="3">UPVC</td></tr>
+      <tr><td class="k">Grey Water Pipes</td><td class="c val" colspan="3">PVC</td></tr>
+    </tbody>
+  </table>
+
+  <div class="legend">
+    <span><b class="yes">Yes</b> Included in package</span>
+    <span><b class="no">No</b> Not included</span>
+    <span><b class="dash">—</b> Not applicable / optional</span>
+    <span><b>PGL</b> Present Ground Level</span>
+    <span><b>FFL</b> Finished Floor Level</span>
+  </div>
+
+  <div class="callout">
+    <b>Note on rates &amp; brands:</b> package rates (₹2,250 / ₹2,450 / ₹2,800 per sq ft) and the listed brands are the
+    template values. Confirm your final AKURA rates and preferred brands and I will update this sheet. Company GST,
+    phone &amp; email above are placeholders.
+  </div>
+
+  <!-- NOTES / EXCLUSIONS -->
+  <h2 class="sechead">Notes &amp; Exclusions</h2>
+  <ol class="notes">
+    <li>Compound wall, sump, septic tank, RWH, soak pits, tapered slabs, weathering course, ladder, elevations with any
+        cladding, CNC cutting, jaali, RCC/MS pergolas, projections, light fittings, landscaping, setback finish, chimney,
+        lift, lift pit, circular/helical staircase, solar-heater provision, pressure-motor provision and ceiling lights
+        will be charged only if required by the client. Any specification or work not expressly mentioned above per
+        package will be charged additionally if required.</li>
+    <li>Water connection, borewell, EB connection, building &amp; planning approval and corporation tax will be charged extra.</li>
+    <li>Government / local-body charges and any incidental charges are in the client's scope. We can coordinate and help with liaison if required.</li>
+    <li>Rainwater dewatering, site pooja and site cleaning will be charged only if required.</li>
+    <li>Excavation will be charged extra if water / loose soil / stone is encountered.</li>
+    <li>Lift cost will be extra.</li>
+    <li>If pile foundation is required, the client bears the pile-foundation and pile-cap charges.</li>
+    <li>Monthly electricity bill during construction has to be paid by the client.</li>
+  </ol>
+
+  <footer class="foot">
+    <span>AKURA — Powered by AISRI · Turnkey Home Construction</span>
+    <span>Specifications indicative · Prices exclusive of GST · Valid for 30 days from date of issue</span>
+  </footer>
+
+</div>
+</body>
+</html>
