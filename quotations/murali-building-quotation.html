@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Construction Quotation — Murali Residence</title>
+<style>
+  :root{
+    --ink:#1a1a1a; --muted:#5b6470; --line:#d9dee5; --soft:#f4f6f9;
+    --brand:#0f3d5c; --brand2:#12718a; --accent:#c9701e;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0}
+  body{
+    font-family:"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    color:var(--ink); background:#e9edf2; line-height:1.5; font-size:14px;
+  }
+  .page{
+    max-width:900px; margin:24px auto; background:#fff; padding:40px 44px;
+    box-shadow:0 4px 24px rgba(0,0,0,.10); border-radius:6px;
+  }
+  header.qhead{
+    display:flex; justify-content:space-between; align-items:flex-start;
+    border-bottom:3px solid var(--brand); padding-bottom:18px; margin-bottom:22px; gap:24px;
+  }
+  .firm h1{margin:0 0 2px; font-size:22px; color:var(--brand); letter-spacing:.3px}
+  .firm .tag{color:var(--muted); font-size:12.5px}
+  .firm .contact{margin-top:8px; font-size:12px; color:var(--muted)}
+  .qmeta{text-align:right; font-size:12.5px; color:var(--muted); min-width:200px}
+  .qmeta .qtitle{font-size:15px; font-weight:700; color:var(--accent); letter-spacing:.5px; margin-bottom:6px}
+  .qmeta table{margin-left:auto; border-collapse:collapse}
+  .qmeta td{padding:2px 0 2px 10px; text-align:right}
+  .qmeta td.k{color:var(--muted)} .qmeta td.v{color:var(--ink); font-weight:600}
+
+  h2.sec{
+    font-size:14px; text-transform:uppercase; letter-spacing:1px; color:var(--brand);
+    margin:26px 0 10px; padding-bottom:6px; border-bottom:1px solid var(--line);
+  }
+  .grid2{display:grid; grid-template-columns:1fr 1fr; gap:8px 28px}
+  .kv{display:flex; justify-content:space-between; border-bottom:1px dotted var(--line); padding:4px 0; font-size:13px}
+  .kv .k{color:var(--muted)} .kv .v{font-weight:600}
+
+  table.data{width:100%; border-collapse:collapse; font-size:12.7px; margin-top:4px}
+  table.data th{
+    background:var(--brand); color:#fff; text-align:left; padding:8px 10px; font-weight:600;
+    font-size:11.5px; text-transform:uppercase; letter-spacing:.4px;
+  }
+  table.data td{padding:7px 10px; border-bottom:1px solid var(--line); vertical-align:top}
+  table.data tr:nth-child(even) td{background:var(--soft)}
+  table.data td.num,table.data th.num{text-align:right; white-space:nowrap; font-variant-numeric:tabular-nums}
+  table.data tfoot td{font-weight:700; border-top:2px solid var(--brand); background:#eef3f6}
+  table.data{break-inside:avoid; page-break-inside:avoid}
+  table.data thead{display:table-header-group}
+  table.data tr{break-inside:avoid}
+  h2.sec{break-after:avoid; page-break-after:avoid}
+
+  .summary{
+    display:grid; grid-template-columns:1fr 1fr 1fr; gap:14px; margin:6px 0 4px;
+  }
+  .card{border:1px solid var(--line); border-radius:8px; padding:14px 16px; background:linear-gradient(180deg,#fff, #fbfcfe)}
+  .card .lbl{font-size:11px; text-transform:uppercase; letter-spacing:.6px; color:var(--muted)}
+  .card .big{font-size:20px; font-weight:800; color:var(--brand); margin-top:4px}
+  .card .sub{font-size:11.5px; color:var(--muted); margin-top:2px}
+
+  .total-row{
+    margin-top:14px; display:flex; justify-content:space-between; align-items:center;
+    background:var(--brand); color:#fff; padding:14px 20px; border-radius:8px;
+  }
+  .total-row .t-lbl{font-size:13px; letter-spacing:.5px; text-transform:uppercase; opacity:.9}
+  .total-row .t-val{font-size:24px; font-weight:800}
+
+  ul.list{margin:6px 0; padding-left:18px}
+  ul.list li{margin:4px 0; font-size:13px}
+  .cols{display:grid; grid-template-columns:1fr 1fr; gap:0 28px}
+
+  .note{background:#fff8ec; border:1px solid #f0d9b0; border-left:4px solid var(--accent);
+    padding:12px 14px; border-radius:6px; font-size:12.5px; color:#6b4a1c; margin-top:8px}
+  .note b{color:#5a3d13}
+
+  .sign{display:grid; grid-template-columns:1fr 1fr; gap:40px; margin-top:40px}
+  .sign .box{border-top:1px solid var(--ink); padding-top:6px; font-size:12.5px; color:var(--muted)}
+
+  footer.qfoot{margin-top:28px; border-top:1px solid var(--line); padding-top:12px;
+    font-size:11px; color:var(--muted); text-align:center}
+
+  @media print{
+    body{background:#fff; font-size:12px}
+    .page{box-shadow:none; margin:0; max-width:100%; border-radius:0; padding:0}
+    h2.sec{margin-top:16px}
+  }
+  @media (max-width:640px){
+    .summary{grid-template-columns:1fr} .grid2,.cols{grid-template-columns:1fr}
+    header.qhead{flex-direction:column} .qmeta{text-align:left} .qmeta table{margin-left:0}
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <header class="qhead">
+    <div class="firm">
+      <h1>[ Your Construction Firm Name ]</h1>
+      <div class="tag">Civil Contractors &amp; Turnkey Builders</div>
+      <div class="contact">
+        Address line 1, City · GST: __________<br/>
+        Phone: __________ · Email: __________
+      </div>
+    </div>
+    <div class="qmeta">
+      <div class="qtitle">QUOTATION</div>
+      <table>
+        <tr><td class="k">Quote No.</td><td class="v">Q-2026-MUR-01</td></tr>
+        <tr><td class="k">Date</td><td class="v">03 Aug 2026</td></tr>
+        <tr><td class="k">Valid till</td><td class="v">02 Sep 2026</td></tr>
+        <tr><td class="k">Currency</td><td class="v">INR (₹)</td></tr>
+      </table>
+    </div>
+  </header>
+
+  <!-- CLIENT / PROJECT -->
+  <h2 class="sec">Client &amp; Project Details</h2>
+  <div class="grid2">
+    <div class="kv"><span class="k">Client</span><span class="v">Mr. Murali</span></div>
+    <div class="kv"><span class="k">Project</span><span class="v">Residential Building</span></div>
+    <div class="kv"><span class="k">Plot size</span><span class="v">30′ × 60′ (1,800 sq ft)</span></div>
+    <div class="kv"><span class="k">Scope</span><span class="v">Ground floor (as per plan)</span></div>
+    <div class="kv"><span class="k">Configuration</span><span class="v">2 self-contained portions</span></div>
+    <div class="kv"><span class="k">Est. built-up area</span><span class="v">1,100 sq ft</span></div>
+    <div class="kv"><span class="k">Type of work</span><span class="v">Turnkey (labour + material)</span></div>
+    <div class="kv"><span class="k">Quality package</span><span class="v">Standard finish</span></div>
+  </div>
+  <p style="font-size:12.5px;color:var(--muted);margin-top:10px">
+    <b>Accommodation (per plan):</b> Portion&nbsp;A — Master Bedroom, Bedroom&nbsp;2, Living, Kitchen, 2 Bath/Toilets &nbsp;·&nbsp;
+    Portion&nbsp;B — Bedroom, Living, Kitchen, 2 Bath/Toilets &nbsp;·&nbsp; Common staircase (provision for upper floor).
+  </p>
+
+  <!-- OPTION A: TURNKEY SUMMARY -->
+  <h2 class="sec">A. Turnkey Cost Summary</h2>
+  <div class="summary">
+    <div class="card"><div class="lbl">Built-up area</div><div class="big">1,100 <span style="font-size:13px">sq ft</span></div><div class="sub">Ground floor, incl. walls</div></div>
+    <div class="card"><div class="lbl">Rate (turnkey)</div><div class="big">₹ 2,000<span style="font-size:13px">/sq ft</span></div><div class="sub">Standard package</div></div>
+    <div class="card"><div class="lbl">Basic estimate</div><div class="big">₹ 22,00,000</div><div class="sub">Before taxes &amp; extras</div></div>
+  </div>
+  <div class="total-row">
+    <span class="t-lbl">Estimated Turnkey Cost (Ground Floor)</span>
+    <span class="t-val">₹ 22,00,000</span>
+  </div>
+  <div class="note" style="margin-top:12px">
+    <b>Add an upper floor?</b> An identical first floor (G+1) is charged at ~₹ 1,850/sq ft (no fresh foundation/plinth),
+    i.e. approx. <b>₹ 20,35,000</b> extra. Stair, sump &amp; overhead tank already provided in the ground-floor scope.
+  </div>
+
+  <!-- OPTION B: DETAILED BOQ -->
+  <h2 class="sec">B. Detailed Cost Break-up (BOQ)</h2>
+  <table class="data">
+    <thead>
+      <tr><th style="width:34px">#</th><th>Work item</th><th>Scope / specification</th><th class="num">Amount (₹)</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>1</td><td>Site prep &amp; earthwork</td><td>Excavation, PCC, anti-termite, backfilling</td><td class="num">1,10,000</td></tr>
+      <tr><td>2</td><td>Foundation &amp; RCC</td><td>Footings, columns, plinth, beams &amp; roof slab — M20/Fe500</td><td class="num">4,40,000</td></tr>
+      <tr><td>3</td><td>Brick / block masonry</td><td>9″ external &amp; 4½″ internal walls</td><td class="num">2,20,000</td></tr>
+      <tr><td>4</td><td>Plastering</td><td>Internal &amp; external cement plaster</td><td class="num">1,75,000</td></tr>
+      <tr><td>5</td><td>Flooring &amp; tiling</td><td>Vitrified floor tiles + toilet/kitchen dado &amp; skirting</td><td class="num">2,65,000</td></tr>
+      <tr><td>6</td><td>Doors &amp; windows</td><td>Main teak door, other flush doors, UPVC/steel windows &amp; grills</td><td class="num">2,20,000</td></tr>
+      <tr><td>7</td><td>Electrical</td><td>Concealed wiring, points, MCB DB, modular switches (std)</td><td class="num">1,75,000</td></tr>
+      <tr><td>8</td><td>Plumbing &amp; sanitary</td><td>CPVC/UPVC lines, CP fittings, WCs, wash basins (std brand)</td><td class="num">1,75,000</td></tr>
+      <tr><td>9</td><td>Painting</td><td>Interior emulsion + exterior weather-coat, 2 coats + primer/putty</td><td class="num">1,55,000</td></tr>
+      <tr><td>10</td><td>Waterproofing</td><td>Toilets, sunken slabs &amp; roof</td><td class="num">45,000</td></tr>
+      <tr><td>11</td><td>Staircase &amp; railing</td><td>RCC stair + MS/SS railing</td><td class="num">65,000</td></tr>
+      <tr><td>12</td><td>Sump, OH tank &amp; misc.</td><td>Underground sump, overhead tank, site clean-up</td><td class="num">55,000</td></tr>
+    </tbody>
+    <tfoot>
+      <tr><td colspan="3">Total (Ground Floor, turnkey — Standard package)</td><td class="num">₹ 22,00,000</td></tr>
+    </tfoot>
+  </table>
+  <p style="font-size:11.5px;color:var(--muted);margin-top:6px">
+    The break-up above is indicative and totals to the turnkey estimate in Section&nbsp;A. Individual line items may
+    vary within the total based on final material selections.
+  </p>
+
+  <!-- INCLUSIONS / EXCLUSIONS -->
+  <h2 class="sec">Inclusions &amp; Exclusions</h2>
+  <div class="cols">
+    <div>
+      <div style="font-weight:700;color:var(--brand2);font-size:12.5px;margin-bottom:2px">Included</div>
+      <ul class="list">
+        <li>All structural &amp; finishing labour and materials as above</li>
+        <li>Standard-brand cement, TMT steel, tiles, sanitary &amp; electrical fittings</li>
+        <li>Water &amp; electricity charges during construction</li>
+        <li>Structural design &amp; construction supervision</li>
+      </ul>
+    </div>
+    <div>
+      <div style="font-weight:700;color:#a8452a;font-size:12.5px;margin-bottom:2px">Not included (extra, if required)</div>
+      <ul class="list">
+        <li>Government approvals, plan sanction &amp; deposits</li>
+        <li>Compound wall, gate, external paving &amp; landscaping</li>
+        <li>Modular kitchen, wardrobes, false ceiling, designer lighting</li>
+        <li>EB service connection, borewell &amp; GST (extra as applicable)</li>
+        <li>Soil filling / rock excavation beyond normal soil</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- PAYMENT SCHEDULE -->
+  <h2 class="sec">Payment Schedule</h2>
+  <table class="data">
+    <thead><tr><th style="width:34px">#</th><th>Stage</th><th class="num">%</th><th class="num">Amount (₹)</th></tr></thead>
+    <tbody>
+      <tr><td>1</td><td>Advance / booking (before start)</td><td class="num">10%</td><td class="num">2,20,000</td></tr>
+      <tr><td>2</td><td>On foundation &amp; plinth completion</td><td class="num">20%</td><td class="num">4,40,000</td></tr>
+      <tr><td>3</td><td>On roof slab casting</td><td class="num">25%</td><td class="num">5,50,000</td></tr>
+      <tr><td>4</td><td>On brickwork &amp; plastering</td><td class="num">20%</td><td class="num">4,40,000</td></tr>
+      <tr><td>5</td><td>On flooring, doors &amp; fittings</td><td class="num">15%</td><td class="num">3,30,000</td></tr>
+      <tr><td>6</td><td>On handover (painting &amp; finishing)</td><td class="num">10%</td><td class="num">2,20,000</td></tr>
+    </tbody>
+    <tfoot><tr><td colspan="2">Total</td><td class="num">100%</td><td class="num">₹ 22,00,000</td></tr></tfoot>
+  </table>
+
+  <!-- TERMS -->
+  <h2 class="sec">Terms &amp; Conditions</h2>
+  <ul class="list">
+    <li>Quotation is an <b>estimate</b> for the built-up area and specification stated; final cost is billed on measured built-up area.</li>
+    <li>Rates are valid for 30 days and are subject to revision for major cement/steel price changes.</li>
+    <li>Any change in design, scope or specification will be charged as an extra with prior approval.</li>
+    <li>Standard construction timeline: approximately <b>5–6 months</b> from advance &amp; site handover.</li>
+    <li>GST charged extra as applicable at the time of billing.</li>
+  </ul>
+
+  <div class="note">
+    <b>Assumptions used (please confirm / correct):</b> Ground floor only · built-up ≈ 1,100 sq ft (derived from plan
+    dimensions + walls) · Standard finish package · Tamil Nadu / South-India rates · pricing in INR at ₹2,000/sq ft.
+    Tell me if any of these differ — e.g. G+1/G+2, Premium/Luxury finish, or a different city — and I will re-issue the figures.
+  </div>
+
+  <div class="sign">
+    <div class="box">For [ Your Construction Firm Name ]<br/><br/>Authorised Signatory</div>
+    <div class="box">Accepted by Client<br/><br/>Mr. Murali — Signature &amp; Date</div>
+  </div>
+
+  <footer class="qfoot">
+    This is a computer-generated quotation and is valid without signature for reference. · Prices indicative, exclusive of GST.
+  </footer>
+
+</div>
+</body>
+</html>
