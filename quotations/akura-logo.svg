@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 360" role="img" aria-label="AKURA — Powered by AISRI">
+  <defs>
+    <linearGradient id="teal" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#0f3d55"/>
+      <stop offset="0.45" stop-color="#1a86a6"/>
+      <stop offset="1" stop-color="#31b4d6"/>
+    </linearGradient>
+    <linearGradient id="orange" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#e2571a"/>
+      <stop offset="0.6" stop-color="#f07d1e"/>
+      <stop offset="1" stop-color="#f79433"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Mark: dynamic "A" from two ribbons -->
+  <g>
+    <!-- left teal leg -->
+    <path d="M96 40 L128 40 L74 250 L34 250 Z" fill="url(#teal)"/>
+    <!-- right orange leg -->
+    <path d="M128 40 L160 40 L214 250 L174 250 Z" fill="url(#orange)"/>
+    <!-- swoosh ribbon sweeping up-right (teal to orange) -->
+    <path d="M28 205 C 95 150 150 150 205 108 C 168 118 150 132 120 150 C 92 166 66 182 28 205 Z" fill="url(#teal)" opacity="0.95"/>
+    <path d="M120 150 C 150 132 172 116 214 96 C 230 90 244 82 258 66 C 210 92 170 112 128 138 C 122 142 120 146 120 150 Z" fill="url(#orange)"/>
+    <!-- apex dot -->
+    <circle cx="124" cy="196" r="15" fill="#2ba6cc"/>
+  </g>
+
+  <!-- Wordmark AKURA -->
+  <text x="18" y="318" font-family="'Segoe UI',Arial,sans-serif" font-weight="800"
+        font-size="86" letter-spacing="6" fill="#12324a">AKUR<tspan fill="#f07d1e">A</tspan></text>
+
+  <!-- Powered by AISRI -->
+  <text x="60" y="350" font-family="'Segoe UI',Arial,sans-serif" font-weight="700"
+        font-size="20" letter-spacing="6" fill="#12324a">POWERED BY
+    <tspan fill="#2ba6cc" letter-spacing="3">AISR</tspan><tspan fill="#2ba6cc">I</tspan></text>
+</svg>

@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Steel Take-off — ID-1369</title>
+<style>
+  :root{--ink:#12324a;--muted:#5b6470;--line:#d7dde4;--soft:#f3f6f9;
+        --navy:#12324a;--teal:#2ba6cc;--orange:#f07d1e;--green:#1f9d55;--red:#b0451f}
+  *{box-sizing:border-box} html,body{margin:0;padding:0}
+  body{font-family:"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:var(--ink);
+       background:#e9edf2;line-height:1.45;font-size:12.5px}
+  .page{max-width:1000px;margin:22px auto;background:#fff;padding:30px 36px;
+        box-shadow:0 4px 24px rgba(0,0,0,.10);border-radius:6px}
+  header.top{display:flex;justify-content:space-between;align-items:center;gap:24px;
+    border-bottom:3px solid var(--navy);padding-bottom:14px}
+  header.top .logo{width:190px;flex:0 0 auto} header.top .logo svg{width:100%;height:auto;display:block}
+  header.top .meta{text-align:right}
+  header.top .doc{font-size:19px;font-weight:800;letter-spacing:.4px}
+  header.top .sub{font-size:11.5px;color:var(--muted);margin-top:2px}
+  .ribbon{height:5px;background:linear-gradient(90deg,var(--teal),var(--orange));border-radius:3px;margin:3px 0 16px}
+  h2.sec{font-size:12.5px;text-transform:uppercase;letter-spacing:1px;color:var(--navy);
+    margin:22px 0 8px;padding-bottom:5px;border-bottom:1px solid var(--line)}
+  .grid2{display:grid;grid-template-columns:1fr 1fr;gap:4px 26px}
+  .kv{display:flex;justify-content:space-between;border-bottom:1px dotted var(--line);padding:3px 0}
+  .kv .k{color:var(--muted)} .kv .v{font-weight:600}
+  table{width:100%;border-collapse:collapse;font-size:12px;margin-top:4px}
+  th{background:var(--navy);color:#fff;text-align:left;padding:7px 9px;font-weight:600;
+     font-size:10.5px;text-transform:uppercase;letter-spacing:.4px}
+  td{padding:6px 9px;border-bottom:1px solid var(--line);vertical-align:top}
+  tr:nth-child(even) td{background:var(--soft)}
+  td.n,th.n{text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}
+  tfoot td{font-weight:700;border-top:2px solid var(--navy);background:#eef3f6}
+  .hero{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:10px 0}
+  .card{border:1px solid var(--line);border-radius:8px;padding:12px 14px;background:linear-gradient(180deg,#fff,#fbfcfe);text-align:center}
+  .card .lbl{font-size:10.5px;text-transform:uppercase;letter-spacing:.5px;color:var(--muted)}
+  .card .big{font-size:21px;font-weight:800;color:var(--navy);margin-top:3px}
+  .card .sub{font-size:11px;color:var(--muted)}
+  .total-row{margin-top:12px;display:flex;justify-content:space-between;align-items:center;
+    background:var(--navy);color:#fff;padding:13px 18px;border-radius:8px}
+  .total-row .t-val{font-size:23px;font-weight:800}
+  .note{background:#fff8ec;border:1px solid #f0d9b0;border-left:4px solid var(--orange);
+    padding:11px 13px;border-radius:6px;font-size:11.5px;color:#6b4a1c;margin:12px 0}
+  .warn{background:#fdf0ed;border:1px solid #f2c9bd;border-left:4px solid var(--red);
+    padding:11px 13px;border-radius:6px;font-size:11.5px;color:#7d3720;margin:12px 0}
+  ul{margin:5px 0;padding-left:18px} li{margin:3px 0}
+  footer.foot{margin-top:20px;border-top:1px solid var(--line);padding-top:10px;
+    font-size:10.5px;color:var(--muted);display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap}
+  @media print{body{background:#fff;font-size:10.5px}
+    .page{box-shadow:none;margin:0;max-width:100%;border-radius:0;padding:8px 10px}
+    table{break-inside:avoid} tr{break-inside:avoid} h2.sec{break-after:avoid}}
+  @media (max-width:680px){.hero{grid-template-columns:1fr 1fr}.grid2{grid-template-columns:1fr}
+    header.top{flex-direction:column;align-items:flex-start}header.top .meta{text-align:left}}
+</style>
+</head>
+<body>
+<div class="page">
+
+  <header class="top">
+    <div class="logo">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 360" role="img" aria-label="AKURA — Powered by AISRI">
+        <defs>
+          <linearGradient id="tg" x1="0" y1="1" x2="1" y2="0"><stop offset="0" stop-color="#0f3d55"/><stop offset=".45" stop-color="#1a86a6"/><stop offset="1" stop-color="#31b4d6"/></linearGradient>
+          <linearGradient id="og" x1="0" y1="1" x2="1" y2="0"><stop offset="0" stop-color="#e2571a"/><stop offset=".6" stop-color="#f07d1e"/><stop offset="1" stop-color="#f79433"/></linearGradient>
+        </defs>
+        <path d="M96 40 L128 40 L74 250 L34 250 Z" fill="url(#tg)"/>
+        <path d="M128 40 L160 40 L214 250 L174 250 Z" fill="url(#og)"/>
+        <path d="M28 205 C 95 150 150 150 205 108 C 168 118 150 132 120 150 C 92 166 66 182 28 205 Z" fill="url(#tg)" opacity=".95"/>
+        <path d="M120 150 C 150 132 172 116 214 96 C 230 90 244 82 258 66 C 210 92 170 112 128 138 C 122 142 120 146 120 150 Z" fill="url(#og)"/>
+        <circle cx="124" cy="196" r="15" fill="#2ba6cc"/>
+        <text x="18" y="318" font-family="'Segoe UI',Arial,sans-serif" font-weight="800" font-size="86" letter-spacing="6" fill="#12324a">AKUR<tspan fill="#f07d1e">A</tspan></text>
+        <text x="60" y="350" font-family="'Segoe UI',Arial,sans-serif" font-weight="700" font-size="20" letter-spacing="6" fill="#12324a">POWERED BY <tspan fill="#2ba6cc">AISRI</tspan></text>
+      </svg>
+    </div>
+    <div class="meta">
+      <div class="doc">STEEL TAKE-OFF &amp; ROD SCHEDULE</div>
+      <div class="sub">Fe550 TMT (ARS) · 12 m stock rods · Preliminary — for ordering</div>
+      <div class="sub" style="margin-top:6px">
+        Project <b>ID-1369</b> · Client <b>Mr. Murali / Mr. Sathyamoorthi</b><br/>
+        Drawings: DEEPSPACE 1369-01 → 1369-13, Rev 01 dtd 2026-09-07<br/>
+        Structural Engineer: Er. Nishanth · Prepared 2026-09-08
+      </div>
+    </div>
+  </header>
+  <div class="ribbon"></div>
+
+  <h2 class="sec">Structure summary (from drawings)</h2>
+  <div class="grid2">
+    <div class="kv"><span class="k">Structure</span><span class="v">G + 1 (RCC framed, upto terrace)</span></div>
+    <div class="kv"><span class="k">Concrete / Steel</span><span class="v">M20 · Fe550</span></div>
+    <div class="kv"><span class="k">Built-up area</span><span class="v">GF 1,014 + FF 1,014 = 2,028 sq ft</span></div>
+    <div class="kv"><span class="k">Lap length</span><span class="v">57 × dia (tension)</span></div>
+    <div class="kv"><span class="k">Columns</span><span class="v">15 nos (C1×2, C2×3, C3×6, C4×4)</span></div>
+    <div class="kv"><span class="k">Clear cover</span><span class="v">25 beam / 40 column / 50 footing (mm)</span></div>
+    <div class="kv"><span class="k">Footings</span><span class="v">14 nos (F1×2, F2×2, F3×6, F4×3, CF1×1)</span></div>
+    <div class="kv"><span class="k">UG Sump</span><span class="v">4′6″ × 10′0″ × 8′0″ = 10,000 L</span></div>
+  </div>
+
+  <!-- HEADLINE -->
+  <h2 class="sec">A. Rod requirement — order summary</h2>
+  <div class="hero">
+    <div class="card"><div class="lbl">8 mm</div><div class="big">272</div><div class="sub">rods · 1,289 kg</div></div>
+    <div class="card"><div class="lbl">10 mm</div><div class="big">197</div><div class="sub">rods · 1,459 kg</div></div>
+    <div class="card"><div class="lbl">12 mm</div><div class="big">110</div><div class="sub">rods · 1,173 kg</div></div>
+    <div class="card"><div class="lbl">16 mm</div><div class="big">81</div><div class="sub">rods · 1,536 kg</div></div>
+  </div>
+  <div class="total-row">
+    <span>TOTAL — ARS Fe550 TMT, 12 m rods (incl. 3% cutting waste)</span>
+    <span class="t-val">660 rods · 5.46 T</span>
+  </div>
+
+  <table>
+    <thead><tr><th>Dia</th><th class="n">Net length</th><th class="n">Rods (net)</th><th class="n">Rods +3%</th>
+      <th class="n">Weight</th><th>Principal use</th></tr></thead>
+    <tbody>
+      <tr><td><b>8 mm</b></td><td class="n">3,161 m</td><td class="n">264</td><td class="n">272</td><td class="n">1,289 kg</td><td>Column ties, beam stirrups, slab distribution</td></tr>
+      <tr><td><b>10 mm</b></td><td class="n">2,287 m</td><td class="n">191</td><td class="n">197</td><td class="n">1,459 kg</td><td>Footing mesh, slab main + extra top, sump</td></tr>
+      <tr><td><b>12 mm</b></td><td class="n">1,278 m</td><td class="n">107</td><td class="n">110</td><td class="n">1,173 kg</td><td>Beam main bars, column bars, curtail bars</td></tr>
+      <tr><td><b>16 mm</b></td><td class="n">933 m</td><td class="n">78</td><td class="n">81</td><td class="n">1,536 kg</td><td>Column main bars, main beam bars</td></tr>
+    </tbody>
+    <tfoot><tr><td>TOTAL</td><td class="n">7,659 m</td><td class="n">640</td><td class="n">660</td><td class="n">5,458 kg</td><td>≈ 5.46 tonnes</td></tr></tfoot>
+  </table>
+
+  <!-- ELEMENT WISE -->
+  <h2 class="sec">B. Element-wise / floor-wise break-up</h2>
+  <table>
+    <thead><tr><th>#</th><th>Element</th><th class="n">8 mm</th><th class="n">10 mm</th><th class="n">12 mm</th>
+      <th class="n">16 mm</th><th class="n">Weight</th><th class="n">% of total</th></tr></thead>
+    <tbody>
+      <tr><td>1</td><td><b>Columns</b> — 15 nos, footing → terrace</td><td class="n">594 m</td><td class="n">—</td><td class="n">359 m</td><td class="n">533 m</td><td class="n">1,395 kg</td><td class="n">26.5%</td></tr>
+      <tr><td>2</td><td><b>Footings</b> — 14 nos incl. CF1</td><td class="n">—</td><td class="n">472 m</td><td class="n">—</td><td class="n">—</td><td class="n">291 kg</td><td class="n">5.5%</td></tr>
+      <tr><td>3</td><td><b>Plinth beams</b> — PB1/PB2/PB3</td><td class="n">370 m</td><td class="n">—</td><td class="n">399 m</td><td class="n">—</td><td class="n">501 kg</td><td class="n">9.5%</td></tr>
+      <tr><td>4</td><td><b>GF roof beams</b> — GFB1–5, CB1</td><td class="n">487 m</td><td class="n">6 m</td><td class="n">239 m</td><td class="n">210 m</td><td class="n">740 kg</td><td class="n">14.0%</td></tr>
+      <tr><td>5</td><td><b>FF roof beams</b> — FFB1–4, CB1</td><td class="n">474 m</td><td class="n">6 m</td><td class="n">273 m</td><td class="n">190 m</td><td class="n">735 kg</td><td class="n">14.0%</td></tr>
+      <tr><td>6</td><td><b>Slabs</b> — GF + FF roof (2 × 1,014 sf)</td><td class="n">1,236 m</td><td class="n">1,338 m</td><td class="n">—</td><td class="n">—</td><td class="n">1,314 kg</td><td class="n">24.9%</td></tr>
+      <tr><td>7</td><td><b>UG Sump</b> — 10,000 L</td><td class="n">—</td><td class="n">465 m</td><td class="n">8 m</td><td class="n">—</td><td class="n">294 kg</td><td class="n">5.6%</td></tr>
+    </tbody>
+    <tfoot><tr><td colspan="2">NET TOTAL (before wastage)</td><td class="n">3,161 m</td><td class="n">2,287 m</td>
+      <td class="n">1,278 m</td><td class="n">933 m</td><td class="n">5,271 kg</td><td class="n">100%</td></tr></tfoot>
+  </table>
+
+  <!-- COLUMN WISE -->
+  <h2 class="sec">C. Column-wise detail</h2>
+  <table>
+    <thead><tr><th>Mark</th><th>Size</th><th>Main bars (each)</th><th>Ties</th><th class="n">Nos</th>
+      <th class="n">12 mm</th><th class="n">16 mm</th><th class="n">8 mm ties</th><th class="n">Weight</th></tr></thead>
+    <tbody>
+      <tr><td><b>C1</b> stub</td><td>9″ × 9″</td><td>4 – Y12</td><td>Y8 @ 8″ c/c</td><td class="n">2</td>
+        <td class="n">23 m</td><td class="n">—</td><td class="n">21 m</td><td class="n">29 kg</td></tr>
+      <tr><td><b>C2</b></td><td>9″ × 1′0″</td><td>4 – Y16 + 2 – Y12</td><td>Y8 @ 8″ c/c</td><td class="n">3</td>
+        <td class="n">53 m</td><td class="n">107 m</td><td class="n">117 m</td><td class="n">262 kg</td></tr>
+      <tr><td><b>C3</b></td><td>9″ × 1′3″</td><td>4 – Y16 + 4 – Y12</td><td>Y8 @ 8″ c/c</td><td class="n">6</td>
+        <td class="n">212 m</td><td class="n">213 m</td><td class="n">273 m</td><td class="n">633 kg</td></tr>
+      <tr><td><b>C4</b></td><td>9″ × 1′3″</td><td>6 – Y16 + 2 – Y12</td><td>Y8 @ 8″ c/c</td><td class="n">4</td>
+        <td class="n">71 m</td><td class="n">213 m</td><td class="n">182 m</td><td class="n">472 kg</td></tr>
+    </tbody>
+    <tfoot><tr><td colspan="4">TOTAL COLUMNS</td><td class="n">15</td><td class="n">359 m</td><td class="n">533 m</td>
+      <td class="n">594 m</td><td class="n">1,395 kg</td></tr></tfoot>
+  </table>
+
+  <!-- FOOTING WISE -->
+  <h2 class="sec">D. Footing-wise detail — all Y10</h2>
+  <table>
+    <thead><tr><th>Type</th><th>L × B × D</th><th>Bottom mesh</th><th>Column</th><th class="n">Nos</th>
+      <th class="n">10 mm length</th><th class="n">Weight</th></tr></thead>
+    <tbody>
+      <tr><td><b>F1</b></td><td>3′6″ × 3′6″ × 1′0″</td><td>Y10 @ 8″ c/c b/w</td><td>0′9″ × 0′9″</td><td class="n">2</td><td class="n">28 m</td><td class="n">17 kg</td></tr>
+      <tr><td><b>F2</b></td><td>4′6″ × 4′0″ × 1′3″</td><td>Y10 @ 7″ c/c b/w</td><td>1′0″ × 0′9″</td><td class="n">2</td><td class="n">53 m</td><td class="n">32 kg</td></tr>
+      <tr><td><b>F3</b></td><td>4′9″ × 4′0″ × 1′6″</td><td>Y10 @ 6″ c/c b/w</td><td>1′3″ × 0′9″</td><td class="n">6</td><td class="n">198 m</td><td class="n">122 kg</td></tr>
+      <tr><td><b>F4</b></td><td>5′0″ × 4′0″ × 1′6″</td><td>Y10 @ 5″ c/c b/w</td><td>1′3″ × 0′9″</td><td class="n">3</td><td class="n">124 m</td><td class="n">76 kg</td></tr>
+      <tr><td><b>CF1</b></td><td>7′3″ × 5′0″ × 1′6″</td><td>Y10 @ 5″ c/c b/w</td><td>2 columns</td><td class="n">1</td><td class="n">70 m</td><td class="n">43 kg</td></tr>
+    </tbody>
+    <tfoot><tr><td colspan="4">TOTAL FOOTINGS</td><td class="n">14</td><td class="n">472 m</td><td class="n">291 kg</td></tr></tfoot>
+  </table>
+
+  <!-- SUMP -->
+  <h2 class="sec">E. UG Sump — 4′6″ × 10′0″ × 8′0″ (10,000 L)</h2>
+  <table>
+    <thead><tr><th>Item</th><th>Reinforcement</th><th class="n">Length</th><th class="n">Weight</th></tr></thead>
+    <tbody>
+      <tr><td>Wall — horizontal</td><td>Y10 @ 6″ c/c</td><td class="n">150 m</td><td class="n">93 kg</td></tr>
+      <tr><td>Wall — vertical</td><td>Y10 @ 6″ c/c</td><td class="n">179 m</td><td class="n">111 kg</td></tr>
+      <tr><td>Base raft</td><td>Y10 @ 6″ c/c both ways</td><td class="n">55 m</td><td class="n">34 kg</td></tr>
+      <tr><td>Cover slab</td><td>Y10 @ 4″ c/c both ways</td><td class="n">81 m</td><td class="n">50 kg</td></tr>
+      <tr><td>Extra around manhole (2′×2′)</td><td>2 – Y12 top &amp; bottom</td><td class="n">8 m</td><td class="n">7 kg</td></tr>
+    </tbody>
+    <tfoot><tr><td colspan="2">TOTAL UG SUMP</td><td class="n">473 m</td><td class="n">294 kg</td></tr></tfoot>
+  </table>
+
+  <!-- PENDING -->
+  <div class="warn">
+    <b>⚠ NOT INCLUDED — data missing from the drawing set. Add before placing the final order.</b>
+    <ul>
+      <li><b>Septic tank</b> — sheet 1369-04 is an un-filled template (“L×B×H = 0000 Ltrs”). Reinforcement
+          spec is given (walls Y10@6″, cover slab Y10@4″ b/w) but <b>no dimensions</b>. Send me the size and
+          I will add it — expect roughly <b>250–350 kg</b> for a typical 2-chamber tank.</li>
+      <li><b>Lintels &amp; sunshades</b> — sections LB1–LB4 are given on sheet 1369-05, but there is no
+          door/window schedule to count them against. Typically <b>200–300 kg</b> for this size of house.</li>
+      <li><b>Staircase</b> — no stair reinforcement sheet in this set. Typically <b>150–250 kg</b> per flight.</li>
+      <li><b>Second floor (551 sq ft)</b> — listed on sheets 1369-03/05 but no beam/slab drawings issued.</li>
+      <li><b>Compound wall, parapet, water tank</b> — not in this structural set.</li>
+    </ul>
+    Allowing for these, budget <b>≈ 6.2 – 6.5 tonnes</b> overall against the 5.46 T computed here.
+  </div>
+
+  <div class="note">
+    <b>Assumptions used (please confirm before ordering):</b>
+    <ul>
+      <li><b>Storey heights are not shown anywhere in the drawing set.</b> Assumed: footing top → plinth
+          8′6″; plinth → GF roof 10′0″; GF roof → FF roof 10′0″ (total column ≈ 28′6″). Stub column C1 = 9′0″.
+          <b>Every 1 ft change in floor height moves column steel by ≈ 45 kg.</b></li>
+      <li>Built-up area taken as <b>1,014 sq ft per floor</b> (title block on sheets 02/04/06/08/09/11/12).
+          Sheets 03 and 05 carry a different set of areas (1,709 / 1,599 / 551 = 3,859 sf) — <b>please confirm which is correct</b>.</li>
+      <li>Beam runs scaled off the grid (1–2 = 4′11″, 2–3 = 11′0″, 3–4 = 11′0″; E–D = 7′9″, D–B = 18′1½″, B–A = 12′9″).</li>
+      <li>Slab steel from legend: main Y10 @ 7″ c/c, distribution Y8 @ 6″ c/c, extra top Y10 @ 8″ c/c over 30% of area.</li>
+      <li>Laps at 57 d per drawing note 5; one lap per 12 m stock joint. Hooks 12 d, stirrup hooks 10 d.</li>
+      <li>Cutting wastage 3%. Rod length 12 m (ARS standard). Unit weight d²/162 kg/m.</li>
+    </ul>
+  </div>
+
+  <div class="note" style="background:#eef6f1;border-color:#bcdcc9;border-left-color:var(--green);color:#245c3c">
+    <b>Cross-check:</b> 5,271 kg over 2,028 sq ft = <b>2.60 kg/sq ft</b>, which sits in the normal band for an
+    economical G+1 framed structure with 9″ columns (2.5 – 4.0 kg/sq ft). No red flag in the quantities.
+  </div>
+
+  <footer class="foot">
+    <span>AKURA — Powered by AISRI · Construction Partner, Project ID-1369</span>
+    <span>Preliminary take-off — to be verified against site BBS before cutting. Not a certified BBS.</span>
+  </footer>
+</div>
+</body>
+</html>
