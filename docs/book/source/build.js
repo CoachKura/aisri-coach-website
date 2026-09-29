@@ -78,13 +78,23 @@ function box(label, text, fill, accent, extraParas = []) {
 function table(rows) {
   const ncol = Math.max(...rows.map((r) => r.length));
   rows = rows.map((r) => { while (r.length < ncol) r.push(""); return r; });
-  // width proportional to content length, bounded
+  // width proportional to content length, but never narrower than the longest word
   const lens = Array.from({ length: ncol }, (_, i) => Math.max(...rows.map((r) => Math.min(60, (r[i] || "").length + 6))));
+  const minW = Array.from({ length: ncol }, (_, i) => Math.max(...rows.map((r, ri) =>
+    Math.max(0, ...String(r[i] || "").replace(/\*\*/g, "").split(/\s+/).map((w) => w.length * (ri === 0 ? 118 : 105)))) ) + 260);
   const tot = lens.reduce((a, b) => a + b, 0);
-  let widths = lens.map((l) => Math.max(1100, Math.round((CW * l) / tot)));
+  let widths = lens.map((l, i) => Math.max(minW[i], Math.round((CW * l) / tot)));
+  let over = widths.reduce((a, b) => a + b, 0) - CW;
+  while (over > 0) { // shrink columns that have slack above their minimum
+    const slack = widths.map((w, i) => w - minW[i]); const totS = slack.reduce((a, b) => a + Math.max(0, b), 0);
+    if (totS <= 0) break;
+    widths = widths.map((w, i) => w - Math.floor((over * Math.max(0, slack[i])) / totS));
+    over = widths.reduce((a, b) => a + b, 0) - CW; if (over <= ncol) break;
+  }
   const s = widths.reduce((a, b) => a + b, 0);
   widths = widths.map((w) => Math.floor((w * CW) / s));
   widths[widths.length - 1] += CW - widths.reduce((a, b) => a + b, 0);
+  const keep = rows.length <= 32; // keep short tables on one page
   const border = { style: BorderStyle.SINGLE, size: 4, color: "C9D3DE" };
   const borders = { top: border, bottom: border, left: border, right: border };
   return [
@@ -98,7 +108,7 @@ function table(rows) {
           verticalAlign: VerticalAlign.CENTER,
           shading: { fill: ri === 0 ? C.navy : ri % 2 === 0 ? C.light : "FFFFFF", type: ShadingType.CLEAR, color: "auto" },
           margins: { top: 70, bottom: 70, left: 110, right: 110 },
-          children: [new Paragraph({ spacing: { after: 0, line: 264 }, children: runs(cell.trim(), ri === 0
+          children: [new Paragraph({ keepNext: keep && ri < rows.length - 1, spacing: { after: 0, line: 264 }, children: runs(cell.trim(), ri === 0
             ? { bold: true, color: "FFFFFF", font: HEAD_FONT, size: 18 }
             : { size: 18, font: HEAD_FONT }) })],
         })),
@@ -240,6 +250,7 @@ function parseFile(txt, state) {
       out.push(...box("Myth vs evidence", [`**Myth:** ${myth.trim()}`, `**Evidence:** ${(fact || "").trim()}`], C.redLight, C.red));
       continue;
     }
+    if ((m = line.match(/^FIG:\s*([^|]+)\|\s*(.+)$/))) { out.push(...figure(m[1].trim(), m[2].trim())); continue; }
     if ((m = line.match(/^QUOTE:\s*(.+)$/))) { out.push(...quote(m[1])); continue; }
     if ((m = line.match(/^CHECK:\s*(.+)$/))) { out.push(...box("Checkpoint", m[1], C.light, C.grey)); continue; }
     if (state.leadNext) {

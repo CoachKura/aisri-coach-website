@@ -363,5 +363,85 @@ ax.text(3, 38, "CHENNAI  ·  SEA LEVEL", color="#9FB6CF", fontsize=8, fontweight
 ax.text(97, 38, "OOTY  ·  ~2,240 m", color="#9FB6CF", fontsize=8, fontweight="bold", ha="right")
 fig.savefig(os.path.join(OUT, "cover.png"), dpi=220, bbox_inches="tight", pad_inches=0, facecolor=NAVY); plt.close(fig)
 
+
+# ---------- toolkit figures (placed explicitly with FIG: lines) ----------
+def save_free(fig, name):
+    fig.savefig(os.path.join(OUT, name + ".png"), dpi=200, bbox_inches="tight", facecolor="white"); plt.close(fig)
+
+def pace_for(T5, t, E=1.06):
+    d = 5000 * (t / T5) ** (1 / E); return t / d * 1000
+def mmss(x): x = round(x); return f"{x // 60}:{x % 60:02d}"
+
+# f29 pace zones for 22:00 5K
+T5 = 22 * 60; T = pace_for(T5, 3600)
+M = T5 * (42195 / 5000) ** 1.06 / 42.195
+zones = [("Recovery", T / 0.62, T / 0.70, GREY), ("Aerobic", T / 0.70, T / 0.80, NAVY), ("Endurance", T / 0.80, T / 0.88, TEAL),
+         ("Marathon", M + 4, M - 4, "#2A9D8F"), ("Threshold", T + 4, T - 4, SAFF), ("Power", pace_for(T5, 660) + 4, pace_for(T5, 660) - 4, "#C0561A"),
+         ("Speed", pace_for(T5, 300) + 4, pace_for(T5, 300) - 4, RED)]
+fig, ax = plt.subplots(figsize=(7, 3.3))
+for i, (n, slow, fast, c) in enumerate(zones):
+    ax.barh(i, slow - fast, left=fast, color=c, height=0.6)
+    lab = f"{mmss(fast)}–{mmss(slow)}" if n in ("Recovery", "Aerobic", "Endurance") else mmss((slow + fast) / 2)
+    ax.text(fast - 5, i, lab + " /km", va="center", ha="left", fontsize=8.5, color=NAVY)
+ax.set_yticks(range(len(zones)), [z[0] for z in zones]); ax.invert_yaxis()
+ticks = list(range(200, 480, 30)); ax.set_xticks(ticks, [mmss(t) for t in ticks])
+ax.set_xlim(470, 140); ax.set_xlabel("Pace (min/km)  —  faster to the right")
+ax.set_title("AKURA training paces for a 22:00 5K runner")
+save_free(fig, "f29_pace_zones")
+
+# f30 heat adjustment (illustrative)
+fig, ax = plt.subplots(figsize=(7, 3.0))
+wb = [14, 20.5, 25.5, 30]; lo = [0, 2, 5, 10]; hi = [0, 4, 8, 15]
+base = 6 * 60
+labels = ["Below 18", "18–23", "23–28", "Above 28"]
+for i, (l, h) in enumerate(zip(lo, hi)):
+    ax.bar(i, base * (1 + h / 100) - base * (1 + l / 100) + 2, bottom=base * (1 + l / 100) - 1, color=[TEAL, "#D4B000", SAFF, RED][i], width=0.55)
+    txt = "chart pace" if h == 0 else f"{mmss(base * (1 + l / 100))}–{mmss(base * (1 + h / 100))}"
+    ax.text(i, base * (1 + h / 100) + 6, txt, ha="center", fontsize=8.5, color=NAVY, fontweight="bold")
+ax.text(3, base + 70, "consider\nmoving indoors", ha="center", fontsize=7.5, color=RED)
+ax.set_xticks(range(4), labels); ax.set_xlabel("WBGT (°C)")
+yt = list(range(350, 431, 15)); ax.set_yticks(yt, [mmss(y) for y in yt]); ax.set_ylim(345, 445)
+ax.set_ylabel("Easy pace at same effort (min/km)"); ax.set_title("Same effort, slower pace: an easy 6:00/km runner in rising heat (illustrative)")
+save_free(fig, "f30_heat_adjust")
+
+# f31 marathon roadmap gantt
+fig, ax = plt.subplots(figsize=(7.2, 3.6))
+phases = [("Foundation", 0, 6, NAVY), ("Aerobic build", 6, 12, TEAL), ("Specific strength", 12, 18, SAFF), ("Race-\nspecific", 18, 21, "#C0561A"), ("Taper", 21, 24, RED)]
+for n, a, b, c in phases:
+    ax.barh(3, b - a, left=a, color=c, height=0.7); ax.text((a + b) / 2, 3, n, ha="center", va="center", color="white", fontsize=7.8, fontweight="bold")
+ax.barh(2, 3, left=18, color=SAFF_L, height=0.5, ec=SAFF); ax.text(19.5, 2, "heat block\n(warm race)", ha="center", va="center", fontsize=7, color=SAFF)
+for t, lab in [(0, "baseline"), (6, "5K TT"), (12, "threshold\ntest"), (18, "half\nmarathon"), (24, "RACE")]:
+    ax.scatter([t], [1.2], marker="D", s=60, color=NAVY, zorder=5); ax.text(t, 0.55, lab, ha="center", fontsize=7.2, color=NAVY)
+wk = np.arange(0, 25); lr = np.clip(14 + wk * 1.1, 14, 34); lr[[3, 7, 11, 15, 19]] -= 5; lr[21:] = [26, 20, 12, 0][:len(lr[21:])]
+ax2 = ax.twinx(); ax2.plot(wk, lr, color=GREY, lw=1.6, ls="--"); ax2.set_ylim(-125, 38); ax2.set_yticks([])
+ax.text(0.2, 4.45, "long run (km, dashed): builds with lighter weeks", fontsize=7.2, color=GREY)
+ax.set_ylim(0.2, 4.6); ax.set_yticks([3, 2, 1.2], ["Phases", "Environment", "Tests"]); ax.set_xlim(-0.8, 24.8)
+ax.set_xticks(range(0, 25, 2)); ax.set_xlabel("Week"); ax.set_title("The AKURA 24-week marathon roadmap")
+save_free(fig, "f31_marathon_roadmap")
+
+# f32 development staircase
+fig, ax = canvas(7.2, 3.9)
+st = [("1 Foundation", "enjoy & learn"), ("2 Aerobic\ndevelopment", "consistency"), ("3 Structured\ntraining", "AEI begins"), ("4 Performance", "lab + clinician"), ("5 High\nperformance", "full AEI team")]
+cols = [GREY, NAVY, TEAL, SAFF, RED]
+for i, (n, d) in enumerate(st):
+    x = 4 + i * 18.6; h = 8 + i * 7
+    ax.add_patch(Rectangle((x, 9), 17.5, h, fc=cols[i], ec="white"))
+    ax.text(x + 8.75, 9 + h - 4, n, ha="center", va="center", color="white", fontsize=7.8, fontweight="bold")
+    ax.text(x + 8.75, 9 + h + 3, d, ha="center", fontsize=7.8, color=NAVY)
+arrow(ax, 4, 5.5, 96, 5.5, c=GREY); ax.text(50, 1, "years of consistent training · load and measurement grow together", ha="center", fontsize=8, color=GREY)
+save_free(fig, "f32_development_roadmap")
+
+# f33 AEI research roadmap timeline
+fig, ax = canvas(7.2, 2.8)
+ph = [("Phase 1", "Data\nfoundation"), ("Phase 2", "Reliability"), ("Phase 3", "Model\nbuilding"), ("Phase 4", "Prospective\nvalidation"), ("Phase 5", "External\nvalidation")]
+ax.plot([6, 94], [22, 22], color="#C9D3DE", lw=4, zorder=0)
+for i, (a, b) in enumerate(ph):
+    x = 10 + i * 20
+    ax.add_patch(Circle((x, 22), 4.2, fc=[NAVY, TEAL, SAFF, "#C0561A", RED][i], ec="white", lw=2))
+    ax.text(x, 22, str(i + 1), ha="center", va="center", color="white", fontweight="bold", fontsize=11)
+    ax.text(x, 31, a.upper(), ha="center", fontsize=7.5, color=GREY, fontweight="bold"); ax.text(x, 12, b, ha="center", va="center", fontsize=8.2, color=NAVY)
+ax.text(10, 3, "AEI v0.1 (this book)", ha="center", fontsize=8, color=SAFF, fontweight="bold"); ax.text(90, 3, "AEI v1.0", ha="center", fontsize=8, color=SAFF, fontweight="bold")
+save_free(fig, "f33_aei_roadmap")
+
 json.dump(FIGS, open(os.path.join(OUT, "figures.json"), "w"), indent=1, ensure_ascii=False)
 print(sum(len(v) for v in FIGS.values()), "figures")
