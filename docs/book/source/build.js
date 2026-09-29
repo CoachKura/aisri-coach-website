@@ -4,11 +4,28 @@ const path = require("path");
 const {
   Document, Packer, Paragraph, TextRun, HeadingLevel, AlignmentType, Table, TableRow, TableCell,
   WidthType, BorderStyle, ShadingType, PageBreak, Header, Footer, PageNumber, TableOfContents,
-  LevelFormat, VerticalAlign, TabStopType,
+  LevelFormat, VerticalAlign, TabStopType, ImageRun,
 } = require("docx");
 
 const OUT = process.argv[2] || "AKURA_World_Athlete_Research_Book_Complete_Edition.docx";
 const CONTENT_DIR = process.env.CONTENT_DIR || path.join(__dirname, "content");
+const FIG_DIR = process.env.FIG_DIR || path.join(__dirname, "figures");
+const FIGS = fs.existsSync(path.join(FIG_DIR, "figures.json")) ? JSON.parse(fs.readFileSync(path.join(FIG_DIR, "figures.json"), "utf8")) : {};
+let figNo = 0;
+// PNG pixel size from the IHDR chunk
+function pngSize(buf) { return { w: buf.readUInt32BE(16), h: buf.readUInt32BE(20) }; }
+function figure(file, caption) {
+  const data = fs.readFileSync(path.join(FIG_DIR, file));
+  const { w, h } = pngSize(data);
+  const width = 600; const height = Math.round((width * h) / w);
+  figNo++;
+  return [
+    new Paragraph({ alignment: AlignmentType.CENTER, keepNext: true, spacing: { before: 200, after: 80 },
+      children: [new ImageRun({ type: "png", data, transformation: { width, height }, altText: { title: `Figure ${figNo}`, description: caption, name: file } })] }),
+    new Paragraph({ spacing: { after: 240, line: 264 }, border: { bottom: { style: BorderStyle.SINGLE, size: 4, color: "C9D3DE", space: 6 } },
+      children: [new TextRun({ text: `Figure ${figNo}.  `, bold: true, color: C.saffron, font: HEAD_FONT, size: 17 }), ...runs(caption, { italics: true, color: C.grey, size: 18 })] }),
+  ];
+}
 
 // ---------- design tokens ----------
 const C = {
@@ -113,7 +130,7 @@ function quote(t) {
   return out;
 }
 
-function partPage(label, title, intro) {
+function partPage(label, title, intro, chapters = []) {
   const spacer = () => new Paragraph({ spacing: { after: 0 }, children: [new TextRun({ text: "", size: 40 })] });
   return [
     new Paragraph({ pageBreakBefore: true, children: [] }),
@@ -122,6 +139,29 @@ function partPage(label, title, intro) {
       border: { bottom: { style: BorderStyle.SINGLE, size: 18, color: C.saffron, space: 12 } },
       children: [new TextRun({ text: label + " — ", color: C.saffron }), new TextRun({ text: title })] }),
     ...(intro ? [new Paragraph({ spacing: { after: 200, line: 360 }, children: runs(intro, { size: 24, color: C.grey, italics: true }) })] : []),
+    ...(chapters.length ? [new Paragraph({ spacing: { before: 360, after: 120 }, children: [new TextRun({ text: "IN THIS PART", font: HEAD_FONT, size: 18, bold: true, color: C.teal, characterSpacing: 40 })] })] : []),
+    ...chapters.map(([n, t]) => new Paragraph({ spacing: { after: 70 }, indent: { left: 0 },
+      children: [new TextRun({ text: `${n}   `, font: HEAD_FONT, size: 22, bold: true, color: C.saffron }), new TextRun({ text: t, font: HEAD_FONT, size: 22, color: C.navy })] })),
+  ];
+}
+
+function partSummary(state) {
+  const ks = state.partKeys || []; state.partKeys = [];
+  if (!ks.length || !state.currentPart) return [];
+  const none = { style: BorderStyle.NONE, size: 0, color: "FFFFFF" };
+  const rows = ks.map(([n, t, k]) => new TableRow({ cantSplit: true, children: [
+    new TableCell({ width: { size: 1100, type: WidthType.DXA }, borders: { top: none, left: none, right: none, bottom: { style: BorderStyle.SINGLE, size: 4, color: "C9D3DE" } },
+      margins: { top: 90, bottom: 90, left: 80, right: 80 }, children: [new Paragraph({ children: [new TextRun({ text: n, font: HEAD_FONT, bold: true, size: 30, color: C.saffron })] })] }),
+    new TableCell({ width: { size: CW - 1100, type: WidthType.DXA }, borders: { top: none, left: none, right: none, bottom: { style: BorderStyle.SINGLE, size: 4, color: "C9D3DE" } },
+      margins: { top: 90, bottom: 90, left: 80, right: 80 }, children: [
+        new Paragraph({ spacing: { after: 30 }, children: [new TextRun({ text: t, font: HEAD_FONT, bold: true, size: 19, color: C.navy })] }),
+        new Paragraph({ spacing: { after: 0, line: 280 }, children: runs(k, { size: 20 }) })] }),
+  ] }));
+  return [
+    new Paragraph({ keepNext: true, spacing: { before: 520, after: 60 }, shading: { type: ShadingType.CLEAR, fill: C.navy, color: "auto" },
+      children: [new TextRun({ text: "  " + state.currentPart.split(" — ")[0] + " AT A GLANCE", font: HEAD_FONT, bold: true, size: 22, color: "FFFFFF", characterSpacing: 40 })] }),
+    new Paragraph({ keepNext: true, spacing: { after: 120 }, children: [new TextRun({ text: "The key idea from each chapter, for quick revision.", italics: true, size: 19, color: C.grey })] }),
+    new Table({ width: { size: CW, type: WidthType.DXA }, columnWidths: [1100, CW - 1100], rows }),
   ];
 }
 
@@ -147,29 +187,38 @@ function parseFile(txt, state) {
     flushTable();
     let m;
     if (line === "REFS:" || line.startsWith("REFS:")) { mode = "refs"; continue; }
-    if (line === "FRONTMATTER" || line === "BACKMATTER") { state.section = line; continue; }
+    if (line === "FRONTMATTER" || line === "BACKMATTER") { if (line === "BACKMATTER") out.push(...partSummary(state)); state.section = line; continue; }
     if ((m = line.match(/^PART\s+([IVXLC]+)\s*[—–-]\s*(.+)$/))) {
       flushPart(); endList();
+      out.push(...partSummary(state));
       state.section = "PART";
       pendingPart = { label: "PART " + m[1], title: m[2].trim() };
       state.parts.push(pendingPart.label + " — " + pendingPart.title);
       state.currentPart = pendingPart.label + " — " + pendingPart.title;
       continue;
     }
-    if ((m = line.match(/^PARTINTRO:\s*(.+)$/))) { if (pendingPart) { out.push(...partPage(pendingPart.label, pendingPart.title, m[1])); pendingPart = null; } continue; }
+    if ((m = line.match(/^PARTINTRO:\s*(.+)$/))) { if (pendingPart) { out.push(...partPage(pendingPart.label, pendingPart.title, m[1], state.partChapters[pendingPart.label] || [])); pendingPart = null; state.afterPart = true; } continue; }
     flushPart();
     if ((m = line.match(/^##\s+(.+)$/)) && !line.startsWith("###")) {
       endList();
       const t = m[1].trim();
       const isFrontBack = state.section !== "PART";
       if (isFrontBack) {
-        out.push(new Paragraph({ heading: HeadingLevel.HEADING_1, pageBreakBefore: true, children: [new TextRun(t)] }));
+        const newPage = /^(Author|Appendix A|Glossary|Final Research|About the Author)/.test(t) || state.section === "FRONT";
+        out.push(new Paragraph({ heading: HeadingLevel.HEADING_1, pageBreakBefore: newPage, keepNext: true,
+          spacing: newPage ? undefined : { before: 600, after: 280 }, children: [new TextRun(t)] }));
+        state.leadNext = false;
       } else {
         const cm = t.match(/^(\d+)\.\s*(.+)$/);
         state.chapters++;
-        out.push(new Paragraph({ pageBreakBefore: true, spacing: { before: 600, after: 0 }, children: [new TextRun({ text: cm ? "CHAPTER " + cm[1] : "", font: HEAD_FONT, size: 20, bold: true, color: C.saffron, characterSpacing: 40 })] }));
-        out.push(new Paragraph({ heading: HeadingLevel.HEADING_2, children: [new TextRun(t)] }));
-        out.push(new Paragraph({ spacing: { after: 240 }, children: [new TextRun({ text: state.currentPart || "", font: HEAD_FONT, size: 17, color: C.grey })] }));
+        const brk = !!state.afterPart; state.afterPart = false;
+        out.push(new Paragraph({ pageBreakBefore: brk, keepNext: true, keepLines: true, spacing: { before: brk ? 0 : 560, after: 0 },
+          border: brk ? undefined : { top: { style: BorderStyle.SINGLE, size: 12, color: C.saffron, space: 18 } },
+          children: [new TextRun({ text: cm ? "CHAPTER " + cm[1] : "", font: HEAD_FONT, size: 20, bold: true, color: C.saffron, characterSpacing: 40 })] }));
+        out.push(new Paragraph({ heading: HeadingLevel.HEADING_2, keepNext: true, children: [new TextRun(t)] }));
+        out.push(new Paragraph({ keepNext: true, spacing: { after: 240 }, children: [new TextRun({ text: state.currentPart || "", font: HEAD_FONT, size: 17, color: C.grey })] }));
+        state.chTitle = cm ? [cm[1], cm[2]] : null; state.keyTaken = false;
+        state.leadNext = true; state.figQueue = cm ? [...(FIGS[cm[1]] || [])] : [];
       }
       continue;
     }
@@ -177,7 +226,9 @@ function parseFile(txt, state) {
     if ((m = line.match(/^[-*]\s+(.+)$/))) { if (listType !== "b") { listType = "b"; inst = ++listInstance; } out.push(listItem(m[1], false, inst)); continue; }
     if ((m = line.match(/^(\d+)[).]\s+(.+)$/))) { if (listType !== "n") { listType = "n"; inst = ++listInstance; } out.push(listItem(m[2], true, inst)); continue; }
     endList();
-    if ((m = line.match(/^KEY:\s*(.+)$/))) { out.push(...box("Key idea", m[1], C.navyLight, C.navy)); continue; }
+    if ((m = line.match(/^KEY:\s*(.+)$/))) {
+      if (state.section === "PART" && state.chTitle && !state.keyTaken) { (state.partKeys = state.partKeys || []).push([state.chTitle[0], state.chTitle[1], m[1]]); state.keyTaken = true; }
+      out.push(...box("Key idea", m[1], C.navyLight, C.navy)); continue; }
     if ((m = line.match(/^COACH:\s*(.+)$/))) { out.push(...box("Coach's corner", m[1], C.tealLight, C.teal)); continue; }
     if ((m = line.match(/^FIELD:\s*(.+)$/))) {
       const steps = m[1].split(/\s+;\s+/);
@@ -191,7 +242,11 @@ function parseFile(txt, state) {
     }
     if ((m = line.match(/^QUOTE:\s*(.+)$/))) { out.push(...quote(m[1])); continue; }
     if ((m = line.match(/^CHECK:\s*(.+)$/))) { out.push(...box("Checkpoint", m[1], C.light, C.grey)); continue; }
-    out.push(body(line));
+    if (state.leadNext) {
+      state.leadNext = false;
+      out.push(new Paragraph({ children: runs(line, { size: 25, color: C.navy }), spacing: { after: 200, line: 336 } }));
+    } else out.push(body(line));
+    if (state.figQueue && state.figQueue.length) { const f = state.figQueue.shift(); out.push(...figure(f.file, f.caption)); }
   }
   flushTable(); flushPart();
   return out;
@@ -223,13 +278,17 @@ function refsSection(refs) {
 // ---------- cover & preliminaries ----------
 function cover() {
   const t = (text, o = {}) => new TextRun({ text, font: HEAD_FONT, ...o });
+  const cov = path.join(FIG_DIR, "cover.png");
+  const art = fs.existsSync(cov) ? (() => { const d = fs.readFileSync(cov); const { w, h } = pngSize(d); return [new Paragraph({ spacing: { before: 0, after: 360 },
+    children: [new ImageRun({ type: "png", data: d, transformation: { width: 602, height: Math.round((602 * h) / w) }, altText: { title: "Cover art", description: "Heart-rate trace over the Chennai-to-Ooty elevation profile", name: "cover" } })] })]; })() : [];
   return [
-    new Paragraph({ spacing: { before: 1200, after: 0 }, children: [t("AKURA", { size: 72, bold: true, color: C.saffron, characterSpacing: 200 })] }),
+    ...art,
+    new Paragraph({ spacing: { before: 200, after: 0 }, children: [t("AKURA", { size: 72, bold: true, color: C.saffron, characterSpacing: 200 })] }),
     new Paragraph({ spacing: { after: 600 }, border: { bottom: { style: BorderStyle.SINGLE, size: 24, color: C.saffron, space: 8 } }, children: [t("WORLD ATHLETE RESEARCH BOOK", { size: 30, bold: true, color: C.navy, characterSpacing: 60 })] }),
     new Paragraph({ spacing: { after: 200 }, children: [t("The AKURA Endurance Index™ (AEI)", { size: 56, bold: true, color: C.navy })] }),
     new Paragraph({ spacing: { after: 900 }, children: [t("From Myth to Measurement", { size: 40, color: C.teal, italics: true })] }),
     new Paragraph({ spacing: { after: 120 }, children: [t("MEASURE THE ATHLETE  •  UNDERSTAND THE BODY  •  BUILD THE PERFORMANCE", { size: 20, bold: true, color: C.grey, characterSpacing: 30 })] }),
-    new Paragraph({ spacing: { after: 2600 }, children: [t("Complete English Edition  •  Indian Sports Context", { size: 22, color: C.grey })] }),
+    new Paragraph({ spacing: { after: 1400 }, children: [t("Complete English Edition  •  Indian Sports Context", { size: 22, color: C.grey })] }),
     new Paragraph({ spacing: { after: 60 }, children: [t("KURA", { size: 32, bold: true, color: C.navy, characterSpacing: 80 })] }),
     new Paragraph({ spacing: { after: 60 }, children: [t("AKURA Endurance Research System", { size: 22, color: C.navy })] }),
     new Paragraph({ children: [t("Prototype Edition 0.1  •  2026", { size: 20, color: C.grey })] }),
@@ -257,7 +316,18 @@ function tocPage() {
 }
 
 // ---------- assemble ----------
-const state = { refs: [], parts: [], chapters: 0, section: "FRONT", currentPart: null };
+const state = { refs: [], parts: [], chapters: 0, section: "FRONT", currentPart: null, partChapters: {} };
+{
+  let cur = null;
+  for (const f of fs.readdirSync(CONTENT_DIR).filter((f) => f.endsWith(".md")).sort()) {
+    for (const l of fs.readFileSync(path.join(CONTENT_DIR, f), "utf8").split("\n")) {
+      let m;
+      if ((m = l.trim().match(/^PART\s+([IVXLC]+)\s*[—–-]/))) { cur = "PART " + m[1]; state.partChapters[cur] = []; }
+      else if (/^(BACKMATTER|FRONTMATTER)/.test(l.trim())) cur = null;
+      else if (cur && (m = l.trim().match(/^##\s+(\d+)\.\s*(.+)$/))) state.partChapters[cur].push([m[1], m[2]]);
+    }
+  }
+}
 const files = fs.readdirSync(CONTENT_DIR).filter((f) => f.endsWith(".md")).sort();
 let main = [];
 let back = [];
