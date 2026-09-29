@@ -1,0 +1,407 @@
+[
+ {
+  "file": "01_front_part1.md",
+  "lang": "en",
+  "old": "the human endurance engine, heat, altitude, and the marathon as a systems test",
+  "new": "the human endurance engine, heat, altitude, heat versus altitude, and the marathon as a systems test",
+  "category": "consistency",
+  "severity": "medium",
+  "note": "Parts I–VI are six parts but only five are listed; Part V (Heat vs Altitude) is missing."
+ },
+ {
+  "file": "01_front_part1.md",
+  "lang": "en",
+  "old": "a ministry official told Hindustan Times in 2026",
+  "new": "a ministry official told the Hindustan Times in 2026",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Elsewhere (03_part3_5.md, 7 times) the paper is 'the Hindustan Times'."
+ },
+ {
+  "file": "01_front_part1.md",
+  "lang": "en",
+  "old": "\"you need altitude,\" \"your lungs are weak,\" \"your haemoglobin is high,\" or \"your VDOT is low.\"",
+  "new": "\"you need altitude\", \"your lungs are weak\", \"your haemoglobin is high\" or \"your VDOT is low\".",
+  "category": "style",
+  "severity": "low",
+  "note": "British punctuation for quoted phrases (not speech) goes outside the quotes, as done elsewhere in the book (26 cases); also drops the serial comma before 'or', matching house style."
+ },
+ {
+  "file": "01_front_part1.md",
+  "lang": "en",
+  "old": "becomes \"your VO₂max is low,\" and",
+  "new": "becomes \"your VO₂max is low\", and",
+  "category": "style",
+  "severity": "low",
+  "note": "British punctuation outside quoted phrase, as elsewhere in the book."
+ },
+ {
+  "file": "01_front_part1.md",
+  "lang": "en",
+  "old": "with one sentence: \"they are born for running.\"",
+  "new": "with one sentence: \"they are born for running\".",
+  "category": "style",
+  "severity": "low",
+  "note": "British punctuation outside quoted phrase, as elsewhere in the book."
+ },
+ {
+  "file": "01_front_part1.md",
+  "lang": "en",
+  "old": "It is the kind of statistic that tempts people to reach for a single sentence",
+  "new": null,
+  "category": "style",
+  "severity": "low",
+  "note": "The story opener (line 201) and the next paragraph (line 203) both say people explain East African success with 'one sentence: they are born for running'; the 293 sub-2:10 / 123 Kenyan statistic also repeats line 119. Consider trimming one of them."
+ },
+ {
+  "file": "02_part2.md",
+  "lang": "en",
+  "old": "Snesarev was later re-appointed",
+  "new": "Snesarev was later reappointed",
+  "category": "spelling",
+  "severity": "low",
+  "note": "Standard spelling is 'reappointed' (no hyphen)."
+ },
+ {
+  "file": "02_part2.md",
+  "lang": "en",
+  "old": "in St. Moritz in Switzerland",
+  "new": "in St Moritz in Switzerland",
+  "category": "consistency",
+  "severity": "low",
+  "note": "03_part3_5.md uses 'St Moritz' (5 times; British style without full stop)."
+ },
+ {
+  "file": "02_part2.md",
+  "lang": "en",
+  "old": "he was in St. Moritz again",
+  "new": "he was in St Moritz again",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Match 'St Moritz' used elsewhere in the book."
+ },
+ {
+  "file": "02_part2.md",
+  "lang": "en",
+  "old": "lowered a national record by almost twenty seconds in six years",
+  "new": "lowered a national record by nearly twenty-one seconds in six years",
+  "category": "consistency",
+  "severity": "medium",
+  "note": "8:30.88 (Saini) to 8:09.91 (2024) is 20.97 s, i.e. more than twenty, not 'almost twenty'. Numbers given at lines 19 and 23 of the same file."
+ },
+ {
+  "file": "02_part2.md",
+  "lang": "en",
+  "old": "blood is shifted toward the skin",
+  "new": "blood is shifted towards the skin",
+  "category": "spelling",
+  "severity": "low",
+  "note": "British spelling 'towards' is used everywhere else in the book; this is the only 'toward'."
+ },
+ {
+  "file": "02_part2.md",
+  "lang": "en",
+  "old": "the phrase 'responder' or 'non-responder' should be used carefully",
+  "new": "the phrase \"responder\" or \"non-responder\" should be used carefully",
+  "category": "consistency",
+  "severity": "low",
+  "note": "The book uses double quotes for quoted terms everywhere else; this is the only use of single quotes in running text."
+ },
+ {
+  "file": "02_part2.md",
+  "lang": "en",
+  "old": "may leave the threshold under-developed",
+  "new": "may leave the threshold underdeveloped",
+  "category": "spelling",
+  "severity": "low",
+  "note": "Standard spelling is 'underdeveloped' (one word)."
+ },
+ {
+  "file": "02_part2.md",
+  "lang": "en",
+  "old": "A threshold test performed in a cool December morning in Chennai",
+  "new": "A threshold test performed on a cool December morning in Chennai",
+  "category": "grammar",
+  "severity": "low",
+  "note": "Preposition: 'on a ... morning'."
+ },
+ {
+  "file": "02_part2.md",
+  "lang": "en",
+  "old": "O.P. Jaisha, India's national record holder",
+  "new": "O. P. Jaisha, India's national record holder",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Every other mention in the book (03, 04 and later files, 11 times) is 'O. P. Jaisha'."
+ },
+ {
+  "file": "03_part3_5.md",
+  "lang": "en",
+  "old": "Three decades on, the Chennai Marathon has become a mass event: its 2026 edition, the fourteenth, drew 28,500 participants from 16 countries",
+  "new": null,
+  "category": "style",
+  "severity": "medium",
+  "note": "This sentence and the next ('Every one of those runners, from the winners to the last walker, ... the same coastal air') nearly repeat line 45 of the same file word for word; line 216 also repeats the 'no peer-reviewed heat-stress study' and 'great natural heat laboratories/chambers' points. Suggest rewording one of the two passages."
+ },
+ {
+  "file": "03_part3_5.md",
+  "lang": "en",
+  "old": "the road does nothing but climb",
+  "new": null,
+  "category": "style",
+  "severity": "medium",
+  "note": "The opening of Chapter 24 (line 311: bus from Mettupalayam, hairpins, areca palms, eucalyptus, tea, fogging windows past Coonoor) nearly repeats the Part IV story opening at line 259 sentence for sentence, only a few pages earlier. Suggest rewriting or cutting one of them."
+ },
+ {
+  "file": "03_part3_5.md",
+  "lang": "en",
+  "old": "stays close to 20.9 per cent, how hypoxia",
+  "new": "stays close to 20.9%, how hypoxia",
+  "category": "consistency",
+  "severity": "low",
+  "note": "The same figure is written '20.9%' elsewhere in this file (8 times) and in 02_part2.md; keep one form."
+ },
+ {
+  "file": "03_part3_5.md",
+  "lang": "en",
+  "old": "lower than a simple 20.9 per cent of barometric pressure",
+  "new": "lower than a simple 20.9% of barometric pressure",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Match '20.9%' used elsewhere."
+ },
+ {
+  "file": "03_part3_5.md",
+  "lang": "en",
+  "old": "roughly 20.9 per cent of the molecules in dry air",
+  "new": "roughly 20.9% of the molecules in dry air",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Match '20.9%' used elsewhere."
+ },
+ {
+  "file": "03_part3_5.md",
+  "lang": "en",
+  "old": "of roughly 1 per cent per 100 hours of altitude exposure",
+  "new": "of roughly 1% per 100 hours of altitude exposure",
+  "category": "consistency",
+  "severity": "low",
+  "note": "02_part2.md gives the same Gore rule as '1% per 100 hours' / '1.1%'; keep one form."
+ },
+ {
+  "file": "03_part3_5.md",
+  "lang": "en",
+  "old": "near Shimla, at about 8,000 ft, with 27 athletes",
+  "new": "near Shimla, at about 8,000 ft (roughly 2,450 m), with 27 athletes",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Only use of feet in these files; line 358 gives Shilaroo as about 2,450 m. Add metres so readers can compare."
+ },
+ {
+  "file": "03_part3_5.md",
+  "lang": "en",
+  "old": "T. Gopi, an Army runner from Wayanad",
+  "new": "Thonakal Gopi, an Army runner from Wayanad",
+  "category": "consistency",
+  "severity": "low",
+  "note": "He is 'Thonakal Gopi' everywhere else in the book; 'T. Gopi' appears only here."
+ },
+ {
+  "file": "03_part3_5.md",
+  "lang": "en",
+  "old": "improved 5,000 m race performance",
+  "new": "improved 5000 m race performance",
+  "category": "consistency",
+  "severity": "low",
+  "note": "The book writes four-digit distances without a comma ('5000 m') and 10,000 m with one; this is the only '5,000 m'."
+ },
+ {
+  "file": "03_part3_5.md",
+  "lang": "en",
+  "old": "simply writing \"hill camp.\"",
+  "new": "simply writing \"hill camp\".",
+  "category": "style",
+  "severity": "low",
+  "note": "British punctuation goes outside a quoted term, as elsewhere in the book."
+ },
+ {
+  "file": "03_part3_5.md",
+  "lang": "en",
+  "old": "Yavi wins in 9:04.36; Tanui is second in 9:06.82.",
+  "new": null,
+  "category": "style",
+  "severity": "low",
+  "note": "First and only mention of these athletes, by surname only; readers will not know who they are. Add first names and nations (e.g. Bahrain's Winfred Yavi) after checking the result sheet."
+ },
+ {
+  "file": "03_part3_5.md",
+  "lang": "en",
+  "old": "Fourth, just behind Parul, was Ankita Dhyani in 9:19.24",
+  "new": "Fourth, behind Parul, was Ankita Dhyani in 9:19.24",
+  "category": "consistency",
+  "severity": "medium",
+  "note": "9:19.24 is about 10.6 s behind Parul's 9:08.67, which is not 'just behind'."
+ },
+ {
+  "file": "03_part3_5.md",
+  "lang": "en",
+  "old": "Another, finishing just behind her, had grown up",
+  "new": "Another, who finished fourth, had grown up",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Same issue: a 10.6 s gap is not 'just behind'. This also makes clear she was not on the podium."
+ },
+ {
+  "file": "03_part3_5.md",
+  "lang": "en",
+  "old": "Gore CJ, Sharpe K, Garvican-Hazeltine LA, et al.",
+  "new": "Gore CJ, Sharpe K, Garvican-Lewis LA, et al.",
+  "category": "attribution",
+  "severity": "high",
+  "note": "The co-author is Laura A. Garvican-Lewis (BJSM 2013;47:i31–i39), and 02_part2.md line 558 already has 'Garvican-Lewis LA'. 'Garvican-Hazeltine' is wrong."
+ },
+ {
+  "file": "04_part6_7.md",
+  "lang": "en",
+  "old": "This part treats the marathon as a systems test",
+  "new": "This Part treats the marathon as a systems test",
+  "category": "consistency",
+  "severity": "low",
+  "note": "'Part' is capitalised when it refers to a book Part everywhere else (e.g. 'this Part' at lines 23, 55, 311)."
+ },
+ {
+  "file": "04_part6_7.md",
+  "lang": "en",
+  "old": "This part begins by describing what VDOT does",
+  "new": "This Part begins by describing what VDOT does",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Capitalise 'Part', as elsewhere."
+ },
+ {
+  "file": "04_part6_7.md",
+  "lang": "en",
+  "old": "rather than simply saying “I hit the wall”.",
+  "new": "rather than simply saying \"I hit the wall\".",
+  "category": "consistency",
+  "severity": "low",
+  "note": "This file uses curly quotes in 12 places, but the rest of the book (and the rest of this file) uses straight quotes."
+ },
+ {
+  "file": "04_part6_7.md",
+  "lang": "en",
+  "old": "describe the marathon as “going well until 32 km”.",
+  "new": "describe the marathon as \"going well until 32 km\".",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Curly quotes; use straight quotes as in the rest of the book."
+ },
+ {
+  "file": "04_part6_7.md",
+  "lang": "en",
+  "old": "rather than “time in the bank”.",
+  "new": "rather than \"time in the bank\".",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Curly quotes; use straight quotes as in the rest of the book."
+ },
+ {
+  "file": "04_part6_7.md",
+  "lang": "en",
+  "old": "Neither athlete is simply “better”.",
+  "new": "Neither athlete is simply \"better\".",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Curly quotes; use straight quotes as in the rest of the book."
+ },
+ {
+  "file": "04_part6_7.md",
+  "lang": "en",
+  "old": "KEY: VDOT answers “what can this athlete run and how should they train?”; AEI asks “why can they run it, how are they responding, and how sure are we?”",
+  "new": "KEY: VDOT answers \"what can this athlete run and how should they train?\"; AEI asks \"why can they run it, how are they responding, and how sure are we?\"",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Curly quotes; use straight quotes as in the rest of the book."
+ },
+ {
+  "file": "04_part6_7.md",
+  "lang": "en",
+  "old": "today: “what pace should I train at?” or “which system is limiting me?”",
+  "new": "today: \"what pace should I train at?\" or \"which system is limiting me?\"",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Curly quotes; use straight quotes as in the rest of the book."
+ },
+ {
+  "file": "04_part6_7.md",
+  "lang": "en",
+  "old": "one question: “What can this athlete currently do under standardised conditions?”",
+  "new": "one question: \"What can this athlete currently do under standardised conditions?\"",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Curly quotes; use straight quotes as in the rest of the book."
+ },
+ {
+  "file": "04_part6_7.md",
+  "lang": "en",
+  "old": "a different question: “How well can the athlete express current fitness today?”",
+  "new": "a different question: \"How well can the athlete express current fitness today?\"",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Curly quotes; use straight quotes as in the rest of the book."
+ },
+ {
+  "file": "04_part6_7.md",
+  "lang": "en",
+  "old": "is not “train hard” or “rest” from one number",
+  "new": "is not \"train hard\" or \"rest\" from one number",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Curly quotes; use straight quotes as in the rest of the book."
+ },
+ {
+  "file": "04_part6_7.md",
+  "lang": "en",
+  "old": "at 7 a.m. in a cool Ooty morning",
+  "new": "at 7 a.m. on a cool Ooty morning",
+  "category": "grammar",
+  "severity": "low",
+  "note": "Preposition: 'on a ... morning'."
+ },
+ {
+  "file": "04_part6_7.md",
+  "lang": "en",
+  "old": "under coach Surendra Singh Bhandari",
+  "new": "under coach Surinder Singh Bhandari",
+  "category": "consistency",
+  "severity": "medium",
+  "note": "03_part3_5.md (lines 277, 281, including Rawat's quote) spells the coach 'Surinder Singh Bhandari', as does the Sportskeeda source. Later files (05+) also use 'Surendra Singh Bhandari' and need the same fix. Do not confuse with the runner Surendra Singh (line 275)."
+ },
+ {
+  "file": "04_part6_7.md",
+  "lang": "en",
+  "old": "the pattern of final-10 km performance becomes",
+  "new": "the pattern of performance over the final 10 km becomes",
+  "category": "style",
+  "severity": "low",
+  "note": "'final-10 km' is an awkward half-hyphenated compound."
+ },
+ {
+  "file": "04_part6_7.md",
+  "lang": "en",
+  "old": "at the Indian Athletics Series Final in September 2026",
+  "new": "at the Indian Athletics Series final in September 2026",
+  "category": "consistency",
+  "severity": "low",
+  "note": "02_part2.md line 43 and 08_part14_16_back.md write 'Indian Athletics Series final' (lower-case)."
+ },
+ {
+  "file": "04_part6_7.md",
+  "lang": "en",
+  "old": "|AEI-A Aerobic|VO₂-related tests, submaximal HR–pace|",
+  "new": null,
+  "category": "consistency",
+  "severity": "low",
+  "note": "This file writes the marker as 'HR–pace' (en dash, 7 times), but 03_part3_5.md writes 'pace-HR' (hyphen, 14 times) for the same measure. Pick one term for the whole book (suggest 'pace–HR' or 'HR–pace') and apply it globally."
+ }
+]

@@ -1,0 +1,245 @@
+[
+ {
+  "file": "08_part14_16_back.md",
+  "lang": "ta",
+  "old": "), இயன்றால் ஈரக்குமிழ் கோள வெப்பநிலை (WBGT), அத்துடன் ந",
+  "new": "), இயன்றால் ஈர-குமிழ் கோள வெப்பநிலை (WBGT), அத்துடன் ந",
+  "category": "consistency",
+  "severity": "low",
+  "note": "WBGT is ஈர-குமிழ் கோள வெப்பநிலை in 03/05/glossary (10)"
+ },
+ {
+  "file": "09_part17_toolkit.md",
+  "lang": "ta",
+  "old": "சியளிக்கும் ரிலையன்ஸ் அறக்கட்டளையின் ப்ராஜெக்ட் ",
+  "new": "சியளிக்கும் ரிலையன்ஸ் ஃபவுண்டேஷனின் ப்ராஜெக்ட் ",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Reliance Foundation is ரிலையன்ஸ் ஃபவுண்டேஷன் in 01/06"
+ },
+ {
+  "file": "09b_part18_india.md",
+  "lang": "ta",
+  "old": "்றன. இராணுவ கிராஸ் கண்ட்ரி மூலம் 2015-",
+  "new": "்றன. இராணுவ கிராஸ் கன்ட்ரி மூலம் 2015-",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Cross country is கிராஸ் கன்ட்ரி in 01/02/06/07/08/09"
+ },
+ {
+  "file": "09b_part18_india.md",
+  "lang": "ta",
+  "old": ". பாலைவனம். கிராஸ் கண்ட்ரி பந்தயம். தற",
+  "new": ". பாலைவனம். கிராஸ் கன்ட்ரி பந்தயம். தற",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Cross country is கிராஸ் கன்ட்ரி in 01/02/06/07/08/09"
+ },
+ {
+  "file": "09b_part18_india.md",
+  "lang": "ta",
+  "old": "்லே 2015-இல் இராணுவ கிராஸ் கண்ட்ரி மூலம் ஓட்டத்துக்கு ",
+  "new": "்லே 2015-இல் இராணுவ கிராஸ் கன்ட்ரி மூலம் ஓட்டத்துக்கு ",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Cross country is கிராஸ் கன்ட்ரி in 01/02/06/07/08/09"
+ },
+ {
+  "file": "09b_part18_india.md",
+  "lang": "ta",
+  "old": "து, 2015-இல் இராணுவ கிராஸ் கண்ட்ரி மூலம் ஓட்டத்தைத் தொ",
+  "new": "து, 2015-இல் இராணுவ கிராஸ் கன்ட்ரி மூலம் ஓட்டத்தைத் தொ",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Cross country is கிராஸ் கன்ட்ரி in 01/02/06/07/08/09"
+ },
+ {
+  "file": "09b_part18_india.md",
+  "lang": "ta",
+  "old": "முன் சாப்லே St Moritz-இலும் பயிற்சி பெற",
+  "new": "முன் சாப்லே செயின்ட் மோரிட்ஸிலும் பயிற்சி பெற",
+  "category": "tamil",
+  "severity": "low",
+  "note": "Latin-script place name; ch.06 uses செயின்ட் மோரிட்ஸ்"
+ },
+ {
+  "file": "09b_part18_india.md",
+  "lang": "ta",
+  "old": "ஸ்பிரிங்ஸ், St Moritz, முகாம் தேத",
+  "new": "ஸ்பிரிங்ஸ், செயின்ட் மோரிட்ஸ், முகாம் தேத",
+  "category": "tamil",
+  "severity": "low",
+  "note": "Latin-script place name; ch.06 uses செயின்ட் மோரிட்ஸ்"
+ },
+ {
+  "file": "09b_part18_india.md",
+  "lang": "ta",
+  "old": "|இருதய-இரத்தநாளம்|மாரத்தான்",
+  "new": "|இதய-இரத்தநாளம்|மாரத்தான்",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Cardiovascular is இதய-இரத்தநாள everywhere else in the book"
+ },
+ {
+  "file": "09b_part18_india.md",
+  "lang": "ta",
+  "old": "உயரம் களத்துக்குச் சிறந்த சூழ்",
+  "new": "உயரக் களத்துக்குச் சிறந்த சூழ்",
+  "category": "grammar",
+  "severity": "low",
+  "note": "Compound noun: உயரக் களம் (as மீட்சிக் களம் used nearby)"
+ },
+ {
+  "file": "09b_part18_india.md",
+  "lang": "ta",
+  "old": "வெப்பம் களமே மிக ஆச்சரிய",
+  "new": "வெப்பக் களமே மிக ஆச்சரிய",
+  "category": "grammar",
+  "severity": "low",
+  "note": "Compound noun: வெப்பக் களம்"
+ },
+ {
+  "file": "09b_part18_india.md",
+  "lang": "ta",
+  "old": " மீட்சியும் இருதய-இரத்தநாள அமைப்பும்",
+  "new": " மீட்சியும் இதய-இரத்தநாள அமைப்பும்",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Cardiovascular is இதய-இரத்தநாள everywhere else in the book"
+ },
+ {
+  "file": "09b_part18_india.md",
+  "lang": "ta",
+  "old": "் சிகிச்சை, தண்ணீர்த் தடையில் ப்ரீத்தி லாம்பாவின் ",
+  "new": "் சிகிச்சை, நீர்த் தாவலில் ப்ரீத்தி லாம்பாவின் ",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Water jump is நீர்த் தாவல் (water jump) in ch.08 for the same incident"
+ },
+ {
+  "file": "09b_part18_india.md",
+  "lang": "ta",
+  "old": "்பரம் அல்ல. இருதய-இரத்தநாளக் களத்துக்க",
+  "new": "்பரம் அல்ல. இதய-இரத்தநாளக் களத்துக்க",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Cardiovascular is இதய-இரத்தநாள everywhere else in the book"
+ },
+ {
+  "file": "09b_part18_india.md",
+  "lang": "ta",
+  "old": "க்கான தேசிய 10,000 m சாதனை தான் பிறப்பதற்கு முன்பிருந்த",
+  "new": "க்கான தேசிய 10,000 m சாதனை, தாம் பிறப்பதற்கு முன்பிருந்த",
+  "category": "style",
+  "severity": "low",
+  "note": "\"தான்\" right after சாதனை reads as emphatic particle; reflexive தாம் with comma is unambiguous"
+ },
+ {
+  "file": "09b_part18_india.md",
+  "lang": "ta",
+  "old": "ட வேண்டும். 2026 ஏப்ரலில், Athletics Integrity Unit இந்தியாவின் தடகளக் கூட்",
+  "new": "ட வேண்டும். 2026 ஏப்ரலில், தடகள நேர்மைப் பிரிவு (Athletics Integrity Unit) இந்தியாவின் தடகளக் கூட்",
+  "category": "tamil",
+  "severity": "low",
+  "note": "Untranslated body name; ch.07/08 use தடகள நேர்மைப் பிரிவு"
+ },
+ {
+  "file": "10_backmatter.md",
+  "lang": "ta",
+  "old": "**பிரிவு நகர்வு (Decoupling)**: நீண்ட நிலை",
+  "new": "**விலகல் (Decoupling)**: நீண்ட நிலை",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Glossary term should match body text: ch.06 uses \"பேஸ்–இதயத் துடிப்பு விலகல் (decoupling)\"; பிரிவு நகர்வு is unclear"
+ },
+ {
+  "file": "fig_labels_ta.py",
+  "lang": "ta",
+  "old": "strative)': 'பல மாரத்தான்கள் முதல் பாதியிலேயே தோற்கப்படுகின்றன (எடுத்துக்காட்டு)',",
+  "new": "strative)': 'பல மாரத்தான்கள் முதல் பாதியிலேயே இழக்கப்படுகின்றன (எடுத்துக்காட்டு)',",
+  "category": "grammar",
+  "severity": "low",
+  "note": "தோல் is intransitive; passive \"தோற்கப்படுகின்றன\" is ungrammatical"
+ },
+ {
+  "file": "fig_labels_ta.py",
+  "lang": "ta",
+  "old": "s': 'நோய்', 'heat block': 'வெப்பத் தொகுப்பு', 'Day': 'நா",
+  "new": "s': 'நோய்', 'heat block': 'வெப்பத் தொகுதி', 'Day': 'நா",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Training block = தொகுதி throughout the text"
+ },
+ {
+  "file": "fig_labels_ta.py",
+  "lang": "ta",
+  "old": "drifts up': 'Pace–HR decoupling: வேகம் நிலைக்கிறது, இதயத் துடி",
+  "new": "drifts up': 'பேஸ்–HR விலகல் (decoupling): வேகம் நிலைக்கிறது, இதயத் துடி",
+  "category": "tamil",
+  "severity": "low",
+  "note": "Chart title left in English; ch.06 renders decoupling as விலகல்"
+ },
+ {
+  "file": "fig_labels_ta.py",
+  "lang": "ta",
+  "old": "n': 'ஞாயி', 'Reset': 'ஓய்வு', 'An illust",
+  "new": "n': 'ஞாயி', 'Reset': 'மீட்டமைப்பு', 'An illust",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Ch.56 3–3–1 text calls the reset day மீட்டமைப்பு; ஓய்வு = rest, which the text distinguishes"
+ },
+ {
+  "file": "fig_labels_ta.py",
+  "lang": "ta",
+  "old": "ுப்பிப்பு', 'CLOSED-LOOP\\nCOACHING': 'மூடிய-வளைய\\nபயிற்சி',",
+  "new": "ுப்பிப்பு', 'CLOSED-LOOP\\nCOACHING': 'மூடிய-சுழற்சி\\nபயிற்சி',",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Ch.71 uses மூடிய-சுழற்சி for closed-loop"
+ },
+ {
+  "file": "fig_labels_ta.py",
+  "lang": "ta",
+  "old": " வளர்ச்சி', 'Specific strength': 'சிறப்பு வலிமை', 'Race-\\nsp",
+  "new": " வளர்ச்சி', 'Specific strength': 'குறிப்பிட்ட வலிமை', 'Race-\\nsp",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Ch.87 table phase name is \"குறிப்பிட்ட வலிமை\""
+ },
+ {
+  "file": "fig_labels_ta.py",
+  "lang": "ta",
+  "old": "\\nசிறப்பு', 'Taper': 'குறைப்பு',",
+  "new": "\\nசிறப்பு', 'Taper': 'டேப்பர்',",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Text uses டேப்பர் (taper) throughout (ch.56, 59, 85–87); குறைப்பு is used for deload weeks"
+ },
+ {
+  "file": "fig_labels_ta.py",
+  "lang": "ta",
+  "old": " 'heat block\\n(warm race)': 'வெப்பத்\\nதொகுப்பு', 'baseline'",
+  "new": " 'heat block\\n(warm race)': 'வெப்பத் தொகுதி\\n(வெப்பப் பந்தயம்)', 'baseline'",
+  "category": "tamil",
+  "severity": "low",
+  "note": "Omission: \"(warm race)\" untranslated/dropped; தொகுதி for block as in text"
+ },
+ {
+  "file": "figures_ta.json",
+  "lang": "ta",
+  "old": "\"caption\": \"ஆறு AKURA தீவிரக் களங்கள். வாராந்திர ஓட்ட அளவின் பெரும்பகுதி அடித்தளத்தில் உள்ளது; கடினமான களங்கள் சிறிய, திட்",
+  "new": "\"caption\": \"ஆறு AKURA தீவிரப் பிரிவுகள். வாராந்திர ஓட்ட அளவின் பெரும்பகுதி அடித்தளத்தில் உள்ளது; கடினமான பிரிவுகள் சிறிய, திட்",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Glossary/ch.55: intensity domains = தீவிரப் பிரிவுகள் (களம் is reserved for AEI domains)"
+ },
+ {
+  "file": "figures_ta.json",
+  "lang": "ta",
+  "old": " \"caption\": \"பயிற்சி செய். அளவிடு. புரிந்துகொள். தழுவு. இந்தச் சுழற",
+  "new": " \"caption\": \"பயிற்சி. அளவீடு. புரிதல். தகவமைப்பு. இந்தச் சுழற",
+  "category": "consistency",
+  "severity": "medium",
+  "note": "Must match ch.83 title \"பயிற்சி. அளவீடு. புரிதல். தகவமைப்பு.\"; தழுவு mainly means \"embrace\""
+ }
+]

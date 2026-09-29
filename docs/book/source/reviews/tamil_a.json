@@ -1,0 +1,452 @@
+[
+ {
+  "file": "01_front_part1.md",
+  "lang": "ta",
+  "old": "|மாரத்தானின் பிற்பகுதியில் பிளாஸ்மா விரிவாக்கம் stroke volume-ஐ ஆதரித்தல்|",
+  "new": "|மாரத்தானின் பிற்பகுதியில் பிளாஸ்மா விரிவாக்கம் இதயத் துடிப்புக் கொள்ளளவை (stroke volume) ஆதரித்தல்|",
+  "category": "tamil",
+  "severity": "low",
+  "note": "Glossary: stroke volume = இதயத் துடிப்புக் கொள்ளளவு (stroke volume) on first use; English term left bare"
+ },
+ {
+  "file": "01_front_part1.md",
+  "lang": "ta",
+  "old": "|VDOT-ஐ மட்டும் விட AEI களங்கள் பயிற்சி முடிவுகளை மேம்படுத்துதல்|",
+  "new": "|VDOT மட்டுமே தருவதைவிட AEI களங்கள் பயிற்சி முடிவுகளை மேம்படுத்துதல்|",
+  "category": "grammar",
+  "severity": "low",
+  "note": "'VDOT-ஐ மட்டும் விட' is ungrammatical/awkward; natural comparative form"
+ },
+ {
+  "file": "01_front_part1.md",
+  "lang": "ta",
+  "old": "நல்ல ஓட்டங்கள். ஆனாலும் மூன்று நிமிடங்களுக்கு மேல் குறைவு.",
+  "new": "நல்ல ஓட்டங்கள். ஆனாலும் சாதனையை விட மூன்று நிமிடங்களுக்கு மேல் பின்தங்கியிருந்தன.",
+  "category": "tamil",
+  "severity": "medium",
+  "note": "'குறைவு' (less) can be misread as a faster time; English 'more than three minutes short' means slower than the record"
+ },
+ {
+  "file": "01_front_part1.md",
+  "lang": "ta",
+  "old": "அந்தத் தருணம் கொண்டாட்டத்தை அழைக்கிறது என்றால், அகன்ற படம் அடக்கத்தை அழைக்கிறது.",
+  "new": "அந்தத் தருணம் கொண்டாட்டத்தை அழைக்கிறது என்றால், பரந்த பார்வை அடக்கத்தைக் கோருகிறது.",
+  "category": "style",
+  "severity": "low",
+  "note": "Literal calque 'அகன்ற படம்' for 'wider picture'; natural Tamil idiom"
+ },
+ {
+  "file": "01_front_part1.md",
+  "lang": "ta",
+  "old": "அன்று காலை, ஃபில்டர் காபியின் மேல், மூன்று பேர்",
+  "new": "அன்று காலை, ஃபில்டர் காபி அருந்தியபடி, மூன்று பேர்",
+  "category": "style",
+  "severity": "low",
+  "note": "'over filter coffee' calqued literally as 'on top of filter coffee'"
+ },
+ {
+  "file": "01_front_part1.md",
+  "lang": "ta",
+  "old": "கருதுகோள் → அளவீடு → தலையீடு → பதில்வினை → விளக்கம் → திருத்தப்பட்ட பயிற்சி பரிந்துரை",
+  "new": "கருதுகோள் → அளவீடு → தலையீடு → பதில்வினை → விளக்கம் → திருத்தப்பட்ட பயிற்சிப் பரிந்துரை",
+  "category": "grammar",
+  "severity": "low",
+  "note": "Sandhi: பயிற்சி + பரிந்துரை → பயிற்சிப் பரிந்துரை"
+ },
+ {
+  "file": "01_front_part1.md",
+  "lang": "ta",
+  "old": "முடிவு நேர்மையாக விளக்கப்படுகிறது; பயிற்சி பரிந்துரை திருத்தப்படுகிறது.",
+  "new": "முடிவு நேர்மையாக விளக்கப்படுகிறது; பயிற்சிப் பரிந்துரை திருத்தப்படுகிறது.",
+  "category": "grammar",
+  "severity": "low",
+  "note": "Sandhi: பயிற்சிப் பரிந்துரை"
+ },
+ {
+  "file": "01_front_part1.md",
+  "lang": "ta",
+  "old": "அவள் பெயர் லலிதா பாபர் (Lalita Babar); 2016-ல்",
+  "new": "அவர் பெயர் லலிதா பாபர் (Lalita Babar); 2016-ல் அவர்",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Same sentence switches from அவள் to honorific verb பிடித்தார்; use அவர் consistently for the adult athlete"
+ },
+ {
+  "file": "02_part2.md",
+  "lang": "ta",
+  "old": "விளக்கத்தின் ஒரு பகுதி அவரது நரம்புகளில் ஓடிக்கொண்டிருக்கலாம்.",
+  "new": "விளக்கத்தின் ஒரு பகுதி அவரது இரத்தநாளங்களில் ஓடிக்கொண்டிருக்கலாம்.",
+  "category": "science",
+  "severity": "medium",
+  "note": "'veins' rendered as நரம்புகள் (which in science Tamil means nerves); use இரத்தநாளங்கள்/சிரைகள்"
+ },
+ {
+  "file": "02_part2.md",
+  "lang": "ta",
+  "old": "பல கிளப் ஓட்டக்காரர்கள் செல்லும் வார இறுதி மலைப் பயணங்களை விடப் பல மடங்கு பெரியது.",
+  "new": "பல கிளப் ஓட்டக்காரர்கள் செல்லும் வார இறுதி மலைப் பயணங்களை விட மிக மிகப் பெரியது.",
+  "category": "tamil",
+  "severity": "low",
+  "note": "English says 'far larger'; 'பல மடங்கு' (many times) adds a quantitative claim not in the source"
+ },
+ {
+  "file": "02_part2.md",
+  "lang": "ta",
+  "old": "இது முக்கியமானது: உயர்நிலை சகிப்புத்திறன் வீரர்களுக்கு எப்போதும் அதிக மதிப்புகள் உள்ளன;",
+  "new": "இது முக்கியமானது: உயர்நிலை சகிப்புத்திறன் வீரர்களுக்குக் கிட்டத்தட்ட எப்போதும் அதிக மதிப்புகள் உள்ளன;",
+  "category": "tamil",
+  "severity": "medium",
+  "note": "Omission: English says 'almost always'; Tamil says 'always', overstating the claim"
+ },
+ {
+  "file": "02_part2.md",
+  "lang": "ta",
+  "old": "லிட்டர் per நிமிடம் என்ற முழுமையான மதிப்புகள்",
+  "new": "நிமிடத்துக்கு லிட்டர் (L/min) என்ற முழுமையான மதிப்புகள்",
+  "category": "style",
+  "severity": "low",
+  "note": "Mixed English 'per' inside Tamil phrase; natural Tamil unit wording"
+ },
+ {
+  "file": "02_part2.md",
+  "lang": "ta",
+  "old": "### கழிவிலிருந்து விண்கலம் (shuttle) வரை",
+  "new": "### கழிவிலிருந்து இடைக்கடத்தி (shuttle) வரை",
+  "category": "tamil",
+  "severity": "high",
+  "note": "Mistranslation: 'shuttle' (ferrying/transport between tissues) rendered as விண்கலம் = spacecraft"
+ },
+ {
+  "file": "02_part2.md",
+  "lang": "ta",
+  "old": "இந்தக் கட்டமைப்பை lactate விண்கலக் கருத்தாக்கமாக (lactate shuttle concept)",
+  "new": "இந்தக் கட்டமைப்பை lactate இடைக்கடத்தல் கருத்தாக்கமாக (lactate shuttle concept)",
+  "category": "tamil",
+  "severity": "high",
+  "note": "Mistranslation: 'shuttle' means transport between tissues, not spacecraft (விண்கலம்)"
+ },
+ {
+  "file": "02_part2.md",
+  "lang": "ta",
+  "old": "### பயிற்சித் தளமாக threshold",
+  "new": "### பயிற்சித் தீவிர மண்டலமாக threshold",
+  "category": "consistency",
+  "severity": "low",
+  "note": "'domain' rendered as தளம், which elsewhere in the book means 'training base' (பயிற்சித் தளம்); use மண்டலம் to avoid ambiguity"
+ },
+ {
+  "file": "03_part3_5.md",
+  "lang": "ta",
+  "old": "அவர் 1:11:23-இல் ஓடினார் — 52 விநாடிகள் குறைவு.",
+  "new": "அவர் 1:11:23-இல் ஓடினார் — சாதனையை விட 52 விநாடிகள் பின்தங்கி.",
+  "category": "tamil",
+  "severity": "medium",
+  "note": "'52 seconds short' means slower than the record; 'குறைவு' reads as 52 s less (faster)"
+ },
+ {
+  "file": "03_part3_5.md",
+  "lang": "ta",
+  "old": "மீண்டும் மீண்டும் வெளிப்படும்போது பிளாஸ்மா (plasma) அளவு தகவமைக்கலாம்.",
+  "new": "மீண்டும் மீண்டும் வெளிப்படும்போது பிளாஸ்மா (plasma) அளவு தகவமையலாம்.",
+  "category": "grammar",
+  "severity": "low",
+  "note": "தகவமைக்கலாம் is transitive (to adapt something); intransitive தகவமையலாம் needed"
+ },
+ {
+  "file": "03_part3_5.md",
+  "lang": "ta",
+  "old": "அதே ஓட்ட pace-இல், வெப்பத்தில் இதயத் துடிப்பு (heart rate) அதிகமாக இருக்கலாம்.",
+  "new": null,
+  "category": "consistency",
+  "severity": "medium",
+  "note": "This file uses bare English 'pace' ~46 times inside Tamil sentences (e.g. 'அதே pace', 'pace-இல்') while files 01, 02, 04, 05 use பேஸ் after first-use 'பேஸ் (pace)'. Recommend a file-wide pass: pace→பேஸ், pace-இல்→பேஸில், pace-ஐ→பேஸை (keep 'பேஸ் (pace)' on first use per chapter)"
+ },
+ {
+  "file": "03_part3_5.md",
+  "lang": "ta",
+  "old": "தானாகவே வெப்பத்துக்குத் தகவமைத்திருக்கிறார்கள்;",
+  "new": "தானாகவே வெப்பத்துக்குத் தகவமைந்திருக்கிறார்கள்;",
+  "category": "grammar",
+  "severity": "low",
+  "note": "Intransitive form needed: தகவமைந்திருக்கிறார்கள் (have adapted), not transitive தகவமைத்திருக்கிறார்கள்"
+ },
+ {
+  "file": "03_part3_5.md",
+  "lang": "ta",
+  "old": "அளவு, உயரம், கால அளவு, தனிநபர் பதில், இரும்புச்சத்து கிடைப்பது ஆகியவற்றைப் பொறுத்தது.",
+  "new": "இந்த மாற்றத்தின் அளவு உயரம், கால அளவு, தனிநபர் பதில், இரும்புச்சத்து கிடைப்பது ஆகியவற்றைப் பொறுத்தது.",
+  "category": "grammar",
+  "severity": "low",
+  "note": "As written 'அளவு' reads as the first item of the list rather than the subject ('The magnitude depends on...')"
+ },
+ {
+  "file": "03_part3_5.md",
+  "lang": "ta",
+  "old": "அடிப்படை → வெப்பத் தொகுதி → கழுவுதல் (washout)/மறுசோதனை →",
+  "new": "அடிப்படை → வெப்பத் தொகுதி → விளைவு நீங்கும் இடைக்காலம் (washout)/மறுசோதனை →",
+  "category": "tamil",
+  "severity": "low",
+  "note": "'washout' translated literally as கழுவுதல் (washing); in research sense it is a wash-out/interval period. Same calque recurs in the following table row ('கழுவுதலும் மறுசோதனையும்'), the next paragraph ('கழுவுதல் இடைவெளி') and the CHECK line ('கழுவுதல் காலம்'); align those too"
+ },
+ {
+  "file": "03_part3_5.md",
+  "lang": "ta",
+  "old": "வல்லி சத்யபாமா (Vally Satyabhama)",
+  "new": "வள்ளி சத்யபாமா (Vally Satyabhama)",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Athlete name spelled வள்ளி in 04_part6_7.md; use one spelling (வள்ளி is the usual Tamil form)"
+ },
+ {
+  "file": "03_part3_5.md",
+  "lang": "ta",
+  "old": "பாரிஸ் டைமண்ட் லீக்",
+  "new": null,
+  "category": "consistency",
+  "severity": "low",
+  "note": "Diamond League is டைமண்ட் லீக் in this file (2 places) but டயமண்ட் லீக் in 02, 04, 05; standardise book-wide"
+ },
+ {
+  "file": "04_part6_7.md",
+  "lang": "ta",
+  "old": "3000 m ஸ்டீபிள்சேஸில் (steeplechase) 10:03.05",
+  "new": null,
+  "category": "consistency",
+  "severity": "low",
+  "note": "Steeplechase is spelled ஸ்டீபிள்சேஸ் throughout 04 and 05 but ஸ்டீப்பிள்சேஸ் in 01-03; standardise one spelling book-wide"
+ },
+ {
+  "file": "04_part6_7.md",
+  "lang": "ta",
+  "old": "புது தில்லி மாரத்தானில் நிர்மாபென்",
+  "new": null,
+  "category": "consistency",
+  "severity": "low",
+  "note": "Delhi is தில்லி in 04 and 05 but டெல்லி in 01-03 (incl. 'டெல்லி ஹாஃப் மாரத்தான்'); standardise book-wide"
+ },
+ {
+  "file": "04_part6_7.md",
+  "lang": "ta",
+  "old": "நன்றாக உணர்ந்ததால் தவிர்த்த நீர் நிலையம்,",
+  "new": "நன்றாக உணர்ந்ததால் தவிர்த்த குடிநீர் நிலையம்,",
+  "category": "tamil",
+  "severity": "medium",
+  "note": "'drink station' rendered நீர் நிலையம், which in Tamil means a water body/reservoir"
+ },
+ {
+  "file": "04_part6_7.md",
+  "lang": "ta",
+  "old": "இது AKURA மதிக்கும், Part VII-இல் விவாதிக்கும் ஒரு வலிமை.",
+  "new": "இது AKURA மதிக்கும், பகுதி VII-இல் விவாதிக்கும் ஒரு வலிமை.",
+  "category": "consistency",
+  "severity": "low",
+  "note": "English 'Part' left in running text; elsewhere Part is பகுதி"
+ },
+ {
+  "file": "04_part6_7.md",
+  "lang": "ta",
+  "old": "பயிற்சியாளர் சுரேந்திர சிங் பண்டாரியின் (Surendra Singh Bhandari)",
+  "new": null,
+  "category": "consistency",
+  "severity": "low",
+  "note": "Coach is 'Surendra' here but 'Surinder Singh Bhandari' / சுரிந்தர் சிங் பண்டாரி in 03_part3_5.md (the English source also differs); fix English first, then align Tamil"
+ },
+ {
+  "file": "04_part6_7.md",
+  "lang": "ta",
+  "old": "ஏன் என்று Chapter 38 விளக்குகிறது.",
+  "new": "ஏன் என்று அத்தியாயம் 38 விளக்குகிறது.",
+  "category": "consistency",
+  "severity": "low",
+  "note": "English 'Chapter' left in Tamil running text; elsewhere அத்தியாயம்"
+ },
+ {
+  "file": "04_part6_7.md",
+  "lang": "ta",
+  "old": "செயல்திறன் அடிப்படையிலான அமைப்பு வேண்டுமென்றே திறமையானது.",
+  "new": "செயல்திறன் அடிப்படையிலான அமைப்பு வேண்டுமென்றே சிக்கனமானது (efficient).",
+  "category": "tamil",
+  "severity": "low",
+  "note": "'efficient' rendered திறமையானது (skilful/talented); the sense is economical/compact"
+ },
+ {
+  "file": "04_part6_7.md",
+  "lang": "ta",
+  "old": "AEI-D, Part VI-இன் மாரத்தான் அத்தியாயங்களைச் சார்ந்துள்ளது.",
+  "new": "AEI-D, பகுதி VI-இன் மாரத்தான் அத்தியாயங்களைச் சார்ந்துள்ளது.",
+  "category": "consistency",
+  "severity": "low",
+  "note": "English 'Part' left in Tamil text; use பகுதி"
+ },
+ {
+  "file": "04_part6_7.md",
+  "lang": "ta",
+  "old": "எப்போதும் Chapter 43-இல் விவரிக்கப்படும்",
+  "new": "எப்போதும் அத்தியாயம் 43-இல் விவரிக்கப்படும்",
+  "category": "consistency",
+  "severity": "low",
+  "note": "English 'Chapter' left in Tamil text; use அத்தியாயம்"
+ },
+ {
+  "file": "04_part6_7.md",
+  "lang": "ta",
+  "old": "|AEI-C இதய-இரத்தநாளம்|HR, stroke volume தொடர்பான அளவீடுகள்|",
+  "new": "|AEI-C இதய-இரத்தநாளம்|HR, இதயத் துடிப்புக் கொள்ளளவு (stroke volume) தொடர்பான அளவீடுகள்|",
+  "category": "tamil",
+  "severity": "low",
+  "note": "Glossary: stroke volume = இதயத் துடிப்புக் கொள்ளளவு (stroke volume); bare English term"
+ },
+ {
+  "file": "04_part6_7.md",
+  "lang": "ta",
+  "old": "CHECK: உங்களுக்கு எந்தத் தயார்நிலை அறிகுறியை அதிகம் நம்புகிறீர்கள்?",
+  "new": "CHECK: உங்களைப் பொறுத்தவரை, எந்தத் தயார்நிலை அறிகுறியை நீங்கள் அதிகம் நம்புகிறீர்கள்?",
+  "category": "grammar",
+  "severity": "low",
+  "note": "Dative உங்களுக்கு does not fit the verb நம்புகிறீர்கள் ('for yourself' = உங்களைப் பொறுத்தவரை)"
+ },
+ {
+  "file": "05_part8_9.md",
+  "lang": "ta",
+  "old": "எளிய பேஸ்–HR உறவு ஏரோபிக் செயல்திறனை விவரிக்கிறது;",
+  "new": "எளிய பேஸ்–HR உறவு ஏரோபிக் வினைத்திறனை (aerobic efficiency) விவரிக்கிறது;",
+  "category": "tamil",
+  "severity": "medium",
+  "note": "'efficiency' translated as செயல்திறன், which the whole book uses for 'performance'; creates a performance/efficiency clash in this paragraph and table"
+ },
+ {
+  "file": "05_part8_9.md",
+  "lang": "ta",
+  "old": "களைப்பு கூடும்போது அந்தச் செயல்திறன் எவ்வளவு நிலைத்திருக்கிறது என்பதைக் காட்டுகிறது.",
+  "new": "களைப்பு கூடும்போது அந்த வினைத்திறன் எவ்வளவு நிலைத்திருக்கிறது என்பதைக் காட்டுகிறது.",
+  "category": "tamil",
+  "severity": "medium",
+  "note": "'that efficiency' rendered as செயல்திறன் (performance)"
+ },
+ {
+  "file": "05_part8_9.md",
+  "lang": "ta",
+  "old": "|ஏரோபிக் செயல்திறன்|எளிய பேஸ்–HR உறவு|",
+  "new": "|ஏரோபிக் வினைத்திறன்|எளிய பேஸ்–HR உறவு|",
+  "category": "tamil",
+  "severity": "medium",
+  "note": "Table row 'Aerobic efficiency' uses செயல்திறன், identical to the 'Performance' row above it"
+ },
+ {
+  "file": "05_part8_9.md",
+  "lang": "ta",
+  "old": "மீரட் அருகே உள்ள இக்லௌதா கிராமத்தைச்",
+  "new": "மீரட் அருகே உள்ள இக்லௌட்டா கிராமத்தைச்",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Village Iklauta spelled இக்லௌட்டா in 03_part3_5.md; align"
+ },
+ {
+  "file": "05_part8_9.md",
+  "lang": "ta",
+  "old": "சிக்கனம் AEI-இன் ஒரு முக்கியச் செயல்திறன் கூறு;",
+  "new": "சிக்கனம் AEI-இன் ஒரு முக்கிய வினைத்திறன் (efficiency) கூறு;",
+  "category": "tamil",
+  "severity": "medium",
+  "note": "'efficiency component' rendered செயல்திறன் (= performance throughout the book)"
+ },
+ {
+  "file": "05_part8_9.md",
+  "lang": "ta",
+  "old": "கள மாற்றுகள் (proxies), செயல்திறன் பற்றிய தோராயமான சாளரத்தைத் தரலாம்;",
+  "new": "கள மாற்றுகள் (proxies), வினைத்திறன் பற்றிய தோராயமான சாளரத்தைத் தரலாம்;",
+  "category": "tamil",
+  "severity": "medium",
+  "note": "'window into efficiency' rendered as performance (செயல்திறன்)"
+ },
+ {
+  "file": "05_part8_9.md",
+  "lang": "ta",
+  "old": "சிக்கன அளவீடுகளாக அல்லாமல் செயல்திறன் குறிகாட்டிகளாகக் குறிக்கிறது;",
+  "new": "சிக்கன அளவீடுகளாக அல்லாமல் வினைத்திறன் குறிகாட்டிகளாகக் (efficiency indicators) குறிக்கிறது;",
+  "category": "tamil",
+  "severity": "medium",
+  "note": "'efficiency indicators' rendered as performance indicators; changes the meaning of the AKURA labelling rule"
+ },
+ {
+  "file": "05_part8_9.md",
+  "lang": "ta",
+  "old": "மாரத்தானின் பிற்பகுதியில் செயல்திறனை இழக்கலாம்.",
+  "new": "மாரத்தானின் பிற்பகுதியில் வினைத்திறனை இழக்கலாம்.",
+  "category": "tamil",
+  "severity": "low",
+  "note": "'lose efficiency' rendered as lose performance"
+ },
+ {
+  "file": "05_part8_9.md",
+  "lang": "ta",
+  "old": "குறைந்தபட்சம் காற்று வெப்பநிலை, சார்பு ஈரப்பதம், நாளின் நேரம்;",
+  "new": null,
+  "category": "consistency",
+  "severity": "low",
+  "note": "'relative humidity' is சார்பு ஈரப்பதம் in this file (4 places) but ஒப்பு ஈரப்பதம் in 01 and 03; standardise"
+ },
+ {
+  "file": "05_part8_9.md",
+  "lang": "ta",
+  "old": "உழைப்பு வெப்பத்தாக்கு (exertional heat stroke) ஒரு மருத்துவ அவசரநிலை;",
+  "new": "உழைப்பால் ஏற்படும் வெப்பத் தாக்கு (exertional heat stroke) ஒரு மருத்துவ அவசரநிலை;",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Align with 03_part3_5.md term 'உழைப்பால் ஏற்படும் வெப்பத் தாக்கு (exertional heat stroke)'"
+ },
+ {
+  "file": "03_part3_5.md",
+  "lang": "ta",
+  "old": "புருண்டியின் ரோட்ரிக் க்விசெரா (Rodrigue Kwizera)",
+  "new": "புருண்டியின் ரோட்ரிக் க்விசேரா (Rodrigue Kwizera)",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Athlete name spelled க்விசேரா in 05_part8_9.md; use one spelling"
+ },
+ {
+  "file": "05_part8_9.md",
+  "lang": "ta",
+  "old": "ஒவ்வொரு பாதிக்கும், ஒரு செயல்திறன் விகிதத்தைக் கணக்கிடுங்கள்",
+  "new": "ஒவ்வொரு பாதிக்கும், ஒரு வினைத்திறன் விகிதத்தைக் (efficiency ratio) கணக்கிடுங்கள்",
+  "category": "tamil",
+  "severity": "medium",
+  "note": "'efficiency ratio' rendered செயல்திறன் விகிதம் (performance ratio); book uses செயல்திறன் for performance"
+ },
+ {
+  "file": "05_part8_9.md",
+  "lang": "ta",
+  "old": "ஒவ்வொரு பாதிக்கும் செயல்திறன் விகிதம் =",
+  "new": "ஒவ்வொரு பாதிக்கும் வினைத்திறன் விகிதம் =",
+  "category": "tamil",
+  "severity": "low",
+  "note": "Same efficiency/performance term clash in the FIELD formula"
+ },
+ {
+  "file": "05_part8_9.md",
+  "lang": "ta",
+  "old": "|ஓட்டத்தின் பாதி|சராசரி வேகம்|சராசரி HR|செயல்திறன் விகிதம்|",
+  "new": "|ஓட்டத்தின் பாதி|சராசரி வேகம்|சராசரி HR|வினைத்திறன் விகிதம்|",
+  "category": "tamil",
+  "severity": "low",
+  "note": "Table header: 'Efficiency ratio' should not reuse the word for performance"
+ },
+ {
+  "file": "02_part2.md",
+  "lang": "ta",
+  "old": "கடைசி 30 வினாடிகளின் சராசரி HR",
+  "new": null,
+  "category": "consistency",
+  "severity": "low",
+  "note": "'second' is spelled வினாடி here (2x in this file) but விநாடி elsewhere in 02, and in 01/03; 04/05 use வினாடி throughout. Pick one spelling book-wide"
+ },
+ {
+  "file": "01_front_part1.md",
+  "lang": "ta",
+  "old": "உயரத் தழுவல்கள்",
+  "new": null,
+  "category": "consistency",
+  "severity": "low",
+  "note": "'adaptation' is தழுவல் throughout 01 (10x) but தகவமைப்பு throughout 02-05; not in glossary, pick one term book-wide"
+ }
+]

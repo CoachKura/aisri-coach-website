@@ -1,0 +1,170 @@
+{
+ "1": [
+  {
+   "file": "f01_research_chain.png",
+   "caption": "The AKURA research chain. Every coaching belief becomes a testable hypothesis; the loop repeats for the athlete's entire career."
+  }
+ ],
+ "2": [
+  {
+   "file": "f02_performance_web.png",
+   "caption": "Elite endurance performance emerges from many interacting systems. No single factor, including birthplace or genetics, explains it alone."
+  }
+ ],
+ "7": [
+  {
+   "file": "f03_oxygen_chain.png",
+   "caption": "The endurance chain. A limitation at any link can affect performance, but improving one link does not guarantee a faster race."
+  }
+ ],
+ "8": [
+  {
+   "file": "f04_cardiac_output.png",
+   "caption": "Illustrative example: cardiac output = heart rate × stroke volume. A larger stroke volume lets Athlete Y deliver similar blood flow at a lower heart rate."
+  }
+ ],
+ "10": [
+  {
+   "file": "f05_conc_vs_mass.png",
+   "caption": "Schematic only: why haemoglobin concentration and haemoglobin mass can move in different directions. Concentration depends on plasma volume as well as red-cell mass."
+  }
+ ],
+ "14": [
+  {
+   "file": "f06_economy.png",
+   "caption": "Illustrative values. Runner B has the lower VO₂max but uses less oxygen at race pace, so runs at a smaller fraction of maximum and may race faster."
+  }
+ ],
+ "17": [
+  {
+   "file": "f07_lactate_curve.png",
+   "caption": "As speed rises, blood lactate stays low, then accumulates increasingly quickly. Threshold is best treated as a zone, and its definition depends on the test protocol."
+  }
+ ],
+ "18": [
+  {
+   "file": "f08_fuel_mix.png",
+   "caption": "Schematic of the general pattern. Individual fuel use varies with training, diet, sex and duration, which is why marathon fuelling must be practised."
+  }
+ ],
+ "19": [
+  {
+   "file": "f09_heat_drift.png",
+   "caption": "Illustrative example of cardiovascular drift. In the heat, blood is shared between muscle and skin and fluid is lost, so heart rate rises at the same pace."
+  }
+ ],
+ "20": [
+  {
+   "file": "f10_heat_timeline.png",
+   "caption": "Approximate time course summarised from heat-acclimation reviews. Timing varies with protocol, humidity, fitness and individual response."
+  }
+ ],
+ "24": [
+  {
+   "file": "f11_altitude_po2.png",
+   "caption": "Approximate inspired oxygen pressure by elevation, calculated from the standard-atmosphere model (weather changes actual values). The Indian hill stations offer a moderate hypoxic stimulus."
+  }
+ ],
+ "25": [
+  {
+   "file": "f12_209_truth.png",
+   "caption": "The ring size represents total air pressure. The oxygen fraction is unchanged at altitude; what falls is barometric pressure, and with it the partial pressure of oxygen."
+  }
+ ],
+ "27": [
+  {
+   "file": "f13_lhtl.png",
+   "caption": "Live high, train low: the athlete sleeps at altitude for the hypoxic stimulus and descends for high-quality training. Responses vary between athletes."
+  }
+ ],
+ "30": [
+  {
+   "file": "f14_heat_vs_altitude.png",
+   "caption": "Heat and altitude overlap in cardiovascular stress but have different primary adaptations. Define the target adaptation before choosing the environment."
+  }
+ ],
+ "35": [
+  {
+   "file": "f15_marathon_fade.png",
+   "caption": "Illustrative split profiles. A fast start raises carbohydrate use and heat load, and the cost appears in the final 10 km."
+  }
+ ],
+ "36": [
+  {
+   "file": "f16_distance_profile.png",
+   "caption": "Illustrative only. The gap between short-distance and marathon expression shows where endurance breaks down, which one number would hide."
+  }
+ ],
+ "39": [
+  {
+   "file": "f17_aei_architecture.png",
+   "caption": "AEI architecture. Stable fitness and daily readiness are separate layers that together inform the prescription; every session feeds new data back."
+  }
+ ],
+ "40": [
+  {
+   "file": "f18_aei_radar.png",
+   "caption": "Two illustrative AEI domain profiles. The shape, not a single total, tells the coach where to look. Values are invented and not validated scores."
+  }
+ ],
+ "43": [
+  {
+   "file": "f19_aei_trend.png",
+   "caption": "Rolling 7- and 28-day trends with annotations for interventions and illness make cause and effect visible. A single day's number hides this."
+  }
+ ],
+ "51": [
+  {
+   "file": "f20_wbgt.png",
+   "caption": "Example categories in the style of widely used athletic heat-safety flag systems. Local federation and medical guidelines take precedence."
+  }
+ ],
+ "52": [
+  {
+   "file": "f21_decoupling.png",
+   "caption": "Illustrative long run. Decoupling (%) = (first-half speed:HR − second-half speed:HR) ÷ first-half ratio × 100. It is a signal to interpret, not a diagnosis."
+  }
+ ],
+ "55": [
+  {
+   "file": "f22_intensity_domains.png",
+   "caption": "The six AKURA intensity domains. Most weekly volume sits at the base; harder domains are used in smaller, planned doses."
+  }
+ ],
+ "56": [
+  {
+   "file": "f23_331_week.png",
+   "caption": "One possible reading of the 3–3–1 rhythm. The value lies in how load is distributed, not in the numbers themselves."
+  }
+ ],
+ "67": [
+  {
+   "file": "f24_confidence.png",
+   "caption": "Every AEI output carries a confidence tier. Confidence falls when critical data are old or missing: no data, no false precision."
+  }
+ ],
+ "70": [
+  {
+   "file": "f25_aei_aisri.png",
+   "caption": "Two questions, two layers: AEI describes what the athlete can do; AISRi advises what the athlete should do today."
+  }
+ ],
+ "71": [
+  {
+   "file": "f26_closed_loop.png",
+   "caption": "The ten-step AKURA closed loop: a digital coaching system that behaves like a longitudinal research study, not a static plan."
+  }
+ ],
+ "79": [
+  {
+   "file": "f27_dashboard.png",
+   "caption": "Dashboard concept (mock-up): three questions answered at a glance, with confidence and raw data always visible."
+  }
+ ],
+ "83": [
+  {
+   "file": "f28_tmua.png",
+   "caption": "Train. Measure. Understand. Adapt. The cycle repeats for the athlete's entire career."
+  }
+ ]
+}
