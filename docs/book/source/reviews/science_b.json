@@ -1,0 +1,155 @@
+[
+ {
+  "file": "10_backmatter.md",
+  "lang": "en",
+  "old": "- Benjamin CL, et al. Physiological Responses to Heat Acclimation: A Systematic Review and Meta-Analysis of Randomized Controlled Trials. Journal of Sports Science and Medicine. 2019. PMID 31191102.",
+  "new": "- Rahimi GRM, Albanaqi AL, Van der Touw T, et al. Physiological Responses to Heat Acclimation: A Systematic Review and Meta-Analysis of Randomized Controlled Trials. Journal of Sports Science and Medicine. 2019;18(2):316–326. PMID 31191102.",
+  "category": "attribution",
+  "severity": "high",
+  "note": "Wrong first author: PMID 31191102 is by Rahimi GRM, Albanaqi AL, Van der Touw T et al., J Sports Sci Med 2019;18:316-326 (checked via NCBI E-utilities). 'Benjamin CL' is not an author."
+ },
+ {
+  "file": "06_part10_11.md",
+  "lang": "en",
+  "old": "|Body-mass loss in session|1.6%|1.8%|Hydration needs rising|",
+  "new": "|Body-mass loss in session|0.8%|1.0%|Hydration needs rising|",
+  "category": "science",
+  "severity": "medium",
+  "note": "Internal inconsistency: the test is 30 min; sweat rate 1.1-1.3 L/h gives ~0.55-0.65 kg loss, which is 1.6-1.8% only for a ~35 kg athlete. ~0.8-1.0% fits a ~65 kg adult."
+ },
+ {
+  "file": "08_part14_16_back.md",
+  "lang": "en",
+  "old": "- Stopping sweating, or hot, dry skin",
+  "new": "- Hot skin, whether dry or still sweating (many exertional heatstroke casualties are still sweating)",
+  "category": "science",
+  "severity": "medium",
+  "note": "Safety: in exertional heatstroke the skin is often still wet; 'stopped sweating/dry skin' as a criterion delays recognition. ACSM Expert Consensus on Exertional Heat Illness (Roberts et al., Curr Sports Med Rep 2021;20(9):470-484); NATA position statement (Casa et al., J Athl Train 2015)."
+ },
+ {
+  "file": "08_part14_16_back.md",
+  "lang": "en",
+  "old": "Rapid cooling and emergency care save lives.",
+  "new": "Rapid whole-body cooling, ideally cold-water immersion started on site as soon as heatstroke is suspected, and emergency care save lives.",
+  "category": "science",
+  "severity": "medium",
+  "note": "Safety: consensus is 'cool first, transport second' with cold-water immersion as the gold standard (Roberts et al. 2021 ACSM consensus; Casa et al. 2015 NATA). Current text does not say how to cool."
+ },
+ {
+  "file": "05_part8_9.md",
+  "lang": "en",
+  "old": "|Above 28°C|Very high|Consider postponing or moving hard sessions; follow medical guidance|",
+  "new": "|Above 28°C|Extreme|Postpone, cancel or move sessions indoors; follow medical guidance|",
+  "category": "science",
+  "severity": "medium",
+  "note": "ACSM 2007 position stand (Armstrong et al., MSSE 39:556-572) treats WBGT >28°C as extreme/black flag: cancel continuous activity/races. 'Consider postponing hard sessions' understates the risk."
+ },
+ {
+  "file": "09b_part18_india.md",
+  "lang": "en",
+  "old": "ask for haemoglobin and ferritin at least twice a year, and before and after any altitude block. It is cheap",
+  "new": "ask a doctor to arrange haemoglobin and ferritin testing at least twice a year and before and after any altitude block, and let the clinician interpret the results. It is cheap",
+  "category": "consistency",
+  "severity": "medium",
+  "note": "Contradicts the book's own rules (Ch. 45 'question first, clinician interprets'; Ch. 81 rule 4) by having the coach order/interpret blood tests. Ferritin rises with inflammation and needs clinical reading."
+ },
+ {
+  "file": "09b_part18_india.md",
+  "lang": "en",
+  "old": "found anaemia in 44% of adolescent girls and 41% of adult women. A 2025 study",
+  "new": "found anaemia in 44% of adolescent girls and 41% of adult women, although iron deficiency explained less than a third of it. A 2025 study",
+  "category": "science",
+  "severity": "medium",
+  "note": "The cited survey (Ghosh et al., Eur J Clin Nutr 2025;79:443-451, PMID 39779946) concludes iron-deficiency anaemia was <1/3 of anaemia; 'other' causes predominated. Without this the hypothesis over-links anaemia to iron."
+ },
+ {
+  "file": "09b_part18_india.md",
+  "lang": "en",
+  "old": "- Anaemia prevalence across eight Indian states (venous blood survey). PubMed. https://pubmed.ncbi.nlm.nih.gov/39779946/",
+  "new": "- Ghosh S, Laxmaiah A, Chandak GR, et al. Anaemia and iron deficiency in India: a venous blood-based survey of adolescents, adults, and the elderly in eight states. European Journal of Clinical Nutrition. 2025;79(5):443–451. PMID 39779946.",
+  "category": "attribution",
+  "severity": "low",
+  "note": "Incomplete citation; full details verified via NCBI E-utilities for PMID 39779946."
+ },
+ {
+  "file": "09b_part18_india.md",
+  "lang": "en",
+  "old": "- Jegatheesan SL, et al. Hematological status, dietary iron intake and endurance in Indian female athletes. Physical Activity and Nutrition. 2025. PMID 40443248.",
+  "new": "- Jegatheesan SL, Kumbamoorthy SS, Sanjaykumar S, Rajkumar NCJ. Unlocking the connection: hematological status, dietary iron intake and endurance in Indian female athletes. Physical Activity and Nutrition. 2025;29(1):31–37. PMID 40443248.",
+  "category": "attribution",
+  "severity": "low",
+  "note": "Title truncated; full title/volume verified via NCBI (PMID 40443248). Data in text (104 volleyball/ball-badminton players, 53.8% anaemic) match the abstract."
+ },
+ {
+  "file": "10_backmatter.md",
+  "lang": "en",
+  "old": "Sports Medicine. 2024. PMID 38051495.",
+  "new": "Sports Medicine. 2024;54(3):727–741. PMID 38051495.",
+  "category": "attribution",
+  "severity": "low",
+  "note": "Add volume/pages (verified NCBI PMID 38051495, Brown HA, Topham TH, Clark B et al.)."
+ },
+ {
+  "file": "10_backmatter.md",
+  "lang": "en",
+  "old": "- Solomon & Laye. The effect",
+  "new": "- Solomon TPJ, Laye MJ. The effect",
+  "category": "attribution",
+  "severity": "low",
+  "note": "Use standard author format (PMID 39762944: Solomon TPJ, Laye MJ; BMC Sports Sci Med Rehabil 2025;17:4)."
+ },
+ {
+  "file": "05_part8_9.md",
+  "lang": "en",
+  "old": "who will watch for early signs of heat illness such as confusion",
+  "new": "who will watch for signs of serious heat illness such as confusion",
+  "category": "science",
+  "severity": "low",
+  "note": "Confusion, collapse and unsteady running are signs of heatstroke (CNS dysfunction), not early signs; calling them 'early' could delay action."
+ },
+ {
+  "file": "08_part14_16_back.md",
+  "lang": "en",
+  "old": "stops sweating or develops hot, dry skin, collapses",
+  "new": "has hot skin (dry or still sweating), collapses",
+  "category": "science",
+  "severity": "low",
+  "note": "Same heatstroke-recognition issue as Ch. 81 list: sweating often persists in exertional heatstroke (ACSM 2021 consensus)."
+ },
+ {
+  "file": "09_part17_toolkit.md",
+  "lang": "en",
+  "old": "across 42 kilometres it is roughly three and a half minutes",
+  "new": "across 42 kilometres it is roughly three minutes",
+  "category": "fact",
+  "severity": "low",
+  "note": "Arithmetic: Rio 2:15:25 (3:12.6/km) to Valencia 2:12:23 (3:08.2/km) = 4.4 s/km, i.e. 3:02 over the marathon, not ~3.5 min."
+ },
+ {
+  "file": "05_part8_9.md",
+  "lang": "en",
+  "old": "A 2% improvement in running economy means nothing if the test's typical error is 3%.",
+  "new": "A 2% improvement in running economy cannot be distinguished from noise if the test's typical error is 3%.",
+  "category": "science",
+  "severity": "low",
+  "note": "Overstated: a change smaller than typical error is uncertain, not meaningless (Hopkins 2000; Hopkins et al. 2009)."
+ },
+ {
+  "file": "09_part17_toolkit.md",
+  "lang": "en",
+  "old": "|Above 28|Short, very easy, or move indoors|Postpone|",
+  "new": "|Above 28|Move indoors or rest; outdoors only short, very easy and supervised|Postpone|",
+  "category": "science",
+  "severity": "low",
+  "note": "Align with ACSM black-flag guidance (>28°C WBGT: cancel continuous outdoor exercise) and Ch. 51 table."
+ },
+ {
+  "file": "07_part12_13.md",
+  "lang": "en",
+  "old": "These are known technical limitations of optical sensing",
+  "new": "These are recognised potential limitations of optical sensing, although the evidence on skin tone is mixed",
+  "category": "science",
+  "severity": "low",
+  "note": "Bent et al., npj Digit Med 2020;3:18 found no significant accuracy difference by skin tone, while other studies report errors; motion/intensity effects are better established."
+ }
+]

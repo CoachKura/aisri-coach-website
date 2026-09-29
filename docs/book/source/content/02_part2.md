@@ -26,9 +26,9 @@ Along the way he did things off the barriers too. In November 2020 he ran 1:00:3
 
 ### Coaches, and a change of air
 
-The coaching behind those numbers was not a straight line. At the national camp, Sable worked with the Belarusian coach Nikolai Snesarev, who had guided a generation of Indian distance runners. In 2018 Sable left him and returned to Amrish Kumar, and it was under Amrish that he ran 8:28.94 in 2019. Snesarev left the Athletics Federation of India in February 2019 in what were reported as acrimonious circumstances, with Sable's return to his Army coach reported as one factor. Snesarev was later re-appointed and died in March 2021.
+The coaching behind those numbers was not a straight line. At the national camp, Sable worked with the Belarusian coach Nikolai Snesarev, who had guided a generation of Indian distance runners. In 2018 Sable left him and returned to Amrish Kumar, and it was under Amrish that he ran 8:28.94 in 2019. Snesarev left the Athletics Federation of India in February 2019 in what were reported as acrimonious circumstances, with Sable's return to his Army coach reported as one factor. Snesarev was later reappointed and died in March 2021.
 
-From 2022, Sable trained with the American coach Scott Simmons in Colorado Springs, at around 1,800 metres, as part of a camp that the federation and the government's sports schemes funded. Before the 2023 World Championships in Budapest he trained at altitude in Colorado Springs and in St. Moritz in Switzerland, alongside Paul Chelimo. In July 2024, before the Paris Olympics, he was in St. Moritz again.
+From 2022, Sable trained with the American coach Scott Simmons in Colorado Springs, at around 1,800 metres, as part of a camp that the federation and the government's sports schemes funded. Before the 2023 World Championships in Budapest he trained at altitude in Colorado Springs and in St Moritz in Switzerland, alongside Paul Chelimo. In July 2024, before the Paris Olympics, he was in St Moritz again.
 
 QUOTE: His adaptation upon his return to altitude this year was almost instant. — Scott Simmons, to Hindustan Times
 
@@ -46,7 +46,7 @@ He has been candid about the comeback. "I think I might have rushed my return a 
 
 Why begin a Part about physiology with one man's career? Because a career like this is an experiment run in public, even if most of the measurements were never published.
 
-Look at what the record shows. An athlete who discovered serious running only in his twenties, after joining the Army, and who then lowered a national record by almost twenty seconds in six years. An athlete whose results moved when his coaching, his training base and his exposure to altitude changed, and whose coach believed his body responded to that altitude almost immediately. An athlete who ran fast from 5000 m to the half marathon, which says something about both his aerobic capacity and how economically he could run. And an athlete whose progress was stopped not by oxygen but by tissue, a reminder that the endurance engine has a chassis as well as a fuel line.
+Look at what the record shows. An athlete who discovered serious running only in his twenties, after joining the Army, and who then lowered a national record by nearly twenty-one seconds in six years. An athlete whose results moved when his coaching, his training base and his exposure to altitude changed, and whose coach believed his body responded to that altitude almost immediately. An athlete who ran fast from 5000 m to the half marathon, which says something about both his aerobic capacity and how economically he could run. And an athlete whose progress was stopped not by oxygen but by tissue, a reminder that the endurance engine has a chassis as well as a fuel line.
 
 Each of those observations points to a link in a chain. The heart that pumps the blood. The blood that carries oxygen, and the plasma it floats in. The red cells that altitude may or may not multiply. The ceiling of oxygen uptake, and the economy that decides how much of it each stride costs. The mitochondria that burn the fuel, the lactate that moves between fibres, the threshold that marks how hard a runner can go for how long, and the glycogen that decides how long the fast running can last.
 
@@ -119,7 +119,7 @@ KEY: Cardiac output = heart rate × stroke volume, and oxygen uptake = cardiac o
 
 This explains a common coaching observation. During endurance training an athlete may improve performance while running at a similar heart rate, because more blood is pumped per beat or because the muscles extract oxygen more effectively. Conversely, the same pace can feel very different on a cool Bengaluru morning and a humid Chennai evening.
 
-Heat can reduce effective stroke volume in two ways. First, blood is shifted toward the skin to release heat, so a larger share of cardiac output is diverted away from working muscle and less blood returns to fill the heart. Second, sweating reduces plasma volume, which again lowers filling. To maintain cardiac output with a smaller stroke volume, heart rate rises. Physiologists describe the gradual upward drift of heart rate during prolonged exercise as cardiovascular drift, and heat and dehydration make it larger. Endurance training and heat acclimation can improve plasma volume and cardiac function, helping to maintain circulation under the same conditions.
+Heat can reduce effective stroke volume in two ways. First, blood is shifted towards the skin to release heat, so a larger share of cardiac output is diverted away from working muscle and less blood returns to fill the heart. Second, sweating reduces plasma volume, which again lowers filling. To maintain cardiac output with a smaller stroke volume, heart rate rises. Physiologists describe the gradual upward drift of heart rate during prolonged exercise as cardiovascular drift, and heat and dehydration make it larger. Endurance training and heat acclimation can improve plasma volume and cardiac function, helping to maintain circulation under the same conditions.
 
 MYTH: A lower heart rate at the same pace always means the athlete is fitter. || It often does, but it can also reflect cooler weather, better hydration, a different course or even a sensor error. Context is required before interpreting the change.
 
@@ -179,7 +179,7 @@ CHECK: Can you explain to an athlete, in two sentences, why the air at altitude 
 
 ## 10. Haemoglobin Mass
 
-Between November and February, before his record run in Rotterdam, Sawan Barwal lived and trained in the Nilgiris, around Ooty and Wellington, for about four months. Only then did he come down to Bengaluru for his final preparation. "For Sawan, most of the time he was staying in high altitude," his coach Ajith Markose told The Bridge. Four months of sleeping in thinner air is a large dose, far larger than the weekend hill trips many club runners take. A reader might expect, somewhere, a neat pair of numbers: how many grams of haemoglobin he carried in October, and how many in February. If such measurements were made, they are not in the public record. More broadly, the research behind this book could find no peer-reviewed study of Indian athletes' blood adaptations at Ooty at all. That is a remarkable gap, because the most important blood number for an endurance runner is not the one printed on an ordinary laboratory report.
+Sawan Barwal's Project 2:09 group normally spends about four months, from November to February, in the Nilgiris around Ooty and Wellington, then comes down to Bengaluru for final preparation. "For Sawan, most of the time he was staying in high altitude," his coach Ajith Markose told The Bridge. Four months of sleeping in thinner air is a large dose, far larger than the weekend hill trips many club runners take. A reader might expect, somewhere, a neat pair of numbers: how many grams of haemoglobin he carried in October, and how many in February. If such measurements were made, they are not in the public record. More broadly, the research behind this book could find no peer-reviewed study of Indian athletes' blood adaptations at Ooty at all. That is a remarkable gap, because the most important blood number for an endurance runner is not the one printed on an ordinary laboratory report.
 
 Haemoglobin is the iron-containing protein inside red blood cells that binds oxygen. Each gram of fully saturated haemoglobin can carry roughly 1.34 mL of oxygen, so the total amount of haemoglobin in the body sets a large part of the blood's oxygen-carrying capacity. When the research question is oxygen-carrying capacity, haemoglobin mass, the total grams of haemoglobin circulating in the body, is more informative than haemoglobin concentration alone.
 
@@ -190,7 +190,7 @@ A routine blood test reports haemoglobin concentration, usually in grams per dec
 |Scenario|Hb mass|Plasma volume|Hb concentration|
 |Red-cell production after altitude|Up|Unchanged|Up|
 |Dehydration after a hot long run|Unchanged|Down|Up (apparent)|
-|Heat acclimation|Unchanged|Up|Down (apparent)|
+|Heat acclimation|Usually unchanged (short blocks)|Up|Down (apparent)|
 |Altitude plus heat block|Up|Up|Could be unchanged|
 |Iron deficiency, blood loss|Down|Variable|Usually down|
 
@@ -297,7 +297,7 @@ It is also worth stating plainly: artificially raising red-cell mass through EPO
 
 FIELD: Supervised blood-monitoring routine ; schedule tests at the same time of day after a rest or easy day ; keep the athlete seated for a standardised period before sampling ; record hydration, menstrual phase where relevant, recent illness and training ; request ferritin, full blood count and any tests advised by the clinician ; store results beside the nearest standardised performance test ; review trends with the medical team, not in isolation.
 
-Individual variation deserves emphasis. Two athletes on the same altitude camp, sleeping at the same elevation and following the same programme, may show very different red-cell responses. Some of this reflects measurement error, some reflects iron status, illness or training stress, and some appears to be genuine biological difference. This is why the phrase 'responder' or 'non-responder' should be used carefully. An athlete who does not respond on one camp may respond on another when iron, sleep and load are better managed. AEI records each exposure as an individual experiment rather than labelling the athlete permanently.
+Individual variation deserves emphasis. Two athletes on the same altitude camp, sleeping at the same elevation and following the same programme, may show very different red-cell responses. Some of this reflects measurement error, some reflects iron status, illness or training stress, and some appears to be genuine biological difference. This is why the phrase "responder" or "non-responder" should be used carefully. An athlete who does not respond on one camp may respond on another when iron, sleep and load are better managed. AEI records each exposure as an individual experiment rather than labelling the athlete permanently.
 
 COACH: Build a relationship with a sports physician before planning altitude or heavy training blocks. Your job is to provide training context and performance data; the clinician's job is to interpret blood results and decide on any treatment.
 
@@ -416,7 +416,7 @@ MYTH: Only high-intensity intervals build mitochondria, so easy running is waste
 
 ### Avoid chasing one number
 
-The practical implication is to avoid chasing one physiological number at the expense of the system. A programme built entirely around raising VO₂max may neglect muscle endurance and economy; one built entirely around easy volume may leave the threshold under-developed. Mitochondrial adaptations are also not directly visible to most coaches. They are inferred from outcomes such as lower heart rate and lactate at a given pace, improved fat use and better late-race durability.
+The practical implication is to avoid chasing one physiological number at the expense of the system. A programme built entirely around raising VO₂max may neglect muscle endurance and economy; one built entirely around easy volume may leave the threshold underdeveloped. Mitochondrial adaptations are also not directly visible to most coaches. They are inferred from outcomes such as lower heart rate and lactate at a given pace, improved fat use and better late-race durability.
 
 Near-infrared spectroscopy devices that estimate muscle oxygen saturation are increasingly available, but their readings depend on placement, skin and fat thickness and device algorithms. They may be useful for research within the same athlete under standardised conditions, and should not be treated as a direct measure of mitochondrial content.
 
@@ -506,7 +506,7 @@ Changes over time are often more valuable than absolute values. A rightward shif
 
 FIELD: Field threshold check ; on a flat track or measured loop, warm up 15 minutes with strides ; run a 30-minute evenly paced effort as hard as can be sustained ; record average pace and HR for the final 20 minutes, RPE, temperature and humidity ; cool down 10 minutes ; repeat every 6–8 weeks in similar conditions ; store as "field threshold estimate" with the protocol.
 
-The relationship between threshold and heat deserves particular attention in India. Heat increases cardiovascular strain and, for many athletes, carbohydrate use at a given pace, so blood lactate and heart rate at a fixed speed may be higher on a hot day. A threshold test performed in a cool December morning in Chennai will not give the same result as one performed in May. Where possible, testing should be scheduled at a consistent time of day and season, or the conditions should be recorded carefully enough that the difference can be accounted for when results are compared.
+The relationship between threshold and heat deserves particular attention in India. Heat increases cardiovascular strain and, for many athletes, carbohydrate use at a given pace, so blood lactate and heart rate at a fixed speed may be higher on a hot day. A threshold test performed on a cool December morning in Chennai will not give the same result as one performed in May. Where possible, testing should be scheduled at a consistent time of day and season, or the conditions should be recorded carefully enough that the difference can be accounted for when results are compared.
 
 COACH: Prescribe threshold by a combination of pace range, heart-rate range and perceived effort, and let conditions decide which one leads on the day. In heat, let effort and heart rate lead and allow the pace to slow.
 
@@ -514,7 +514,7 @@ CHECK: Which threshold definition have you been using for your athletes, and wou
 
 ## 18. Fuel, Glycogen and Fat Oxidation
 
-At the Rio Olympics in August 2016, O.P. Jaisha, India's national record holder in the marathon, collapsed after crossing the finish line of the women's race in 89th place. Afterwards she said Indian officials had not provided her with refreshments along the course. "All the [other] countries had their stalls at every two kilometres, but our country's stall was empty," she was quoted as saying by Scroll. The Athletics Federation of India disputed her account, and her teammate Kavita Raut said she herself had had enough water. What exactly happened at those drinks tables may never be settled. But the episode put a public spotlight on a question every marathoner eventually faces. Fitness gets a runner to the start line. What she has stored in her muscles, what she drinks and what she eats along the way decide how much of that fitness survives to the finish. A marathon is a fuel problem as much as a fitness problem.
+At the Rio Olympics in August 2016, O. P. Jaisha, India's national record holder in the marathon, collapsed after crossing the finish line of the women's race in 89th place. Afterwards she said Indian officials had not provided her with refreshments along the course. "All the [other] countries had their stalls at every two kilometres, but our country's stall was empty," she was quoted as saying by Scroll. The Athletics Federation of India disputed her account, and her teammate Kavita Raut said she herself had had enough water. What exactly happened at those drinks tables may never be settled. But the episode put a public spotlight on a question every marathoner eventually faces. Fitness gets a runner to the start line. What she has stored in her muscles, what she drinks and what she eats along the way decide how much of that fitness survives to the finish. A marathon is a fuel problem as much as a fitness problem.
 
 The marathon is where physiology meets the kitchen. Marathon performance depends heavily on substrate management: which fuels the athlete uses, how much is stored and how well it is replaced during the race. Carbohydrate supports high-intensity work efficiently, while fat oxidation contributes increasingly as intensity and duration change. Training can influence substrate use, but race-day fuelling remains essential.
 
@@ -564,4 +564,4 @@ REFS:
 - Holloszy JO. 1967. Biochemical adaptations in muscle: effects of exercise on mitochondrial oxygen uptake and respiratory enzyme activity in skeletal muscle. Journal of Biological Chemistry.
 - Brooks GA. 2018. The science and translation of lactate shuttle theory. Cell Metabolism.
 - Faude O, Kindermann W, Meyer T. 2009. Lactate threshold concepts: how valid are they? Sports Medicine.
-- Burke LM, Hawley JA, Wong SH, Jeukendrup AE. 2011. Carbohydrates for training and competition. Journal of Sports Sciences.
+- Burke LM, Hawley JA, Wong SHS, Jeukendrup AE. 2011. Carbohydrates for training and competition. Journal of Sports Sciences.

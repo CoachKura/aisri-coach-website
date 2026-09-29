@@ -42,3 +42,9 @@ Tamil labels (`fig_labels_ta.py`) are drawn as SVG text and rendered by Chromium
 FIG_LANG=ta FIG_OUT=figures_ta_svg python3 figures.py
 NODE_PATH=$(npm root -g) node render_svg.js figures_ta_svg figures_ta
 ```
+
+## Infographics, review team and author photo
+
+- `infographics/spec.json` — one infographic per Part (English + Tamil); render with `NODE_PATH=$(npm root -g) node render_infographics.js`.
+- `reviews/` — findings from the eight review agents (facts, science ×2, copyright, English proofreading ×2, Tamil ×2); `apply_reviews.py` applies them (idempotent). See `../REVIEW_REPORT.md`.
+- Author photo: `python3 make_author.py <photo.jpg>` writes `author/author_circle.png`; the build places it on the About the Author page automatically.

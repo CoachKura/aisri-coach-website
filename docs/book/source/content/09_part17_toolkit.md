@@ -1,6 +1,6 @@
 PART XVII — THE AKURA TOOLKIT
 
-PARTINTRO: This final Part turns the ideas of the book into tools a coach can use on Monday morning. It gives AKURA pace and race-equivalence charts, explains how to adjust them for Chennai heat and hill-station altitude, and sets out three roadmaps: a 24-week marathon roadmap, a long-term athlete development roadmap, and the research roadmap that will take the AKURA Endurance Index from prototype to validated tool. Every chart is a starting point, to be checked against the athlete's own heart rate, effort and response.
+PARTINTRO: This Part turns the ideas of the book into tools a coach can use on Monday morning. It gives AKURA pace and race-equivalence charts, explains how to adjust them for Chennai heat and hill-station altitude, and sets out three roadmaps: a 24-week marathon roadmap, a long-term athlete development roadmap, and the research roadmap that will take the AKURA Endurance Index from prototype to validated tool. Every chart is a starting point, to be checked against the athlete's own heart rate, effort and response.
 
 ## STORY: Three Minutes Eight Seconds
 
@@ -8,13 +8,13 @@ Valencia, 7 December 2025. The Spanish city's marathon course is famous for bein
 
 Take a calculator and divide 2:12:23 by 42.195. The answer is about 3:08 per kilometre. Not one fast kilometre: forty-two of them, one after another, each covered in about three minutes and eight seconds. Most club runners in India would struggle to hold that pace for one lap of a track. Gopi held it for more than two hours.
 
-This is how coaches think about races. Not as a single time, but as a pace, a rhythm, a number per kilometre that can be trained, tested and planned. It is exactly how this final Part of the book thinks too.
+This is how coaches think about races. Not as a single time, but as a pace, a rhythm, a number per kilometre that can be trained, tested and planned. It is exactly how this Part of the book thinks too.
 
 ### From Wayanad
 
 Gopi comes from Sulthan Bathery in Wayanad, Kerala, a hill town about 1,000 metres above sea level. Picture the district in the monsoon: rain drumming on the pepper vines, red earth roads running between paddy fields and forest. His parents were farmers who grew rice and ginger. He joined the Army through the sports quota and became a Havildar in the Artillery regiment, attached to the Army Sports Institute in Pune.
 
-His events were the 10,000 m and the marathon. Under Army coach Surendra Singh Bhandari he spent what ESPN described as a ten-month training stint at a high-altitude facility in Ooty before the 2016 Rio Olympics. In Rio he finished 25th in 2:15:25, then a personal best, one second ahead of his Army team-mate Kheta Ram.
+His events were the 10,000 m and the marathon. Under Army coach Surendra Singh Bhandari he spent what ESPN described as a ten-month training stint at a high-altitude facility in Ooty before the 2016 Rio Olympics. In Rio he finished 25th in 2:15:25, then a personal best, one second ahead of his Army teammate Kheta Ram.
 
 ### Champion of Asia
 
@@ -32,13 +32,13 @@ Now do what this Part asks every coach to do. Turn Gopi's results into paces.
 
 Rio 2016, 2:15:25: about 3:13 per kilometre. Dongguan 2017, 2:15:48: also about 3:13. Seoul 2019, 2:13:39: about 3:10. Valencia 2025, 2:12:23: about 3:08. Rotterdam 2026, 2:13:16: just under 3:10.
 
-Across nine years, the average pace moved by about five seconds per kilometre. Five seconds sounds like nothing; across 42 kilometres it is roughly three and a half minutes. For an elite marathoner, that is the difference between being a good national runner and knocking on the door of a 48-year-old record. The improvement did not arrive in a single leap. It came in small steps, separated by years, with results that went up and down along the way. A coach who looked only at Rotterdam, a slower run than Valencia, might have called it a decline. A coach who looked at the whole line would see a runner still holding paces that, in 2016, had been beyond him.
+Across nine years, the average pace moved by about four and a half seconds per kilometre. That sounds like nothing; across 42 kilometres it is about three minutes. For an elite marathoner, that is the difference between being a good national runner and knocking on the door of a record nearly 48 years old. The improvement did not arrive in a single leap. It came in small steps, separated by years, with results that went up and down along the way. A coach who looked only at Rotterdam, a slower run than Valencia, might have called it a decline. A coach who looked at the whole line would see a runner still holding paces that, in 2016, had been beyond him.
 
 Chart 1 in the next chapter uses a well-known formula, Riegel's endurance equation, to translate a 5K time into equivalent performances at longer distances. Run the arithmetic backwards from Gopi's 2:12:23 and the model says it corresponds to a 5K of roughly 13:48. That is not Gopi's actual 5K time; it is simply what the formula implies. It is also well off the top of the chart, which begins at 15:00, because the chart is built for club runners and developing athletes, not for Asian champions. Even for elites, though, the logic is the same. A marathon pace is a fraction of what the athlete can do over shorter distances, and how large that fraction is depends on durability, economy, fuelling and heat.
 
 ### A career as a roadmap
 
-Gopi's preparations also read like roadmaps. Ten months at Ooty before Rio. Four months at Ooty before Valencia, followed four months later by Rotterdam. Sawan Barwal's group, according to The Bridge, followed a similar rhythm: about four months at Ooty and Wellington from November to February, then pre-competition work in Bengaluru. Each is a sequence of phases: a long base, a specific block, a taper, a race and then a review before the next cycle begins.
+Gopi's preparations also read like roadmaps. Ten months at Ooty before Rio. Four months at Ooty before Valencia, followed four months later by Rotterdam. Sawan Barwal's group, according to The Bridge, normally follows a similar rhythm: about four months at Ooty and Wellington from November to February, then pre-competition work in Bengaluru. Each is a sequence of phases: a long base, a specific block, a taper, a race and then a review before the next cycle begins.
 
 The 24-week marathon roadmap in Chapter 87 is a shorter, simpler version of the same idea, built for runners who have jobs, families and one target race a year. The athlete development roadmap in Chapter 88 is the long version, the one that describes how a boy from a Wayanad farm becomes an Army runner, then an Olympian, then champion of Asia. And the research roadmap in Chapter 89 is about making sure that the next time an Indian runner spends four months at Ooty and runs a personal best, we know more precisely what the mountain contributed.
 
@@ -54,13 +54,13 @@ SOURCES: https://shyamgopan.com/2025/12/11/gopi-23-secs-short-of-national-record
 
 ## 85. The AKURA Pace Charts
 
-Rotterdam, 12 April 2026. Sawan Barwal, a soldier from Mandi district in Himachal Pradesh, is running his first marathon. He finishes 20th in 2:11:58, and a national record that had stood since Shivnath Singh ran 2:12:00 at Jalandhar in 1978 is gone by two seconds. Divide his time by 42.195 and you get the number every coach instinctively reaches for: about 3:08 per kilometre, held for more than two hours. In September, at the Asian Games in Nagoya, he lowers the record to 2:11:37 and wins silver. "There was only one thing in my mind: I have to go till the finishing line and how I can maintain the pace," he told the Tribune. Maintain the pace. For a national record-holder and for a beginner in Anna Nagar alike, training starts with the same question: what pace, and why that one?
+Rotterdam, 12 April 2026. Sawan Barwal, a soldier from Mandi district in Himachal Pradesh, is running his first marathon. He finishes 20th in 2:11:58, and a national record that had stood since Shivnath Singh ran 2:12:00 at Jalandhar in 1978 is gone by two seconds. Divide his time by 42.195 and you get the number every coach instinctively reaches for: about 3:08 per kilometre, held for more than two hours. In September, at the Asian Games in Nagoya, he lowers the record to 2:11:37 and wins silver. "There was only one thing in my mind: I have to go till the finishing line and how I can maintain the pace," he told The Tribune. Maintain the pace. For a national record holder and for a beginner in Anna Nagar alike, training starts with the same question: what pace, and why that one?
 
 Every coach eventually needs a simple table: "My athlete just ran this race. What paces should they train at?" Pace charts such as Jack Daniels' VDOT tables have helped a generation of runners answer that question. AKURA's charts serve the same practical purpose, but they are built from a transparent, openly stated model so that any coach can check the arithmetic, and they are designed to be adjusted by the environment and readiness layers described in earlier chapters.
 
 ### How the charts are calculated
 
-The charts start from one recent, honest race result, ideally a 5K run on a flat course in cool conditions. From that anchor, equivalent performances at other distances are estimated with Riegel's well-known endurance formula: predicted time = known time × (new distance ÷ known distance) raised to the power 1.06. The same relationship is used to estimate the pace an athlete could hold for a given duration, which gives the training paces.
+The charts start from one recent, honest race result, ideally a 5K run on a flat course in cool conditions. From that anchor, equivalent performances at other distances are estimated with Riegel's well-known endurance formula (Riegel PS, Athletic records and human endurance, American Scientist, 1981): predicted time = known time × (new distance ÷ known distance) raised to the power 1.06. The same relationship is used to estimate the pace an athlete could hold for a given duration, which gives the training paces.
 
 - **Threshold pace** is the estimated pace the athlete could race for about 60 minutes. It should feel controlled-hard.
 - **Power pace** is the estimated pace for an all-out effort of about 11 minutes, used for VO₂max-type intervals of 2–5 minutes.
@@ -97,7 +97,7 @@ Find the athlete's current 5K time in the first column. The other columns show w
 |38:00|1:19:14|2:54:48|6:04:28|
 |40:00|1:23:24|3:04:00|6:23:39|
 
-The marathon column assumes marathon-specific training: regular long runs and enough weekly volume. Runners on lower mileage, beginners and athletes racing in heat usually run slower than predicted, often by 5–10% or more. This gap is exactly what AKURA calls the durability gap, described in Chapter 36; the difference between an athlete's 5K prediction and actual marathon result is useful data, not a failure.
+The marathon column assumes marathon-specific training: regular long runs and enough weekly volume. Runners on lower mileage, beginners and athletes racing in heat usually run slower than predicted, often by 5–10% or more. This gap reflects the durability limits described in Chapter 36; the difference between an athlete's 5K prediction and actual marathon result is useful data, not a failure.
 
 ### Chart 2: AKURA training paces (min/km)
 
@@ -154,7 +154,7 @@ Marathon results slow progressively as environmental heat stress rises, and slow
 |Below 18|Use chart paces|Use chart paces|Use chart paces|
 |18–23|Run by heart rate; often 2–4% slower|Slow by about 2–4%, or shorten reps|Expect a small slowdown; drink to plan|
 |23–28|Run by heart rate; often 5–8% slower|Move to cooler hours, cut volume, slow by 5% or more|Reduce goals; heat-acclimated athletes only|
-|Above 28|Short, very easy, or move indoors|Postpone|Follow medical and event guidance; consider not racing|
+|Above 28|Move indoors or rest; outdoors only short, very easy and supervised|Postpone|Follow medical and event guidance; consider not racing|
 
 On a humid Chennai evening, a 5:30/km aerobic run might become 5:45–6:00/km at the same heart rate. That is not lost fitness; it is the price of thermoregulation. The AEI records the environment so that the slower pace is interpreted correctly.
 
@@ -178,7 +178,7 @@ CHECK: What heart-rate ceiling would you give your athletes for easy runs in May
 
 ## 87. The 24-Week Marathon Roadmap
 
-The record Sawan Barwal broke in Rotterdam was built on a calendar. According to The Bridge, his group in Reliance Foundation's Project 2:09, coached by Ajith Markose, spent about four months, from November to February, at Ooty and Wellington in the Nilgiris, then moved to Bengaluru for pre-competition work. "For Sawan, most of the time he was staying in high altitude," the report quoted. The Tribune described a load of about 200 kilometres a week, with 40–42 km long runs on alternate weeks. Those numbers belong to a professional athlete training full-time, and no club runner should copy them. What any runner can copy is the structure: a long base in one place, a sharper block in another, a deliberate sequence of phases, each with its own purpose, all pointing at a single race date circled months in advance.
+The record Sawan Barwal broke in Rotterdam was built on a calendar. According to The Bridge, his group in Reliance Foundation's Project 2:09, coached by Ajith Markose, normally spends about four months, from November to February, at Ooty and Wellington in the Nilgiris, then moves to Bengaluru for pre-competition work. "For Sawan, most of the time he was staying in high altitude," Markose told The Bridge. The Tribune described a load of about 200 kilometres a week, with 40–42 km long runs on alternate weeks. Those numbers belong to a professional athlete training full-time, and no club runner should copy them. What any runner can copy is the structure: a long base in one place, a sharper block in another, a deliberate sequence of phases, each with its own purpose, all pointing at a single race date circled months in advance.
 
 A marathon is built over months, not weeks. The AKURA marathon roadmap divides 24 weeks into five phases, each with a clear purpose, a key session type and a planned retest. The roadmap is a map, not a timetable: each phase ends only when the athlete has absorbed it, and the AEI trend decides whether to move on, repeat or reduce.
 

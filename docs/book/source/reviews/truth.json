@@ -1,0 +1,326 @@
+[
+ {
+  "file": "01_front_part1.md",
+  "lang": "en",
+  "old": "According to Markose, Sawan spent about four months, from November to February, living and training around Ooty and Wellington in the Nilgiris, then moved to Bengaluru for pre-competition work.",
+  "new": "According to Markose, the programme normally spends about four months, from November to February, around Ooty and Wellington in the Nilgiris, then moves to Bengaluru for pre-competition work, and Sawan spent most of his time at altitude.",
+  "category": "fact",
+  "severity": "medium",
+  "note": "The Bridge quotes Markose describing the programme's normal routine ('In our endurance program, we stay in Ooty, Wellington, normally for four months… from November to February') plus 'For Sawan, most of the time he was staying in high altitude… like Iten or Colorado Springs'; it does not say Sawan himself spent Nov–Feb in Ooty before Rotterdam, and HT reports he also trained in Colorado Springs. Present as reported programme routine. https://thebridge.in/athletics/ajith-markose-decode-sawan-barwal-48-year-old-record-breaking-run-56362 ; https://www.hindustantimes.com/sports/others/indias-marathon-man-how-a-joyride-hooked-sawan-barwal-101790395675648.html"
+ },
+ {
+  "file": "01_front_part1.md",
+  "lang": "en",
+  "old": "Sawan spent months in the Nilgiris, and Gopi credits",
+  "new": "Sawan's coach says he spent most of his time at altitude, and Gopi credits",
+  "category": "fact",
+  "severity": "medium",
+  "note": "The Bridge quotes Markose describing the programme's normal routine ('In our endurance program, we stay in Ooty, Wellington, normally for four months… from November to February') plus 'For Sawan, most of the time he was staying in high altitude… like Iten or Colorado Springs'; it does not say Sawan himself spent Nov–Feb in Ooty before Rotterdam, and HT reports he also trained in Colorado Springs. Present as reported programme routine. https://thebridge.in/athletics/ajith-markose-decode-sawan-barwal-48-year-old-record-breaking-run-56362 ; https://www.hindustantimes.com/sports/others/indias-marathon-man-how-a-joyride-hooked-sawan-barwal-101790395675648.html"
+ },
+ {
+  "file": "02_part2.md",
+  "lang": "en",
+  "old": "Between November and February, before his record run in Rotterdam, Sawan Barwal lived and trained in the Nilgiris, around Ooty and Wellington, for about four months. Only then did he come down to Bengaluru for his final preparation.",
+  "new": "Sawan Barwal's Project 2:09 group normally spends about four months, from November to February, in the Nilgiris around Ooty and Wellington, then comes down to Bengaluru for final preparation.",
+  "category": "fact",
+  "severity": "medium",
+  "note": "The Bridge quotes Markose describing the programme's normal routine ('In our endurance program, we stay in Ooty, Wellington, normally for four months… from November to February') plus 'For Sawan, most of the time he was staying in high altitude… like Iten or Colorado Springs'; it does not say Sawan himself spent Nov–Feb in Ooty before Rotterdam, and HT reports he also trained in Colorado Springs. Present as reported programme routine. https://thebridge.in/athletics/ajith-markose-decode-sawan-barwal-48-year-old-record-breaking-run-56362 ; https://www.hindustantimes.com/sports/others/indias-marathon-man-how-a-joyride-hooked-sawan-barwal-101790395675648.html"
+ },
+ {
+  "file": "03_part3_5.md",
+  "lang": "en",
+  "old": "spent about four months, from November to February, in Ooty and nearby Wellington, then moved down to Bengaluru for pre-competition work, according to The Bridge.",
+  "new": "trains in a Reliance Foundation programme that, according to The Bridge, normally spends about four months, from November to February, in Ooty and nearby Wellington, then moves down to Bengaluru for pre-competition work.",
+  "category": "fact",
+  "severity": "medium",
+  "note": "The Bridge quotes Markose describing the programme's normal routine ('In our endurance program, we stay in Ooty, Wellington, normally for four months… from November to February') plus 'For Sawan, most of the time he was staying in high altitude… like Iten or Colorado Springs'; it does not say Sawan himself spent Nov–Feb in Ooty before Rotterdam, and HT reports he also trained in Colorado Springs. Present as reported programme routine. https://thebridge.in/athletics/ajith-markose-decode-sawan-barwal-48-year-old-record-breaking-run-56362 ; https://www.hindustantimes.com/sports/others/indias-marathon-man-how-a-joyride-hooked-sawan-barwal-101790395675648.html"
+ },
+ {
+  "file": "03_part3_5.md",
+  "lang": "en",
+  "old": "In the winter before his marathon debut, Sawan Barwal, an Army runner from Mandi district in Himachal Pradesh, spent about four months, from November to February, in Ooty and nearby Wellington, according to The Bridge. Then he came down to Bengaluru for pre-competition work. \"For Sawan, most of the time he was staying in high altitude,\" the report said.",
+  "new": "Sawan Barwal, an Army runner from Mandi district in Himachal Pradesh, trains in a programme that, according to The Bridge, normally spends about four months, from November to February, in Ooty and nearby Wellington, then comes down to Bengaluru for pre-competition work. \"For Sawan, most of the time he was staying in high altitude,\" his coach Ajith Markose told The Bridge.",
+  "category": "attribution",
+  "severity": "medium",
+  "note": "The Bridge quotes Markose describing the programme's normal routine ('In our endurance program, we stay in Ooty, Wellington, normally for four months… from November to February') plus 'For Sawan, most of the time he was staying in high altitude… like Iten or Colorado Springs'; it does not say Sawan himself spent Nov–Feb in Ooty before Rotterdam, and HT reports he also trained in Colorado Springs. Present as reported programme routine. https://thebridge.in/athletics/ajith-markose-decode-sawan-barwal-48-year-old-record-breaking-run-56362 ; https://www.hindustantimes.com/sports/others/indias-marathon-man-how-a-joyride-hooked-sawan-barwal-101790395675648.html The quote is Markose's, not 'the report'."
+ },
+ {
+  "file": "03_part3_5.md",
+  "lang": "en",
+  "old": "Sawan Barwal, whose documented marathon preparation earlier that year included a Nilgiri winter, took silver",
+  "new": "Sawan Barwal, whose programme bases its winters in the Nilgiris and who also trained in Colorado Springs, took silver",
+  "category": "fact",
+  "severity": "medium",
+  "note": "The Bridge quotes Markose describing the programme's normal routine ('In our endurance program, we stay in Ooty, Wellington, normally for four months… from November to February') plus 'For Sawan, most of the time he was staying in high altitude… like Iten or Colorado Springs'; it does not say Sawan himself spent Nov–Feb in Ooty before Rotterdam, and HT reports he also trained in Colorado Springs. Present as reported programme routine. https://thebridge.in/athletics/ajith-markose-decode-sawan-barwal-48-year-old-record-breaking-run-56362 ; https://www.hindustantimes.com/sports/others/indias-marathon-man-how-a-joyride-hooked-sawan-barwal-101790395675648.html"
+ },
+ {
+  "file": "03_part3_5.md",
+  "lang": "en",
+  "old": "Sawan Barwal spent a winter in the Nilgiris, cool and high, before coming down to Bengaluru and flying to Rotterdam",
+  "new": "Sawan Barwal's programme winters in the Nilgiris, cool and high, before coming down to Bengaluru, and he flew to Rotterdam",
+  "category": "fact",
+  "severity": "medium",
+  "note": "The Bridge quotes Markose describing the programme's normal routine ('In our endurance program, we stay in Ooty, Wellington, normally for four months… from November to February') plus 'For Sawan, most of the time he was staying in high altitude… like Iten or Colorado Springs'; it does not say Sawan himself spent Nov–Feb in Ooty before Rotterdam, and HT reports he also trained in Colorado Springs. Present as reported programme routine. https://thebridge.in/athletics/ajith-markose-decode-sawan-barwal-48-year-old-record-breaking-run-56362 ; https://www.hindustantimes.com/sports/others/indias-marathon-man-how-a-joyride-hooked-sawan-barwal-101790395675648.html"
+ },
+ {
+  "file": "06_part10_11.md",
+  "lang": "en",
+  "old": "group spent about four months, from November to February, at altitude in Ooty and Wellington before moving to Bengaluru for pre-competition work.",
+  "new": "group normally spends about four months, from November to February, at altitude in Ooty and Wellington before moving to Bengaluru for pre-competition work.",
+  "category": "fact",
+  "severity": "medium",
+  "note": "The Bridge quotes Markose describing the programme's normal routine ('In our endurance program, we stay in Ooty, Wellington, normally for four months… from November to February') plus 'For Sawan, most of the time he was staying in high altitude… like Iten or Colorado Springs'; it does not say Sawan himself spent Nov–Feb in Ooty before Rotterdam, and HT reports he also trained in Colorado Springs. Present as reported programme routine. https://thebridge.in/athletics/ajith-markose-decode-sawan-barwal-48-year-old-record-breaking-run-56362 ; https://www.hindustantimes.com/sports/others/indias-marathon-man-how-a-joyride-hooked-sawan-barwal-101790395675648.html"
+ },
+ {
+  "file": "08_part14_16_back.md",
+  "lang": "en",
+  "old": "Sawan Barwal's group spent about four months at Ooty and Wellington before he broke the national marathon record in 2026.",
+  "new": "Sawan Barwal's Project 2:09 group normally spends about four winter months at Ooty and Wellington; he broke the national marathon record in 2026.",
+  "category": "fact",
+  "severity": "medium",
+  "note": "The Bridge quotes Markose describing the programme's normal routine ('In our endurance program, we stay in Ooty, Wellington, normally for four months… from November to February') plus 'For Sawan, most of the time he was staying in high altitude… like Iten or Colorado Springs'; it does not say Sawan himself spent Nov–Feb in Ooty before Rotterdam, and HT reports he also trained in Colorado Springs. Present as reported programme routine. https://thebridge.in/athletics/ajith-markose-decode-sawan-barwal-48-year-old-record-breaking-run-56362 ; https://www.hindustantimes.com/sports/others/indias-marathon-man-how-a-joyride-hooked-sawan-barwal-101790395675648.html"
+ },
+ {
+  "file": "09_part17_toolkit.md",
+  "lang": "en",
+  "old": "Sawan Barwal's group, according to The Bridge, followed a similar rhythm: about four months at Ooty and Wellington from November to February, then pre-competition work in Bengaluru.",
+  "new": "Sawan Barwal's group, according to The Bridge, normally follows a similar rhythm: about four months at Ooty and Wellington from November to February, then pre-competition work in Bengaluru.",
+  "category": "fact",
+  "severity": "medium",
+  "note": "The Bridge quotes Markose describing the programme's normal routine ('In our endurance program, we stay in Ooty, Wellington, normally for four months… from November to February') plus 'For Sawan, most of the time he was staying in high altitude… like Iten or Colorado Springs'; it does not say Sawan himself spent Nov–Feb in Ooty before Rotterdam, and HT reports he also trained in Colorado Springs. Present as reported programme routine. https://thebridge.in/athletics/ajith-markose-decode-sawan-barwal-48-year-old-record-breaking-run-56362 ; https://www.hindustantimes.com/sports/others/indias-marathon-man-how-a-joyride-hooked-sawan-barwal-101790395675648.html"
+ },
+ {
+  "file": "09_part17_toolkit.md",
+  "lang": "en",
+  "old": "coached by Ajith Markose, spent about four months, from November to February, at Ooty and Wellington in the Nilgiris, then moved to Bengaluru for pre-competition work. \"For Sawan, most of the time he was staying in high altitude,\" the report quoted.",
+  "new": "coached by Ajith Markose, normally spends about four months, from November to February, at Ooty and Wellington in the Nilgiris, then moves to Bengaluru for pre-competition work. \"For Sawan, most of the time he was staying in high altitude,\" Markose told The Bridge.",
+  "category": "attribution",
+  "severity": "medium",
+  "note": "The Bridge quotes Markose describing the programme's normal routine ('In our endurance program, we stay in Ooty, Wellington, normally for four months… from November to February') plus 'For Sawan, most of the time he was staying in high altitude… like Iten or Colorado Springs'; it does not say Sawan himself spent Nov–Feb in Ooty before Rotterdam, and HT reports he also trained in Colorado Springs. Present as reported programme routine. https://thebridge.in/athletics/ajith-markose-decode-sawan-barwal-48-year-old-record-breaking-run-56362 ; https://www.hindustantimes.com/sports/others/indias-marathon-man-how-a-joyride-hooked-sawan-barwal-101790395675648.html"
+ },
+ {
+  "file": "09b_part18_india.md",
+  "lang": "en",
+  "old": "and Sawan's Project 2:09 winters.",
+  "new": "and the winter base of Sawan's Project 2:09 group.",
+  "category": "fact",
+  "severity": "medium",
+  "note": "The Bridge quotes Markose describing the programme's normal routine ('In our endurance program, we stay in Ooty, Wellington, normally for four months… from November to February') plus 'For Sawan, most of the time he was staying in high altitude… like Iten or Colorado Springs'; it does not say Sawan himself spent Nov–Feb in Ooty before Rotterdam, and HT reports he also trained in Colorado Springs. Present as reported programme routine. https://thebridge.in/athletics/ajith-markose-decode-sawan-barwal-48-year-old-record-breaking-run-56362 ; https://www.hindustantimes.com/sports/others/indias-marathon-man-how-a-joyride-hooked-sawan-barwal-101790395675648.html"
+ },
+ {
+  "file": "09b_part18_india.md",
+  "lang": "en",
+  "old": "|Army; Ajith Markose; Ooty, Bengaluru|",
+  "new": "|Army; Markose, later Simmons; Ooty, Colorado Springs|",
+  "category": "fact",
+  "severity": "medium",
+  "note": "Indian Express (26 Sep 2026) says he raced Nagoya 'sticking to coach Scott Simmons' advice'; HT says he 'has been training in Colorado Springs, with Scott Simmons'. https://indianexpress.com/article/sports/sawan-barwal-india-marathon-silver-medal-history-asian-games-transformation-10894743/ ; https://www.hindustantimes.com/sports/others/indias-marathon-man-how-a-joyride-hooked-sawan-barwal-101790395675648.html"
+ },
+ {
+  "file": "01_front_part1.md",
+  "lang": "en",
+  "old": "His coach had said it plainly months earlier, speaking to The Bridge",
+  "new": "Ajith Markose, his Project 2:09 coach, had said it plainly months earlier, speaking to The Bridge",
+  "category": "attribution",
+  "severity": "low",
+  "note": "By Nagoya Sawan was reported to be following national coach Scott Simmons; name the speaker. https://indianexpress.com/article/sports/sawan-barwal-india-marathon-silver-medal-history-asian-games-transformation-10894743/"
+ },
+ {
+  "file": "06_part10_11.md",
+  "lang": "en",
+  "old": "Between 2022 and 2026 she set six national records.",
+  "new": "Between 2022 and 2026 she set seven national records.",
+  "category": "consistency",
+  "severity": "medium",
+  "note": "Count: 8:57.19 (3000 m), 15:10.35 and 15:04.26 (5000 m), 9:15.31, 9:13.39, 9:12.46, 9:08.67 (steeple) = 7, as listed in Ch. 92. https://www.olympics.com/en/news/athletics-list-of-indian-national-record-holders ; https://www.rediff.com/sports/report/asian-games-after-double-bronze-haul-parul-now-craves-family-time/20260928.htm"
+ },
+ {
+  "file": "08_part14_16_back.md",
+  "lang": "en",
+  "old": "six national records in five seasons",
+  "new": "seven national records in five seasons",
+  "category": "consistency",
+  "severity": "medium",
+  "note": "Seven NRs 2022–2026 (see Ch. 92 list). https://www.olympics.com/en/news/athletics-list-of-indian-national-record-holders"
+ },
+ {
+  "file": "05_part8_9.md",
+  "lang": "en",
+  "old": "and is reported to have won the Mumbai Marathon three years in a row before 2015",
+  "new": "and won the Indian women's title at the Mumbai Marathon three years in a row, from 2012 to 2014",
+  "category": "fact",
+  "severity": "medium",
+  "note": "She won the Indian elite women's category (hat-trick 2014, 2:50:31), not the overall race. https://timesofindia.indiatimes.com/sports/more-sports/athletics/babar-sets-new-course-record-completes-hat-trick-of-titles/articleshow/29055552.cms"
+ },
+ {
+  "file": "06_part10_11.md",
+  "lang": "en",
+  "old": "and she was reported to have won the Mumbai Marathon three years in a row before 2015",
+  "new": "and she won the Indian women's title at the Mumbai Marathon three years in a row, from 2012 to 2014",
+  "category": "fact",
+  "severity": "medium",
+  "note": "Indian elite women's category, not overall. https://timesofindia.indiatimes.com/sports/more-sports/athletics/babar-sets-new-course-record-completes-hat-trick-of-titles/articleshow/29055552.cms"
+ },
+ {
+  "file": "03_part3_5.md",
+  "lang": "en",
+  "old": "Fourth, just behind Parul, was Ankita Dhyani in 9:19.24",
+  "new": "Fourth, about ten seconds behind Parul, was Ankita Dhyani in 9:19.24",
+  "category": "consistency",
+  "severity": "medium",
+  "note": "9:19.24 vs 9:08.67 = 10.57 s; Ch. 92 says 'more than ten seconds behind'. https://www.deccanchronicle.com/sports/asian-games-2026-indias-parul-chaudhary-wins-bronze-in-womens-3000m-steeplechase-1991012"
+ },
+ {
+  "file": "03_part3_5.md",
+  "lang": "en",
+  "old": "Another, finishing just behind her, had grown up",
+  "new": "Another, finishing fourth, had grown up",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Ankita was 10.57 s behind Parul, not 'just behind'. https://www.deccanchronicle.com/sports/asian-games-2026-indias-parul-chaudhary-wins-bronze-in-womens-3000m-steeplechase-1991012"
+ },
+ {
+  "file": "03_part3_5.md",
+  "lang": "en",
+  "old": "The main exception is private: the Bhopal-based Elite Distance Running Programme, whose group",
+  "new": "The main exception is the Bhopal-based Elite Distance Running Programme, launched by SAI and Procam, whose group",
+  "category": "fact",
+  "severity": "medium",
+  "note": "EDRP was a SAI–Procam programme launched Dec 2014, not a purely private one. https://sportskeeda.com/athletics/sai-procam-international-elaborate-elite-distance-running-program-indian-athletes"
+ },
+ {
+  "file": "03_part3_5.md",
+  "lang": "en",
+  "old": "The previous mark, Kavita Raut's 1:12:50 from 2009, fell by two minutes and nineteen seconds.",
+  "new": "It was two minutes and nineteen seconds faster than Kavita Raut's 1:12:50 from 2009, the last earlier record that could be verified.",
+  "category": "fact",
+  "severity": "medium",
+  "note": "Dossier: marks between 2009 and 2017 UNVERIFIED, so 1:12:50 cannot be stated as the record Suriya broke. https://worldathletics.org/athletes/india/kavita-raut-14283028"
+ },
+ {
+  "file": "07_part12_13.md",
+  "lang": "en",
+  "old": "In 2009 she ran 1:12:50 for the half marathon, then a national record.",
+  "new": "In 2009 she ran 1:12:50 for the half marathon, reported as a national record at the time.",
+  "category": "fact",
+  "severity": "low",
+  "note": "NR status is Wikipedia-only per dossier. https://en.wikipedia.org/wiki/Kavita_Tungar"
+ },
+ {
+  "file": "03_part3_5.md",
+  "lang": "en",
+  "old": "Minutes later the bronze was gone:",
+  "new": "Soon afterwards the bronze was gone:",
+  "category": "fact",
+  "severity": "low",
+  "note": "Timing of the DQ is not documented; avoid invented detail. https://scroll.in/field/891979/asian-games-2018-athletics-g-lakshmanan-disqualified-after-finishing-third-in-10000-metres-final"
+ },
+ {
+  "file": "03_part3_5.md",
+  "lang": "en",
+  "old": "Rawat had already credited the camp for his Mumbai win, which set",
+  "new": "Rawat had already credited the camp for his Mumbai run, which set",
+  "category": "fact",
+  "severity": "low",
+  "note": "Rawat was first Indian, not the Mumbai Marathon winner (overall won by East Africans). https://sportskeeda.com/running/nitendra-rawat-credits-coach-success-mumbai-marathon"
+ },
+ {
+  "file": "09b_part18_india.md",
+  "lang": "en",
+  "old": "Rawat later credited that camp for his Mumbai run.",
+  "new": "Rawat had already credited the Ooty camp for his Mumbai run in January.",
+  "category": "fact",
+  "severity": "low",
+  "note": "Chronology: the quote (Jan 2016) came after Mumbai and before Rio, not 'later'. https://sportskeeda.com/running/nitendra-rawat-credits-coach-success-mumbai-marathon"
+ },
+ {
+  "file": "08_part14_16_back.md",
+  "lang": "en",
+  "old": "Rawat later credited it directly.",
+  "new": "Rawat had already credited the Ooty camp directly after Mumbai.",
+  "category": "fact",
+  "severity": "low",
+  "note": "Rawat's quote dates from Jan 2016 (Mumbai), before Rio. https://sportskeeda.com/running/nitendra-rawat-credits-coach-success-mumbai-marathon"
+ },
+ {
+  "file": "05_part8_9.md",
+  "lang": "en",
+  "old": "where her first coach was Vijender Singh",
+  "new": "where her coach was Vijender Singh",
+  "category": "fact",
+  "severity": "low",
+  "note": "Source names Vijender Singh as her Nashik coach; 'first' coach not documented. https://indianexpress.com/article/sports/sport-others/another-middle-distance-star-emerges-from-nashik-4739302/"
+ },
+ {
+  "file": "01_front_part1.md",
+  "lang": "en",
+  "old": "the target was more than three minutes faster than any Indian had ever run",
+  "new": "the target was three minutes faster than any Indian had ever run",
+  "category": "fact",
+  "severity": "low",
+  "note": "2:09:00 vs the then record 2:12:00 is exactly 3:00. https://www.olympics.com/en/news/sawan-barwal-breaks-marathon-national-record-india"
+ },
+ {
+  "file": "08_part14_16_back.md",
+  "lang": "en",
+  "old": "Two years before that, at the Rio Olympics,",
+  "new": "Eighteen months before that, at the Rio Olympics,",
+  "category": "fact",
+  "severity": "low",
+  "note": "Rio (Aug 2016) to Mumbai (Jan 2018) is about 17 months. https://scroll.in/field/865807/mumbai-marathon-on-the-road-to-redemption-nitendra-singh-rawat-puts-up-a-stellar-performance"
+ },
+ {
+  "file": "09_part17_toolkit.md",
+  "lang": "en",
+  "old": "the average pace moved by about five seconds per kilometre. Five seconds sounds like nothing; across 42 kilometres it is roughly three and a half minutes.",
+  "new": "the average pace moved by about four and a half seconds per kilometre. That sounds like nothing; across 42 kilometres it is about three minutes.",
+  "category": "science",
+  "severity": "low",
+  "note": "Rio 2:15:25 (3:12.6/km) vs Valencia 2:12:23 (3:08.2/km): 4.4 s/km, 3:02 total. https://shyamgopan.com/2025/12/11/gopi-23-secs-short-of-national-record-sets-new-pb-at-valencia-marathon/"
+ },
+ {
+  "file": "08_part14_16_back.md",
+  "lang": "en",
+  "old": "He finished 11th in the marathon at the 1976 Montreal Olympics, but",
+  "new": "He is reported to have finished 11th in the marathon at the 1976 Montreal Olympics, but",
+  "category": "fact",
+  "severity": "low",
+  "note": "11th place is Wikipedia/Facebook only (dossier). https://en.wikipedia.org/wiki/Shivnath_Singh"
+ },
+ {
+  "file": "07_part12_13.md",
+  "lang": "en",
+  "old": "On 28 May 1978, at the National Inter-State Championship in Jalandhar,",
+  "new": "In 1978 (on 28 May, according to record lists), at the National Inter-State Championship in Jalandhar,",
+  "category": "fact",
+  "severity": "low",
+  "note": "Exact date is Wikipedia-only per dossier. https://en.wikipedia.org/wiki/List_of_Indian_records_in_athletics"
+ },
+ {
+  "file": "08_part14_16_back.md",
+  "lang": "en",
+  "old": "with a new centre planned for Shillong and a Khelo India centre approved at Leh.",
+  "new": "with a new centre planned for Shillong; separately, SAI has approved a Khelo India centre at Leh.",
+  "category": "attribution",
+  "severity": "low",
+  "note": "Leh approval is from the Ladakh administration, not the HT report. https://ladakh.gov.in/sports-authority-of-india-sai-approves-establishment-of-khelo-india-state-centre-of-excellence-kisce-in-union-territory-of-ladakh/"
+ },
+ {
+  "file": "03_part3_5.md",
+  "lang": "en",
+  "old": "Surinder Singh Bhandari of the Army Sports Institute ran an altitude block",
+  "new": "Surendra Singh Bhandari of the Army Sports Institute ran an altitude block",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Every other chapter uses 'Surendra' (ESPN spelling; Surinder in IANS quote). https://www.espn.com/athletics/story/_/id/17475379/india-marathon-runner-olympics-thonackal-gopi-talks-espn-exclusive-interview"
+ },
+ {
+  "file": "06_part10_11.md",
+  "lang": "en",
+  "old": "the physiology of the women's marathon world-record holder illustrated",
+  "new": "the physiology of the then women's marathon world-record holder (Paula Radcliffe) illustrated",
+  "category": "fact",
+  "severity": "low",
+  "note": "Radcliffe's 2:15:25 is no longer the WR (Chepngetich 2:09:56, 2024). https://worldathletics.org/records/by-discipline/road-running/marathon/outdoor/women"
+ }
+]

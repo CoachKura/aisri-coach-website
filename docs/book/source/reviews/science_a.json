@@ -1,0 +1,83 @@
+[
+ {
+  "file": "03_part3_5.md",
+  "lang": "en",
+  "old": "Gore CJ, Sharpe K, Garvican-Hazeltine LA, et al.",
+  "new": "Gore CJ, Sharpe K, Garvican-Lewis LA, et al.",
+  "category": "attribution",
+  "severity": "medium",
+  "note": "Third author of the 2013 BJSM meta-analysis is listed as Garvican-Lewis LA (as in 02_part2 REFS). BJSM 2013;47:i31-i39, doi:10.1136/bjsports-2013-092840"
+ },
+ {
+  "file": "02_part2.md",
+  "lang": "en",
+  "old": "|Heat acclimation|Unchanged|Up|Down (apparent)|",
+  "new": "|Heat acclimation|Usually unchanged (short blocks)|Up|Down (apparent)|",
+  "category": "science",
+  "severity": "medium",
+  "note": "Longer heat training (5 wk, 5x/wk) has been reported to raise Hb mass in elite cyclists: Ronnestad et al. 2021 Exp Physiol 106:316-327 (https://physoc.onlinelibrary.wiley.com/doi/10.1113/EP088544); 'Unchanged' is too absolute"
+ },
+ {
+  "file": "03_part3_5.md",
+  "lang": "en",
+  "old": "It does not reliably reproduce the red-cell response that altitude can provoke, and it should not be sold as a free equivalent of a mountain camp.",
+  "new": "It does not reliably reproduce the red-cell response that altitude can provoke (a few studies of five or more weeks of heat training in elite cyclists have reported small haemoglobin-mass increases, but this is not yet established), and it should not be sold as a free equivalent of a mountain camp.",
+  "category": "science",
+  "severity": "medium",
+  "note": "Balance: Ronnestad et al. 2021 Exp Physiol 106:316-327 and Ronnestad et al. 2022 (PubMed 35394464) report Hb-mass gains after 5 wk heat training; the chapter should acknowledge this emerging evidence"
+ },
+ {
+  "file": "03_part3_5.md",
+  "lang": "en",
+  "old": "with one analysis reporting a rate ratio of 1.22 per unit for severe cases",
+  "new": "with one analysis reporting that each 1 °C rise in heat index was associated with a 22% higher rate of severe casualties",
+  "category": "science",
+  "severity": "low",
+  "note": "'per unit' is undefined; the source states the unit is 1 °C of heat index (PPR x1.22 for severely injured). https://pmc.ncbi.nlm.nih.gov/articles/PMC12428376/"
+ },
+ {
+  "file": "03_part3_5.md",
+  "lang": "en",
+  "old": "Persistent or worsening headache, breathlessness at rest, confusion or unsteadiness warrant stopping training and seeking medical assessment.",
+  "new": "Persistent or worsening headache, breathlessness at rest, confusion or unsteadiness warrant stopping training, descending if symptoms are severe, and seeking medical assessment.",
+  "category": "science",
+  "severity": "low",
+  "note": "Safety: descent is the core first-line response to worsening altitude illness (Wilderness Medical Society altitude illness guidelines, Luks et al. 2019 Wilderness Environ Med)"
+ },
+ {
+  "file": "03_part3_5.md",
+  "lang": "en",
+  "old": "Surinder Singh Bhandari of the Army Sports Institute",
+  "new": "Surendra Singh Bhandari of the Army Sports Institute",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Spelled 'Surendra Singh Bhandari' in 04_part6_7 (ch.36) and five other chapters; the 'Surinder' in the Rawat quote may stay as quoted"
+ },
+ {
+  "file": "01_front_part1.md",
+  "lang": "en",
+  "old": "emphasised that a change smaller than a test's typical error should not be interpreted as a real adaptation",
+  "new": "emphasised that a change that is not clearly larger than a test's typical error should not be interpreted as a real adaptation",
+  "category": "science",
+  "severity": "low",
+  "note": "Hopkins 2000 (Sports Med 30:1-15): individual changes need to exceed the typical error by a margin (~1.5-2x) before being treated as real; 'smaller than' sets the bar too low"
+ },
+ {
+  "file": "04_part6_7.md",
+  "lang": "en",
+  "old": "and by Andrew Jones and colleagues in studies of runners at sub-two-hour marathon pace, has highlighted durability or physiological resilience",
+  "new": null,
+  "category": "attribution",
+  "severity": "low",
+  "note": "Jones et al. 2021 JAP (listed in REFS) measured the physiological demands of 2-h marathon pace; the explicit 'physiological resilience' framing comes from Jones AM 2024, J Physiol 602:4113 ('The fourth dimension'). Consider rewording or citing that paper"
+ },
+ {
+  "file": "02_part2.md",
+  "lang": "en",
+  "old": "Burke LM, Hawley JA, Wong SH, Jeukendrup AE. 2011.",
+  "new": "Burke LM, Hawley JA, Wong SHS, Jeukendrup AE. 2011.",
+  "category": "attribution",
+  "severity": "low",
+  "note": "Author initials per J Sports Sci 2011;29 Suppl 1:S17-27 are Wong SHS"
+ }
+]

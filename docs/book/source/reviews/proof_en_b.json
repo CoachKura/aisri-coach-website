@@ -1,0 +1,506 @@
+[
+ {
+  "file": "05_part8_9.md",
+  "lang": "en",
+  "old": "in what was reported as acrimonious circumstances",
+  "new": "in circumstances that were reported as acrimonious",
+  "category": "grammar",
+  "severity": "low",
+  "note": "Awkward 'in what was reported as ... circumstances' (number agreement); smoother phrasing."
+ },
+ {
+  "file": "05_part8_9.md",
+  "lang": "en",
+  "old": "|Below 18°C|",
+  "new": "|Below 18 °C|",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Degree style: rest of book uses a space before °C (e.g. '50 °C', '30 °C'); unify."
+ },
+ {
+  "file": "05_part8_9.md",
+  "lang": "en",
+  "old": "|18–23°C|",
+  "new": "|18–23 °C|",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Degree style: rest of book uses a space before °C (e.g. '50 °C', '30 °C'); unify."
+ },
+ {
+  "file": "05_part8_9.md",
+  "lang": "en",
+  "old": "|23–28°C|",
+  "new": "|23–28 °C|",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Degree style: rest of book uses a space before °C (e.g. '50 °C', '30 °C'); unify."
+ },
+ {
+  "file": "05_part8_9.md",
+  "lang": "en",
+  "old": "|Above 28°C|",
+  "new": "|Above 28 °C|",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Degree style: rest of book uses a space before °C (e.g. '50 °C', '30 °C'); unify."
+ },
+ {
+  "file": "05_part8_9.md",
+  "lang": "en",
+  "old": "at 20°C and at 34°C",
+  "new": "at 20 °C and at 34 °C",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Degree style: rest of book uses a space before °C (e.g. '50 °C', '30 °C'); unify."
+ },
+ {
+  "file": "05_part8_9.md",
+  "lang": "en",
+  "old": "comfortably at 32°C",
+  "new": "comfortably at 32 °C",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Degree style: rest of book uses a space before °C (e.g. '50 °C', '30 °C'); unify."
+ },
+ {
+  "file": "06_part10_11.md",
+  "lang": "en",
+  "old": "runs in 34°C humidity",
+  "new": "runs in 34 °C humidity",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Degree style: rest of book uses a space before °C (e.g. '50 °C', '30 °C'); unify."
+ },
+ {
+  "file": "06_part10_11.md",
+  "lang": "en",
+  "old": "Start 5:30 am, 27°C",
+  "new": "Start 5:30 a.m., 27 °C",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Book style is 'a.m.' (e.g. '5:30 a.m.' in the same chapter) and '27 °C' with a space."
+ },
+ {
+  "file": "06_part10_11.md",
+  "lang": "en",
+  "old": "HR at 10 km/h, 32°C",
+  "new": "HR at 10 km/h, 32 °C",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Degree style: rest of book uses a space before °C (e.g. '50 °C', '30 °C'); unify."
+ },
+ {
+  "file": "06_part10_11.md",
+  "lang": "en",
+  "old": "Feel (RPE 1–10)",
+  "new": "Feel (RPE 0–10)",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Same chapter set (Ch 56) defines session RPE on a 0–10 scale; align the domain table's RPE scale."
+ },
+ {
+  "file": "06_part10_11.md",
+  "lang": "en",
+  "old": "improved 5-km time",
+  "new": "improved 5 km time",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Book elsewhere writes '5 km' (unhyphenated) or '5K'; '5-km' only here (the REF title keeps its own form)."
+ },
+ {
+  "file": "06_part10_11.md",
+  "lang": "en",
+  "old": "Eight months later she won bronze",
+  "new": "Eight months after her full-time switch, Lalita won bronze",
+  "category": "grammar",
+  "severity": "medium",
+  "note": "Broken reference: the preceding paragraph is about O. P. Jaisha and Sudha Singh, so 'Eight months later she' now seems to refer to Jaisha and to a 2010 date. Re-anchor to Lalita's 2014 switch."
+ },
+ {
+  "file": "06_part10_11.md",
+  "lang": "en",
+  "old": "directs attention toward durability",
+  "new": "directs attention towards durability",
+  "category": "spelling",
+  "severity": "low",
+  "note": "British usage elsewhere in the book is 'towards' (8 instances); only two 'toward'."
+ },
+ {
+  "file": "06_part10_11.md",
+  "lang": "en",
+  "old": "shift back toward threshold",
+  "new": "shift back towards threshold",
+  "category": "spelling",
+  "severity": "low",
+  "note": "British usage elsewhere in the book is 'towards'."
+ },
+ {
+  "file": "06_part10_11.md",
+  "lang": "en",
+  "old": "well-being changes",
+  "new": "wellbeing changes",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Book uses 'wellbeing' (7 instances in Parts III, VI, XVII); 'well-being' only in Ch 63."
+ },
+ {
+  "file": "06_part10_11.md",
+  "lang": "en",
+  "old": "one-line well-being score",
+  "new": "one-line wellbeing score",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Book uses 'wellbeing' elsewhere."
+ },
+ {
+  "file": "06_part10_11.md",
+  "lang": "en",
+  "old": "Between 2022 and 2026 she set six national records.",
+  "new": "Between 2022 and 2026 she set seven national records.",
+  "category": "consistency",
+  "severity": "medium",
+  "note": "Count conflicts with Ch 92 (09b) and Ch 63 story: 3000 m 8:57.19 (2022); 5000 m 15:10.35 (2023), 15:04.26 (2026); steeple 9:15.31 (2023), 9:13.39, 9:12.46 (2025), 9:08.67 (2026) = seven. Fact team to confirm; otherwise align all three places."
+ },
+ {
+  "file": "08_part14_16_back.md",
+  "lang": "en",
+  "old": "six national records in five seasons",
+  "new": "seven national records in five seasons",
+  "category": "consistency",
+  "severity": "medium",
+  "note": "Same count issue as Ch 10 story: Ch 92 lists seven records (1×3000 m, 2×5000 m, 4×steeple) 2022–2026."
+ },
+ {
+  "file": "07_part12_13.md",
+  "lang": "en",
+  "old": "Sports data is like a crowd",
+  "new": "Sports data are like a crowd",
+  "category": "grammar",
+  "severity": "low",
+  "note": "Book treats 'data' as plural throughout ('data are', 'data exist'); keep consistent."
+ },
+ {
+  "file": "07_part12_13.md",
+  "lang": "en",
+  "old": "Automatic data is wonderful. It is not automatically true.",
+  "new": "Automatic data are wonderful. They are not automatically true.",
+  "category": "grammar",
+  "severity": "low",
+  "note": "Book treats 'data' as plural elsewhere."
+ },
+ {
+  "file": "07_part12_13.md",
+  "lang": "en",
+  "old": "how recent and complete was the underlying data?",
+  "new": "how recent and complete were the underlying data?",
+  "category": "grammar",
+  "severity": "low",
+  "note": "Plural 'data' consistent with rest of book."
+ },
+ {
+  "file": "08_part14_16_back.md",
+  "lang": "en",
+  "old": "data scatters across watches",
+  "new": "data scatter across watches",
+  "category": "grammar",
+  "severity": "low",
+  "note": "Plural 'data' consistent with rest of book."
+ },
+ {
+  "file": "07_part12_13.md",
+  "lang": "en",
+  "old": "QUOTE: Kavita Raut, Monica Atre…",
+  "new": "QUOTE: Kavita Raut, Monica Atre [Monika Athare]…",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Athlete name: quote keeps the source spelling 'Monica Atre', but the text everywhere spells her 'Monika Athare'; a bracketed editorial gloss avoids reader confusion without altering the quote."
+ },
+ {
+  "file": "08_part14_16_back.md",
+  "lang": "en",
+  "old": "\"Kavita Raut, Monica Atre…",
+  "new": "\"Kavita Raut, Monica Atre [Monika Athare]…",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Same quote as Ch 13 story; source spelling differs from the book's 'Monika Athare'."
+ },
+ {
+  "file": "07_part12_13.md",
+  "lang": "en",
+  "old": "The athlete’s body is the laboratory",
+  "new": "The athlete's body is the laboratory",
+  "category": "format",
+  "severity": "low",
+  "note": "Only curly apostrophe in these files; book text uses straight apostrophes."
+ },
+ {
+  "file": "08_part14_16_back.md",
+  "lang": "en",
+  "old": "PARTINTRO: Ideas become knowledge only when they are tested in a way that another coach could repeat. This part converts",
+  "new": "PARTINTRO: Ideas become knowledge only when they are tested in a way that another coach could repeat. This Part converts",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Other PARTINTROs capitalise 'Part' ('This Part moves', 'Part XII moves')."
+ },
+ {
+  "file": "08_part14_16_back.md",
+  "lang": "en",
+  "old": "This part turns AEI from a set of ideas",
+  "new": "This Part turns AEI from a set of ideas",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Capitalise 'Part' as in other part intros."
+ },
+ {
+  "file": "08_part14_16_back.md",
+  "lang": "en",
+  "old": "PARTINTRO: The final part steps back",
+  "new": "PARTINTRO: This Part steps back",
+  "category": "consistency",
+  "severity": "medium",
+  "note": "Part XVI is not the final part: Parts XVII (Toolkit) and XVIII (India's Elite Runners) follow."
+ },
+ {
+  "file": "08_part14_16_back.md",
+  "lang": "en",
+  "old": "That is where this final part of the book begins",
+  "new": "That is where this Part of the book begins",
+  "category": "consistency",
+  "severity": "medium",
+  "note": "Part XVI is not the final part (XVII and XVIII follow)."
+ },
+ {
+  "file": "09_part17_toolkit.md",
+  "lang": "en",
+  "old": "PARTINTRO: This final Part turns",
+  "new": "PARTINTRO: This Part turns",
+  "category": "consistency",
+  "severity": "medium",
+  "note": "Part XVII is not the final part: Part XVIII (India's Elite Runners) follows."
+ },
+ {
+  "file": "09_part17_toolkit.md",
+  "lang": "en",
+  "old": "how this final Part of the book thinks too",
+  "new": "how this Part of the book thinks too",
+  "category": "consistency",
+  "severity": "medium",
+  "note": "Part XVIII follows Part XVII."
+ },
+ {
+  "file": "08_part14_16_back.md",
+  "lang": "en",
+  "old": "trained with the national camp in Bangalore",
+  "new": "trained with the national camp in Bengaluru",
+  "category": "consistency",
+  "severity": "low",
+  "note": "City is 'Bengaluru' everywhere else in the book (23 instances)."
+ },
+ {
+  "file": "08_part14_16_back.md",
+  "lang": "en",
+  "old": "training with the national camp in Bangalore",
+  "new": "training with the national camp in Bengaluru",
+  "category": "consistency",
+  "severity": "low",
+  "note": "City is 'Bengaluru' everywhere else in the book."
+ },
+ {
+  "file": "08_part14_16_back.md",
+  "lang": "en",
+  "old": "Two years before that, at the Rio Olympics",
+  "new": "Eighteen months before that, at the Rio Olympics",
+  "category": "consistency",
+  "severity": "medium",
+  "note": "Rio marathon was August 2016; Mumbai race was January 2018 — about 17–18 months, not two years."
+ },
+ {
+  "file": "08_part14_16_back.md",
+  "lang": "en",
+  "old": "2,240 metres above the sea",
+  "new": "2,240 metres above sea level",
+  "category": "grammar",
+  "severity": "low",
+  "note": "Idiom is 'above sea level' (used elsewhere in the book)."
+ },
+ {
+  "file": "08_part14_16_back.md",
+  "lang": "en",
+  "old": "from volleyball and ball badminton",
+  "new": "from volleyball and ball-badminton",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Ch 45 writes 'ball-badminton'; unify."
+ },
+ {
+  "file": "08_part14_16_back.md",
+  "lang": "en",
+  "old": "Exertional heatstroke is a medical emergency",
+  "new": "Exertional heat stroke is a medical emergency",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Book writes 'heat stroke' (Parts III and IX, 6 instances); 'heatstroke' only here."
+ },
+ {
+  "file": "08_part14_16_back.md",
+  "lang": "en",
+  "old": "described his racing to the Tribune with an answer with no myth in it at all",
+  "new": "described his racing to The Tribune in words with no myth in them at all",
+  "category": "grammar",
+  "severity": "low",
+  "note": "Clumsy repeated 'with ... with'; newspaper name is 'The Tribune' elsewhere in the book."
+ },
+ {
+  "file": "08_part14_16_back.md",
+  "lang": "en",
+  "old": "talking to the Indian Express",
+  "new": "talking to The Indian Express",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Newspaper is styled 'The Indian Express' elsewhere (Chs STORY VIII, 10, 13)."
+ },
+ {
+  "file": "08_part14_16_back.md",
+  "lang": "en",
+  "old": "Parul Chaudhary told the Indian Express years later",
+  "new": "Parul Chaudhary told The Indian Express years later",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Newspaper styled 'The Indian Express' elsewhere."
+ },
+ {
+  "file": "09_part17_toolkit.md",
+  "lang": "en",
+  "old": "he told the Tribune. Maintain the pace.",
+  "new": "he told The Tribune. Maintain the pace.",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Newspaper styled 'The Tribune' elsewhere (Chs 56, 13 story, 87)."
+ },
+ {
+  "file": "09_part17_toolkit.md",
+  "lang": "en",
+  "old": "For a national record-holder and",
+  "new": "For a national record holder and",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Book writes 'record holder' unhyphenated in running text (10 instances)."
+ },
+ {
+  "file": "08_part14_16_back.md",
+  "lang": "en",
+  "old": "before 6.30 a.m.",
+  "new": "before 6:30 a.m.",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Times are written with a colon elsewhere (5:10 a.m., 5:40 a.m.)."
+ },
+ {
+  "file": "08_part14_16_back.md",
+  "lang": "en",
+  "old": "one second behind his team-mate",
+  "new": "one second behind his teammate",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Book mixes 'team-mate' (4) and 'teammate' (4); 'teammate' used in Parts II, VI, VIII, XII. Unify."
+ },
+ {
+  "file": "08_part14_16_back.md",
+  "lang": "en",
+  "old": "Gopi and his Army team-mate Kheta Ram",
+  "new": "Gopi and his Army teammate Kheta Ram",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Unify with 'teammate'."
+ },
+ {
+  "file": "08_part14_16_back.md",
+  "lang": "en",
+  "old": "her team-mate Kavita Raut",
+  "new": "her teammate Kavita Raut",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Unify with 'teammate'."
+ },
+ {
+  "file": "09_part17_toolkit.md",
+  "lang": "en",
+  "old": "his Army team-mate Kheta Ram",
+  "new": "his Army teammate Kheta Ram",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Unify with 'teammate'."
+ },
+ {
+  "file": "09_part17_toolkit.md",
+  "lang": "en",
+  "old": "This gap is exactly what AKURA calls the durability gap, described in Chapter 36;",
+  "new": "This gap reflects the durability limits described in Chapter 36;",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Chapter 36 ('The Last 10K') discusses durability and distance-specific expression but never names a 'durability gap'; the term appears only here."
+ },
+ {
+  "file": "09_part17_toolkit.md",
+  "lang": "en",
+  "old": "knocking on the door of a 48-year-old record",
+  "new": "knocking on the door of a record nearly 48 years old",
+  "category": "consistency",
+  "severity": "low",
+  "note": "In December 2025 Shivnath Singh's May 1978 record was 47½ years old; it is called 48 years only when broken in 2026."
+ },
+ {
+  "file": "09b_part18_india.md",
+  "lang": "en",
+  "old": "Sable also trained at St Moritz before the Paris Olympics.",
+  "new": "Sable also trained at St Moritz before the 2023 World Championships in Budapest.",
+  "category": "consistency",
+  "severity": "medium",
+  "note": "Chs 10-story and 71 (and the HT source) place the Colorado Springs/St Moritz block before Budapest 2023, not Paris 2024. Fact team to confirm if both occurred."
+ },
+ {
+  "file": "09b_part18_india.md",
+  "lang": "en",
+  "old": "FIG: f36_pathways.png | Pathways of the 28 Indian elite distance runners named in the tables of Chapters 90 to 92",
+  "new": null,
+  "category": "consistency",
+  "severity": "medium",
+  "note": "Count/scope mismatch: text above says the athletes counted are those profiled in Chapters 91 and 92 (12 men + 12 women = 24); the union of names in the Ch 90–92 tables appears to be 29 (adds Kartik Kumar, Sanjivani Jadhav, Monika Athare, Jyoti Gawate, Priti Lamba). Check the figure's data and align the caption and the Ch 90 sentence."
+ },
+ {
+  "file": "09b_part18_india.md",
+  "lang": "en",
+  "old": "using the protocols set out in Parts III and IV, rather than left to chance",
+  "new": "using the protocols set out in Part III and Chapter 74, rather than left to chance",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Sentence is about heat acclimation; Part IV is Altitude. Heat protocols are in Part III (Ch 20) and Ch 74."
+ },
+ {
+  "file": "08_part14_16_back.md",
+  "lang": "en",
+  "old": "It is 5:10 a.m. on Marina Beach, and the air already feels like a wet towel.",
+  "new": "It is just after five in the morning on Marina Beach, and the air is already heavy and damp.",
+  "category": "style",
+  "severity": "low",
+  "note": "Repeated opening: Ch 52 opens 'It is 5:10 a.m. on Marina Beach' and Ch 59 uses 'the air already feels like a wet towel'; Ch 74 repeats both verbatim."
+ },
+ {
+  "file": "07_part12_13.md",
+  "lang": "en",
+  "old": "She was reportedly nicknamed the \"Savarpada Express\".",
+  "new": null,
+  "category": "consistency",
+  "severity": "low",
+  "note": "Nickname spelled 'Savarpada' while her village is spelled 'Sawarpada' in the preceding sentence; keep if the nickname is quoted as reported, otherwise unify the transliteration."
+ },
+ {
+  "file": "10_backmatter.md",
+  "lang": "en",
+  "old": "AEI = f(Performance, Economy, Threshold, Oxygen Transport, Cardiovascular Response, Durability, Recovery, Environment)",
+  "new": null,
+  "category": "consistency",
+  "severity": "low",
+  "note": "Example formula omits the Aerobic domain (AEI-A) listed in the domain table above (Heat and Altitude presumably fold into 'Environment'). Consider adding 'Aerobic' or noting the grouping."
+ }
+]

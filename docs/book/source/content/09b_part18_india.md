@@ -42,7 +42,7 @@ Desert, hill, backwater, paddy field. Four corners of the country, one uniform.
 
 ### Three soldiers in Rio
 
-In August 2016, all three of India's men in the Olympic marathon were Army runners: Gopi, Kheta Ram and Rawat. All three had qualified at the Mumbai Marathon that January. Before the Games they had trained at altitude in Ooty under Surendra Singh Bhandari, an Army Sports Institute coach. Rawat later credited that camp for his Mumbai run.
+In August 2016, all three of India's men in the Olympic marathon were Army runners: Gopi, Kheta Ram and Rawat. All three had qualified at the Mumbai Marathon that January. Before the Games they had trained at altitude in Ooty under Surendra Singh Bhandari, an Army Sports Institute coach. Rawat had already credited the Ooty camp for his Mumbai run in January.
 
 QUOTE: I was personally confident after the training we had been put through in the national camp at Ooty by our coach (Surinder Singh) Bhandari. — Nitendra Singh Rawat (Sportskeeda, 2016)
 
@@ -58,7 +58,7 @@ Sudha Singh, born in Raebareli, Uttar Pradesh, in 1986, worked for Central Railw
 
 QUOTE: Madhu Shivdutt, my railway officer introduced me to Steeplechase. — Sudha Singh (Mumbai Live)
 
-She won the first women's steeplechase ever held at the Asian Games, in 2010. Lalita Babar, a farmer's daughter from Satara, ran for the Railways and reached the Rio Olympic final. Preeja Sreedharan, from Idukki in Kerala, whose father, a manual labourer, died when she was eight, became a superintendent with Southern Railway and set a 10,000 m national record in 2010 that still stands. Parul Chaudhary took a Western Railway ticket-examiner job in 2015, before the national records and Asian Games medals, and joined the Uttar Pradesh Police as a Deputy Superintendent in 2024. Sunita Rani, the 2002 Asian Games 1500 m champion, joined the Punjab Police through the sports quota.
+She won the first women's steeplechase ever held at the Asian Games, in 2010. Lalita Babar, a farmer's daughter from Satara, ran for the Railways and reached the Rio Olympic final. Preeja Sreedharan, from Idukki in Kerala, whose father, a manual labourer, reportedly died when she was eight, became a superintendent with Southern Railway and set a 10,000 m national record in 2010 that still stands. Parul Chaudhary took a Western Railway ticket-examiner job in 2015, before the national records and Asian Games medals, and joined the Uttar Pradesh Police as a Deputy Superintendent in 2024. Sunita Rani, the 2002 Asian Games 1500 m champion, joined the Punjab Police through the sports quota.
 
 For these women, the job was the professional contract. It paid the rent, released them to national camps and gave their families a reason to let them keep running.
 
@@ -112,7 +112,7 @@ KEY: For Indian men, the Army is not one pathway among many; it is the main path
 
 ### Where the women come from
 
-The women's map looks different. No woman profiled here came through the Army. Their equivalent is the Railways, which employed Sudha Singh, Lalita Babar, Preeja Sreedharan and Parul Chaudhary, and the police, which employed Sunita Rani and now Parul. A job is, in effect, the professional contract. Jyoti Gawate, a marathoner from Parbhani who never obtained a job and lived on prize money without national-camp access, shows what happens without one.
+The women's map looks different. No woman profiled here came through the Army. Their equivalent is the Railways, which employed Sudha Singh, Lalita Babar, Preeja Sreedharan and Parul Chaudhary, and the police, which employed Sunita Rani and now Parul. A job is, in effect, the professional contract. Jyoti Gawate, a marathoner from Parbhani who, according to 2019 reports, had no job and lived on prize money without national-camp access, shows what happens without one.
 
 Regional clusters matter more for women than for men. Vijender Singh, a SAI coach based in Nashik since 1991, has worked with Kavita Raut, Sanjivani Jadhav and Monika Athare, among others. Satara (Lalita Babar), Beed (Sable) and Buldhana (Poonam Sonune) make rural Maharashtra the densest single region on the women's and men's maps combined.
 
@@ -153,7 +153,7 @@ This chapter profiles India's leading men from 1500 m to the marathon, past and 
 |Avinash Sable|Steeplechase|8:09.91 (2024)|Army, Amrish Kumar; Simmons from 2022|10 NRs; Paris 2024 finalist|
 |Gulveer Singh|5000 / 10,000 m|12:59.77 sh. tr. (2025); 27:00.22 (2025)|Army; Colorado Springs, Simmons|NRs 3000–10,000 m; 59:42 half|
 |G. Lakshmanan|5000 / 10,000 m|13:35.69 (2017, reported)|Army; S. Loganathan, Surender Singh|Asian Champs double gold 2017|
-|Sawan Barwal|Marathon|2:11:37 (2026)|Army; Ajith Markose; Ooty, Bengaluru|NR; Asian Games silver 2026|
+|Sawan Barwal|Marathon|2:11:37 (2026)|Army; Markose, later Simmons; Ooty, Colorado Springs|NR; Asian Games silver 2026|
 |Thonakal Gopi|Marathon|2:12:23 (2025)|Army; Bhandari; Ooty, Bengaluru|Asian Marathon champion 2017|
 |Man Singh|Marathon|2:13:25 (2025)|Army; coach unverified|Asian Marathon champion 2024|
 |Kheta Ram|Marathon|2:15:26 (2016)|Army; Bhandari, Ooty|Rio 2016, 26th|
@@ -171,7 +171,7 @@ KEY: Indian male distance runners often reach elite level late, after enlisting 
 
 ### Pattern 3: the Colorado and Ooty effect
 
-Two altitude hubs dominate the recent men's story. Domestically, the Nilgiris hosted the Rio 2016 marathon group under Surendra Singh Bhandari, Gopi before his 2025 Valencia run, and Sawan's Project 2:09 winters. Internationally, Colorado Springs under the American coach Scott Simmons became the distance hub from 2019, used by Jinson, Sable from 2022 and Gulveer from 2024. Sable also trained at St Moritz before the Paris Olympics.
+Two altitude hubs dominate the recent men's story. Domestically, the Nilgiris hosted the Rio 2016 marathon group under Surendra Singh Bhandari, Gopi before his 2025 Valencia run, and the winter base of Sawan's Project 2:09 group. Internationally, Colorado Springs under the American coach Scott Simmons became the distance hub from 2019, used by Jinson, Sable from 2022 and Gulveer from 2024. Sable also trained at St Moritz before the 2023 World Championships in Budapest.
 
 The timing is striking. The steeplechase record, 1981 to 2018; the 5000 m record, 1992 to 2022; the 10,000 m record, 2008 to 2024; the marathon record, 1978 to 2026. All fell in the era of foreign coaching, planned altitude blocks and racing abroad. Correlation is not proof, and the same era also brought better shoes, better pacing and TOPS funding. But the pattern is consistent across events.
 
@@ -426,9 +426,9 @@ The only peer-reviewed aerobic capacity figure we found for Indian distance runn
 
 ### Oxygen transport and the women's question
 
-The Oxygen domain raises the most urgent public-health signal. A venous-blood survey across eight Indian states found anaemia in 44% of adolescent girls and 41% of adult women. A 2025 study of 104 Tamil Nadu female athletes, not runners, found about 53.8% were anaemic. If even part of this burden reaches young female distance runners, it could help explain why the women's long events lag further behind world level than the men's. This is a hypothesis, but an easily testable one.
+The Oxygen domain raises the most urgent public-health signal. A venous-blood survey across eight Indian states found anaemia in 44% of adolescent girls and 41% of adult women, although iron deficiency explained less than a third of it. A 2025 study of 104 Tamil Nadu female athletes, not runners, found about 53.8% were anaemic. If even part of this burden reaches young female distance runners, it could help explain why the women's long events lag further behind world level than the men's. This is a hypothesis, but an easily testable one.
 
-COACH: For every female distance runner you coach, ask for haemoglobin and ferritin at least twice a year, and before and after any altitude block. It is cheap, it is available in almost every town, and an untreated iron deficiency can undo months of good training.
+COACH: For every female distance runner you coach, ask a doctor to arrange haemoglobin and ferritin testing at least twice a year and before and after any altitude block, and let the clinician interpret the results. It is cheap, it is available in almost every town, and an untreated iron deficiency can undo months of good training.
 
 ### Heat and altitude
 
@@ -470,7 +470,7 @@ KEY: India does not need a new pathway so much as better links between the ones 
 
 ### 2. Use heat and altitude deliberately
 
-India has a rare combination: some of the world's hottest training conditions and genuine high-altitude venues at Ooty (2,240 m) and Shilaroo (about 2,450 m), with Shillong planned. The roadmap should treat both as planned tools. Altitude blocks should be timed to competitions and monitored with haemoglobin and, where possible, haemoglobin mass. Heat acclimation should be scheduled before hot championships, using the protocols set out in Parts III and IV, rather than left to chance.
+India has a rare combination: some of the world's hottest training conditions and genuine high-altitude venues at Ooty (2,240 m) and Shilaroo (about 2,450 m), with Shillong planned. The roadmap should treat both as planned tools. Altitude blocks should be timed to competitions and monitored with haemoglobin and, where possible, haemoglobin mass. Heat acclimation should be scheduled before hot championships, using the protocols set out in Part III and Chapter 74, rather than left to chance.
 
 COACH: Write the season plan with two extra lines: where the athlete will sleep at altitude, for how long and when; and when the heat-acclimation block will start before a warm-weather race. If neither is planned, the environment is coaching the athlete instead of you.
 
@@ -532,8 +532,8 @@ REFS:
 - USADA. Kartik Kumar accepts doping sanction. 2025. https://www.usada.org/sanction/kartik-kumar-accepts-doping-sanction/
 - Scroll.in. Sanjivani Jadhav handed two-year suspension for doping violation. 2019. https://scroll.in/field/931143/athletics-long-distance-runner-sanjivani-jadhav-handed-two-year-suspension-for-doping-violation
 - Chatterjee S, Saha SK, Saha D, Nag SK. Maximal aerobic capacity of Bengali girl athletes of different sports activities. Japanese Journal of Physiology. 1991. PMID 1960887.
-- Jegatheesan SL, et al. Hematological status, dietary iron intake and endurance in Indian female athletes. Physical Activity and Nutrition. 2025. PMID 40443248.
-- Anaemia prevalence across eight Indian states (venous blood survey). PubMed. https://pubmed.ncbi.nlm.nih.gov/39779946/
+- Jegatheesan SL, Kumbamoorthy SS, Sanjaykumar S, Rajkumar NCJ. Unlocking the connection: hematological status, dietary iron intake and endurance in Indian female athletes. Physical Activity and Nutrition. 2025;29(1):31–37. PMID 40443248.
+- Ghosh S, Laxmaiah A, Chandak GR, et al. Anaemia and iron deficiency in India: a venous blood-based survey of adolescents, adults, and the elderly in eight states. European Journal of Clinical Nutrition. 2025;79(5):443–451. PMID 39779946.
 - Vora A, Burkule N, Contractor A, Bhargava K. Prevention of sudden cardiac death in athletes, sportspersons and marathoners in India. Indian Heart Journal. 2018. https://pmc.ncbi.nlm.nih.gov/articles/PMC5903013/
 - Saltin B, et al. Aerobic exercise capacity at sea level and at altitude in Kenyan boys, junior and senior runners compared with Scandinavian runners. Scandinavian Journal of Medicine & Science in Sports. 1995. PMID 7552766.
 - Ministry of Youth Affairs and Sports. National Centre of Sports Sciences and Research. https://yas.gov.in/en/sports/national-centre-sports-sciences-and-research-ncssr-0

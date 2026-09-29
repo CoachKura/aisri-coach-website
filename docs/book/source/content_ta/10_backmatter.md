@@ -12,8 +12,8 @@ AEI இங்கே ஒரு அசல் AKURA ஆய்வுக் கட்
 |AEI-O ஆக்சிஜன்|Hb நிறை, Hb செறிவு|O₂ கடத்தல் சூழல்|Hb நிறைக்குச் சிறப்புச் சோதனை|
 |AEI-C இதய-இரத்தநாளம்|HR, stroke volume தொடர்பான அளவீடுகள்|இரத்த ஓட்டப் பதில்வினை|சூழலைச் சார்ந்தது|
 |AEI-R மீட்சி|தூக்கம், HRV போக்கு, RHR, களைப்பு|இன்றைய வெளிப்பாட்டுத் திறன்|அடிப்படை நிலையைச் சார்ந்தது|
-|AEI-H வெப்பம்|வெப்ப வெளிப்பாடு, வெப்பப் பதில்வினை|வெப்பத் தழுவல்|சூழல் பதிவு செய்யப்பட வேண்டும்|
-|AEI-X உயரம்|தூங்கும் உயரம், Hb நிறைப் பதில்வினை|Hypoxic தழுவல்|அளவைச் சார்ந்தது|
+|AEI-H வெப்பம்|வெப்ப வெளிப்பாடு, வெப்பப் பதில்வினை|வெப்பத் தகவமைப்பு|சூழல் பதிவு செய்யப்பட வேண்டும்|
+|AEI-X உயரம்|தூங்கும் உயரம், Hb நிறைப் பதில்வினை|Hypoxic தகவமைப்பு|அளவைச் சார்ந்தது|
 |AEI-D நீடித்திறன்|நீண்ட ஓட்டச் சரிவு|மாரத்தான் சார்ந்த தாங்குதிறன்|தரப்படுத்தப்பட்ட நெறிமுறை தேவை|
 
 ### முன்மொழியப்பட்ட தரவுப் புலங்கள்
@@ -133,7 +133,7 @@ AEI = f(செயல்திறன், ஓட்டச் சிக்கனம
 
 **நம்பக இடைவெளி (Confidence interval)**: தரவிலிருந்து கணக்கிடப்பட்ட, சராசரி மாற்றம் போன்ற ஒரு மதிப்பீட்டைச் சுற்றியுள்ள நிச்சயமின்மையை வெளிப்படுத்தும் மதிப்புகளின் வரம்பு.
 
-**பிரிவு நகர்வு (Decoupling)**: நீண்ட நிலையான உடற்பயிற்சியின்போது பேஸுக்கு (அல்லது சக்திக்கு) ஒப்பாக இதயத் துடிப்பு நகர்தல்; ஏரோபிக் நீடித்திறனின் முறைசாரா குறிகாட்டியாக அடிக்கடி பயன்படுத்தப்படுகிறது.
+**விலகல் (Decoupling)**: நீண்ட நிலையான உடற்பயிற்சியின்போது பேஸுக்கு (அல்லது சக்திக்கு) ஒப்பாக இதயத் துடிப்பு நகர்தல்; ஏரோபிக் நீடித்திறனின் முறைசாரா குறிகாட்டியாக அடிக்கடி பயன்படுத்தப்படுகிறது.
 
 **நீடித்திறன் (Durability)**: உடற்பயிற்சியின் கால அளவும் களைப்பும் அதிகரிக்கும்போது செயல்திறனையும் உடலியல் பண்புகளையும் தக்கவைக்கும் திறன்.
 
@@ -149,7 +149,7 @@ AEI = f(செயல்திறன், ஓட்டச் சிக்கனம
 
 **ஹீமோகுளோபின் நிறை (Haemoglobin mass)**: இரத்த ஓட்டத்தில் உள்ள ஹீமோகுளோபினின் மொத்த நிறை; ஹீமோகுளோபின் செறிவிலிருந்து வேறுபட்டது.
 
-**வெப்பப் பழக்கப்படுத்தல் vs வெப்பப் பழக்கமாதல் (Heat acclimation vs acclimatisation)**: பழக்கப்படுத்தல் (acclimation) என்பது செயற்கையான அல்லது கட்டுப்படுத்தப்பட்ட வெப்ப வெளிப்பாட்டால் (எடுத்துக்காட்டாக, சூடாக்கப்பட்ட அறை) உருவாகும் தழுவலைக் குறிக்கிறது; பழக்கமாதல் (acclimatisation) என்பது இயற்கைச் சூழல் வெளிப்பாட்டால் உருவாகும் தழுவலைக் குறிக்கிறது.
+**வெப்பப் பழக்கப்படுத்தல் vs வெப்பப் பழக்கமாதல் (Heat acclimation vs acclimatisation)**: பழக்கப்படுத்தல் (acclimation) என்பது செயற்கையான அல்லது கட்டுப்படுத்தப்பட்ட வெப்ப வெளிப்பாட்டால் (எடுத்துக்காட்டாக, சூடாக்கப்பட்ட அறை) உருவாகும் தகவமைப்பைக் குறிக்கிறது; பழக்கமாதல் (acclimatisation) என்பது இயற்கைச் சூழல் வெளிப்பாட்டால் உருவாகும் தகவமைப்பைக் குறிக்கிறது.
 
 **HRV**: இதயத் துடிப்பு மாறுபாடு (Heart-rate variability); சூழலைச் சார்ந்த ஒரு தன்னியக்க நரம்பு மண்டல மற்றும் மீட்சி சமிக்ஞை; ஒரு போக்காக விளக்குவதே சிறந்தது.
 
@@ -189,7 +189,7 @@ AEI = f(செயல்திறன், ஓட்டச் சிக்கனம
 
 3) VO₂max-ஐ முழுமையான ஓட்டத் திறனுடன் ஒருபோதும் குழப்பிக்கொள்ளாதீர்கள்.
 
-4) வெப்பத் தழுவலையும் உயரத் தழுவலையும் ஒருபோதும் குழப்பிக்கொள்ளாதீர்கள்.
+4) வெப்பத் தகவமைப்பையும் உயரத் தகவமைப்பையும் ஒருபோதும் குழப்பிக்கொள்ளாதீர்கள்.
 
 5) அணியக்கூடிய சாதனத்தின் ஒற்றை அளவீட்டை ஒருபோதும் நோயறிதலாகக் கருதாதீர்கள்.
 
@@ -212,13 +212,13 @@ AEI = f(செயல்திறன், ஓட்டச் சிக்கனம
 REFS:
 
 - Gore CJ, Sharpe K, Garvican-Lewis LA, et al. Altitude training and haemoglobin mass from the optimised carbon monoxide rebreathing method determined by a meta-analysis. British Journal of Sports Medicine. 2013;47(Suppl 1):i31–i39. PMID 24282204.
-- Brown HA, et al. Quantifying Exercise Heat Acclimatisation in Athletes and Military Personnel: A Systematic Review and Meta-analysis. Sports Medicine. 2024. PMID 38051495.
-- Benjamin CL, et al. Physiological Responses to Heat Acclimation: A Systematic Review and Meta-Analysis of Randomized Controlled Trials. Journal of Sports Science and Medicine. 2019. PMID 31191102.
-- Solomon & Laye. The effect of post-exercise heat exposure (passive heat acclimation) on endurance exercise performance: a systematic review and meta-analysis. BMC Sports Science, Medicine and Rehabilitation. 2025. PMID 39762944.
+- Brown HA, et al. Quantifying Exercise Heat Acclimatisation in Athletes and Military Personnel: A Systematic Review and Meta-analysis. Sports Medicine. 2024;54(3):727–741. PMID 38051495.
+- Rahimi GRM, Albanaqi AL, Van der Touw T, et al. Physiological Responses to Heat Acclimation: A Systematic Review and Meta-Analysis of Randomized Controlled Trials. Journal of Sports Science and Medicine. 2019;18(2):316–326. PMID 31191102.
+- Solomon TPJ, Laye MJ. The effect of post-exercise heat exposure (passive heat acclimation) on endurance exercise performance: a systematic review and meta-analysis. BMC Sports Science, Medicine and Rehabilitation. 2025. PMID 39762944.
 - Levine BD, Stray-Gundersen J. "Living high-training low": effect of moderate-altitude acclimatization with low-altitude training on performance. Journal of Applied Physiology. 1997;83(1):102–112.
 - Racinais S, et al. Consensus recommendations on training and competing in the heat. British Journal of Sports Medicine. 2015;49(18):1164–1173.
 - Périard JD, Racinais S, Sawka MN. Adaptations and mechanisms of human heat acclimation: applications for competitive athletes and sports. Scandinavian Journal of Medicine & Science in Sports. 2015;25(Suppl 1):20–38.
 - Hopkins WG. Measures of reliability in sports medicine and science. Sports Medicine. 2000;30(1):1–15.
 - Joyner MJ, Coyle EF. Endurance exercise performance: the physiology of champions. Journal of Physiology. 2008;586(1):35–44.
 - Maunder E, Seiler S, Mildenhall MJ, Kilding AE, Plews DJ. The importance of 'durability' in the physiological profiling of endurance athletes. Sports Medicine. 2021;51(8):1619–1628.
-- Daniels J. Daniels' Running Formula. Human Kinetics (VDOT framework and training paces).
+- Daniels J. Daniels' Running Formula. 4th ed. Champaign, IL: Human Kinetics; 2022 (VDOT framework and training paces). VDOT® is a registered trademark of The Run SMART Project, LLC.

@@ -28,13 +28,28 @@ const EN = {
     "**AKURA World Athlete Research Book — The AKURA Endurance Index™ (AEI): From Myth to Measurement**",
     "Complete English Edition. Prototype Edition 0.1, 2026.",
     "© 2026 Kura / AKURA Endurance Research System. All rights reserved. No part of this publication may be reproduced without the prior written permission of the author, except for brief quotations in reviews and academic work with attribution.",
-    "AKURA, AKURA Endurance Index™, AEI and AISRi are names used by the AKURA Endurance Research System. VDOT is associated with Jack Daniels and V.O2; it is referenced for educational comparison only. Garmin and Strava are trademarks of their respective owners.",
+    "AKURA, AKURA Endurance Index™, AEI and AISRi are names used by the AKURA Endurance Research System. VDOT® is a registered trademark of The Run SMART Project, LLC. Garmin and Garmin Connect are trademarks of Garmin Ltd. or its subsidiaries; Strava is a trademark of Strava, Inc. TCS World 10K, Tata Mumbai Marathon, World Athletics, Olympics.com and other event, organisation and product names belong to their respective owners and are used only to identify them. This book is independent and is not affiliated with, sponsored or endorsed by any of these owners, or by any athlete, coach or organisation named in it.",
+    "All figures, diagrams and infographics are original works created for this book. Short quotations from published news reports and interviews are reproduced for the purposes of criticism, review and reporting, with attribution to their source.",
     "**Important notice.** This book is an educational and research document. It is not medical advice. The AKURA Endurance Index is a proposed research framework that has not yet been validated; its equations and categories must not be used for high-stakes selection, medical or safety decisions. Blood testing, cardiac screening, hypoxic exposure and heat-acclimation interventions should be conducted only with appropriate medical oversight and, for research, with informed consent and ethics committee approval.",
     "Chennai, Tamil Nadu, India.",
   ],
 };
 const S = TA ? { ...EN, ...JSON.parse(fs.readFileSync(path.join(CONTENT_DIR, "strings.json"), "utf8")) } : EN;
+if (TA) for (const k of Object.keys(S)) S[k] = Array.isArray(S[k]) ? S[k].map((x) => x.replace(/™/g, "")) : String(S[k]).replace(/™/g, "");
 let figNo = 0;
+// Part infographics (one full page after each Part opener) and optional author photo
+const IG_SPEC = path.join(__dirname, "infographics", "spec.json");
+const IG = fs.existsSync(IG_SPEC) ? Object.fromEntries(JSON.parse(fs.readFileSync(IG_SPEC, "utf8")).map((x) => [x.part, x.file])) : {};
+function infographic(roman) {
+  const f = IG[roman]; if (!f) return [];
+  const file = path.join(__dirname, "infographics", TA ? "ta" : "en", f + ".png");
+  if (!fs.existsSync(file)) return [];
+  const data = fs.readFileSync(file); const { w, h } = pngSize(data);
+  let width = 602, height = Math.round((602 * h) / w);
+  if (height > 900) { width = Math.round((width * 900) / height); height = 900; }
+  return [new Paragraph({ pageBreakBefore: true, alignment: AlignmentType.CENTER, children: [new ImageRun({ type: "png", data, transformation: { width, height }, altText: { title: "Infographic", description: "Part " + roman + " at a glance", name: f } })] })];
+}
+const AUTHOR_PHOTO = path.join(__dirname, "author", "author_circle.png");
 // PNG pixel size from the IHDR chunk
 function pngSize(buf) { return { w: buf.readUInt32BE(16), h: buf.readUInt32BE(20) }; }
 function figure(file, caption) {
@@ -46,7 +61,7 @@ function figure(file, caption) {
     new Paragraph({ alignment: AlignmentType.CENTER, keepNext: true, spacing: { before: 200, after: 80 },
       children: [new ImageRun({ type: "png", data, transformation: { width, height }, altText: { title: `${S.figure} ${figNo}`, description: caption, name: file } })] }),
     new Paragraph({ spacing: { after: 240, line: 264 }, border: { bottom: { style: BorderStyle.SINGLE, size: 4, color: "C9D3DE", space: 6 } },
-      children: [new TextRun({ text: `${S.figure} ${figNo}.  `, bold: true, color: C.saffron, font: HEAD_FONT, size: 17 }), ...runs(caption, { italics: true, color: C.grey, size: 18 })] }),
+      children: [new TextRun({ text: `${S.figure} ${figNo}.  `, bold: true, color: C.saffron, font: HEAD_FONT, size: 17 }), ...runs(caption, { italics: !TA, color: C.grey, size: 18 })] }),
   ];
 }
 
@@ -66,6 +81,7 @@ const CW = PAGE_W - 2 * MARGIN; // content width (DXA)
 // ---------- inline parsing ----------
 function runs(text, base = {}) {
   const out = [];
+  if (TA) text = String(text).replace(/™/g, "");
   const parts = String(text).split(/(\*\*[^*]+\*\*)/g);
   for (const p of parts) {
     if (!p) continue;
@@ -154,11 +170,11 @@ function listItem(t, numbered, inst) {
 
 function quote(t) {
   let [q, who] = t.split(/\s+—\s+(?=[^—]*$)/);
-  const cs = tamil(q) ? { font: { ascii: "Georgia", hAnsi: "Georgia", cs: TA ? TA_BODY : "Nirmala UI" } } : {};
+  const cs = tamil(q) ? { font: { ascii: "Georgia", hAnsi: "Georgia", cs: TA_BODY } } : {};
   const out = [
     new Paragraph({ alignment: AlignmentType.CENTER, spacing: { before: 240, after: 80, line: 340 },
       border: { top: { style: BorderStyle.SINGLE, size: 6, color: C.saffron, space: 10 } },
-      children: [new TextRun({ text: q.trim(), italics: true, size: 28, color: C.navy, ...cs })] }),
+      children: [new TextRun({ text: q.trim(), italics: !TA, size: 28, color: C.navy, ...cs })] }),
   ];
   if (who) out.push(new Paragraph({ alignment: AlignmentType.CENTER, spacing: { after: 280 },
     border: { bottom: { style: BorderStyle.SINGLE, size: 6, color: C.saffron, space: 10 } },
@@ -174,7 +190,7 @@ function partPage(label, title, intro, chapters = []) {
     new Paragraph({ heading: HeadingLevel.HEADING_1, spacing: { after: 360 },
       border: { bottom: { style: BorderStyle.SINGLE, size: 18, color: C.saffron, space: 12 } },
       children: [new TextRun({ text: label + " — ", color: C.saffron }), new TextRun({ text: title })] }),
-    ...(intro ? [new Paragraph({ spacing: { after: 200, line: 360 }, children: runs(intro, { size: 24, color: C.grey, italics: true }) })] : []),
+    ...(intro ? [new Paragraph({ spacing: { after: 200, line: 360 }, children: runs(intro, { size: 24, color: C.grey, italics: !TA }) })] : []),
     ...(chapters.length ? [new Paragraph({ spacing: { before: 360, after: 120 }, children: [new TextRun({ text: S.inThisPart, font: HEAD_FONT, size: 18, bold: true, color: C.teal, characterSpacing: 40 })] })] : []),
     ...chapters.map(([n, t]) => new Paragraph({ spacing: { after: 70 }, indent: { left: 0 },
       children: [new TextRun({ text: `${n}   `, font: HEAD_FONT, size: 22, bold: true, color: C.saffron }), new TextRun({ text: t, font: HEAD_FONT, size: 22, color: C.navy })] })),
@@ -196,7 +212,7 @@ function partSummary(state) {
   return [
     new Paragraph({ keepNext: true, spacing: { before: 520, after: 60 }, shading: { type: ShadingType.CLEAR, fill: C.navy, color: "auto" },
       children: [new TextRun({ text: "  " + state.currentPart.split(" — ")[0] + " " + S.atAGlance, font: HEAD_FONT, bold: true, size: 22, color: "FFFFFF", characterSpacing: 40 })] }),
-    new Paragraph({ keepNext: true, spacing: { after: 120 }, children: [new TextRun({ text: S.glanceSub, italics: true, size: 19, color: C.grey })] }),
+    new Paragraph({ keepNext: true, spacing: { after: 120 }, children: [new TextRun({ text: S.glanceSub, italics: !TA, size: 19, color: C.grey })] }),
     new Table({ width: { size: CW, type: WidthType.DXA }, columnWidths: [1100, CW - 1100], rows }),
   ];
 }
@@ -240,7 +256,7 @@ function parseFile(txt, state) {
       state.currentPart = pendingPart.label + " — " + pendingPart.title;
       continue;
     }
-    if ((m = line.match(/^PARTINTRO:\s*(.+)$/))) { if (pendingPart) { out.push(...partPage(pendingPart.label, pendingPart.title, m[1], state.partChapters[pendingPart.label] || [])); pendingPart = null; state.afterPart = true; } continue; }
+    if ((m = line.match(/^PARTINTRO:\s*(.+)$/))) { if (pendingPart) { out.push(...partPage(pendingPart.label, pendingPart.title, m[1], state.partChapters[pendingPart.label] || [])); out.push(...infographic(pendingPart.label.split(" ").pop())); pendingPart = null; state.afterPart = true; } continue; }
     flushPart();
     if ((m = line.match(/^##\s+(.+)$/)) && !line.startsWith("###")) {
       endList();
@@ -250,8 +266,13 @@ function parseFile(txt, state) {
         const idx = state.section === "BACKMATTER" ? (state.backIdx = (state.backIdx ?? -1) + 1) : (state.frontIdx = (state.frontIdx ?? -1) + 1);
         const newPage = state.section === "BACKMATTER" ? [0, 5, 6, 7].includes(idx) : idx === 0;
         if (state.section === "BACKMATTER" && idx === 7) out.push({ __refs: true });
+        const isAbout = state.section === "BACKMATTER" && idx === 7;
         out.push(new Paragraph({ heading: HeadingLevel.HEADING_1, pageBreakBefore: newPage, keepNext: true,
           spacing: newPage ? undefined : { before: 600, after: 280 }, children: [new TextRun(t)] }));
+        if (isAbout && fs.existsSync(AUTHOR_PHOTO)) {
+          const d = fs.readFileSync(AUTHOR_PHOTO); const { w, h } = pngSize(d);
+          out.push(new Paragraph({ alignment: AlignmentType.CENTER, spacing: { after: 240 }, children: [new ImageRun({ type: "png", data: d, transformation: { width: 200, height: Math.round((200 * h) / w) }, altText: { title: "Author", description: "Photograph of the author", name: "author" } })] }));
+        }
         state.leadNext = false;
       } else {
         const sm = t.match(/^STORY:\s*(.+)$/);
@@ -338,7 +359,7 @@ function cover() {
     new Paragraph({ spacing: { before: 200, after: 0 }, children: [t("AKURA", { size: 72, bold: true, color: C.saffron, characterSpacing: 200 })] }),
     new Paragraph({ spacing: { after: 600 }, border: { bottom: { style: BorderStyle.SINGLE, size: 24, color: C.saffron, space: 8 } }, children: [t(S.coverBrand, { size: 30, bold: true, color: C.navy, characterSpacing: 60 })] }),
     new Paragraph({ spacing: { after: 200 }, children: [t(S.coverTitle, { size: 56, bold: true, color: C.navy })] }),
-    new Paragraph({ spacing: { after: 900 }, children: [t(S.coverSubtitle, { size: 40, color: C.teal, italics: true })] }),
+    new Paragraph({ spacing: { after: 900 }, children: [t(S.coverSubtitle, { size: 40, color: C.teal, italics: !TA })] }),
     new Paragraph({ spacing: { after: 120 }, children: [t(S.coverTagline, { size: 20, bold: true, color: C.grey, characterSpacing: 30 })] }),
     new Paragraph({ spacing: { after: 1400 }, children: [t(S.coverEdition, { size: 22, color: C.grey })] }),
     new Paragraph({ spacing: { after: 60 }, children: [t(S.coverAuthor, { size: 32, bold: true, color: C.navy, characterSpacing: 80 })] }),
@@ -401,6 +422,8 @@ const doc = new Document({
   styles: {
     default: { document: { run: { font: BODY_FONT, size: 22, color: C.ink } } },
     paragraphStyles: [
+      { id: "TOC1", name: "toc 1", basedOn: "Normal", next: "Normal", run: { font: BODY_FONT, size: 21, bold: true, color: C.navy }, paragraph: { spacing: { before: 120, after: 40 } } },
+      { id: "TOC2", name: "toc 2", basedOn: "Normal", next: "Normal", run: { font: BODY_FONT, size: 20 }, paragraph: { spacing: { after: 20 }, indent: { left: 360 } } },
       { id: "Heading1", name: "Heading 1", basedOn: "Normal", next: "Normal", quickFormat: true,
         run: { font: HEAD_FONT, size: 48, bold: true, color: C.navy }, paragraph: { spacing: { before: 240, after: 280 }, outlineLevel: 0 } },
       { id: "Heading2", name: "Heading 2", basedOn: "Normal", next: "Normal", quickFormat: true,

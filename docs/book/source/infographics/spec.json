@@ -1,0 +1,2066 @@
+[
+ {
+  "part": "I",
+  "file": "ig01",
+  "en": {
+   "kicker": "PART I · THE QUESTION",
+   "title": "From Belief to Measurable Hypothesis",
+   "subtitle": "Why do some athletes reach world-class endurance, and can Indian athletes build it in their own environments?",
+   "hero": {
+    "value": "2:11:37",
+    "label": "Sawan Barwal's national marathon record, Asian Games, Nagoya 2026"
+   },
+   "panels": [
+    {
+     "icon": "flag",
+     "value": "48 yrs",
+     "heading": "The record that waited",
+     "text": "Shivnath Singh's 2:12:00 from 1978 stood for 48 years before Sawan Barwal broke it in 2026."
+    },
+    {
+     "icon": "people",
+     "value": "",
+     "heading": "Many systems, not one",
+     "text": "East African success comes from training, economy, altitude, culture and motivation interacting. No single cause explains it."
+    },
+    {
+     "icon": "mountain",
+     "value": "",
+     "heading": "Birthplace is not destiny",
+     "text": "Birthplace shapes development, but training history, active childhood, nutrition and coaching can be built in many places."
+    },
+    {
+     "icon": "shield",
+     "value": "Not scored",
+     "heading": "Genetics: no shortcut",
+     "text": "Genes contribute, but cannot be read from nationality. AEI does not score ancestry or consumer genetic tests."
+    },
+    {
+     "icon": "route",
+     "value": "4 settings",
+     "heading": "India as a laboratory",
+     "text": "Chennai heat, Bengaluru plateau, Ooty/Kodaikanal hills and the Himalayas give different stimuli, not interchangeable ones."
+    },
+    {
+     "icon": "target",
+     "value": "",
+     "heading": "Write a hypothesis",
+     "text": "Define the intervention, the measurement and the expected change: a 10–14 day heat block lowers HR at fixed pace."
+    }
+   ],
+   "flow": [
+    "Hypothesis",
+    "Measurement",
+    "Intervention",
+    "Response",
+    "Interpretation",
+    "Revised prescription"
+   ],
+   "takeaway": "A single number rarely explains performance: turn beliefs into hypotheses and accept what the data show."
+  },
+  "ta": {
+   "kicker": "பகுதி I · கேள்வி",
+   "title": "நம்பிக்கையிலிருந்து அளவிடக்கூடிய கருதுகோளுக்கு",
+   "subtitle": "சிலர் ஏன் உலகத் தரச் சகிப்புத்திறனை அடைகிறார்கள்? இந்திய வீரர்கள் தங்கள் சூழலிலேயே அதைக் கட்டியெழுப்ப முடியுமா?",
+   "hero": {
+    "value": "2:11:37",
+    "label": "சாவன் பர்வாலின் தேசிய மாரத்தான் சாதனை, ஆசியப் போட்டிகள், நகோயா 2026"
+   },
+   "panels": [
+    {
+     "icon": "flag",
+     "value": "48 ஆண்டு",
+     "heading": "காத்திருந்த சாதனை",
+     "text": "1978-இல் ஷிவ்நாத் சிங் ஓடிய 2:12:00, 2026-இல் சாவன் பர்வால் முறியடிக்கும் வரை 48 ஆண்டுகள் நின்றது."
+    },
+    {
+     "icon": "people",
+     "value": "",
+     "heading": "ஒரு காரணம் அல்ல, பல அமைப்புகள்",
+     "text": "கிழக்கு ஆப்பிரிக்க வெற்றி பயிற்சி, சிக்கனம், உயரம், கலாச்சாரம், ஊக்கம் ஆகியவற்றின் இடைவினை. எதுவும் தனியாக விளக்காது."
+    },
+    {
+     "icon": "mountain",
+     "value": "",
+     "heading": "பிறந்த இடம் விதி அல்ல",
+     "text": "பிறந்த இடம் வளர்ச்சியை வடிவமைக்கிறது; ஆனால் பயிற்சி வரலாறு, சுறுசுறுப்பான குழந்தைப்பருவம், உணவு, பயிற்சியாளர் எங்கும் உருவாக்கலாம்."
+    },
+    {
+     "icon": "shield",
+     "value": "விலக்கு",
+     "heading": "மரபியல்: குறுக்குவழி அல்ல",
+     "text": "மரபணுக்கள் பங்களிக்கின்றன; ஆனால் தேசியத்திலிருந்து படிக்க முடியாது. AEI வம்சாவளியையோ மரபணு சோதனைகளையோ மதிப்பிடாது."
+    },
+    {
+     "icon": "route",
+     "value": "4 சூழல்",
+     "heading": "இந்தியா ஓர் ஆய்வகம்",
+     "text": "சென்னை வெப்பம், பெங்களூரு பீடபூமி, ஊட்டி/கொடைக்கானல் மலைகள், இமயமலை — ஒவ்வொன்றும் வேறுபட்ட தூண்டல்."
+    },
+    {
+     "icon": "target",
+     "value": "",
+     "heading": "கருதுகோளாக எழுதுங்கள்",
+     "text": "தலையீடு, அளவீடு, எதிர்பார்க்கும் மாற்றம்: 10–14 நாள் வெப்பப் பயிற்சி நிலையான pace-இல் HR-ஐக் குறைக்கிறது."
+    }
+   ],
+   "flow": [
+    "கருதுகோள்",
+    "அளவீடு",
+    "தலையீடு",
+    "விளைவு",
+    "விளக்கம்",
+    "திருத்திய பரிந்துரை"
+   ],
+   "takeaway": "ஒரு எண் செயல்திறனை அரிதாகவே விளக்கும்: நம்பிக்கையைக் கருதுகோளாக்கி, தரவு சொல்வதை ஏற்றுக்கொள்ளுங்கள்."
+  }
+ },
+ {
+  "part": "II",
+  "file": "ig02",
+  "en": {
+   "kicker": "PART II · THE ENDURANCE ENGINE",
+   "title": "Following Oxygen from Air to Motion",
+   "subtitle": "Endurance is a chain of linked systems — lungs, blood, heart, muscle and mechanics — and no single number is the athlete.",
+   "hero": {
+    "value": "6 km",
+    "label": "Avinash Sable's daily run to school from Mandwa village"
+   },
+   "panels": [
+    {
+     "icon": "heart",
+     "value": "HR × SV",
+     "heading": "The heart is a pump",
+     "text": "Cardiac output = heart rate × stroke volume; oxygen uptake = cardiac output × oxygen extraction."
+    },
+    {
+     "icon": "lungs",
+     "value": "20.9%",
+     "heading": "Pressure, not percentage",
+     "text": "At altitude air is still 20.9% oxygen, but lower pressure reduces the driving force for gas exchange."
+    },
+    {
+     "icon": "blood",
+     "value": "Hb mass",
+     "heading": "Mass beats concentration",
+     "text": "Hb concentration shifts with plasma volume; total Hb mass better marks oxygen-carrying capacity."
+    },
+    {
+     "icon": "chart",
+     "value": "70 = 70",
+     "heading": "Same VO₂max, different races",
+     "text": "Two runners at VO₂max 70: threshold at 85% and lower oxygen cost likely races faster."
+    },
+    {
+     "icon": "shoe",
+     "value": "Economy",
+     "heading": "Oxygen cost of speed",
+     "text": "A more economical runner has more reserve at race pace, even with the same VO₂max."
+    },
+    {
+     "icon": "drop",
+     "value": "Lactate",
+     "heading": "A messenger, not waste",
+     "text": "Blood lactate reflects production versus clearance. Store every threshold value with its protocol."
+    }
+   ],
+   "flow": [
+    "Air in",
+    "Lungs",
+    "Blood (Hb)",
+    "Heart",
+    "Muscle",
+    "Forward motion"
+   ],
+   "takeaway": "Strengthening one link helps only if it is the link that limits the athlete."
+  },
+  "ta": {
+   "kicker": "பகுதி II · சகிப்புத்திறன் இயந்திரம்",
+   "title": "காற்றிலிருந்து இயக்கம் வரை ஆக்சிஜனின் பயணம்",
+   "subtitle": "சகிப்புத்திறன் என்பது நுரையீரல், இரத்தம், இதயம், தசை, இயக்கவியல் இணைந்த சங்கிலி; எந்த ஒரு எண்ணும் முழு வீரர் அல்ல.",
+   "hero": {
+    "value": "6 km",
+    "label": "மாண்ட்வா கிராமத்திலிருந்து அவினாஷ் சாப்லே தினமும் பள்ளிக்கு ஓடிய தூரம்"
+   },
+   "panels": [
+    {
+     "icon": "heart",
+     "value": "HR × SV",
+     "heading": "இதயம் ஒரு பம்ப்",
+     "text": "இதய வெளியீடு = இதயத் துடிப்பு × stroke volume; ஆக்சிஜன் உள்ளெடுப்பு = இதய வெளியீடு × ஆக்சிஜன் பிரித்தெடுப்பு."
+    },
+    {
+     "icon": "lungs",
+     "value": "20.9%",
+     "heading": "சதவீதம் அல்ல, அழுத்தம்",
+     "text": "உயரத்திலும் காற்றில் 20.9% ஆக்சிஜன்தான்; குறைந்த அழுத்தமே வாயுப் பரிமாற்ற உந்துவிசையைக் குறைக்கிறது."
+    },
+    {
+     "icon": "blood",
+     "value": "Hb mass",
+     "heading": "செறிவை விட மொத்த அளவு",
+     "text": "Hb செறிவு பிளாஸ்மா அளவோடு மாறும்; மொத்த Hb mass ஆக்சிஜன் சுமக்கும் திறனின் சிறந்த குறிகாட்டி."
+    },
+    {
+     "icon": "chart",
+     "value": "70 = 70",
+     "heading": "ஒரே VO₂max, வேறு முடிவு",
+     "text": "இருவருக்கும் VO₂max 70; threshold 85%, குறைந்த ஆக்சிஜன் செலவு உள்ளவர் வேகமாக ஓடக்கூடும்."
+    },
+    {
+     "icon": "shoe",
+     "value": "சிக்கனம்",
+     "heading": "வேகத்தின் ஆக்சிஜன் விலை",
+     "text": "ஒரே VO₂max இருந்தாலும், சிக்கனமான ஓட்டக்காரருக்குப் பந்தய pace-இல் அதிக இருப்பு உண்டு."
+    },
+    {
+     "icon": "drop",
+     "value": "Lactate",
+     "heading": "கழிவு அல்ல, தூதுவன்",
+     "text": "இரத்த lactate உற்பத்திக்கும் அகற்றலுக்கும் இடையிலான சமநிலை. ஒவ்வொரு threshold மதிப்பையும் நெறிமுறையுடன் பதியுங்கள்."
+    }
+   ],
+   "flow": [
+    "காற்று",
+    "நுரையீரல்",
+    "இரத்தம் (Hb)",
+    "இதயம்",
+    "தசை",
+    "முன்னோக்கிய இயக்கம்"
+   ],
+   "takeaway": "வீரரைக் கட்டுப்படுத்தும் இணைப்பை வலுப்படுத்தினால் மட்டுமே பயன் கிடைக்கும்."
+  }
+ },
+ {
+  "part": "III",
+  "file": "ig03",
+  "en": {
+   "kicker": "PART III · HEAT",
+   "title": "Heat Is a Dose, Not Toughness",
+   "subtitle": "For coastal Indian athletes heat is the daily condition of training; controlled, measured exposure can build adaptation.",
+   "hero": {
+    "value": "10–14 days",
+    "label": "A controlled heat-acclimation block for healthy, medically cleared athletes"
+   },
+   "panels": [
+    {
+     "icon": "heart",
+     "value": "",
+     "heading": "Two jobs, one circulation",
+     "text": "The same pace costs more in heat because blood must serve both working muscles and the skin."
+    },
+    {
+     "icon": "thermometer",
+     "value": "Dose",
+     "heading": "Dose-response block",
+     "text": "Effects depend on how hot, humid, long, hard and often — and they fade without continued exposure."
+    },
+    {
+     "icon": "blood",
+     "value": "Plasma ↑",
+     "heading": "Plasma, not red cells",
+     "text": "Plasma expansion supports stroke volume and lowers HR at a given pace, but adds volume, not red cells."
+    },
+    {
+     "icon": "drop",
+     "value": "",
+     "heading": "Sweat must evaporate",
+     "text": "Acclimation improves sweating; humidity limits evaporation. Hot, humid evenings demand the highest caution."
+    },
+    {
+     "icon": "shield",
+     "value": "STOP",
+     "heading": "The non-negotiable boundary",
+     "text": "Confusion, stumbling, collapse or chills in heat: stop at once, cool immediately, call medical help."
+    },
+    {
+     "icon": "sun",
+     "value": "Chennai",
+     "heading": "A city laboratory",
+     "text": "Chennai cannot provide hypoxia, but offers repeated, measurable heat and humidity — if logged as data."
+    }
+   ],
+   "flow": [
+    "Weigh, log weather",
+    "10-min warm-up",
+    "Fixed easy pace",
+    "Record HR drift",
+    "Re-weigh, log fluids"
+   ],
+   "takeaway": "Heat can build adaptation, but uncontrolled heat causes serious illness: dose, data and judgement, not bravado."
+  },
+  "ta": {
+   "kicker": "பகுதி III · வெப்பம்",
+   "title": "வெப்பம் ஒரு அளவு, வீரம் அல்ல",
+   "subtitle": "கடற்கரை இந்திய வீரர்களுக்கு வெப்பம் அன்றாடப் பயிற்சிச் சூழல்; கட்டுப்படுத்தி அளவிட்டால் அது தகவமைப்பை உருவாக்கும்.",
+   "hero": {
+    "value": "10–14 நாள்",
+    "label": "ஆரோக்கியமான, மருத்துவ அனுமதி பெற்ற வீரர்களுக்கான கட்டுப்படுத்திய வெப்பப் பழக்கப்படுத்தல்"
+   },
+   "panels": [
+    {
+     "icon": "heart",
+     "value": "",
+     "heading": "ஒரு சுற்றோட்டம், இரு வேலைகள்",
+     "text": "வெப்பத்தில் இரத்தம் தசைக்கும் தோலுக்கும் சேவை செய்ய வேண்டும்; அதனால் அதே pace அதிகச் செலவாகும்."
+    },
+    {
+     "icon": "thermometer",
+     "value": "அளவு",
+     "heading": "அளவு-விளைவு உறவு",
+     "text": "எவ்வளவு வெப்பம், ஈரப்பதம், நேரம், தீவிரம், அடிக்கடி — இவற்றைச் சார்ந்தது; தொடராவிட்டால் மங்கும்."
+    },
+    {
+     "icon": "blood",
+     "value": "பிளாஸ்மா ↑",
+     "heading": "பிளாஸ்மா, சிவப்பணு அல்ல",
+     "text": "பிளாஸ்மா விரிவு stroke volume-ஐ ஆதரித்து HR-ஐக் குறைக்கும்; ஆனால் சிவப்பணுக்களைக் கூட்டாது."
+    },
+    {
+     "icon": "drop",
+     "value": "",
+     "heading": "வியர்வை ஆவியாக வேண்டும்",
+     "text": "பழக்கப்படுத்தல் வியர்வையை மேம்படுத்தும்; ஈரப்பதம் ஆவியாதலைக் கட்டுப்படுத்தும். வெப்ப-ஈர மாலைகளில் அதிக எச்சரிக்கை."
+    },
+    {
+     "icon": "shield",
+     "value": "நிறுத்து",
+     "heading": "மீற முடியாத எல்லை",
+     "text": "குழப்பம், தடுமாற்றம், சரிவு, வெப்பத்தில் குளிர் நடுக்கம்: உடனே நிறுத்தி, குளிர்வித்து, மருத்துவ உதவி அழையுங்கள்."
+    },
+    {
+     "icon": "sun",
+     "value": "சென்னை",
+     "heading": "நகரமே ஆய்வகம்",
+     "text": "சென்னை hypoxia தராது; ஆனால் மீண்டும் மீண்டும் அளவிடக்கூடிய வெப்பம், ஈரப்பதம் தரும் — தரவாகப் பதிந்தால்."
+    }
+   ],
+   "flow": [
+    "எடை, வானிலை பதிவு",
+    "10 நிமிட warm-up",
+    "நிலையான எளிய pace",
+    "HR drift பதிவு",
+    "மீண்டும் எடை, நீர்"
+   ],
+   "takeaway": "வெப்பம் தகவமைப்பைத் தரலாம்; கட்டுப்பாடற்ற வெப்பம் கடும் நோய் தரும்: அளவு, தரவு, விவேகம் — வீராப்பு அல்ல."
+  }
+ },
+ {
+  "part": "IV",
+  "file": "ig04",
+  "en": {
+   "kicker": "PART IV · ALTITUDE",
+   "title": "Altitude Is Pressure, Not Less Oxygen",
+   "subtitle": "Altitude is a dose of hypoxia to be specified, monitored and measured — not a magic place that builds champions.",
+   "hero": {
+    "value": "20.9%",
+    "label": "Oxygen fraction of air — the same in Chennai and Ooty"
+   },
+   "panels": [
+    {
+     "icon": "mountain",
+     "value": "112 mmHg",
+     "heading": "Lower inspired PO₂",
+     "text": "Inspired PO₂ falls from about 150 mmHg at sea level to about 112 mmHg at Ooty (~2,240 m)."
+    },
+    {
+     "icon": "clock",
+     "value": "Days 1–4",
+     "heading": "Start easy",
+     "text": "First days bring higher ventilation and HR and lower VO₂max: easy running and sleep first."
+    },
+    {
+     "icon": "blood",
+     "value": "EPO",
+     "heading": "A slow red-cell response",
+     "text": "Hypoxia can raise EPO and, over weeks, red-cell mass — modest, dose-dependent and highly variable."
+    },
+    {
+     "icon": "route",
+     "value": "LHTL",
+     "heading": "Live high, train low",
+     "text": "Sleep high for the hypoxic stimulus, train low for quality. A rationale to test, not a guarantee."
+    },
+    {
+     "icon": "target",
+     "value": "",
+     "heading": "“Ooty” is not a dose",
+     "text": "The dose is sleeping elevation, hours spent there, training elevation and length of stay."
+    },
+    {
+     "icon": "people",
+     "value": "",
+     "heading": "Responders vary",
+     "text": "Iron, sleep, illness, exposure and measurement error shape response. A poor result is information, not a verdict."
+    }
+   ],
+   "flow": [
+    "Baseline at home",
+    "Easy days 1–4",
+    "Build quality gradually",
+    "Log dose daily",
+    "Retest after return"
+   ],
+   "takeaway": "Altitude is a hypoxic dose: specify it, log it, and measure each athlete's response."
+  },
+  "ta": {
+   "kicker": "பகுதி IV · உயரமான பகுதி",
+   "title": "உயரம் என்பது அழுத்தம், குறைந்த ஆக்சிஜன் அல்ல",
+   "subtitle": "உயரம் சாம்பியன்களை உருவாக்கும் மந்திர இடம் அல்ல; வரையறுத்து, கண்காணித்து, அளவிட வேண்டிய hypoxia அளவு.",
+   "hero": {
+    "value": "20.9%",
+    "label": "காற்றில் ஆக்சிஜன் பங்கு — சென்னையிலும் ஊட்டியிலும் ஒன்றே"
+   },
+   "panels": [
+    {
+     "icon": "mountain",
+     "value": "112 mmHg",
+     "heading": "குறைந்த உள்ளிழுக்கும் PO₂",
+     "text": "கடல் மட்டத்தில் சுமார் 150 mmHg; ஊட்டியில் (~2,240 m) சுமார் 112 mmHg."
+    },
+    {
+     "icon": "clock",
+     "value": "நாள் 1–4",
+     "heading": "எளிதாகத் தொடங்குங்கள்",
+     "text": "முதல் நாட்களில் சுவாசமும் HR-உம் உயரும், VO₂max குறையும்: எளிய ஓட்டமும் தூக்கமும் முதன்மை."
+    },
+    {
+     "icon": "blood",
+     "value": "EPO",
+     "heading": "மெதுவான சிவப்பணு விளைவு",
+     "text": "Hypoxia EPO-வையும், வாரங்களில் சிவப்பணு அளவையும் உயர்த்தலாம் — மிதமானது, அளவைச் சார்ந்தது, ஆளுக்கு ஆள் மாறும்."
+    },
+    {
+     "icon": "route",
+     "value": "LHTL",
+     "heading": "உயரத்தில் வாழ், தாழ்வில் பயிற்சி",
+     "text": "Hypoxia தூண்டலுக்கு உயரத்தில் தூக்கம், தரத்துக்குத் தாழ்வில் பயிற்சி. சோதிக்க வேண்டிய காரணம், உத்தரவாதம் அல்ல."
+    },
+    {
+     "icon": "target",
+     "value": "",
+     "heading": "“ஊட்டி” ஓர் அளவு அல்ல",
+     "text": "அளவு என்பது தூங்கும் உயரம், அங்கு செலவிட்ட மணிநேரம், பயிற்சி உயரம், தங்கிய காலம்."
+    },
+    {
+     "icon": "people",
+     "value": "",
+     "heading": "விளைவு ஆளுக்கு ஆள் மாறும்",
+     "text": "இரும்புச்சத்து, தூக்கம், நோய், வெளிப்பாடு, அளவீட்டுப் பிழை பாதிக்கும். மோசமான முடிவு தீர்ப்பு அல்ல, தகவல்."
+    }
+   ],
+   "flow": [
+    "வீட்டில் அடிப்படை",
+    "நாள் 1–4 எளிதாக",
+    "படிப்படியாகத் தரம்",
+    "தினசரி அளவு பதிவு",
+    "திரும்பியதும் மறுசோதனை"
+   ],
+   "takeaway": "உயரம் ஒரு hypoxia அளவு: அதை வரையறுத்து, பதிந்து, ஒவ்வொரு வீரரின் விளைவையும் அளவிடுங்கள்."
+  }
+ },
+ {
+  "part": "V",
+  "file": "ig05",
+  "en": {
+   "kicker": "PART V · HEAT VS ALTITUDE",
+   "title": "Define the Adaptation, Then Choose the Stress",
+   "subtitle": "Heat and altitude overlap in some outcomes but differ fundamentally in mechanism; good coaching knows which is which.",
+   "hero": {
+    "value": "9:08.67",
+    "label": "Parul Chaudhary's steeplechase NR, one of three finals in three days"
+   },
+   "panels": [
+    {
+     "icon": "thermometer",
+     "value": "Plasma",
+     "heading": "Heat targets plasma",
+     "text": "Heat mainly raises plasma volume and directly improves thermoregulation, many changes within 1–2 weeks."
+    },
+    {
+     "icon": "mountain",
+     "value": "Hb mass",
+     "heading": "Altitude targets red cells",
+     "text": "Altitude mainly raises red-cell (Hb) mass, which needs weeks of sufficient exposure."
+    },
+    {
+     "icon": "drop",
+     "value": "",
+     "heading": "Opposite Hb signals",
+     "text": "Heat may lower Hb concentration by dilution; altitude often raises it early through plasma loss."
+    },
+    {
+     "icon": "target",
+     "value": "",
+     "heading": "Match tool to goal",
+     "text": "Hot race: heat acclimation. More red cells: altitude. Limited budget, no travel: heat plus well-planned training."
+    },
+    {
+     "icon": "shield",
+     "value": "",
+     "heading": "Stress is not stimulus",
+     "text": "Combining heat and altitude raises total load: use only with clear purpose, monitoring and medical support."
+    },
+    {
+     "icon": "clock",
+     "value": "10–14 d",
+     "heading": "Sequence, don't stack",
+     "text": "Baseline, a 10–14 day heat block, washout, a 3–4 week altitude block, then retest."
+    }
+   ],
+   "flow": [
+    "Write target adaptation",
+    "Pick direct stimulus",
+    "Check safety, cost",
+    "Choose measurements",
+    "Baseline test",
+    "Dose, then retest"
+   ],
+   "takeaway": "Heat is a valuable sea-level tool, but not a copy of altitude: define the target first."
+  },
+  "ta": {
+   "kicker": "பகுதி V · வெப்பம் எதிர் உயரம்",
+   "title": "தகவமைப்பை வரையறுத்து, பின் அழுத்தத்தைத் தேர்ந்தெடுங்கள்",
+   "subtitle": "வெப்பமும் உயரமும் சில விளைவுகளில் ஒத்துப்போகும்; ஆனால் செயல்முறையில் அடிப்படையிலேயே வேறுபட்டவை.",
+   "hero": {
+    "value": "9:08.67",
+    "label": "பாருல் சௌத்ரியின் ஸ்டீப்பிள்சேஸ் தேசிய சாதனை — மூன்று நாளில் மூன்று இறுதிப் போட்டிகளில் ஒன்று"
+   },
+   "panels": [
+    {
+     "icon": "thermometer",
+     "value": "பிளாஸ்மா",
+     "heading": "வெப்பத்தின் இலக்கு பிளாஸ்மா",
+     "text": "வெப்பம் முக்கியமாகப் பிளாஸ்மா அளவை உயர்த்தி, வெப்ப ஒழுங்குமுறையை மேம்படுத்தும்; பல மாற்றங்கள் 1–2 வாரங்களில்."
+    },
+    {
+     "icon": "mountain",
+     "value": "Hb mass",
+     "heading": "உயரத்தின் இலக்கு சிவப்பணு",
+     "text": "உயரம் முக்கியமாகச் சிவப்பணு (Hb) அளவை உயர்த்தும்; அதற்குப் போதுமான வாரக்கணக்கான வெளிப்பாடு தேவை."
+    },
+    {
+     "icon": "drop",
+     "value": "",
+     "heading": "எதிரெதிர் Hb சமிக்ஞைகள்",
+     "text": "வெப்பம் நீர்த்தலால் Hb செறிவைக் குறைக்கலாம்; உயரம் பிளாஸ்மா இழப்பால் ஆரம்பத்தில் அதை உயர்த்தலாம்."
+    },
+    {
+     "icon": "target",
+     "value": "",
+     "heading": "இலக்குக்கு ஏற்ற கருவி",
+     "text": "வெப்பப் பந்தயம்: வெப்பப் பழக்கம். அதிக சிவப்பணு: உயரம். குறைந்த செலவு, பயணமின்றி: வெப்பம் + நல்ல பயிற்சி."
+    },
+    {
+     "icon": "shield",
+     "value": "",
+     "heading": "அழுத்தம் தூண்டல் அல்ல",
+     "text": "வெப்பமும் உயரமும் சேர்ந்தால் மொத்தச் சுமை கூடும்: தெளிவான நோக்கம், கண்காணிப்பு, மருத்துவ ஆதரவுடன் மட்டுமே."
+    },
+    {
+     "icon": "clock",
+     "value": "10–14 நாள்",
+     "heading": "அடுக்காதீர், வரிசைப்படுத்துங்கள்",
+     "text": "அடிப்படை, 10–14 நாள் வெப்பம், இடைவெளி, 3–4 வார உயரம், பின் மறுசோதனை."
+    }
+   ],
+   "flow": [
+    "இலக்கை எழுது",
+    "நேரடித் தூண்டல்",
+    "பாதுகாப்பு, செலவு",
+    "அளவீடுகள் தேர்வு",
+    "அடிப்படைச் சோதனை",
+    "அளவு, மறுசோதனை"
+   ],
+   "takeaway": "வெப்பம் கடல் மட்டத்தின் மதிப்புமிக்க கருவி; ஆனால் உயரத்தின் நகல் அல்ல: முதலில் இலக்கை வரையறுங்கள்."
+  }
+ },
+ {
+  "part": "VI",
+  "file": "ig06",
+  "en": {
+   "kicker": "PART VI · MARATHON ENGINE",
+   "title": "The Marathon Is a Systems Test",
+   "subtitle": "Aerobic power, sustainable intensity, fuel, fluid, heat and muscle must hold together for hours; the weakest link decides.",
+   "hero": {
+    "value": "2:34:43",
+    "label": "O. P. Jaisha's national marathon record, Beijing 2015 — still standing"
+   },
+   "panels": [
+    {
+     "icon": "chart",
+     "value": "3 factors",
+     "heading": "The performance model",
+     "text": "Marathon speed = VO₂max × the fraction you can sustain, translated through economy. All three can be trained."
+    },
+    {
+     "icon": "gear",
+     "value": "7",
+     "heading": "Seven systems",
+     "text": "Aerobic power, sustainable intensity, fuel, fluid, thermoregulation, muscle-tendon and pacing: the weakest fails late."
+    },
+    {
+     "icon": "clock",
+     "value": "",
+     "heading": "A physiological budget",
+     "text": "Fast starts, surges, low fuel, sweat loss and heat spend reserves you will miss in the final kilometres."
+    },
+    {
+     "icon": "drop",
+     "value": "90 g/h",
+     "heading": "Fuel by duration",
+     "text": "Up to about 30 g/h for 1–2 h, 60 g/h for 2–2.5 h, 90 g/h beyond 2.5 h."
+    },
+    {
+     "icon": "flag",
+     "value": "Last 10K",
+     "heading": "The truth-teller",
+     "text": "The final 10 km separates speed from durability: how well that speed survives fatigue."
+    },
+    {
+     "icon": "route",
+     "value": "5K ≠ M",
+     "heading": "Distance-specific profiles",
+     "text": "A 5K tests aerobic power; a marathon tests fractional utilisation, fuel, heat and durability."
+    }
+   ],
+   "flow": [
+    "Export splits, HR",
+    "Pace 10–30 km",
+    "Pace 30–40 km",
+    "% pace change",
+    "Annotate conditions"
+   ],
+   "takeaway": "A marathon is limited by the weakest system on the day, not the strongest test number."
+  },
+  "ta": {
+   "kicker": "பகுதி VI · மாரத்தான் இயந்திரம்",
+   "title": "மாரத்தான் ஒரு அமைப்புகளின் சோதனை",
+   "subtitle": "ஏரோபிக் சக்தி, தக்கவைக்கும் தீவிரம், எரிபொருள், நீர், வெப்பம், தசை — மணிக்கணக்கில் இணைந்து நிற்க வேண்டும்; பலவீனமானதே முடிவு செய்யும்.",
+   "hero": {
+    "value": "2:34:43",
+    "label": "ஓ. பி. ஜெய்ஷாவின் தேசிய மாரத்தான் சாதனை, பெய்ஜிங் 2015 — இன்னும் நிற்கிறது"
+   },
+   "panels": [
+    {
+     "icon": "chart",
+     "value": "3 காரணிகள்",
+     "heading": "செயல்திறன் மாதிரி",
+     "text": "மாரத்தான் வேகம் = VO₂max × தக்கவைக்கும் பகுதி, சிக்கனத்தின் வழியே. மூன்றையும் பயிற்சியால் மாற்றலாம்."
+    },
+    {
+     "icon": "gear",
+     "value": "7",
+     "heading": "ஏழு அமைப்புகள்",
+     "text": "ஏரோபிக் சக்தி, நீடித்த தீவிரம், எரிபொருள், நீர், வெப்ப ஒழுங்கு, தசை-தசைநார், pace: பலவீனமானது இறுதியில் தோற்கும்."
+    },
+    {
+     "icon": "clock",
+     "value": "",
+     "heading": "உடலியல் வரவுசெலவு",
+     "text": "வேகமான தொடக்கம், திடீர் வேகம், குறைந்த எரிபொருள், வியர்வை, வெப்பம் — இறுதிக் கிலோமீட்டர்களுக்கான இருப்பைச் செலவழிக்கும்."
+    },
+    {
+     "icon": "drop",
+     "value": "90 g/h",
+     "heading": "நேரத்துக்கு ஏற்ற எரிபொருள்",
+     "text": "1–2 மணி: சுமார் 30 g/h வரை; 2–2.5 மணி: 60 g/h; 2.5 மணிக்கு மேல்: 90 g/h."
+    },
+    {
+     "icon": "flag",
+     "value": "கடைசி 10K",
+     "heading": "உண்மை சொல்லும் பகுதி",
+     "text": "கடைசி 10 km வேகத்தையும் நீடித்திறனையும் பிரிக்கிறது: அந்த வேகம் சோர்வைத் தாண்டி நிலைக்குமா?"
+    },
+    {
+     "icon": "route",
+     "value": "5K ≠ M",
+     "heading": "தூரத்துக்கேற்ற சுயவிவரம்",
+     "text": "5K ஏரோபிக் சக்தியைச் சோதிக்கும்; மாரத்தான் பகுதிப் பயன்பாடு, எரிபொருள், வெப்பம், நீடித்திறனைச் சோதிக்கும்."
+    }
+   ],
+   "flow": [
+    "splits, HR எடு",
+    "10–30 km pace",
+    "30–40 km pace",
+    "% pace மாற்றம்",
+    "சூழலைக் குறி"
+   ],
+   "takeaway": "மாரத்தானைக் கட்டுப்படுத்துவது அன்றைய பலவீனமான அமைப்பு; சோதனையின் வலுவான எண் அல்ல."
+  }
+ },
+ {
+  "part": "VII",
+  "file": "ig07",
+  "en": {
+   "kicker": "PART VII · VDOT AND AEI",
+   "title": "Beside VDOT: A Broader Endurance Layer",
+   "subtitle": "VDOT turns a race into ability and training paces; AEI asks why, how the athlete is responding, and how sure we are.",
+   "hero": {
+    "value": "27:00.22",
+    "label": "Gulveer Singh's 10,000 m national record, The TEN, California 2025"
+   },
+   "panels": [
+    {
+     "icon": "medal",
+     "value": "VDOT",
+     "heading": "Performance first",
+     "text": "VDOT measures current running ability from a race — not a laboratory VO₂max — and sets E, M, T, I, R paces."
+    },
+    {
+     "icon": "gear",
+     "value": "AEI",
+     "heading": "A research prototype",
+     "text": "AEI adds physiology, environment, recovery and confidence. Not validated; it sits beside, not above, established tools."
+    },
+    {
+     "icon": "heart",
+     "value": "Fitness",
+     "heading": "What can they do?",
+     "text": "AEI-Fitness changes over weeks to months, anchored in races, threshold, economy and durability."
+    },
+    {
+     "icon": "clock",
+     "value": "Readiness",
+     "heading": "How much today?",
+     "text": "AEI-Readiness changes over days: sleep, HRV trend, resting HR, fatigue, soreness, load, illness, heat."
+    },
+    {
+     "icon": "target",
+     "value": "10",
+     "heading": "Ten domains",
+     "text": "Performance, Aerobic, Threshold, Economy, O₂ Transport, Cardiovascular, Recovery, Heat, Altitude, Durability: evidence, not scores."
+    },
+    {
+     "icon": "chart",
+     "value": "7·28·90",
+     "heading": "Rolling trend windows",
+     "text": "7-day for readiness, 28-day for block response, 90-day for fitness and adaptation."
+    }
+   ],
+   "flow": [
+    "Performance anchor",
+    "Daily readiness log",
+    "Log environment",
+    "Planned vs actual",
+    "Weekly review"
+   ],
+   "takeaway": "Fitness is the engine; readiness is whether it can be used fully today. Keep them separate."
+  },
+  "ta": {
+   "kicker": "பகுதி VII · VDOT-உம் AEI-யும்",
+   "title": "VDOT-க்கு அருகில்: விரிவான சகிப்புத்திறன் அடுக்கு",
+   "subtitle": "VDOT ஒரு பந்தயத்தைத் திறனாகவும் பயிற்சி pace-களாகவும் மாற்றும்; AEI ஏன், வீரர் எப்படி எதிர்வினையாற்றுகிறார், எவ்வளவு உறுதி என்று கேட்கும்.",
+   "hero": {
+    "value": "27:00.22",
+    "label": "குல்வீர் சிங்கின் 10,000 m தேசிய சாதனை, The TEN, கலிபோர்னியா 2025"
+   },
+   "panels": [
+    {
+     "icon": "medal",
+     "value": "VDOT",
+     "heading": "செயல்திறன் முதலில்",
+     "text": "VDOT பந்தயத்திலிருந்து தற்போதைய ஓட்டத் திறனை அளக்கும் — ஆய்வக VO₂max அல்ல — E, M, T, I, R pace-களைத் தரும்."
+    },
+    {
+     "icon": "gear",
+     "value": "AEI",
+     "heading": "ஓர் ஆய்வு முன்மாதிரி",
+     "text": "AEI உடலியல், சூழல், மீட்சி, நம்பகத்தன்மையைச் சேர்க்கும். சரிபார்க்கப்படவில்லை; நிறுவப்பட்ட கருவிகளுக்கு அருகில், மேலே அல்ல."
+    },
+    {
+     "icon": "heart",
+     "value": "Fitness",
+     "heading": "என்ன செய்ய முடியும்?",
+     "text": "AEI-Fitness வாரங்கள் முதல் மாதங்களில் மாறும்; பந்தயம், threshold, சிக்கனம், நீடித்திறன் அடிப்படை."
+    },
+    {
+     "icon": "clock",
+     "value": "Readiness",
+     "heading": "இன்று எவ்வளவு?",
+     "text": "AEI-Readiness நாட்களில் மாறும்: தூக்கம், HRV போக்கு, ஓய்வு HR, சோர்வு, வலி, சுமை, நோய், வெப்பம்."
+    },
+    {
+     "icon": "target",
+     "value": "10",
+     "heading": "பத்து களங்கள்",
+     "text": "செயல்திறன், ஏரோபிக், threshold, சிக்கனம், O₂ கடத்தல், இதயம், மீட்சி, வெப்பம், உயரம், நீடித்திறன்: சான்றுகள், மதிப்பெண் அல்ல."
+    },
+    {
+     "icon": "chart",
+     "value": "7·28·90",
+     "heading": "நகரும் போக்குச் சாளரங்கள்",
+     "text": "7 நாள் தயார்நிலைக்கு, 28 நாள் பயிற்சித் தொகுதிக்கு, 90 நாள் உடற்தகுதி, தகவமைப்புக்கு."
+    }
+   ],
+   "flow": [
+    "செயல்திறன் நங்கூரம்",
+    "தினசரி தயார்நிலை",
+    "சூழல் பதிவு",
+    "திட்டம் vs நடந்தது",
+    "வாராந்திர மதிப்பாய்வு"
+   ],
+   "takeaway": "உடற்தகுதி இயந்திரம்; தயார்நிலை அதை இன்று முழுமையாகப் பயன்படுத்த முடியுமா என்பது. இரண்டையும் தனியாக வையுங்கள்."
+  }
+ },
+ {
+  "part": "VIII",
+  "file": "ig08",
+  "en": {
+   "kicker": "PART VIII · TESTING LAB",
+   "title": "Every Test Needs Its Protocol",
+   "subtitle": "From field baseline to blood, Hb mass, VO₂, lactate and economy testing: each value needs protocol, metadata and known error.",
+   "hero": {
+    "value": "2% vs 3%",
+    "label": "An economy gain smaller than the test's typical error means nothing"
+   },
+   "panels": [
+    {
+     "icon": "check",
+     "value": "7–10 d",
+     "heading": "Field baseline battery",
+     "text": "Resting HR, HRV, sleep, a submax run, a threshold session and a long run, spread over 7–10 days."
+    },
+    {
+     "icon": "gear",
+     "value": "7 fields",
+     "heading": "Metadata is half the test",
+     "text": "Protocol ID, date and time, device, operator, environment, units and athlete state make values comparable."
+    },
+    {
+     "icon": "blood",
+     "value": "",
+     "heading": "Question first, test second",
+     "text": "Blood markers such as ferritin and haemoglobin must be interpreted by a qualified clinician."
+    },
+    {
+     "icon": "drop",
+     "value": "Hb mass",
+     "heading": "Mass, not concentration",
+     "text": "To know if red-cell mass rose, measure total Hb mass by optimised CO-rebreathing under supervision."
+    },
+    {
+     "icon": "lungs",
+     "value": "Submax",
+     "heading": "Beneath the ceiling",
+     "text": "VO₂max is one output; submaximal oxygen cost at fixed speeds often reveals adaptations VO₂max hides."
+    },
+    {
+     "icon": "heart",
+     "value": "Refer",
+     "heading": "Coaches refer, clinicians clear",
+     "text": "Exertional chest pain, fainting or unexplained palpitations: stop and see a doctor."
+    }
+   ],
+   "flow": [
+    "Standardise protocol",
+    "Record metadata",
+    "Measure",
+    "Compare with error",
+    "Label confidence"
+   ],
+   "takeaway": "A value without its protocol, device, conditions and units cannot safely be compared over time."
+  },
+  "ta": {
+   "kicker": "பகுதி VIII · சோதனை ஆய்வகம்",
+   "title": "சோதனையின் மதிப்பு அதன் நெறிமுறையில்",
+   "subtitle": "களச் சோதனை முதல் இரத்தம், Hb mass, VO₂, lactate, சிக்கனம் வரை: ஒவ்வொரு மதிப்புக்கும் நெறிமுறை, மெட்டாடேட்டா, அறியப்பட்ட பிழை தேவை.",
+   "hero": {
+    "value": "2% vs 3%",
+    "label": "சோதனைப் பிழையை விடச் சிறிய சிக்கன முன்னேற்றத்துக்குப் பொருள் இல்லை"
+   },
+   "panels": [
+    {
+     "icon": "check",
+     "value": "7–10 நாள்",
+     "heading": "கள அடிப்படைச் சோதனைகள்",
+     "text": "ஓய்வு HR, HRV, தூக்கம், submax ஓட்டம், threshold பயிற்சி, நீண்ட ஓட்டம் — 7–10 நாட்களில்."
+    },
+    {
+     "icon": "gear",
+     "value": "7 புலங்கள்",
+     "heading": "மெட்டாடேட்டா பாதிச் சோதனை",
+     "text": "நெறிமுறை ID, தேதி-நேரம், கருவி, இயக்குநர், சூழல், அலகுகள், வீரர் நிலை — ஒப்பிட உதவும்."
+    },
+    {
+     "icon": "blood",
+     "value": "",
+     "heading": "முதலில் கேள்வி, பின் சோதனை",
+     "text": "ferritin, ஹீமோகுளோபின் போன்ற இரத்தக் குறியீடுகளைத் தகுதியான மருத்துவரே விளக்க வேண்டும்."
+    },
+    {
+     "icon": "drop",
+     "value": "Hb mass",
+     "heading": "செறிவு அல்ல, மொத்த அளவு",
+     "text": "சிவப்பணு அளவு உயர்ந்ததா என அறிய, மேற்பார்வையில் optimised CO-rebreathing மூலம் மொத்த Hb mass அளவிடுங்கள்."
+    },
+    {
+     "icon": "lungs",
+     "value": "Submax",
+     "heading": "உச்சவரம்புக்குக் கீழே",
+     "text": "VO₂max ஒரு வெளியீடு மட்டுமே; நிலையான வேகங்களில் submax ஆக்சிஜன் செலவு மறைந்த தகவமைப்பைக் காட்டும்."
+    },
+    {
+     "icon": "heart",
+     "value": "பரிந்துரை",
+     "heading": "பயிற்சியாளர் அனுப்புவார், மருத்துவர் அனுமதிப்பார்",
+     "text": "உழைப்பில் நெஞ்சுவலி, மயக்கம், விளக்கமற்ற படபடப்பு: நிறுத்தி மருத்துவரைப் பாருங்கள்."
+    }
+   ],
+   "flow": [
+    "நெறிமுறை தரப்படுத்து",
+    "மெட்டாடேட்டா பதிவு",
+    "அளவிடு",
+    "பிழையுடன் ஒப்பிடு",
+    "நம்பகத்தன்மை குறி"
+   ],
+   "takeaway": "நெறிமுறை, கருவி, சூழல், அலகுகள் இல்லாத மதிப்பைக் காலப்போக்கில் பாதுகாப்பாக ஒப்பிட முடியாது."
+  }
+ },
+ {
+  "part": "IX",
+  "file": "ig09",
+  "en": {
+   "kicker": "PART IX · ENVIRONMENT",
+   "title": "Never Confuse Fitness with Weather",
+   "subtitle": "Temperature alone is not enough: WBGT, pace-HR decoupling and humidity reveal the true cost of a session.",
+   "hero": {
+    "value": "28°C WBGT",
+    "label": "Above this, consider postponing or moving hard sessions"
+   },
+   "panels": [
+    {
+     "icon": "thermometer",
+     "value": "3 parts",
+     "heading": "What WBGT combines",
+     "text": "Natural wet-bulb (evaporation), black-globe (radiant sun) and dry-bulb air temperature in one heat-load index."
+    },
+    {
+     "icon": "sun",
+     "value": "18·23·28",
+     "heading": "Four risk categories",
+     "text": "Below 18°C low, 18–23 moderate, 23–28 high, above 28 very high. Adapt to local medical rules."
+    },
+    {
+     "icon": "chart",
+     "value": "~7%",
+     "heading": "Pace-HR decoupling",
+     "text": "Same 200 m/min, HR 140 then 150 bpm: efficiency falls from 1.43 to 1.33, about 7%."
+    },
+    {
+     "icon": "drop",
+     "value": "Humidity",
+     "heading": "Not just “more heat”",
+     "text": "Humidity limits sweat evaporation; a warm, very humid day can strain more than a hotter dry one."
+    },
+    {
+     "icon": "mountain",
+     "value": "",
+     "heading": "India's full spectrum",
+     "text": "Humid coasts, dry plains, cool hill stations, Himalayan valleys: the same session, very different strain."
+    },
+    {
+     "icon": "route",
+     "value": "15 min",
+     "heading": "Log at the site",
+     "text": "Measure within 15 minutes of the start, at athlete height, in the same sun or shade as the route."
+    }
+   ],
+   "flow": [
+    "Run 45–60 min",
+    "Split into halves",
+    "Speed ÷ HR",
+    "Compare halves",
+    "Log conditions"
+   ],
+   "takeaway": "Record temperature, humidity and heat load separately, so AEI can tell which one limits the athlete."
+  },
+  "ta": {
+   "kicker": "பகுதி IX · சுற்றுச்சூழல்",
+   "title": "வானிலையை உடற்தகுதி என்று குழப்பாதீர்கள்",
+   "subtitle": "வெப்பநிலை மட்டும் போதாது: WBGT, pace-HR decoupling, ஈரப்பதம் ஒரு பயிற்சியின் உண்மையான செலவைக் காட்டும்.",
+   "hero": {
+    "value": "28°C WBGT",
+    "label": "இதற்கு மேல் கடினப் பயிற்சிகளை ஒத்திவைக்கவோ இடம் மாற்றவோ பரிசீலியுங்கள்"
+   },
+   "panels": [
+    {
+     "icon": "thermometer",
+     "value": "3 பகுதி",
+     "heading": "WBGT என்ன இணைக்கிறது",
+     "text": "ஈர-குமிழ் (ஆவியாதல்), கருப்பு-கோளம் (சூரியக் கதிர்வீச்சு), உலர்-குமிழ் காற்று வெப்பநிலை — ஒரே வெப்பச் சுமைக் குறியீடு."
+    },
+    {
+     "icon": "sun",
+     "value": "18·23·28",
+     "heading": "நான்கு அபாய நிலைகள்",
+     "text": "18°C-க்குக் கீழ் குறைவு, 18–23 மிதம், 23–28 அதிகம், 28-க்கு மேல் மிக அதிகம். உள்ளூர் மருத்துவ விதிகளுக்கு ஏற்ப."
+    },
+    {
+     "icon": "chart",
+     "value": "~7%",
+     "heading": "Pace-HR decoupling",
+     "text": "அதே 200 m/min; HR 140, பின் 150 bpm: திறன் விகிதம் 1.43-இலிருந்து 1.33 — சுமார் 7%."
+    },
+    {
+     "icon": "drop",
+     "value": "ஈரப்பதம்",
+     "heading": "“கூடுதல் வெப்பம்” மட்டும் அல்ல",
+     "text": "ஈரப்பதம் வியர்வை ஆவியாதலைக் குறைக்கும்; மிக ஈரமான சூடான நாள், அதிக வெப்ப உலர் நாளைவிடக் கடினமாகலாம்."
+    },
+    {
+     "icon": "mountain",
+     "value": "",
+     "heading": "இந்தியாவின் முழு நிறமாலை",
+     "text": "ஈரக் கடற்கரை, உலர் சமவெளி, குளிர் மலைப்பகுதி, இமயப் பள்ளத்தாக்கு: அதே பயிற்சி, வேறுபட்ட அழுத்தம்."
+    },
+    {
+     "icon": "route",
+     "value": "15 நிமி",
+     "heading": "இடத்திலேயே பதிவு",
+     "text": "தொடக்கத்தின் 15 நிமிடத்துக்குள், வீரர் உயரத்தில், பாதையின் அதே வெயில் அல்லது நிழலில் அளவிடுங்கள்."
+    }
+   ],
+   "flow": [
+    "45–60 நிமி ஓட்டம்",
+    "இரு பாதிகளாகப் பிரி",
+    "வேகம் ÷ HR",
+    "பாதிகளை ஒப்பிடு",
+    "சூழலைப் பதி"
+   ],
+   "takeaway": "வெப்பநிலை, ஈரப்பதம், வெப்பச் சுமையைத் தனித்தனியாகப் பதியுங்கள்; எது வீரரைக் கட்டுப்படுத்துகிறது என AEI அறியும்."
+  }
+ },
+ {
+  "part": "X",
+  "file": "ig10",
+  "en": {
+   "kicker": "PART X · TRAINING DESIGN",
+   "title": "The Algorithm Informs, the Coach Decides",
+   "subtitle": "AEI becomes a planning tool: six intensity domains, a 3–3–1 weekly rhythm, earned progression and supportive strength work.",
+   "hero": {
+    "value": "3–3–1",
+    "label": "Weekly rhythm: three development, three complementary, one reset day"
+   },
+   "panels": [
+    {
+     "icon": "gear",
+     "value": "5 layers",
+     "heading": "From AEI to training",
+     "text": "Performance sets targets; readiness and environment adjust them; recovery protects them; execution closes the loop."
+    },
+    {
+     "icon": "chart",
+     "value": "6",
+     "heading": "Six intensity domains",
+     "text": "Recovery, Aerobic, Endurance, Threshold, Power, Speed: each defined by purpose, not by pace alone."
+    },
+    {
+     "icon": "check",
+     "value": "",
+     "heading": "Absorb, then progress",
+     "text": "Progress when key sessions are hit and HR/RPE are stable; hold if costly; reduce if not absorbed."
+    },
+    {
+     "icon": "shield",
+     "value": "",
+     "heading": "Pain means reduce",
+     "text": "New or worsening localised pain, limping or altered gait: reduce load and seek professional assessment."
+    },
+    {
+     "icon": "shoe",
+     "value": "2–3 reps",
+     "heading": "Strength for runners",
+     "text": "Squats, deadlifts, split squats, calf raises, pogo hops: stop 2–3 reps short of failure."
+    },
+    {
+     "icon": "mountain",
+     "value": "1,800 m",
+     "heading": "The Colorado lesson",
+     "text": "Some of India's best runners trained above 1,800 m: altitude as a base, one coach planning the year."
+    }
+   ],
+   "flow": [
+    "Set targets",
+    "Check readiness",
+    "Adjust for environment",
+    "Execute session",
+    "Update plan"
+   ],
+   "takeaway": "Progression is earned by adaptation, not scheduled by the calendar alone."
+  },
+  "ta": {
+   "kicker": "பகுதி X · பயிற்சி வடிவமைப்பு",
+   "title": "அல்காரிதம் தகவல் தரும், பயிற்சியாளர் முடிவு செய்வார்",
+   "subtitle": "AEI ஒரு திட்டக் கருவியாகிறது: ஆறு தீவிரக் களங்கள், 3–3–1 வார ஒழுங்கு, சம்பாதிக்கப்படும் முன்னேற்றம், துணை வலிமைப் பயிற்சி.",
+   "hero": {
+    "value": "3–3–1",
+    "label": "வார ஒழுங்கு: மூன்று வளர்ச்சி, மூன்று துணை, ஒரு மீட்டமைப்பு நாள்"
+   },
+   "panels": [
+    {
+     "icon": "gear",
+     "value": "5 அடுக்கு",
+     "heading": "AEI-இலிருந்து பயிற்சிக்கு",
+     "text": "செயல்திறன் இலக்கை அமைக்கும்; தயார்நிலையும் சூழலும் மாற்றும்; மீட்சி காக்கும்; செயல்பாடு சுழற்சியை மூடும்."
+    },
+    {
+     "icon": "chart",
+     "value": "6",
+     "heading": "ஆறு தீவிரக் களங்கள்",
+     "text": "மீட்சி, ஏரோபிக், சகிப்பு, த்ரெஷோல்ட், சக்தி, வேகம்: pace மட்டுமல்ல, நோக்கத்தால் வரையறுக்கப்படுபவை."
+    },
+    {
+     "icon": "check",
+     "value": "",
+     "heading": "உள்வாங்கிய பின் முன்னேறு",
+     "text": "முக்கியப் பயிற்சிகள் நிறைவேறி HR/RPE நிலையாக இருந்தால் முன்னேறு; விலை அதிகமெனில் நிறுத்து; தாங்காவிட்டால் குறை."
+    },
+    {
+     "icon": "shield",
+     "value": "",
+     "heading": "வலி என்றால் குறை",
+     "text": "புதிய அல்லது அதிகரிக்கும் வலி, நொண்டல், நடை மாற்றம்: சுமையைக் குறைத்து நிபுணர் மதிப்பீடு பெறுங்கள்."
+    },
+    {
+     "icon": "shoe",
+     "value": "2–3 reps",
+     "heading": "ஓட்டக்காரருக்கு வலிமை",
+     "text": "Squat, deadlift, split squat, calf raise, pogo hops: தோல்விக்கு 2–3 reps முன் நிறுத்துங்கள்."
+    },
+    {
+     "icon": "mountain",
+     "value": "1,800 m",
+     "heading": "கொலராடோ பாடம்",
+     "text": "இந்தியாவின் சிறந்த ஓட்டக்காரர்கள் சிலர் 1,800 m-க்கு மேல் பயின்றனர்: உயரம் தளமாக, ஒரே பயிற்சியாளர் ஆண்டைத் திட்டமிட்டார்."
+    }
+   ],
+   "flow": [
+    "இலக்கு அமை",
+    "தயார்நிலை பார்",
+    "சூழலுக்கு ஏற்ப",
+    "பயிற்சி செய்",
+    "திட்டம் புதுப்பி"
+   ],
+   "takeaway": "முன்னேற்றம் நாட்காட்டியால் அல்ல, தகவமைப்பால் சம்பாதிக்கப்படுகிறது."
+  }
+ },
+ {
+  "part": "XI",
+  "file": "ig11",
+  "en": {
+   "kicker": "PART XI · CASE STUDIES",
+   "title": "Five Athletes, Beyond One Number",
+   "subtitle": "Five illustrative profiles show how AEI moves a coach past a headline number. Teaching examples, not norms.",
+   "hero": {
+    "value": "9:19.76",
+    "label": "Lalita Babar's national record in her Rio 2016 heat"
+   },
+   "panels": [
+    {
+     "icon": "lungs",
+     "value": "66",
+     "heading": "High VO₂max, fading marathon",
+     "text": "VO₂max 66, but threshold ~76% and second half 8 min slower: durability, fuel and heat limit."
+    },
+    {
+     "icon": "shoe",
+     "value": "55",
+     "heading": "Modest VO₂max, great economy",
+     "text": "VO₂max 55 with economy ~185 ml O₂/kg/km and threshold ~87%: a 1:21 half marathon."
+    },
+    {
+     "icon": "thermometer",
+     "value": "−13 bpm",
+     "heading": "Strong heat response",
+     "text": "HR at a fixed pace in 32°C fell from 164 to 151 bpm; plasma volume about +6%."
+    },
+    {
+     "icon": "mountain",
+     "value": "+4%",
+     "heading": "Measured altitude response",
+     "text": "~24 days at 2,100–2,200 m: Hb mass 820 to 855 g; 10,000 m 31:05 to 30:40."
+    },
+    {
+     "icon": "heart",
+     "value": "5.4 h",
+     "heading": "Fit but not ready",
+     "text": "Fitness at a personal high, but sleep fell from 7.2 to 5.4 h and resting HR rose 48 to 55."
+    },
+    {
+     "icon": "book",
+     "value": "",
+     "heading": "Illustrative only",
+     "text": "All five profiles were created for teaching; never use them as norms or diagnostic thresholds."
+    }
+   ],
+   "flow": [
+    "Profile",
+    "What AEI shows",
+    "Likely contributors",
+    "8–12 week plan",
+    "Retest",
+    "What changes minds"
+   ],
+   "takeaway": "No single metric defines an athlete; read fitness and readiness separately."
+  },
+  "ta": {
+   "kicker": "பகுதி XI · நிகழ்வு ஆய்வுகள்",
+   "title": "ஐந்து வீரர்கள், ஒரு எண்ணுக்கு அப்பால்",
+   "subtitle": "ஐந்து விளக்க உதாரணங்கள், ஒரு தலைப்பு எண்ணைத் தாண்டி AEI எப்படி உதவுகிறது எனக் காட்டுகின்றன. கற்பித்தலுக்கு மட்டும், அளவுகோல்கள் அல்ல.",
+   "hero": {
+    "value": "9:19.76",
+    "label": "ரியோ 2016 தகுதிச்சுற்றில் லலிதா பாபரின் தேசிய சாதனை"
+   },
+   "panels": [
+    {
+     "icon": "lungs",
+     "value": "66",
+     "heading": "உயர் VO₂max, தளரும் மாரத்தான்",
+     "text": "VO₂max 66; ஆனால் threshold ~76%, இரண்டாம் பாதி 8 நிமிடம் மெதுவு: நீடித்திறன், எரிபொருள், வெப்பம் தடை."
+    },
+    {
+     "icon": "shoe",
+     "value": "55",
+     "heading": "மிதமான VO₂max, சிறந்த சிக்கனம்",
+     "text": "VO₂max 55, சிக்கனம் ~185 ml O₂/kg/km, threshold ~87%: 1:21 அரை மாரத்தான்."
+    },
+    {
+     "icon": "thermometer",
+     "value": "−13 bpm",
+     "heading": "வலுவான வெப்ப விளைவு",
+     "text": "32°C-இல் நிலையான pace-இல் HR 164-இலிருந்து 151 bpm; பிளாஸ்மா அளவு சுமார் +6%."
+    },
+    {
+     "icon": "mountain",
+     "value": "+4%",
+     "heading": "அளவிட்ட உயர விளைவு",
+     "text": "2,100–2,200 m-இல் ~24 நாள்: Hb mass 820 → 855 g; 10,000 m 31:05 → 30:40."
+    },
+    {
+     "icon": "heart",
+     "value": "5.4 h",
+     "heading": "தகுதி உண்டு, தயார் இல்லை",
+     "text": "உடற்தகுதி உச்சத்தில்; ஆனால் தூக்கம் 7.2 → 5.4 மணி, ஓய்வு HR 48 → 55."
+    },
+    {
+     "icon": "book",
+     "value": "",
+     "heading": "விளக்கத்துக்கு மட்டும்",
+     "text": "ஐந்து சுயவிவரங்களும் கற்பித்தலுக்காக உருவாக்கப்பட்டவை; அளவுகோலாகவோ நோயறிதல் வரம்பாகவோ பயன்படுத்தாதீர்கள்."
+    }
+   ],
+   "flow": [
+    "சுயவிவரம்",
+    "AEI காட்டுவது",
+    "சாத்தியக் காரணிகள்",
+    "8–12 வாரத் திட்டம்",
+    "மறுசோதனை",
+    "கருத்தை மாற்றுவது"
+   ],
+   "takeaway": "எந்த ஒரு அளவீடும் வீரரை வரையறுக்காது; உடற்தகுதியையும் தயார்நிலையையும் தனியாகப் படியுங்கள்."
+  }
+ },
+ {
+  "part": "XII",
+  "file": "ig12",
+  "en": {
+   "kicker": "PART XII · DATA SCIENCE",
+   "title": "Honest Numbers: Weights, Gaps, Confidence",
+   "subtitle": "How measurements become an AEI score without inventing certainty: learned weights, fair scaling, honest gaps and validation.",
+   "hero": {
+    "value": "14",
+    "label": "Women's steeplechase record entries, 2010–2026: four women, over a minute faster"
+   },
+   "panels": [
+    {
+     "icon": "gear",
+     "value": "",
+     "heading": "Don't guess the weights",
+     "text": "A weight is a scientific claim about importance: estimate it from data, or label it a provisional assumption."
+    },
+    {
+     "icon": "chart",
+     "value": "z · %",
+     "heading": "Normalise to the question",
+     "text": "Compare with a population for capacity; compare with the athlete's own baseline for readiness."
+    },
+    {
+     "icon": "shield",
+     "value": "MNAR",
+     "heading": "Missing is not normal",
+     "text": "Athletes may skip entries on their worst days; turning blanks into averages manufactures false reassurance."
+    },
+    {
+     "icon": "target",
+     "value": "3 tiers",
+     "heading": "Confidence tiers",
+     "text": "High (key data within ~8 weeks), Moderate (2–6 months old), Limited (older or critical data missing)."
+    },
+    {
+     "icon": "brain",
+     "value": "",
+     "heading": "Test on unseen data",
+     "text": "Out-of-sample testing is non-negotiable; machine learning overfits small samples without strict testing."
+    },
+    {
+     "icon": "check",
+     "value": "6 rungs",
+     "heading": "The validation ladder",
+     "text": "Reliability, convergent and predictive validity, calibration, subgroups, then external validation in new cohorts."
+    }
+   ],
+   "flow": [
+    "Reliability",
+    "Convergent validity",
+    "Predictive validity",
+    "Calibration",
+    "Subgroups",
+    "External validation"
+   ],
+   "takeaway": "A score without a confidence label invites over-interpretation: show what the system does not know."
+  },
+  "ta": {
+   "kicker": "பகுதி XII · தரவு அறிவியல்",
+   "title": "நேர்மையான எண்கள்: எடைகள், இடைவெளிகள், நம்பகத்தன்மை",
+   "subtitle": "உறுதியைக் கற்பனை செய்யாமல் அளவீடுகள் AEI மதிப்பெண்ணாவது எப்படி: கற்ற எடைகள், நியாயமான அளவீடு, நேர்மையான இடைவெளிகள், சரிபார்ப்பு.",
+   "hero": {
+    "value": "14",
+    "label": "பெண்கள் ஸ்டீப்பிள்சேஸ் சாதனைப் பதிவுகள், 2010–2026: நான்கு பெண்கள், ஒரு நிமிடத்துக்கும் மேல் முன்னேற்றம்"
+   },
+   "panels": [
+    {
+     "icon": "gear",
+     "value": "",
+     "heading": "எடைகளை ஊகிக்காதீர்கள்",
+     "text": "எடை என்பது முக்கியத்துவம் பற்றிய அறிவியல் கூற்று: தரவிலிருந்து மதிப்பிடுங்கள், அல்லது தற்காலிக அனுமானம் எனக் குறியுங்கள்."
+    },
+    {
+     "icon": "chart",
+     "value": "z · %",
+     "heading": "கேள்விக்கு ஏற்ப இயல்பாக்கு",
+     "text": "திறனுக்கு ஒரு மக்கள்தொகையுடன் ஒப்பிடுங்கள்; தயார்நிலைக்கு வீரரின் சொந்த அடிப்படையுடன்."
+    },
+    {
+     "icon": "shield",
+     "value": "MNAR",
+     "heading": "விடுபட்டது இயல்பானது அல்ல",
+     "text": "மோசமான நாட்களில் வீரர் பதிவைத் தவிர்க்கலாம்; வெற்றிடங்களைச் சராசரியாக்கினால் போலி நம்பிக்கை உருவாகும்."
+    },
+    {
+     "icon": "target",
+     "value": "3 நிலை",
+     "heading": "நம்பகத்தன்மை நிலைகள்",
+     "text": "உயர் (~8 வாரத்துக்குள் தரவு), மிதம் (2–6 மாதம்), வரம்புக்குட்பட்டது (பழைய அல்லது முக்கியத் தரவு இல்லை)."
+    },
+    {
+     "icon": "brain",
+     "value": "",
+     "heading": "காணாத தரவில் சோதனை",
+     "text": "Out-of-sample சோதனை கட்டாயம்; கடுமையான சோதனையின்றி machine learning சிறு மாதிரிகளில் overfit ஆகும்."
+    },
+    {
+     "icon": "check",
+     "value": "6 படி",
+     "heading": "சரிபார்ப்பு ஏணி",
+     "text": "நம்பகத்தன்மை, ஒருங்கிணைந்த, முன்கணிப்புச் செல்லுபடி, calibration, துணைக்குழுக்கள், பின் புதிய குழுவில் வெளிச் சரிபார்ப்பு."
+    }
+   ],
+   "flow": [
+    "நம்பகத்தன்மை",
+    "ஒருங்கிணைந்த செல்லுபடி",
+    "முன்கணிப்புச் செல்லுபடி",
+    "Calibration",
+    "துணைக்குழுக்கள்",
+    "வெளிச் சரிபார்ப்பு"
+   ],
+   "takeaway": "நம்பகத்தன்மைக் குறியில்லாத மதிப்பெண் மிகை விளக்கத்தை அழைக்கும்: அமைப்புக்குத் தெரியாததையும் காட்டுங்கள்."
+  }
+ },
+ {
+  "part": "XIII",
+  "file": "ig13",
+  "en": {
+   "kicker": "PART XIII · THE AKURA MODEL",
+   "title": "Capacity and Readiness, Measured Separately",
+   "subtitle": "The athlete, not the device, is the system studied: AEI answers what they can do, AISRi what they should do today.",
+   "hero": {
+    "value": "1991",
+    "label": "Since then, Nashik's coach who stayed: “the Kenya of India”"
+   },
+   "panels": [
+    {
+     "icon": "brain",
+     "value": "n = 1",
+     "heading": "The athlete is the laboratory",
+     "text": "One athlete measured carefully over many cycles teaches more about them than any population average."
+    },
+    {
+     "icon": "chart",
+     "value": "AEI",
+     "heading": "Capacity: weeks to months",
+     "text": "Built from races, tests and training history; guides zones, targets and season planning."
+    },
+    {
+     "icon": "heart",
+     "value": "AISRi",
+     "heading": "Readiness: day to day",
+     "text": "Sleep, HR, HRV, wellness and recent load versus own baseline; guides session changes and risk."
+    },
+    {
+     "icon": "gear",
+     "value": "10 steps",
+     "heading": "The closed loop",
+     "text": "From intake to AEI update, every decision and its reason must be recorded for the loop to learn."
+    },
+    {
+     "icon": "shield",
+     "value": "",
+     "heading": "Integration is not validation",
+     "text": "Clean Garmin or Strava feeds can hide GPS drift, cadence lock and firmware shifts: apply quality rules."
+    },
+    {
+     "icon": "people",
+     "value": "",
+     "heading": "Profile, not stereotype",
+     "text": "Diversity within India exceeds any average: describe variation in climate, work, diet, health and access."
+    }
+   ],
+   "flow": [
+    "Intake",
+    "Baseline",
+    "AEI profile",
+    "Prescription",
+    "AISRi readiness",
+    "Retest, update"
+   ],
+   "takeaway": "Measure capacity and readiness separately, then combine them in the decision, not in the score."
+  },
+  "ta": {
+   "kicker": "பகுதி XIII · AKURA மாதிரி",
+   "title": "திறனும் தயார்நிலையும் தனித்தனியாக அளவிடப்படும்",
+   "subtitle": "ஆய்வு செய்யப்படுவது கருவி அல்ல, வீரர்: AEI அவரால் என்ன முடியும் என்கிறது; AISRi இன்று என்ன செய்ய வேண்டும் என்கிறது.",
+   "hero": {
+    "value": "1991",
+    "label": "அன்றிலிருந்து நாசிக்கில் நிலைத்து நின்ற ஒரு பயிற்சியாளர் — “இந்தியாவின் கென்யா”"
+   },
+   "panels": [
+    {
+     "icon": "brain",
+     "value": "n = 1",
+     "heading": "வீரரே ஆய்வகம்",
+     "text": "பல சுழற்சிகளில் கவனமாக அளவிடப்பட்ட ஒரு வீரர், எந்த மக்கள்தொகைச் சராசரியையும் விட அவரைப் பற்றி அதிகம் கற்பிப்பார்."
+    },
+    {
+     "icon": "chart",
+     "value": "AEI",
+     "heading": "திறன்: வாரங்கள் முதல் மாதங்கள்",
+     "text": "பந்தயம், சோதனைகள், பயிற்சி வரலாற்றிலிருந்து; மண்டலங்கள், இலக்குகள், பருவத் திட்டத்துக்கு வழிகாட்டும்."
+    },
+    {
+     "icon": "heart",
+     "value": "AISRi",
+     "heading": "தயார்நிலை: நாளுக்கு நாள்",
+     "text": "தூக்கம், HR, HRV, நலம், சமீபச் சுமை — சொந்த அடிப்படையுடன் ஒப்பீடு; பயிற்சி மாற்றம், அபாய மேலாண்மை."
+    },
+    {
+     "icon": "gear",
+     "value": "10 படி",
+     "heading": "மூடிய சுழற்சி",
+     "text": "சேர்க்கை முதல் AEI புதுப்பிப்பு வரை; ஒவ்வொரு முடிவும் அதன் காரணமும் பதியப்பட்டால்தான் சுழற்சி கற்கும்."
+    },
+    {
+     "icon": "shield",
+     "value": "",
+     "heading": "ஒருங்கிணைப்பு சரிபார்ப்பு அல்ல",
+     "text": "நேர்த்தியான Garmin, Strava தரவும் GPS பிழை, cadence lock, firmware மாற்றத்தை மறைக்கலாம்: தர விதிகள் தேவை."
+    },
+    {
+     "icon": "people",
+     "value": "",
+     "heading": "சுயவிவரம், முத்திரை அல்ல",
+     "text": "இந்தியாவுக்குள் உள்ள பன்முகத்தன்மை எந்தச் சராசரியையும் விடப் பெரியது: காலநிலை, வேலை, உணவு, அணுகல் வேறுபாட்டை விவரியுங்கள்."
+    }
+   ],
+   "flow": [
+    "சேர்க்கை",
+    "அடிப்படை",
+    "AEI சுயவிவரம்",
+    "பரிந்துரை",
+    "AISRi தயார்நிலை",
+    "மறுசோதனை, புதுப்பி"
+   ],
+   "takeaway": "திறனையும் தயார்நிலையையும் தனியாக அளந்து, மதிப்பெண்ணில் அல்ல, முடிவில் இணையுங்கள்."
+  }
+ },
+ {
+  "part": "XIV",
+  "file": "ig14",
+  "en": {
+   "kicker": "PART XIV · RESEARCH PROTOCOLS",
+   "title": "Four Pilot Studies a Coach Can Repeat",
+   "subtitle": "Heat, altitude, durability and crossover protocols: starting templates to refine with scientists, clinicians and an ethics committee.",
+   "hero": {
+    "value": "1 second",
+    "label": "Gap between Gopi (2:15:25) and Kheta Ram in the Rio 2016 marathon"
+   },
+   "panels": [
+    {
+     "icon": "sun",
+     "value": "8–10",
+     "heading": "Heat study (Chennai)",
+     "text": "Baseline in week 2, 8–10 controlled heat sessions in weeks 3–4, post-test in week 6, optional decay check."
+    },
+    {
+     "icon": "mountain",
+     "value": "Wk 4–6",
+     "heading": "Altitude study (Ooty)",
+     "text": "Chennai baseline, iron review, camp at Ooty or Kodaikanal, post-tests and follow-up to week 12."
+    },
+    {
+     "icon": "route",
+     "value": "3 runs",
+     "heading": "Marathon durability",
+     "text": "Three standard long runs at fixed pace and fuelling, then compare long-run drift with race fade."
+    },
+    {
+     "icon": "gear",
+     "value": "26 wk",
+     "heading": "Heat vs altitude crossover",
+     "text": "Heat, altitude and control blocks in randomised order, with washouts, in the same athletes."
+    },
+    {
+     "icon": "thermometer",
+     "value": "",
+     "heading": "Log the environment",
+     "text": "If baseline and post-tests differ in heat and humidity, a change in HR may simply be the weather."
+    },
+    {
+     "icon": "shield",
+     "value": "Ethics",
+     "heading": "Before any athlete",
+     "text": "Refine each design with qualified scientists, clinicians and an institutional ethics committee first."
+    }
+   ],
+   "flow": [
+    "Aims, hypotheses",
+    "Participants",
+    "Design, timeline",
+    "Measurements",
+    "Safety, stop rules",
+    "Analysis, ethics"
+   ],
+   "takeaway": "The value is discovering who responds to heat, who to altitude, and who to neither."
+  },
+  "ta": {
+   "kicker": "பகுதி XIV · ஆய்வு நெறிமுறைகள்",
+   "title": "பயிற்சியாளர் மீண்டும் செய்யக்கூடிய நான்கு முன்னோட்ட ஆய்வுகள்",
+   "subtitle": "வெப்பம், உயரம், நீடித்திறன், crossover நெறிமுறைகள்: விஞ்ஞானிகள், மருத்துவர்கள், நெறிமுறைக் குழுவுடன் செம்மைப்படுத்த வேண்டிய தொடக்க வார்ப்புகள்.",
+   "hero": {
+    "value": "1 நொடி",
+    "label": "ரியோ 2016 மாரத்தானில் கோபி (2:15:25) – கேதா ராம் இடைவெளி"
+   },
+   "panels": [
+    {
+     "icon": "sun",
+     "value": "8–10",
+     "heading": "வெப்ப ஆய்வு (சென்னை)",
+     "text": "வாரம் 2 அடிப்படை, வாரம் 3–4-இல் 8–10 கட்டுப்படுத்திய வெப்ப அமர்வுகள், வாரம் 6 மறுசோதனை, விருப்பச் சரிவுச் சோதனை."
+    },
+    {
+     "icon": "mountain",
+     "value": "வாரம் 4–6",
+     "heading": "உயர ஆய்வு (ஊட்டி)",
+     "text": "சென்னையில் அடிப்படை, இரும்புச்சத்து மதிப்பாய்வு, ஊட்டி/கொடைக்கானல் முகாம், மறுசோதனை, வாரம் 12 வரை பின்தொடர்தல்."
+    },
+    {
+     "icon": "route",
+     "value": "3 ஓட்டம்",
+     "heading": "மாரத்தான் நீடித்திறன்",
+     "text": "நிலையான pace, எரிபொருளுடன் மூன்று தரநிலை நீண்ட ஓட்டங்கள்; அவற்றின் drift-ஐப் பந்தயச் சரிவுடன் ஒப்பிடு."
+    },
+    {
+     "icon": "gear",
+     "value": "26 வாரம்",
+     "heading": "வெப்பம் vs உயரம் crossover",
+     "text": "அதே வீரர்களில் வெப்பம், உயரம், கட்டுப்பாட்டுத் தொகுதிகள் சீரற்ற வரிசையில், இடைவெளிகளுடன்."
+    },
+    {
+     "icon": "thermometer",
+     "value": "",
+     "heading": "சூழலைப் பதியுங்கள்",
+     "text": "அடிப்படை, மறுசோதனையில் வெப்பமும் ஈரப்பதமும் வேறுபட்டால், HR மாற்றம் வெறும் வானிலையாக இருக்கலாம்."
+    },
+    {
+     "icon": "shield",
+     "value": "நெறிமுறை",
+     "heading": "எந்த வீரருக்கும் முன்",
+     "text": "ஒவ்வொரு வடிவமைப்பையும் விஞ்ஞானிகள், மருத்துவர்கள், நிறுவன நெறிமுறைக் குழுவுடன் முதலில் செம்மைப்படுத்துங்கள்."
+    }
+   ],
+   "flow": [
+    "நோக்கம், கருதுகோள்",
+    "பங்கேற்பாளர்கள்",
+    "வடிவமைப்பு, காலம்",
+    "அளவீடுகள்",
+    "பாதுகாப்பு விதிகள்",
+    "பகுப்பாய்வு, நெறிமுறை"
+   ],
+   "takeaway": "யாருக்கு வெப்பம், யாருக்கு உயரம், யாருக்கு இரண்டும் இல்லை எனக் கண்டறிவதே மதிப்பு."
+  }
+ },
+ {
+  "part": "XV",
+  "file": "ig15",
+  "en": {
+   "kicker": "PART XV · IMPLEMENTATION",
+   "title": "Traceable Numbers, Reviewable Decisions",
+   "subtitle": "The AEI Athlete Card, Dashboard, coach interpretation layer and safety rules turn ideas into tools for an ordinary Tuesday.",
+   "hero": {
+    "value": "44 s",
+    "label": "Ankita Dhyani's steeplechase change, Tokyo 2025 to Nagoya 2026"
+   },
+   "panels": [
+    {
+     "icon": "book",
+     "value": "12",
+     "heading": "The AEI Athlete Card",
+     "text": "Twelve sections from identity to clinical notes: raw data first, scores second, everything dated."
+    },
+    {
+     "icon": "route",
+     "value": "",
+     "heading": "A record that travels",
+     "text": "With consent, one card follows the athlete from hostel to academy to national camp."
+    },
+    {
+     "icon": "chart",
+     "value": "3 Qs",
+     "heading": "The AEI Dashboard",
+     "text": "What can they do? How ready today? What changed? And how sure are we?"
+    },
+    {
+     "icon": "people",
+     "value": "",
+     "heading": "Override with a reason",
+     "text": "A coach's override with a reason captures human knowledge the model does not yet have."
+    },
+    {
+     "icon": "shield",
+     "value": "",
+     "heading": "Know when not to automate",
+     "text": "No readiness score overrides symptoms: chest pain, fainting or heat-illness signs stop the session."
+    },
+    {
+     "icon": "blood",
+     "value": "",
+     "heading": "Defer to clinicians",
+     "text": "Blood results, iron, supplements and medication decisions belong to clinicians, never to the AEI system."
+    }
+   ],
+   "flow": [
+    "Measure",
+    "Athlete Card",
+    "Dashboard",
+    "Coach interprets",
+    "Safety check",
+    "Decide, record"
+   ],
+   "takeaway": "A dashboard is not a verdict; it prompts a coach–athlete conversation grounded in evidence."
+  },
+  "ta": {
+   "kicker": "பகுதி XV · செயல்படுத்துதல்",
+   "title": "தடமறியும் எண்கள், மறுபார்வைக்குரிய முடிவுகள்",
+   "subtitle": "AEI வீரர் அட்டை, டாஷ்போர்டு, பயிற்சியாளர் விளக்க அடுக்கு, பாதுகாப்பு விதிகள் — யோசனைகளைச் சாதாரணச் செவ்வாய்க்கிழமைக் கருவிகளாக்குகின்றன.",
+   "hero": {
+    "value": "44 நொடி",
+    "label": "அங்கிதா தியானியின் ஸ்டீப்பிள்சேஸ் மாற்றம், டோக்கியோ 2025 முதல் நகோயா 2026 வரை"
+   },
+   "panels": [
+    {
+     "icon": "book",
+     "value": "12",
+     "heading": "AEI வீரர் அட்டை",
+     "text": "அடையாளம் முதல் மருத்துவக் குறிப்பு வரை பன்னிரண்டு பிரிவுகள்: முதலில் மூலத் தரவு, பின் மதிப்பெண்; அனைத்தும் தேதியுடன்."
+    },
+    {
+     "icon": "route",
+     "value": "",
+     "heading": "பயணிக்கும் பதிவேடு",
+     "text": "ஒப்புதலுடன், ஒரே அட்டை வீரரை விடுதியிலிருந்து அகாடமிக்கும் தேசிய முகாமுக்கும் பின்தொடரும்."
+    },
+    {
+     "icon": "chart",
+     "value": "3 கேள்வி",
+     "heading": "AEI டாஷ்போர்டு",
+     "text": "என்ன செய்ய முடியும்? இன்று எவ்வளவு தயார்? என்ன மாறியது? எவ்வளவு உறுதி?"
+    },
+    {
+     "icon": "people",
+     "value": "",
+     "heading": "காரணத்துடன் மாற்றம்",
+     "text": "காரணத்துடன் பயிற்சியாளர் செய்யும் மாற்றம், மாதிரிக்கு இன்னும் தெரியாத மனித அறிவைப் பதிகிறது."
+    },
+    {
+     "icon": "shield",
+     "value": "",
+     "heading": "எப்போது தானியங்கி கூடாது",
+     "text": "எந்தத் தயார்நிலை மதிப்பெண்ணும் அறிகுறிகளை மீறாது: நெஞ்சுவலி, மயக்கம், வெப்ப நோய் அறிகுறி — பயிற்சி நிற்கும்."
+    },
+    {
+     "icon": "blood",
+     "value": "",
+     "heading": "மருத்துவரிடம் விடுங்கள்",
+     "text": "இரத்த முடிவுகள், இரும்புச்சத்து, சப்ளிமெண்ட், மருந்து முடிவுகள் மருத்துவருடையவை; AEI அமைப்பினுடையவை அல்ல."
+    }
+   ],
+   "flow": [
+    "அளவிடு",
+    "வீரர் அட்டை",
+    "டாஷ்போர்டு",
+    "பயிற்சியாளர் விளக்கம்",
+    "பாதுகாப்புச் சோதனை",
+    "முடிவு, பதிவு"
+   ],
+   "takeaway": "டாஷ்போர்டு தீர்ப்பு அல்ல; சான்றின் அடிப்படையில் பயிற்சியாளர்–வீரர் உரையாடலைத் தூண்டும் கருவி."
+  }
+ },
+ {
+  "part": "XVI",
+  "file": "ig16",
+  "en": {
+   "kicker": "PART XVI · PHILOSOPHY",
+   "title": "Train. Measure. Understand. Adapt.",
+   "subtitle": "Many myths wrap a real observation in an inaccurate explanation; AKURA tests them with humility and respect for the athlete.",
+   "hero": {
+    "value": "28:48.72",
+    "label": "Hari Chand's 1976 10,000 m national record — it stood 32 years"
+   },
+   "panels": [
+    {
+     "icon": "book",
+     "value": "",
+     "heading": "The useful kernel",
+     "text": "Keep the real observation inside a myth, and test the explanation wrapped around it."
+    },
+    {
+     "icon": "target",
+     "value": "",
+     "heading": "Myth to hypothesis",
+     "text": "A myth becomes useful the moment it is a hypothesis that could be proved wrong."
+    },
+    {
+     "icon": "brain",
+     "value": "",
+     "heading": "Humility in both directions",
+     "text": "Do not mock old beliefs, and do not overclaim for data: let evidence decide what stays."
+    },
+    {
+     "icon": "gear",
+     "value": "4 words",
+     "heading": "A loop, not a line",
+     "text": "Training without measuring is guessing; measuring without understanding is noise; understanding without adapting changes nothing."
+    },
+    {
+     "icon": "clock",
+     "value": "32 · 48",
+     "heading": "Progress in decades",
+     "text": "Records that stood 32 and 48 years show endurance progress is measured in decades, not seasons."
+    },
+    {
+     "icon": "people",
+     "value": "",
+     "heading": "The real goal",
+     "text": "Not a famous number, but athletes and coaches who understand the body and decide better."
+    }
+   ],
+   "flow": [
+    "Train",
+    "Measure",
+    "Understand",
+    "Adapt"
+   ],
+   "takeaway": "Belief can create a hypothesis, but the athlete's truth must be told by data."
+  },
+  "ta": {
+   "kicker": "பகுதி XVI · தத்துவம்",
+   "title": "பயிற்சி. அளவீடு. புரிதல். தகவமைப்பு.",
+   "subtitle": "பல கட்டுக்கதைகள் உண்மையான கவனிப்பைத் தவறான விளக்கத்தில் போர்த்துகின்றன; AKURA அவற்றைப் பணிவுடனும் வீரர் மீதான மரியாதையுடனும் சோதிக்கிறது.",
+   "hero": {
+    "value": "28:48.72",
+    "label": "ஹரி சந்தின் 1976 10,000 m தேசிய சாதனை — 32 ஆண்டுகள் நின்றது"
+   },
+   "panels": [
+    {
+     "icon": "book",
+     "value": "",
+     "heading": "பயனுள்ள மையக்கரு",
+     "text": "கட்டுக்கதைக்குள் உள்ள உண்மையான கவனிப்பை வைத்துக்கொண்டு, அதைச் சுற்றிய விளக்கத்தைச் சோதியுங்கள்."
+    },
+    {
+     "icon": "target",
+     "value": "",
+     "heading": "கட்டுக்கதையிலிருந்து கருதுகோளுக்கு",
+     "text": "தவறென நிரூபிக்கக்கூடிய கருதுகோளாக மாறும் கணமே கட்டுக்கதை பயனுள்ளதாகிறது."
+    },
+    {
+     "icon": "brain",
+     "value": "",
+     "heading": "இரு திசையிலும் பணிவு",
+     "text": "பழைய நம்பிக்கைகளைக் கேலி செய்யாதீர்; தரவுக்கு மிகையாக உரிமை கோராதீர்: எது நிலைக்கும் எனச் சான்று முடிவு செய்யட்டும்."
+    },
+    {
+     "icon": "gear",
+     "value": "4 சொற்கள்",
+     "heading": "நேர்கோடு அல்ல, சுழற்சி",
+     "text": "அளவிடாத பயிற்சி ஊகம்; புரியாத அளவீடு இரைச்சல்; தகவமைக்காத புரிதல் எதையும் மாற்றாது."
+    },
+    {
+     "icon": "clock",
+     "value": "32 · 48",
+     "heading": "பத்தாண்டுகளில் முன்னேற்றம்",
+     "text": "32, 48 ஆண்டுகள் நின்ற சாதனைகள்: சகிப்புத்திறன் முன்னேற்றம் பருவங்களில் அல்ல, பத்தாண்டுகளில் அளக்கப்படுகிறது."
+    },
+    {
+     "icon": "people",
+     "value": "",
+     "heading": "உண்மையான இலக்கு",
+     "text": "புகழ்பெற்ற எண் அல்ல; உடலை நன்கு புரிந்து, சிறந்த முடிவெடுக்கும் வீரர்களும் பயிற்சியாளர்களும்."
+    }
+   ],
+   "flow": [
+    "பயிற்சி",
+    "அளவீடு",
+    "புரிதல்",
+    "தகவமைப்பு"
+   ],
+   "takeaway": "நம்பிக்கையால் hypothesis உருவாகலாம். ஆனால் athlete-ன் உண்மையை data தான் சொல்ல வேண்டும்."
+  }
+ },
+ {
+  "part": "XVII",
+  "file": "ig17",
+  "en": {
+   "kicker": "PART XVII · THE AKURA TOOLKIT",
+   "title": "From One Race to Every Training Pace",
+   "subtitle": "Pace and race-equivalence charts, heat and altitude adjustments, and three roadmaps — always checked against HR and effort.",
+   "hero": {
+    "value": "3:08/km",
+    "label": "Thonakal Gopi's average pace for 2:12:23, Valencia 2025"
+   },
+   "panels": [
+    {
+     "icon": "chart",
+     "value": "20:00",
+     "heading": "Equivalent performances",
+     "text": "A 20:00 5K equates to about 41:42 for 10K, 1:32:00 half marathon and 3:11:49 marathon."
+    },
+    {
+     "icon": "shoe",
+     "value": "4:15",
+     "heading": "Training paces",
+     "text": "From a 20:00 5K: aerobic 5:19–6:05, marathon 4:33, threshold 4:15, power 3:52 min/km."
+    },
+    {
+     "icon": "thermometer",
+     "value": "WBGT",
+     "heading": "Adjust for heat",
+     "text": "WBGT 18–23: easy runs often 2–4% slower; 23–28: 5–8% slower; above 28: short, very easy or indoors."
+    },
+    {
+     "icon": "mountain",
+     "value": "Days 1–4",
+     "heading": "Adjust for altitude",
+     "text": "Days 1–4 by effort only, no threshold or speed; from day 11, consider descending for key fast sessions."
+    },
+    {
+     "icon": "flag",
+     "value": "24 wk",
+     "heading": "Marathon roadmap",
+     "text": "Foundation, aerobic build, specific strength, race-specific, taper: each phase ends with a test."
+    },
+    {
+     "icon": "route",
+     "value": "5 + 5",
+     "heading": "Two more roadmaps",
+     "text": "Athlete development: foundation to high performance. AEI research: data foundation to external validation."
+    }
+   ],
+   "flow": [
+    "Foundation",
+    "Aerobic build",
+    "Specific strength",
+    "Race-specific",
+    "Taper, race"
+   ],
+   "takeaway": "Charts are a starting point: in heat, hold the effort and let the pace fall."
+  },
+  "ta": {
+   "kicker": "பகுதி XVII · AKURA கருவிப்பெட்டி",
+   "title": "ஒரு பந்தயத்திலிருந்து அனைத்துப் பயிற்சி pace-களுக்கும்",
+   "subtitle": "Pace, பந்தயச் சமன்பாட்டு அட்டவணைகள், வெப்பம்–உயர மாற்றங்கள், மூன்று வழிவரைபடங்கள் — எப்போதும் HR, முயற்சியுடன் சரிபார்க்கப்படும்.",
+   "hero": {
+    "value": "3:08/km",
+    "label": "வலென்சியா 2025-இல் 2:12:23-க்கு தோனக்கல் கோபியின் சராசரி pace"
+   },
+   "panels": [
+    {
+     "icon": "chart",
+     "value": "20:00",
+     "heading": "சமமான செயல்திறன்கள்",
+     "text": "20:00 5K என்பது சுமார் 41:42 10K, 1:32:00 அரை மாரத்தான், 3:11:49 மாரத்தானுக்குச் சமம்."
+    },
+    {
+     "icon": "shoe",
+     "value": "4:15",
+     "heading": "பயிற்சி pace-கள்",
+     "text": "20:00 5K-இலிருந்து: ஏரோபிக் 5:19–6:05, மாரத்தான் 4:33, த்ரெஷோல்ட் 4:15, சக்தி 3:52 min/km."
+    },
+    {
+     "icon": "thermometer",
+     "value": "WBGT",
+     "heading": "வெப்பத்துக்கு ஏற்ப",
+     "text": "WBGT 18–23: எளிய ஓட்டம் 2–4% மெதுவு; 23–28: 5–8% மெதுவு; 28-க்கு மேல்: குறுகிய, மிக எளிய அல்லது உள்ளரங்கு."
+    },
+    {
+     "icon": "mountain",
+     "value": "நாள் 1–4",
+     "heading": "உயரத்துக்கு ஏற்ப",
+     "text": "நாள் 1–4 முயற்சியால் மட்டும், threshold, வேகம் வேண்டாம்; நாள் 11 முதல் முக்கிய வேகப் பயிற்சிக்குக் கீழே இறங்கலாம்."
+    },
+    {
+     "icon": "flag",
+     "value": "24 வாரம்",
+     "heading": "மாரத்தான் வழிவரைபடம்",
+     "text": "அடித்தளம், ஏரோபிக் வளர்ச்சி, குறிப்பிட்ட வலிமை, பந்தயத் தயாரிப்பு, taper: ஒவ்வொரு கட்டமும் சோதனையில் முடியும்."
+    },
+    {
+     "icon": "route",
+     "value": "5 + 5",
+     "heading": "மேலும் இரு வழிவரைபடங்கள்",
+     "text": "வீரர் வளர்ச்சி: அடித்தளம் முதல் உயர் செயல்திறன் வரை. AEI ஆய்வு: தரவு அடித்தளம் முதல் வெளிச் சரிபார்ப்பு வரை."
+    }
+   ],
+   "flow": [
+    "அடித்தளம்",
+    "ஏரோபிக் வளர்ச்சி",
+    "குறிப்பிட்ட வலிமை",
+    "பந்தயத் தயாரிப்பு",
+    "Taper, பந்தயம்"
+   ],
+   "takeaway": "அட்டவணைகள் தொடக்கப் புள்ளி: வெப்பத்தில் முயற்சியை நிலைநிறுத்தி, pace குறையட்டும்."
+  }
+ },
+ {
+  "part": "XVIII",
+  "file": "ig18",
+  "en": {
+   "kicker": "PART XVIII · INDIA'S ELITE RUNNERS",
+   "title": "India's Distance Runners Through the AEI Lens",
+   "subtitle": "Where India's elites come from, how records moved, how far they sit from world level, and what to measure next.",
+   "hero": {
+    "value": "3–19%",
+    "label": "Gap between Indian national records and world records, by event"
+   },
+   "panels": [
+    {
+     "icon": "people",
+     "value": "Army",
+     "heading": "The men's main pathway",
+     "text": "For Indian men the Army is the main pathway: salary, sports-quota entry, ASI Pune, camp access."
+    },
+    {
+     "icon": "shield",
+     "value": "Jobs",
+     "heading": "Women: the job as contract",
+     "text": "Railways and police jobs act as the professional contract that allows women to train at elite level."
+    },
+    {
+     "icon": "medal",
+     "value": "10 NRs",
+     "heading": "Records move in bursts",
+     "text": "Sable broke Gopal Saini's 37-year-old 8:30.88 steeplechase record ten times, down to 8:09.91."
+    },
+    {
+     "icon": "clock",
+     "value": "Late",
+     "heading": "Late developers",
+     "text": "Several record holders reached elite level late; talent identification closing at 17 would have missed them."
+    },
+    {
+     "icon": "flag",
+     "value": "19.1%",
+     "heading": "The marathon gap",
+     "text": "Men's track events sit about 3–5% off world records; marathons and women's long events about 9–19%."
+    },
+    {
+     "icon": "route",
+     "value": "Last 10 km",
+     "heading": "Durability: the key limiter",
+     "text": "For Indian marathoners, durability is the most likely limiter, and cheap to measure: late-race pace and HR decay."
+    }
+   ],
+   "flow": [
+    "School",
+    "Hostel",
+    "Services/Railways job",
+    "National camp"
+   ],
+   "takeaway": "India needs better links between the pathways it already has, not a new pathway."
+  },
+  "ta": {
+   "kicker": "பகுதி XVIII · இந்தியாவின் முன்னணி ஓட்டக்காரர்கள்",
+   "title": "AEI பார்வையில் இந்தியத் தொலைதூர ஓட்டக்காரர்கள்",
+   "subtitle": "இந்திய முன்னணி வீரர்கள் எங்கிருந்து வருகிறார்கள், சாதனைகள் எப்படி நகர்ந்தன, உலகத் தரத்திலிருந்து எவ்வளவு தூரம், அடுத்து எதை அளவிட வேண்டும்.",
+   "hero": {
+    "value": "3–19%",
+    "label": "நிகழ்வு வாரியாக இந்தியத் தேசிய சாதனைகளுக்கும் உலக சாதனைகளுக்கும் இடைவெளி"
+   },
+   "panels": [
+    {
+     "icon": "people",
+     "value": "ராணுவம்",
+     "heading": "ஆண்களின் முக்கியப் பாதை",
+     "text": "இந்திய ஆண்களுக்கு ராணுவமே முக்கியப் பாதை: சம்பளம், விளையாட்டு ஒதுக்கீடு, ASI புனே, முகாம் வாய்ப்பு."
+    },
+    {
+     "icon": "shield",
+     "value": "வேலை",
+     "heading": "பெண்கள்: வேலையே ஒப்பந்தம்",
+     "text": "ரயில்வே, காவல்துறை வேலைகள் பெண்கள் உயர்நிலைப் பயிற்சி பெற உதவும் தொழில்முறை ஒப்பந்தமாகச் செயல்படுகின்றன."
+    },
+    {
+     "icon": "medal",
+     "value": "10 NRs",
+     "heading": "சாதனைகள் பாய்ச்சலில் நகரும்",
+     "text": "கோபால் சைனியின் 37 ஆண்டு 8:30.88 ஸ்டீப்பிள்சேஸ் சாதனையைச் சாப்லே பத்து முறை முறியடித்து 8:09.91-க்குக் கொண்டுவந்தார்."
+    },
+    {
+     "icon": "clock",
+     "value": "தாமதம்",
+     "heading": "தாமதமாக வளர்பவர்கள்",
+     "text": "பல சாதனையாளர்கள் தாமதமாகவே உயர்நிலையை அடைந்தனர்; 17 வயதில் மூடும் திறன் தேடல் அவர்களைத் தவறவிட்டிருக்கும்."
+    },
+    {
+     "icon": "flag",
+     "value": "19.1%",
+     "heading": "மாரத்தான் இடைவெளி",
+     "text": "ஆண்கள் டிராக் நிகழ்வுகள் உலக சாதனையிலிருந்து சுமார் 3–5%; மாரத்தான், பெண்கள் நீண்ட நிகழ்வுகள் சுமார் 9–19%."
+    },
+    {
+     "icon": "route",
+     "value": "10 km",
+     "heading": "நீடித்திறன்: முக்கியத் தடை",
+     "text": "இந்திய மாரத்தான் வீரர்களுக்கு நீடித்திறனே பெரும்பாலும் தடை; அளவிடுவது எளிது: இறுதி pace, HR சரிவு."
+    }
+   ],
+   "flow": [
+    "பள்ளி",
+    "விடுதி",
+    "ராணுவ/ரயில்வே வேலை",
+    "தேசிய முகாம்"
+   ],
+   "takeaway": "இந்தியாவுக்குப் புதிய பாதை அல்ல, ஏற்கெனவே உள்ள பாதைகளுக்கு இடையே சிறந்த இணைப்புகளே தேவை."
+  }
+ }
+]

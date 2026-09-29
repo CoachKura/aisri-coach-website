@@ -1,0 +1,1091 @@
+[
+ {
+  "file": "06_part10_11.md",
+  "lang": "ta",
+  "old": "னுக்கு முன் தொனக்கல் கோபி (Thona",
+  "new": "னுக்கு முன் தோனக்கல் கோபி (Thona",
+  "category": "consistency",
+  "severity": "medium",
+  "note": "Thonakal Gopi spelled தோனக்கல் in 01/03/04/05/09b; unify (Malayalam Thōṇakkal has long ō)"
+ },
+ {
+  "file": "07_part12_13.md",
+  "lang": "ta",
+  "old": "ல்களின்படி, 2019-இல் மட்டுமே உலகம் முழுவதும் 2",
+  "new": "ல்களின்படி, 2019 என்ற ஒரே ஆண்டில் உலகம் முழுவதும் 2",
+  "category": "style",
+  "severity": "low",
+  "note": "\"In 2019 alone\": \"2019-இல் மட்டுமே\" reads as \"only in 2019\""
+ },
+ {
+  "file": "07_part12_13.md",
+  "lang": "ta",
+  "old": "யாகிவிட்டன. பிரீஜா ஸ்ரீதரனின் ",
+  "new": "யாகிவிட்டன. ப்ரீஜா ஸ்ரீதரனின் ",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Preeja Sreedharan is ப்ரீஜா elsewhere (05, 09b x11)"
+ },
+ {
+  "file": "07_part12_13.md",
+  "lang": "ta",
+  "old": "x-க்கு 20%, ஓட்டச் சிக்கனம் (running economy)-க்கு 15%, இதயத் துடிப்பு மாறுபாடு (heart rate variability)-க்கு 10% என்று கொடுக",
+  "new": "x-க்கு 20%, ஓட்டச் சிக்கனத்துக்கு (running economy) 15%, இதயத் துடிப்பு மாறுபாட்டுக்கு (heart rate variability) 10% என்று கொடுக",
+  "category": "grammar",
+  "severity": "low",
+  "note": "Case suffix should attach to the Tamil word, not after the English bracket"
+ },
+ {
+  "file": "07_part12_13.md",
+  "lang": "ta",
+  "old": "### ஊகித்த எடைகள் ஏன் பிரச்சனை",
+  "new": "### ஊகித்த எடைகள் ஏன் பிரச்சினை",
+  "category": "spelling",
+  "severity": "low",
+  "note": "Standard spelling பிரச்சினை (used elsewhere in the book)"
+ },
+ {
+  "file": "07_part12_13.md",
+  "lang": "ta",
+  "old": "இருக்கலாம். Case Study B-யில் உள்ளது போல,",
+  "new": "இருக்கலாம். நிகழ்வு ஆய்வு B-யில் உள்ளது போல,",
+  "category": "tamil",
+  "severity": "medium",
+  "note": "Leftover English; Part XI uses \"நிகழ்வு ஆய்வு B\""
+ },
+ {
+  "file": "07_part12_13.md",
+  "lang": "ta",
+  "old": "அளந்தது போல அவரது threshold பேஸ் (pace)-ஐ வினாடி வரை துல்லிய",
+  "new": "அளந்தது போல அவரது threshold பேஸை (pace) வினாடி வரை துல்லிய",
+  "category": "grammar",
+  "severity": "low",
+  "note": "Case suffix should attach to the Tamil word, not after the English bracket"
+ },
+ {
+  "file": "07_part12_13.md",
+  "lang": "ta",
+  "old": "யை உயர்த்த, ஒரு time trial அல்லது submaximal இதயத் துடிப்புச் சோதனை போன்ற மிகப்",
+  "new": "யை உயர்த்த, ஒரு நேரச் சோதனை (time trial) அல்லது அதிகபட்சத்துக்குக் குறைவான (submaximal) இதயத் துடிப்புச் சோதனை போன்ற மிகப்",
+  "category": "tamil",
+  "severity": "low",
+  "note": "Untranslated terms; Part XI renders these as நேரச் சோதனை / அதிகபட்சத்துக்குக் குறைவான"
+ },
+ {
+  "file": "07_part12_13.md",
+  "lang": "ta",
+  "old": " வென்றார் — பிரீஜா ஸ்ரீதரனின் ",
+  "new": " வென்றார் — ப்ரீஜா ஸ்ரீதரனின் ",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Preeja Sreedharan is ப்ரீஜா elsewhere (05, 09b x11)"
+ },
+ {
+  "file": "07_part12_13.md",
+  "lang": "ta",
+  "old": "ிப் படையின் தொனக்கல் கோபி (Thona",
+  "new": "ிப் படையின் தோனக்கல் கோபி (Thona",
+  "category": "consistency",
+  "severity": "medium",
+  "note": "Thonakal Gopi spelled தோனக்கல் in 01/03/04/05/09b; unify (Malayalam Thōṇakkal has long ō)"
+ },
+ {
+  "file": "07_part12_13.md",
+  "lang": "ta",
+  "old": "களின் மகனான தொனக்கல் கோபி, விளைய",
+  "new": "களின் மகனான தோனக்கல் கோபி, விளைய",
+  "category": "consistency",
+  "severity": "medium",
+  "note": "Thonakal Gopi spelled தோனக்கல் in 01/03/04/05/09b; unify (Malayalam Thōṇakkal has long ō)"
+ },
+ {
+  "file": "07_part12_13.md",
+  "lang": "ta",
+  "old": "தார் ஆனார்; ராணுவ விளையாட்டுக் கழகத்தின் பயிற்சியாளர் சுரேந்திர ச",
+  "new": "தார் ஆனார்; ராணுவ விளையாட்டு நிறுவனத்தின் பயிற்சியாளர் சுரேந்திர ச",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Army Sports Institute = ராணுவ விளையாட்டு நிறுவனம் in 01/04/08/09/09b"
+ },
+ {
+  "file": "07_part12_13.md",
+  "lang": "ta",
+  "old": "நிறுவப்பட்ட புனே ராணுவ விளையாட்டுக் கழகம் (Army Sports Institute), SAI-யுடன் ",
+  "new": "நிறுவப்பட்ட புனே ராணுவ விளையாட்டு நிறுவனம் (Army Sports Institute), SAI-யுடன் ",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Army Sports Institute = ராணுவ விளையாட்டு நிறுவனம் in 01/04/08/09/09b"
+ },
+ {
+  "file": "07_part12_13.md",
+  "lang": "ta",
+  "old": "ita Babar), பிரீஜா ஸ்ரீதரன், 2",
+  "new": "ita Babar), ப்ரீஜா ஸ்ரீதரன், 2",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Preeja Sreedharan is ப்ரீஜா elsewhere (05, 09b x11)"
+ },
+ {
+  "file": "07_part12_13.md",
+  "lang": "ta",
+  "old": "இழக்கிறார். பகுதி XI-இன் Case Study E முதல் வடிவத",
+  "new": "இழக்கிறார். பகுதி XI-இன் நிகழ்வு ஆய்வு E முதல் வடிவத",
+  "category": "tamil",
+  "severity": "medium",
+  "note": "Leftover English; Part XI uses \"நிகழ்வு ஆய்வு E\""
+ },
+ {
+  "file": "07_part12_13.md",
+  "lang": "ta",
+  "old": "்காணிப்பின் மிகப்பெரிய பிரச்சனைகளில் ஒன்றான முழு",
+  "new": "்காணிப்பின் மிகப்பெரிய பிரச்சினைகளில் ஒன்றான முழு",
+  "category": "spelling",
+  "severity": "low",
+  "note": "Standard spelling பிரச்சினை"
+ },
+ {
+  "file": "07_part12_13.md",
+  "lang": "ta",
+  "old": "km ஓடினார். தொனக்கல் கோபி (Thona",
+  "new": "km ஓடினார். தோனக்கல் கோபி (Thona",
+  "category": "consistency",
+  "severity": "medium",
+  "note": "Thonakal Gopi spelled தோனக்கல் in 01/03/04/05/09b; unify (Malayalam Thōṇakkal has long ō)"
+ },
+ {
+  "file": "08_part14_16_back.md",
+  "lang": "ta",
+  "old": "முதலாமவர் தொனக்கல் கோபி (Thona",
+  "new": "முதலாமவர் தோனக்கல் கோபி (Thona",
+  "category": "consistency",
+  "severity": "medium",
+  "note": "Thonakal Gopi spelled தோனக்கல் in 01/03/04/05/09b; unify (Malayalam Thōṇakkal has long ō)"
+ },
+ {
+  "file": "08_part14_16_back.md",
+  "lang": "ta",
+  "old": "ுகாமின்போது நிலையான பேஸ் (pace)-இல் இதயத் துடிப்பு (h",
+  "new": "ுகாமின்போது நிலையான பேஸில் (pace) இதயத் துடிப்பு (h",
+  "category": "grammar",
+  "severity": "low",
+  "note": "Case suffix should attach to the Tamil word, not after the English bracket"
+ },
+ {
+  "file": "08_part14_16_back.md",
+  "lang": "ta",
+  "old": " டிசம்பரில் அதே பேஸ் (pace)-இல் இருந்ததை விட நன்றா",
+  "new": " டிசம்பரில் அதே பேஸில் (pace) இருந்ததை விட நன்றா",
+  "category": "grammar",
+  "severity": "low",
+  "note": "Case suffix should attach to the Tamil word, not after the English bracket"
+ },
+ {
+  "file": "08_part14_16_back.md",
+  "lang": "ta",
+  "old": "பௌரி கட்வாலின் (Pauri Garhwal) மலைச் சாலைக",
+  "new": "பௌரி கர்வாலின் (Pauri Garhwal) மலைச் சாலைக",
+  "category": "spelling",
+  "severity": "low",
+  "note": "Garhwal = கர்வால் (as in 02/03/07/09b)"
+ },
+ {
+  "file": "08_part14_16_back.md",
+  "lang": "ta",
+  "old": "ில் 5000 m, ஸ்டீபிள்சேஸ் (steeplecha",
+  "new": "ில் 5000 m, ஸ்டீப்பிள்சேஸ் (steeplecha",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Steeplechase is ஸ்டீப்பிள்சேஸ் in 06/07/09b (58 uses)"
+ },
+ {
+  "file": "08_part14_16_back.md",
+  "lang": "ta",
+  "old": " m, 5000 m, ஸ்டீபிள்சேஸ் ஆகியவற்றில்",
+  "new": " m, 5000 m, ஸ்டீப்பிள்சேஸ் ஆகியவற்றில்",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Steeplechase is ஸ்டீப்பிள்சேஸ் in 06/07/09b (58 uses)"
+ },
+ {
+  "file": "08_part14_16_back.md",
+  "lang": "ta",
+  "old": " போட்டியில் ஸ்டீபிள்சேஸ் வெண்கலம் வெ",
+  "new": " போட்டியில் ஸ்டீப்பிள்சேஸ் வெண்கலம் வெ",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Steeplechase is ஸ்டீப்பிள்சேஸ் in 06/07/09b (58 uses)"
+ },
+ {
+  "file": "08_part14_16_back.md",
+  "lang": "ta",
+  "old": "I dashboard விவேகமாக முழுமையாக்க (round) வேண்டும், ப",
+  "new": "I dashboard விவேகமாக முழு எண்ணாக்க (round) வேண்டும், ப",
+  "category": "tamil",
+  "severity": "low",
+  "note": "\"round sensibly\" means rounding numbers; முழுமையாக்க = \"complete\""
+ },
+ {
+  "file": "08_part14_16_back.md",
+  "lang": "ta",
+  "old": "ுதியற்றவர், தவறாக பேஸ் செய்தவர், அல்லது சரி",
+  "new": "ுதியற்றவர், தவறாகப் பேஸ் செய்தவர், அல்லது சரி",
+  "category": "grammar",
+  "severity": "low",
+  "note": "Sandhi: adverbial -ஆக + ப doubles (தவறாகப்)"
+ },
+ {
+  "file": "08_part14_16_back.md",
+  "lang": "ta",
+  "old": "அணித் தோழர் கவிதா ராவத் (Kavita Rau",
+  "new": "அணித் தோழர் கவிதா ராவுத் (Kavita Rau",
+  "category": "consistency",
+  "severity": "medium",
+  "note": "Kavita Raut is ராவுத் in 01/02/03/05/07/09b; ராவத் collides with Nitendra Singh Rawat"
+ },
+ {
+  "file": "08_part14_16_back.md",
+  "lang": "ta",
+  "old": "ப்படுகிறது. அதுதான் சரியான கருத்து. ஒரு பாதுகாப",
+  "new": "ப்படுகிறது. அதுதான் இங்கே முக்கியமான விஷயம். ஒரு பாதுகாப",
+  "category": "tamil",
+  "severity": "medium",
+  "note": "Mistranslation: EN \"That is exactly the point.\" — சரியான கருத்து means \"the correct opinion\""
+ },
+ {
+  "file": "08_part14_16_back.md",
+  "lang": "ta",
+  "old": "ini) படைத்த ஸ்டீபிள்சேஸ் சாதனை, 2018",
+  "new": "ini) படைத்த ஸ்டீப்பிள்சேஸ் சாதனை, 2018",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Steeplechase is ஸ்டீப்பிள்சேஸ் in 06/07/09b (58 uses)"
+ },
+ {
+  "file": "08_part14_16_back.md",
+  "lang": "ta",
+  "old": "ார். சாப்லே ஸ்டீபிள்சேஸ் சாதனையைப் ப",
+  "new": "ார். சாப்லே ஸ்டீப்பிள்சேஸ் சாதனையைப் ப",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Steeplechase is ஸ்டீப்பிள்சேஸ் in 06/07/09b (58 uses)"
+ },
+ {
+  "file": "08_part14_16_back.md",
+  "lang": "ta",
+  "old": "2026-இல் ஆசிய விளையாட்டுப் போட்டியில் வென்ற வெள்ளி, 1982-க்குப் பிறகு அந்தப் போட்டிகளில் இந்தியாவின் முதல் ஆண்கள் மாரத்தான் பதக்கமாக அமைந்த சாவன் பர்வால், தன் பந்தய ஓ",
+  "new": "2026 ஆசிய விளையாட்டுப் போட்டியில் தான் வென்ற வெள்ளியை, 1982-க்குப் பிறகு அந்தப் போட்டிகளில் இந்தியாவின் முதல் ஆண்கள் மாரத்தான் பதக்கமாக்கிய சாவன் பர்வால், தன் பந்தய ஓ",
+  "category": "style",
+  "severity": "low",
+  "note": "Relative clause reads as if the silver medal is Sawan Barwal; restructure so the subject is clear"
+ },
+ {
+  "file": "08_part14_16_back.md",
+  "lang": "ta",
+  "old": "\"கவிதா ராவத், மோனிகா அத்",
+  "new": "\"கவிதா ராவுத், மோனிகா அத்",
+  "category": "consistency",
+  "severity": "medium",
+  "note": "Kavita Raut is ராவுத் in 01/02/03/05/07/09b; ராவத் collides with Nitendra Singh Rawat"
+ },
+ {
+  "file": "08_part14_16_back.md",
+  "lang": "ta",
+  "old": "ிலப்பரப்பா? பயிற்சியாளரேவா? அல்லது வெறு",
+  "new": "ிலப்பரப்பா? பயிற்சியாளரேதானா? அல்லது வெறு",
+  "category": "grammar",
+  "severity": "low",
+  "note": "\"பயிற்சியாளரேவா\" is ungrammatical (ஏ + ஆ stacked); EN \"The coach himself?\""
+ },
+ {
+  "file": "08_part14_16_back.md",
+  "lang": "ta",
+  "old": "், மொனாக்கோ டயமண்ட் லீக்கில் (M",
+  "new": "், மொனாக்கோ டைமண்ட் லீக்கில் (M",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Diamond League spelled டைமண்ட் in 06/07 (7 uses); unify"
+ },
+ {
+  "file": "08_part14_16_back.md",
+  "lang": "ta",
+  "old": " காயத்துடன் பயிற்சி செய்ய வீரர்களை அழுத்தம் கொடுக்க அது பயன்படு",
+  "new": " காயத்துடன் பயிற்சி செய்ய வீரர்களுக்கு அழுத்தம் கொடுக்க அது பயன்படு",
+  "category": "grammar",
+  "severity": "low",
+  "note": "Case: அழுத்தம் கொடு takes dative (வீரர்களுக்கு)"
+ },
+ {
+  "file": "09_part17_toolkit.md",
+  "lang": "ta",
+  "old": "க் காலையில் தொனக்கல் கோபி (Thona",
+  "new": "க் காலையில் தோனக்கல் கோபி (Thona",
+  "category": "consistency",
+  "severity": "medium",
+  "note": "Thonakal Gopi spelled தோனக்கல் in 01/03/04/05/09b; unify (Malayalam Thōṇakkal has long ō)"
+ },
+ {
+  "file": "09_part17_toolkit.md",
+  "lang": "ta",
+  "old": "டக்காரர்கள் அந்த பேஸ் (pace)-ஐ டிராக்கின் ஒரு சுற்றுக",
+  "new": "டக்காரர்கள் அந்தப் பேஸை (pace) டிராக்கின் ஒரு சுற்றுக",
+  "category": "grammar",
+  "severity": "low",
+  "note": "Case suffix should attach to the Tamil word; sandhi அந்தப்"
+ },
+ {
+  "file": "09_part17_toolkit.md",
+  "lang": "ta",
+  "old": "த்துகிறார்; அந்த விலை பேஸ் (pace)-இல் செலுத்தப்படுகிறது. அதை மதிக்க",
+  "new": "த்துகிறார்; அந்த விலை பேஸில் (pace) செலுத்தப்படுகிறது. அதை மதிக்க",
+  "category": "grammar",
+  "severity": "low",
+  "note": "Case suffix should attach to the Tamil word, not after the English bracket"
+ },
+ {
+  "file": "09_part17_toolkit.md",
+  "lang": "ta",
+  "old": "ியாளர் அவரை ஸ்டீபிள்சேஸுக்கு (steeplechase) மாற்றினார்;",
+  "new": "ியாளர் அவரை ஸ்டீப்பிள்சேஸுக்கு (steeplechase) மாற்றினார்;",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Steeplechase is ஸ்டீப்பிள்சேஸ் elsewhere"
+ },
+ {
+  "file": "09_part17_toolkit.md",
+  "lang": "ta",
+  "old": "வேறு போட்டி நிலைகள். அதுதான் சரியான கருத்து. இந்திய சகிப",
+  "new": "வேறு போட்டி நிலைகள். அதுதான் இங்கே முக்கியமான விஷயம். இந்திய சகிப",
+  "category": "tamil",
+  "severity": "medium",
+  "note": "Mistranslation: EN \"That is precisely the point.\" — சரியான கருத்து means \"the correct opinion\""
+ },
+ {
+  "file": "09b_part18_india.md",
+  "lang": "ta",
+  "old": "ள்சேஸ் தடை, Colorado Springs என்ற இடம் இ",
+  "new": "ள்சேஸ் தடை, கொலராடோ ஸ்பிரிங்ஸ் என்ற இடம் இ",
+  "category": "tamil",
+  "severity": "low",
+  "note": "Latin-script place name in Tamil text; ch.06/07 use கொலராடோ ஸ்பிரிங்ஸ்"
+ },
+ {
+  "file": "09b_part18_india.md",
+  "lang": "ta",
+  "old": "்படுகிறது. 12ஆம் வகுப்புக்",
+  "new": "்படுகிறது. 12-ஆம் வகுப்புக்",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Book convention (06–09, 01–05) hyphenates Tamil case suffix after numerals: 2015-இல், 25-வது"
+ },
+ {
+  "file": "09b_part18_india.md",
+  "lang": "ta",
+  "old": "ரி மூலம் 2015இல்தான் அவர் ",
+  "new": "ரி மூலம் 2015-இல்தான் அவர் ",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Book convention (06–09, 01–05) hyphenates Tamil case suffix after numerals: 2015-இல், 25-வது"
+ },
+ {
+  "file": "09b_part18_india.md",
+  "lang": "ta",
+  "old": ". சுமார் 2017இல், அம்ரிஷ் ",
+  "new": ". சுமார் 2017-இல், அம்ரிஷ் ",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Book convention (06–09, 01–05) hyphenates Tamil case suffix after numerals: 2015-இல், 25-வது"
+ },
+ {
+  "file": "09b_part18_india.md",
+  "lang": "ta",
+  "old": "ித்தார், 2023இல் ஆசிய விளை",
+  "new": "ித்தார், 2023-இல் ஆசிய விளை",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Book convention (06–09, 01–05) hyphenates Tamil case suffix after numerals: 2015-இல், 25-வது"
+ },
+ {
+  "file": "09b_part18_india.md",
+  "lang": "ta",
+  "old": "தங்கமும் 2022இல் காமன்வெல்",
+  "new": "தங்கமும் 2022-இல் காமன்வெல்",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Book convention (06–09, 01–05) hyphenates Tamil case suffix after numerals: 2015-இல், 25-வது"
+ },
+ {
+  "file": "09b_part18_india.md",
+  "lang": "ta",
+  "old": "ென்றார்; 2024இல் பாரிஸில் ",
+  "new": "ென்றார்; 2024-இல் பாரிஸில் ",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Book convention (06–09, 01–05) hyphenates Tamil case suffix after numerals: 2015-இல், 25-வது"
+ },
+ {
+  "file": "09b_part18_india.md",
+  "lang": "ta",
+  "old": "றந்தார். 2018இல் விளையாட்ட",
+  "new": "றந்தார். 2018-இல் விளையாட்ட",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Book convention (06–09, 01–05) hyphenates Tamil case suffix after numerals: 2015-இல், 25-வது"
+ },
+ {
+  "file": "09b_part18_india.md",
+  "lang": "ta",
+  "old": "வந்தார். 2019இல் இராணுவத்த",
+  "new": "வந்தார். 2019-இல் இராணுவத்த",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Book convention (06–09, 01–05) hyphenates Tamil case suffix after numerals: 2015-இல், 25-வது"
+ },
+ {
+  "file": "09b_part18_india.md",
+  "lang": "ta",
+  "old": "ெற்றார். 2017இல் ஆசிய சாம்",
+  "new": "ெற்றார். 2017-இல் ஆசிய சாம்",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Book convention (06–09, 01–05) hyphenates Tamil case suffix after numerals: 2015-இல், 25-வது"
+ },
+ {
+  "file": "09b_part18_india.md",
+  "lang": "ta",
+  "old": "டைவெளியில் 25வது, 26வது இடங்களில்",
+  "new": "டைவெளியில் 25-வது, 26-வது இடங்களில்",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Book convention (06–09, 01–05) hyphenates Tamil case suffix after numerals: 2015-இல், 25-வது"
+ },
+ {
+  "file": "09b_part18_india.md",
+  "lang": "ta",
+  "old": "கள் நீடித்த சிவ்நாத் சிங் (Shivn",
+  "new": "கள் நீடித்த ஷிவ்நாத் சிங் (Shivn",
+  "category": "consistency",
+  "severity": "medium",
+  "note": "Shivnath Singh is ஷிவ்நாத் in 01/03/07/08/09"
+ },
+ {
+  "file": "09b_part18_india.md",
+  "lang": "ta",
+  "old": "0 m ஓடி, 1978இல் ஆசிய விளை",
+  "new": "0 m ஓடி, 1978-இல் ஆசிய விளை",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Book convention (06–09, 01–05) hyphenates Tamil case suffix after numerals: 2015-இல், 25-வது"
+ },
+ {
+  "file": "09b_part18_india.md",
+  "lang": "ta",
+  "old": " Chand), 1972இல் மத்திய ரி",
+  "new": " Chand), 1972-இல் மத்திய ரி",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Book convention (06–09, 01–05) hyphenates Tamil case suffix after numerals: 2015-இல், 25-வது"
+ },
+ {
+  "file": "09b_part18_india.md",
+  "lang": "ta",
+  "old": "1986இல் உத்தரப் ப",
+  "new": "1986-இல் உத்தரப் ப",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Book convention (06–09, 01–05) hyphenates Tamil case suffix after numerals: 2015-இல், 25-வது"
+ },
+ {
+  "file": "09b_part18_india.md",
+  "lang": "ta",
+  "old": "்வே அதிகாரி மது சிவ்தத்தான் எனக்கு ஸ்டீ",
+  "new": "்வே அதிகாரி மது ஷிவ்தத்தான் எனக்கு ஸ்டீ",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Madhu Shivdutt is மது ஷிவ்தத் in ch.07"
+ },
+ {
+  "file": "09b_part18_india.md",
+  "lang": "ta",
+  "old": "2010இல் ஆசிய விளை",
+  "new": "2010-இல் ஆசிய விளை",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Book convention (06–09, 01–05) hyphenates Tamil case suffix after numerals: 2015-இல், 25-வது"
+ },
+ {
+  "file": "09b_part18_india.md",
+  "lang": "ta",
+  "old": "பாளராகி, 2010இல் இன்றும் ந",
+  "new": "பாளராகி, 2010-இல் இன்றும் ந",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Book convention (06–09, 01–05) hyphenates Tamil case suffix after numerals: 2015-இல், 25-வது"
+ },
+ {
+  "file": "09b_part18_india.md",
+  "lang": "ta",
+  "old": " முன்பே, 2015இல் மேற்கு ரய",
+  "new": " முன்பே, 2015-இல் மேற்கு ரய",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Book convention (06–09, 01–05) hyphenates Tamil case suffix after numerals: 2015-இல், 25-வது"
+ },
+ {
+  "file": "09b_part18_india.md",
+  "lang": "ta",
+  "old": "ஏற்றார்; 2024இல் உத்தரப் ப",
+  "new": "ஏற்றார்; 2024-இல் உத்தரப் ப",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Book convention (06–09, 01–05) hyphenates Tamil case suffix after numerals: 2015-இல், 25-வது"
+ },
+ {
+  "file": "09b_part18_india.md",
+  "lang": "ta",
+  "old": "1987இல் மகாராஷ்டி",
+  "new": "1987-இல் மகாராஷ்டி",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Book convention (06–09, 01–05) hyphenates Tamil case suffix after numerals: 2015-இல், 25-வது"
+ },
+ {
+  "file": "09b_part18_india.md",
+  "lang": "ta",
+  "old": "Gawate), 2019இல் மும்பையில",
+  "new": "Gawate), 2019-இல் மும்பையில",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Book convention (06–09, 01–05) hyphenates Tamil case suffix after numerals: 2015-இல், 25-வது"
+ },
+ {
+  "file": "09b_part18_india.md",
+  "lang": "ta",
+  "old": "டுகிறது. 2014இல் மும்பை கா",
+  "new": "டுகிறது. 2014-இல் மும்பை கா",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Book convention (06–09, 01–05) hyphenates Tamil case suffix after numerals: 2015-இல், 25-வது"
+ },
+ {
+  "file": "09b_part18_india.md",
+  "lang": "ta",
+  "old": "், ஜின்சன், சிவ்நாத் சிங்|சம்பளம",
+  "new": "், ஜின்சன், ஷிவ்நாத் சிங்|சம்பளம",
+  "category": "consistency",
+  "severity": "medium",
+  "note": "Shivnath Singh is ஷிவ்நாத் in 01/03/07/08/09"
+ },
+ {
+  "file": "09b_part18_india.md",
+  "lang": "ta",
+  "old": "தவ், மோனிகா அதரே|நீண்டகாலம் ",
+  "new": "தவ், மோனிகா அதாரே|நீண்டகாலம் ",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Monika Athare is அதாரே in 07; unify"
+ },
+ {
+  "file": "09b_part18_india.md",
+  "lang": "ta",
+  "old": ". சாப்லே 2015இல் இராணுவ கி",
+  "new": ". சாப்லே 2015-இல் இராணுவ கி",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Book convention (06–09, 01–05) hyphenates Tamil case suffix after numerals: 2015-இல், 25-வது"
+ },
+ {
+  "file": "09b_part18_india.md",
+  "lang": "ta",
+  "old": "av), மோனிகா அதரே (Monika Ath",
+  "new": "av), மோனிகா அதாரே (Monika Ath",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Monika Athare is அதாரே in 07; unify"
+ },
+ {
+  "file": "09b_part18_india.md",
+  "lang": "ta",
+  "old": " கேதா ராம், சிவ்நாத்|CRPF, காவல்",
+  "new": " கேதா ராம், ஷிவ்நாத்|CRPF, காவல்",
+  "category": "consistency",
+  "severity": "medium",
+  "note": "Shivnath Singh is ஷிவ்நாத் in 01/03/07/08/09"
+ },
+ {
+  "file": "09b_part18_india.md",
+  "lang": "ta",
+  "old": "ாமத்தில் 1998இல் ஒரு விவசா",
+  "new": "ாமத்தில் 1998-இல் ஒரு விவசா",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Book convention (06–09, 01–05) hyphenates Tamil case suffix after numerals: 2015-இல், 25-வது"
+ },
+ {
+  "file": "09b_part18_india.md",
+  "lang": "ta",
+  "old": "ிய சாதனை 2008இல் படைக்கப்ப",
+  "new": "ிய சாதனை 2008-இல் படைக்கப்ப",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Book convention (06–09, 01–05) hyphenates Tamil case suffix after numerals: 2015-இல், 25-வது"
+ },
+ {
+  "file": "09b_part18_india.md",
+  "lang": "ta",
+  "old": "|சிவ்நாத் சிங் (Shivn",
+  "new": "|ஷிவ்நாத் சிங் (Shivn",
+  "category": "consistency",
+  "severity": "medium",
+  "note": "Shivnath Singh is ஷிவ்நாத் in 01/03/07/08/09"
+ },
+ {
+  "file": "09b_part18_india.md",
+  "lang": "ta",
+  "old": ")|இராணுவம்; Colorado Springs, Simmons|NR இன்னும் ",
+  "new": ")|இராணுவம்; கொலராடோ ஸ்பிரிங்ஸ், சிம்மன்ஸ்|NR இன்னும் ",
+  "category": "tamil",
+  "severity": "low",
+  "note": "Latin-script place name in Tamil text; ch.06/07 use கொலராடோ ஸ்பிரிங்ஸ் | Latin-script name in Tamil text; ஸ்காட் சிம்மன்ஸ் used elsewhere"
+ },
+ {
+  "file": "09b_part18_india.md",
+  "lang": "ta",
+  "old": " 2022 முதல் Simmons|10 NRகள்; ப",
+  "new": " 2022 முதல் சிம்மன்ஸ்|10 NRகள்; ப",
+  "category": "tamil",
+  "severity": "low",
+  "note": "Latin-script name in Tamil text; ஸ்காட் சிம்மன்ஸ் used elsewhere"
+ },
+ {
+  "file": "09b_part18_india.md",
+  "lang": "ta",
+  "old": ")|இராணுவம்; Colorado Springs, Simmons|NRகள் 3000–",
+  "new": ")|இராணுவம்; கொலராடோ ஸ்பிரிங்ஸ், சிம்மன்ஸ்|NRகள் 3000–",
+  "category": "tamil",
+  "severity": "low",
+  "note": "Latin-script place name in Tamil text; ch.06/07 use கொலராடோ ஸ்பிரிங்ஸ் | Latin-script name in Tamil text; ஸ்காட் சிம்மன்ஸ் used elsewhere"
+ },
+ {
+  "file": "09b_part18_india.md",
+  "lang": "ta",
+  "old": "ரியோ 2016, 26வது|",
+  "new": "ரியோ 2016, 26-வது|",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Book convention (06–09, 01–05) hyphenates Tamil case suffix after numerals: 2015-இல், 25-வது"
+ },
+ {
+  "file": "09b_part18_india.md",
+  "lang": "ta",
+  "old": "லை. சாப்லே 12ஆம் வகுப்புக்",
+  "new": "லை. சாப்லே 12-ஆம் வகுப்புக்",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Book convention (06–09, 01–05) hyphenates Tamil case suffix after numerals: 2015-இல், 25-வது"
+ },
+ {
+  "file": "09b_part18_india.md",
+  "lang": "ta",
+  "old": "ேர்ந்து, 2015இல் இராணுவ கி",
+  "new": "ேர்ந்து, 2015-இல் இராணுவ கி",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Book convention (06–09, 01–05) hyphenates Tamil case suffix after numerals: 2015-இல், 25-வது"
+ },
+ {
+  "file": "09b_part18_india.md",
+  "lang": "ta",
+  "old": "் சுமார் 2017இல் அவரை ஸ்டீ",
+  "new": "் சுமார் 2017-இல் அவரை ஸ்டீ",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Book convention (06–09, 01–05) hyphenates Tamil case suffix after numerals: 2015-இல், 25-வது"
+ },
+ {
+  "file": "09b_part18_india.md",
+  "lang": "ta",
+  "old": "mmons) கீழ் Colorado Springs, 2019 முதல்",
+  "new": "mmons) கீழ் கொலராடோ ஸ்பிரிங்ஸ், 2019 முதல்",
+  "category": "tamil",
+  "severity": "low",
+  "note": "Latin-script place name in Tamil text; ch.06/07 use கொலராடோ ஸ்பிரிங்ஸ்"
+ },
+ {
+  "file": "09b_part18_india.md",
+  "lang": "ta",
+  "old": "்ட், பாரிஸ் டயமண்ட் லீக், ரோட்ட",
+  "new": "்ட், பாரிஸ் டைமண்ட் லீக், ரோட்ட",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Diamond League spelled டைமண்ட் in 06/07 (7 uses); unify"
+ },
+ {
+  "file": "09b_part18_india.md",
+  "lang": "ta",
+  "old": "ஜான்சன், 2019இல் ஏற்பட்ட கடுமையான அகில்லெஸ் (Achilles) ",
+  "new": "ஜான்சன், 2019-இல் ஏற்பட்ட கடுமையான அகிலிஸ் (Achilles) ",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Book convention (06–09, 01–05) hyphenates Tamil case suffix after numerals: 2015-இல், 25-வது | Achilles: use one form (அகிலிஸ் as in 06 ch.)"
+ },
+ {
+  "file": "09b_part18_india.md",
+  "lang": "ta",
+  "old": "ல் மொனாக்கோ டயமண்ட் லீக்கில் சா",
+  "new": "ல் மொனாக்கோ டைமண்ட் லீக்கில் சா",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Diamond League spelled டைமண்ட் in 06/07 (7 uses); unify"
+ },
+ {
+  "file": "09b_part18_india.md",
+  "lang": "ta",
+  "old": "்ளது. 2025–26இல், சாவன் (2",
+  "new": "்ளது. 2025–26-இல், சாவன் (2",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Book convention (06–09, 01–05) hyphenates Tamil case suffix after numerals: 2015-இல், 25-வது"
+ },
+ {
+  "file": "09b_part18_india.md",
+  "lang": "ta",
+  "old": "ம் 2017, 2024இல் ஆசிய மாரத",
+  "new": "ம் 2017, 2024-இல் ஆசிய மாரத",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Book convention (06–09, 01–05) hyphenates Tamil case suffix after numerals: 2015-இல், 25-வது"
+ },
+ {
+  "file": "09b_part18_india.md",
+  "lang": "ta",
+  "old": "யதில்லை. 2019இல் மட்டும், ",
+  "new": "யதில்லை. 2019-இல் மட்டும், ",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Book convention (06–09, 01–05) hyphenates Tamil case suffix after numerals: 2015-இல், 25-வது"
+ },
+ {
+  "file": "09b_part18_india.md",
+  "lang": "ta",
+  "old": "அல்ல. || 1978இல் சிவ்நாத் சிங்கின் 2:",
+  "new": "அல்ல. || 1978-இல் ஷிவ்நாத் சிங்கின் 2:",
+  "category": "consistency",
+  "severity": "medium",
+  "note": "Book convention (06–09, 01–05) hyphenates Tamil case suffix after numerals: 2015-இல், 25-வது | Shivnath Singh is ஷிவ்நாத் in 01/03/07/08/09"
+ },
+ {
+  "file": "09b_part18_india.md",
+  "lang": "ta",
+  "old": "ேரம்; 2025–26இல் நான்கு இந",
+  "new": "ேரம்; 2025–26-இல் நான்கு இந",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Book convention (06–09, 01–05) hyphenates Tamil case suffix after numerals: 2015-இல், 25-வது"
+ },
+ {
+  "file": "09b_part18_india.md",
+  "lang": "ta",
+  "old": "ித்தார்; 1984இல் பி. டி. உ",
+  "new": "ித்தார்; 1984-இல் பி. டி. உ",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Book convention (06–09, 01–05) hyphenates Tamil case suffix after numerals: 2015-இல், 25-வது"
+ },
+ {
+  "file": "09b_part18_india.md",
+  "lang": "ta",
+  "old": " காவல்துறை; Simmons|NRகள் 3000 ",
+  "new": " காவல்துறை; சிம்மன்ஸ்|NRகள் 3000 ",
+  "category": "tamil",
+  "severity": "low",
+  "note": "Latin-script name in Tamil text; ஸ்காட் சிம்மன்ஸ் used elsewhere"
+ },
+ {
+  "file": "09b_part18_india.md",
+  "lang": "ta",
+  "old": "ட்டியாளர், 10வது|",
+  "new": "ட்டியாளர், 10-வது|",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Book convention (06–09, 01–05) hyphenates Tamil case suffix after numerals: 2015-இல், 25-வது"
+ },
+ {
+  "file": "09b_part18_india.md",
+  "lang": "ta",
+  "old": "|ஹர்மிலன் பெயின்ஸ் (Harmilan B",
+  "new": "|ஹர்மிலன் பெய்ன்ஸ் (Harmilan B",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Harmilan Bains is பெய்ன்ஸ் in 01/08"
+ },
+ {
+  "file": "09b_part18_india.md",
+  "lang": "ta",
+  "old": "் சௌத்ரி 2015இல் மேற்கு ரய",
+  "new": "் சௌத்ரி 2015-இல் மேற்கு ரய",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Book convention (06–09, 01–05) hyphenates Tamil case suffix after numerals: 2015-இல், 25-வது"
+ },
+ {
+  "file": "09b_part18_india.md",
+  "lang": "ta",
+  "old": "ேர்ந்து, 2024இல் உத்தரப் ப",
+  "new": "ேர்ந்து, 2024-இல் உத்தரப் ப",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Book convention (06–09, 01–05) hyphenates Tamil case suffix after numerals: 2015-இல், 25-வது"
+ },
+ {
+  "file": "09b_part18_india.md",
+  "lang": "ta",
+  "old": "ிதா ராணி 2002இல் பஞ்சாப் க",
+  "new": "ிதா ராணி 2002-இல் பஞ்சாப் க",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Book convention (06–09, 01–05) hyphenates Tamil case suffix after numerals: 2015-இல், 25-வது"
+ },
+ {
+  "file": "09b_part18_india.md",
+  "lang": "ta",
+  "old": "ல்லாமல், 2019இல் 2:45:48 ம",
+  "new": "ல்லாமல், 2019-இல் 2:45:48 ம",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Book convention (06–09, 01–05) hyphenates Tamil case suffix after numerals: 2015-இல், 25-வது"
+ },
+ {
+  "file": "09b_part18_india.md",
+  "lang": "ta",
+  "old": "்னெசரேவ் 2005இல் வந்தார்; ",
+  "new": "்னெசரேவ் 2005-இல் வந்தார்; ",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Book convention (06–09, 01–05) hyphenates Tamil case suffix after numerals: 2015-இல், 25-வது"
+ },
+ {
+  "file": "09b_part18_india.md",
+  "lang": "ta",
+  "old": "து. அவர் 2019இல் தேசிய அமை",
+  "new": "து. அவர் 2019-இல் தேசிய அமை",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Book convention (06–09, 01–05) hyphenates Tamil case suffix after numerals: 2015-இல், 25-வது"
+ },
+ {
+  "file": "09b_part18_india.md",
+  "lang": "ta",
+  "old": "ின் கதை. 2011இல், தந்தையின",
+  "new": "ின் கதை. 2011-இல், தந்தையின",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Book convention (06–09, 01–05) hyphenates Tamil case suffix after numerals: 2015-இல், 25-வது"
+ },
+ {
+  "file": "09b_part18_india.md",
+  "lang": "ta",
+  "old": "்ளியும், 2026இல் நகோயாவில்",
+  "new": "்ளியும், 2026-இல் நகோயாவில்",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Book convention (06–09, 01–05) hyphenates Tamil case suffix after numerals: 2015-இல், 25-வது"
+ },
+ {
+  "file": "09b_part18_india.md",
+  "lang": "ta",
+  "old": "்றார். அவர் Colorado Springs-இல் ஸ்காட் சிம்",
+  "new": "்றார். அவர் கொலராடோ ஸ்பிரிங்ஸில் ஸ்காட் சிம்",
+  "category": "tamil",
+  "severity": "low",
+  "note": "Latin-script place name in Tamil text; ch.06/07 use கொலராடோ ஸ்பிரிங்ஸ்"
+ },
+ {
+  "file": "09b_part18_india.md",
+  "lang": "ta",
+  "old": "ான்|2:12:00|சிவ்நாத் சிங்|1978|",
+  "new": "ான்|2:12:00|ஷிவ்நாத் சிங்|1978|",
+  "category": "consistency",
+  "severity": "medium",
+  "note": "Shivnath Singh is ஷிவ்நாத் in 01/03/07/08/09"
+ },
+ {
+  "file": "09b_part18_india.md",
+  "lang": "ta",
+  "old": "டுகிறது; 2018இல் 8:29.80 முதல் 2024இல் பாரிஸ் டயமண்ட் லீக்கில் 8:",
+  "new": "டுகிறது; 2018-இல் 8:29.80 முதல் 2024-இல் பாரிஸ் டைமண்ட் லீக்கில் 8:",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Book convention (06–09, 01–05) hyphenates Tamil case suffix after numerals: 2015-இல், 25-வது | Diamond League spelled டைமண்ட் in 06/07 (7 uses); unify"
+ },
+ {
+  "file": "09b_part18_india.md",
+  "lang": "ta",
+  "old": "் பிறகு, 2023இல் பாருல் சௌ",
+  "new": "் பிறகு, 2023-இல் பாருல் சௌ",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Book convention (06–09, 01–05) hyphenates Tamil case suffix after numerals: 2015-இல், 25-வது"
+ },
+ {
+  "file": "09b_part18_india.md",
+  "lang": "ta",
+  "old": "39|ஹர்மிலன் பெயின்ஸ்|2021|",
+  "new": "39|ஹர்மிலன் பெய்ன்ஸ்|2021|",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Harmilan Bains is பெய்ன்ஸ் in 01/08"
+ },
+ {
+  "file": "09b_part18_india.md",
+  "lang": "ta",
+  "old": "கத்தில், 2019இல் பெர்லினில",
+  "new": "கத்தில், 2019-இல் பெர்லினில",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Book convention (06–09, 01–05) hyphenates Tamil case suffix after numerals: 2015-இல், 25-வது"
+ },
+ {
+  "file": "09b_part18_india.md",
+  "lang": "ta",
+  "old": " 2019 முதல் Colorado Springs, ஊட்டி குழு",
+  "new": " 2019 முதல் கொலராடோ ஸ்பிரிங்ஸ், ஊட்டி குழு",
+  "category": "tamil",
+  "severity": "low",
+  "note": "Latin-script place name in Tamil text; ch.06/07 use கொலராடோ ஸ்பிரிங்ஸ்"
+ },
+ {
+  "file": "09b_part18_india.md",
+  "lang": "ta",
+  "old": "பலிக்கலாம். சிவ்நாத் சிங்கின் 2:",
+  "new": "பலிக்கலாம். ஷிவ்நாத் சிங்கின் 2:",
+  "category": "consistency",
+  "severity": "medium",
+  "note": "Shivnath Singh is ஷிவ்நாத் in 01/03/07/08/09"
+ },
+ {
+  "file": "09b_part18_india.md",
+  "lang": "ta",
+  "old": "நின்றவை; 2026இல் முறியடிக்",
+  "new": "நின்றவை; 2026-இல் முறியடிக்",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Book convention (06–09, 01–05) hyphenates Tamil case suffix after numerals: 2015-இல், 25-வது"
+ },
+ {
+  "file": "09b_part18_india.md",
+  "lang": "ta",
+  "old": "டுள்ளது. 2026க்கு எல்லா உல",
+  "new": "டுள்ளது. 2026-க்கு எல்லா உல",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Book convention (06–09, 01–05) hyphenates Tamil case suffix after numerals: 2015-இல், 25-வது"
+ },
+ {
+  "file": "09b_part18_india.md",
+  "lang": "ta",
+  "old": ". சாப்லே 2023இல் ஆசிய விளை",
+  "new": ". சாப்லே 2023-இல் ஆசிய விளை",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Book convention (06–09, 01–05) hyphenates Tamil case suffix after numerals: 2015-இல், 25-வது"
+ },
+ {
+  "file": "09b_part18_india.md",
+  "lang": "ta",
+  "old": "தங்கமும் 2025இல் ஆசிய சாம்",
+  "new": "தங்கமும் 2025-இல் ஆசிய சாம்",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Book convention (06–09, 01–05) hyphenates Tamil case suffix after numerals: 2015-இல், 25-வது"
+ },
+ {
+  "file": "09b_part18_india.md",
+  "lang": "ta",
+  "old": ":14.18-இல் 11வதாக முடித்தா",
+  "new": ":14.18-இல் 11-வதாக முடித்தா",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Book convention (06–09, 01–05) hyphenates Tamil case suffix after numerals: 2015-இல், 25-வது"
+ },
+ {
+  "file": "09b_part18_india.md",
+  "lang": "ta",
+  "old": "்ளன: ஊட்டி, Colorado Springs, St Moritz,",
+  "new": "்ளன: ஊட்டி, கொலராடோ ஸ்பிரிங்ஸ், St Moritz,",
+  "category": "tamil",
+  "severity": "low",
+  "note": "Latin-script place name in Tamil text; ch.06/07 use கொலராடோ ஸ்பிரிங்ஸ்"
+ },
+ {
+  "file": "09b_part18_india.md",
+  "lang": "ta",
+  "old": "ண்ணிக்கை 1991இலிருந்து வரு",
+  "new": "ண்ணிக்கை 1991-இலிருந்து வரு",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Book convention (06–09, 01–05) hyphenates Tamil case suffix after numerals: 2015-இல், 25-வது"
+ },
+ {
+  "file": "09b_part18_india.md",
+  "lang": "ta",
+  "old": "சேர்த்தார். Colorado Springs-இல் சாப்லேவின் ",
+  "new": "சேர்த்தார். கொலராடோ ஸ்பிரிங்ஸில் சாப்லேவின் ",
+  "category": "tamil",
+  "severity": "low",
+  "note": "Latin-script place name in Tamil text; ch.06/07 use கொலராடோ ஸ்பிரிங்ஸ்"
+ },
+ {
+  "file": "09b_part18_india.md",
+  "lang": "ta",
+  "old": ", ஜின்சனின் அகில்லெஸ், ஹர்மிலன் ப",
+  "new": ", ஜின்சனின் அகிலிஸ், ஹர்மிலன் ப",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Achilles: use one form (அகிலிஸ் as in 06 ch.)"
+ },
+ {
+  "file": "09b_part18_india.md",
+  "lang": "ta",
+  "old": "ிவு, மோனிகா அதரேவின் குருத்த",
+  "new": "ிவு, மோனிகா அதாரேவின் குருத்த",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Monika Athare is அதாரே in 07; unify"
+ },
+ {
+  "file": "09b_part18_india.md",
+  "lang": "ta",
+  "old": "ிஷ் குமார், Colorado Springs-இல் சிம்மன்ஸ், ",
+  "new": "ிஷ் குமார், கொலராடோ ஸ்பிரிங்ஸில் சிம்மன்ஸ், ",
+  "category": "tamil",
+  "severity": "low",
+  "note": "Latin-script place name in Tamil text; ch.06/07 use கொலராடோ ஸ்பிரிங்ஸ்"
+ },
+ {
+  "file": "09b_part18_india.md",
+  "lang": "ta",
+  "old": " Jadhav) 2019இல் இரண்டு ஆண",
+  "new": " Jadhav) 2019-இல் இரண்டு ஆண",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Book convention (06–09, 01–05) hyphenates Tamil case suffix after numerals: 2015-இல், 25-வது"
+ },
+ {
+  "file": "09b_part18_india.md",
+  "lang": "ta",
+  "old": "k Kumar) 2025இல் USADA-விட",
+  "new": "k Kumar) 2025-இல் USADA-விட",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Book convention (06–09, 01–05) hyphenates Tamil case suffix after numerals: 2015-இல், 25-வது"
+ },
+ {
+  "file": "09b_part18_india.md",
+  "lang": "ta",
+  "old": "உள்ளிட்ட 2030களுக்கான புதி",
+  "new": "உள்ளிட்ட 2030-களுக்கான புதி",
+  "category": "consistency",
+  "severity": "low",
+  "note": "Book convention (06–09, 01–05) hyphenates Tamil case suffix after numerals: 2015-இல், 25-வது"
+ }
+]

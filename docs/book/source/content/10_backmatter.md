@@ -206,13 +206,13 @@ Kura is the founder of the AKURA Endurance Research System and the AISRi coachin
 REFS:
 
 - Gore CJ, Sharpe K, Garvican-Lewis LA, et al. Altitude training and haemoglobin mass from the optimised carbon monoxide rebreathing method determined by a meta-analysis. British Journal of Sports Medicine. 2013;47(Suppl 1):i31–i39. PMID 24282204.
-- Brown HA, et al. Quantifying Exercise Heat Acclimatisation in Athletes and Military Personnel: A Systematic Review and Meta-analysis. Sports Medicine. 2024. PMID 38051495.
-- Benjamin CL, et al. Physiological Responses to Heat Acclimation: A Systematic Review and Meta-Analysis of Randomized Controlled Trials. Journal of Sports Science and Medicine. 2019. PMID 31191102.
-- Solomon & Laye. The effect of post-exercise heat exposure (passive heat acclimation) on endurance exercise performance: a systematic review and meta-analysis. BMC Sports Science, Medicine and Rehabilitation. 2025. PMID 39762944.
+- Brown HA, et al. Quantifying Exercise Heat Acclimatisation in Athletes and Military Personnel: A Systematic Review and Meta-analysis. Sports Medicine. 2024;54(3):727–741. PMID 38051495.
+- Rahimi GRM, Albanaqi AL, Van der Touw T, et al. Physiological Responses to Heat Acclimation: A Systematic Review and Meta-Analysis of Randomized Controlled Trials. Journal of Sports Science and Medicine. 2019;18(2):316–326. PMID 31191102.
+- Solomon TPJ, Laye MJ. The effect of post-exercise heat exposure (passive heat acclimation) on endurance exercise performance: a systematic review and meta-analysis. BMC Sports Science, Medicine and Rehabilitation. 2025. PMID 39762944.
 - Levine BD, Stray-Gundersen J. "Living high-training low": effect of moderate-altitude acclimatization with low-altitude training on performance. Journal of Applied Physiology. 1997;83(1):102–112.
 - Racinais S, et al. Consensus recommendations on training and competing in the heat. British Journal of Sports Medicine. 2015;49(18):1164–1173.
 - Périard JD, Racinais S, Sawka MN. Adaptations and mechanisms of human heat acclimation: applications for competitive athletes and sports. Scandinavian Journal of Medicine & Science in Sports. 2015;25(Suppl 1):20–38.
 - Hopkins WG. Measures of reliability in sports medicine and science. Sports Medicine. 2000;30(1):1–15.
 - Joyner MJ, Coyle EF. Endurance exercise performance: the physiology of champions. Journal of Physiology. 2008;586(1):35–44.
 - Maunder E, Seiler S, Mildenhall MJ, Kilding AE, Plews DJ. The importance of 'durability' in the physiological profiling of endurance athletes. Sports Medicine. 2021;51(8):1619–1628.
-- Daniels J. Daniels' Running Formula. Human Kinetics (VDOT framework and training paces).
+- Daniels J. Daniels' Running Formula. 4th ed. Champaign, IL: Human Kinetics; 2022 (VDOT framework and training paces). VDOT® is a registered trademark of The Run SMART Project, LLC.
