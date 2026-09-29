@@ -2,7 +2,61 @@ PART XIV — RESEARCH PROTOCOLS
 
 PARTINTRO: Ideas become knowledge only when they are tested in a way that another coach could repeat. This part converts the questions raised throughout the book into four practical pilot protocols: a heat-acclimation study suited to Chennai's climate, an altitude study built around Ooty and Kodaikanal, a marathon durability protocol, and a crossover design comparing heat, altitude and control blocks in the same athletes. Each chapter is written as a mini study protocol with aims, hypotheses, participants, design, measurements, outcomes, safety rules, analysis and ethics. None of these designs is final. They are starting templates, meant to be refined with qualified scientists, clinicians and an institutional ethics committee before a single athlete is tested.
 
+## STORY: Three Soldiers and One Second
+
+It is August 2016, and three men in Indian vests are waiting on an Olympic start line in Rio de Janeiro. All three are soldiers of the Indian Army. None of them is famous at home. Ahead of them lie 42.195 kilometres of city streets, and behind them lie three of the most different childhoods Indian distance running could produce: a hill farm in Kerala, the sand country of western Rajasthan, and the mountain roads of Uttarakhand.
+
+The first is Thonakal Gopi. He comes from Sulthan Bathery in Wayanad, a town that sits about 1,000 metres above sea level among forest, spice gardens and paddy. His parents were farmers who grew rice and ginger. He joined the Army through the sports quota and rose to Havildar in the Artillery regiment, and the Army lists him at the Army Sports Institute in Pune. He did not enlist to become an Olympian. Like many Indian distance runners, he found that the Army offered something rare: a steady job that allowed him to run.
+
+The second is Kheta Ram. He is reported to have grown up in Barmer district, in the desert of western Rajasthan, and to have run four kilometres to school. He serves in the Jat Regiment. Think of a Barmer summer afternoon, the horizon shimmering, the sand too hot to stand on barefoot, and then think of a boy running to class across it every morning.
+
+The third is Nitendra Singh Rawat, reported to come from Garur in Bageshwar district, Uttarakhand, where roads are cut into hillsides and every run is either up or down. In January 2016, at the Mumbai Marathon, Rawat ran 2:15:48. That time broke Ram Singh Yadav's Indian course record of 2:16:59 and booked his place in Rio. According to the reporting, all three of the Rio marathoners qualified at that same Mumbai race.
+
+### The same mountain
+
+What makes the three men interesting to a scientist is not only how different they were. It is how much they had in common. They served in the same Army. They trained under the same coach, Surendra Singh Bhandari of the Army Sports Institute (his first name appears as Surinder in some reports). And before Rio they shared the same mountain.
+
+ESPN described Gopi's preparation as a "ten-month training stint at a high-altitude Ooty facility". Ooty sits at 2,240 metres in the Nilgiris, high enough for mist to roll across the tea gardens in the early morning and for a sea-level runner to feel the air go thin on the first hill out of town. Bhandari's altitude block there covered all three marathoners. Rawat later credited it directly.
+
+QUOTE: I was personally confident after the training we had been put through in the national camp at Ooty by our coach (Surinder Singh) Bhandari. — Nitendra Singh Rawat (Sportskeeda/IANS, 2016)
+
+Picture that camp as any coach who has taken a group to the hills will recognise it: cold mornings, steep roads, runners in tracksuits steaming in the mist, long days of eating and sleeping and running again. Three men, one coach, one altitude, one goal.
+
+### The race
+
+Then Rio. Gopi finished 25th in 2:15:25, a personal best. Kheta Ram finished 26th in 2:15:26, also a personal best, one second behind his team-mate. Read that again. After more than two hours of running, after months at altitude, two men from a Kerala hill farm and a Rajasthan desert crossed the line one second apart.
+
+Rawat's day went differently. He finished 84th in 2:22:52. The reporting afterwards explained why: he had run with a hamstring injury. Seven months after setting an Indian course record in Mumbai, he was seven minutes slower on the biggest stage of his life.
+
+To place these times in history: in 2016 the Indian men's marathon record still belonged to Shivnath Singh, who had run 2:12:00 at Jalandhar in 1978. It would stand for about 48 years, until Sawan Barwal ran 2:11:58 in Rotterdam in April 2026. The Rio trio were chasing ghosts from before they were born.
+
+### What happened next
+
+The three careers kept moving. Gopi won the 2017 Asian Marathon Championship in Dongguan in 2:15:48, the first Indian to take that title. In January 2018 he won the Indian elite race at the Mumbai Marathon in 2:16:51. Second, in 2:16:54, was Nitendra Singh Rawat, who had recovered after Rio and trained with the national camp in Bangalore. In 2019 Rawat ran 2:15:52 in Mumbai, four seconds outside his own course record, and in 2022 he won the national marathon title in 2:16:04. Gopi kept going longer still: at the Valencia Marathon in December 2025 he ran 2:12:23, a personal best just 23 seconds outside the old national record, after four more months of training at Ooty.
+
+### The experiment nobody wrote down
+
+Now look at Rio the way a research scientist would. Three trained athletes, all from the same organisation. One coach. One altitude camp of the same length, as far as the reports show. One qualifying race. One Olympic course, on one day, in one set of conditions. That is about as close to a natural experiment as elite sport ever gets. Two athletes responded almost identically. The third was compromised by an injury.
+
+What did the camp actually do to them? Did their haemoglobin mass rise, and by how much? At what altitude did they sleep, and at what altitude did they run their hard sessions? How many kilometres a week did each man run in the final ten weeks? Did heart rate at a fixed pace fall during the camp, and did it fall equally for all three? When did Rawat's hamstring first complain, and what was his training load in the fortnight before? How long after coming down from Ooty did each man race best?
+
+The public record answers none of these questions. The data may exist in a coach's notebook or an Army file. But a search for this book found no peer-reviewed study of Indian athletes' blood responses at Ooty at all. Generations of India's best runners have gone up the ghat road, and almost nothing about what their bodies did up there has been published in a form another coach could read, check and use.
+
+This is not a criticism of the coach or the athletes. They did their jobs superbly: two personal bests at an Olympic Games is a real achievement. It is a description of a system in which experience accumulates in people rather than in records. When a coach retires, the knowledge often retires with him.
+
+### What a protocol would have caught
+
+A simple research protocol, built with an ethics committee and a doctor, would not have changed the race. It would have changed what came after. It would have recorded a baseline before the camp: blood measures, a submaximal run at a fixed pace, a time trial. It would have logged the dose: sleeping altitude, training altitude, days at camp. It would have tracked load, sleep and resting heart rate every day. It would have logged every niggle, including the first one in a hamstring. And it would have fixed the retest dates in advance, so that nobody could pick the best result after the fact.
+
+With three athletes you cannot prove anything about altitude. You can describe how each individual responded, and that description would have been worth a great deal. When Gopi returned to Ooty for four months before Valencia in 2025, a coach could have compared his response nine years later with his response before Rio, instead of relying on memory. Afterwards Gopi said simply: "I think the high altitude at Ooty helped my performance." He may be right. A protocol would tell us how, how much, and whether the same is true for the next soldier who goes up the mountain.
+
+The four chapters that follow are written so that the next camp, the next heat block and the next marathon produce knowledge as well as results. We begin where every Indian runner begins, whether they choose to or not: with the heat.
+
+SOURCES: https://www.espn.com/athletics/story/_/id/17475379/india-marathon-runner-olympics-thonackal-gopi-talks-espn-exclusive-interview ; https://www.firstpost.com/sports/rio-olympics-2016-thanackal-gopi-and-kheta-ram-clock-personal-best-to-finish-25th-26th-in-marathon-2969066.html ; https://timesofindia.indiatimes.com/sports/rio-2016-olympics/india-in-olympics-2016/athletics/rio-olympics-indias-thanackal-gopi-kheta-ram-clock-personal-best-in-marathon/articleshow/53800667.cms ; https://sportskeeda.com/running/nitendra-rawat-credits-coach-success-mumbai-marathon ; https://scroll.in/field/865807/mumbai-marathon-on-the-road-to-redemption-nitendra-singh-rawat-puts-up-a-stellar-performance ; https://www.espn.com/espn/story/_/id/25815512/i-ensure-the-best-marathon-runner-india-says-resurgent-nitendra-rawat-mumbai-win ; https://www.olympics.com/en/news/asian-marathon-championships-2024-india-results ; https://shyamgopan.com/2025/12/11/gopi-23-secs-short-of-national-record-sets-new-pb-at-valencia-marathon/ ; https://www.olympics.com/en/news/sawan-barwal-breaks-marathon-national-record-india ; https://www.thehindu.com/news/national/tamil-nadu/udhagamandalam-boasts-south-indias-only-high-altitude-sports-training-centre/article68333440.ece ; https://en.wikipedia.org/wiki/Kheta_Ram ; https://en.wikipedia.org/wiki/Nitendra_Singh_Rawat
+
 ## 74. Heat Study Protocol
+
+It is 5:10 a.m. on Marina Beach, and the air already feels like a wet towel. A club runner jogs past the fishing boats pulled up on the sand, her shirt dark with sweat before the first kilometre is done. By the time the sun clears the Bay of Bengal, the heart rate on her watch has drifted well above where it sat in December, at exactly the same pace. Her coach shrugs: Chennai makes you tough, everybody knows that. Perhaps it does. But nobody in the group can say by how much, how quickly, or whether the runner who trains at 5 a.m. adapts differently from the one who trains after work in an air-conditioned gym. The research gathered for this book found no peer-reviewed heat-stress study of an Indian marathon at all. The heat in Chennai is free and arrives every morning. The knowledge about what it does to Indian runners does not.
 
 Chennai offers something many high-performance centres pay to recreate: sustained heat and humidity for most of the year. That natural environment is both an opportunity and a risk. If AKURA wants to know whether a structured heat-acclimation block changes an athlete's physiology and performance, it must stop relying on the general impression that "training in Chennai already makes us heat-adapted" and instead run a controlled, documented, repeatable study. This chapter outlines a pilot design. It is deliberately modest: the goal is to generate clean data from a small group, learn what is practical, and prepare for a larger study.
 
@@ -50,7 +104,9 @@ CHECK: Can you name the exact conditions of your athlete's last baseline test? I
 
 ## 75. Altitude Study Protocol
 
-The Nilgiris and the Palani hills give South Indian athletes access to moderate altitude within a day's travel of Chennai. Ooty sits at roughly 2,200 metres and Kodaikanal at a little over 2,100 metres, which places both in the range often used for altitude training camps. Many Indian coaches already send athletes there. What is usually missing is measurement: a clear record of dose, a baseline, a controlled training load and a proper retest. This protocol treats an altitude camp as an experiment rather than a pilgrimage.
+Morning mist hangs over the Nilgiris, and the road out of Ooty climbs through tea gardens into cold, thin air. Indian distance runners have been coming here for generations. Before the Rio Olympics, Army marathoner T. Gopi spent what ESPN described as a ten-month training stint at a high-altitude Ooty facility. Before the 2025 Valencia Marathon he returned for four months, and afterwards said, "I think the high altitude at Ooty helped my performance." Sawan Barwal's group spent about four months at Ooty and Wellington before he broke the national marathon record in 2026. In February 2024 Tamil Nadu opened a dedicated high-altitude training centre at Breeks Ground. The mountain is busy. Yet a search for peer-reviewed studies of Indian athletes' blood responses at Ooty comes back empty. Thousands of runners have climbed the ghat road, and almost nothing about what their bodies did up there has been written down in a form another coach could check and use.
+
+The Nilgiris and the Palani hills give South Indian athletes access to moderate altitude within a day's travel of Chennai. Ooty sits at about 2,240 metres and Kodaikanal at a little over 2,100 metres, which places both in the range often used for altitude training camps. Many Indian coaches already send athletes there. What is usually missing is measurement: a clear record of dose, a baseline, a controlled training load and a proper retest. This protocol treats an altitude camp as an experiment rather than a pilgrimage.
 
 ### Aim and hypotheses
 
@@ -95,6 +151,8 @@ COACH: Before the next camp to Ooty or Kodaikanal, write down five things: sleep
 CHECK: What result would convince you that a particular athlete does not benefit much from altitude? Are you prepared to accept that result if the data show it?
 
 ## 76. Marathon Durability Protocol
+
+Mumbai, January 2018. After 42.195 kilometres of city roads, T. Gopi wins the Indian elite men's race in 2:16:51. Nitendra Singh Rawat, who had set the Indian course record two years earlier, is second in 2:16:54. After more than two hours of running, the two soldiers are separated by three seconds on the clock. Two years before that, at the Rio Olympics, Gopi and his Army team-mate Kheta Ram had finished 25th and 26th, one second apart. Somewhere in the closing stages of each race, bodies that looked evenly matched at the start began to separate by tiny amounts. Some athletes hold their pace as fatigue piles up; others slowly unravel, and nothing in a fresh laboratory test warned that they would. That quality, the ability to keep running well when already tired, rarely appears on a test report. It decides marathons.
 
 Two athletes can share the same VO₂max, the same threshold pace and the same half-marathon time and still finish a marathon ten minutes apart. The difference often lies in durability: how well physiology and performance hold up as duration and fatigue accumulate. Durability has become an important topic in endurance science because traditional laboratory tests are usually performed on fresh athletes. This chapter proposes a practical protocol to measure how pace, heart rate and perceived effort relationships change with duration in real training.
 
@@ -141,6 +199,8 @@ COACH: Add two short fixed-pace segments to your athlete's next long run, one ea
 CHECK: When your athlete slowed in their last marathon, which pathway was most likely responsible? What data would you need to be sure?
 
 ## 77. Heat Versus Altitude Crossover
+
+Chennai Central, late evening. A coach stands on the platform with a list of eight runners and a budget that will cover one block of specialised training before the season's target race. Option one: put the squad on the overnight train towards the Nilgiris and spend three weeks at Ooty, 2,240 metres above the sea. Option two: stay at home, where the heat and humidity of a Chennai summer arrive every morning without a ticket. India's map of choices is growing. Hindustan Times reported in 2026 that SAI's campuses at Ooty and Shilaroo are the country's only two high-altitude training centres, with a new centre planned for Shillong and a Khelo India centre approved at Leh. Heat, meanwhile, is available almost everywhere. What nobody can give that coach is a direct comparison: for these particular eight athletes, which block would do more, and for which goal?
 
 Throughout this book we have treated heat and altitude as separate stimuli with some overlapping effects. Both can influence plasma volume, heart-rate responses and perceived effort; altitude may also increase haemoglobin mass over sufficient exposure, while heat acclimation primarily improves thermoregulatory and cardiovascular responses to heat. For an Indian coach who can choose between Chennai's heat and the hills of Ooty or Kodaikanal, the practical question is obvious: which block, for which athlete, for which goal? A crossover study is the most informative way to ask it.
 
@@ -190,7 +250,55 @@ PART XV — IMPLEMENTATION
 
 PARTINTRO: Research frameworks fail when they cannot be used on an ordinary Tuesday morning. This part turns AEI from a set of ideas into tools a coach can open, read and act on. It describes the AEI Athlete Card, a standard record that keeps raw data separate from derived scores; the AEI Dashboard, which answers what an athlete can do, how ready they are today and what has changed; the coach's interpretation layer, which ensures human context is never hidden by an algorithm; and the safety rules that define where automation must stop. The principle is simple: every number must be traceable, and every recommendation must be open to human review.
 
+## STORY: The Girl Who Ran With the Recruits
+
+On the hill roads of Pauri Garhwal, the mornings belong to young men. You see them in any Uttarakhand hill district: groups of teenagers in cheap trainers running up switchbacks above terraced fields, training for the physical tests that stand between them and a job in the Army. They run hard, because the test is hard and the job matters.
+
+In Maroda, a village at about 1,400 metres, one of a farmer's four children watched them and made a decision. Her name was Ankita Dhyani, and she told ESPN what happened next: "I decided to run with them ... They never slowed down for me."
+
+Nobody slowed down, so she sped up. The route from that hill road to an Olympic Games ran through a sports hostel in Rudraprayag in 2017, then to Bhopal. In late 2018 she joined the Elite Distance Running Programme there, coached by the Dutch former marathoner Hugo van den Broek, whose group travelled to Iten in Kenya once a year. From 2019 she was at the National Centre of Excellence in Bhopal under coach Toppo, who pointed out to ESPN that the hills had already done some of the work: "because she was running in Uttarakhand, she had already been doing a lot of high-altitude training."
+
+The results followed, not in a straight line but in a series of steps. She ran the 1500 m and 5000 m at the 2021 World U20 Championships in Nairobi. She ran the heats of both the 5000 m and the steeplechase at the Paris Olympics in 2024. In Jerusalem in August 2025 she set a national record of 6:13.92 for the 2000 m steeplechase. A month later, at the World Championships in Tokyo, she ran 10:03.22 in her heat. Then, on 27 September 2026 in Nagoya, she ran 9:19.24 for fourth place at the Asian Games, a personal best, in the same race in which Parul Chaudhary took bronze with a national record of 9:08.67.
+
+### Reta, Chamba
+
+Further west along the Himalaya, in Chamba district of Himachal Pradesh, another girl was running barefoot. Seema was born in Reta village in 2001, the youngest of six children. Her father died when she was twelve. She grew up herding cattle and running barefoot.
+
+A SAI hostel gave her structure. She won junior national gold at Ranchi in 2015. Nine years later, at the Asian Cross Country Championships in Hong Kong in 2024, she won gold in 37:20, with Sanjivani Jadhav given the same time for silver. Then came a run of marks that show an athlete climbing steadily: 1:11:23 to win the Indian elite race at the Delhi Half Marathon in October 2025, 52 seconds outside L. Suriya's 2017 national record of 1:10:31; a national record of 1:26:04 for 25 km in Kolkata that December; 32:02.43 for 10,000 m in March 2026.
+
+In Nagoya, on 24 September 2026, she won 10,000 m bronze at the Asian Games. She became only the third Indian woman to win an Asian Games medal in the event, and the first in 16 years. Afterwards she described it plainly.
+
+QUOTE: The race was very tactical. Everyone ran for the medal. — Seema (PTI, via Outlook India, 2026)
+
+### Amroha to Los Angeles
+
+The third story begins in Amroha, Uttar Pradesh, where K. M. Deeksha was born in 1999. She competes for Madhya Pradesh and, as of 2024, had trained for about five years under coach S. K. Prasad at the Madhya Pradesh Athletics Academy in Bhopal.
+
+On 11 May 2024, at the Sound Running Track Fest in Los Angeles, she finished third in the 1500 m in 4:04.78. It was a national record. To understand what that meant, follow the record back. Sunita Rani ran 4:06.03 at the 2002 Asian Games in Busan, and that mark stood until Harmilan Bains ran 4:05.39 in Warangal in 2021. Deeksha's run took the record under 4:05 for the first time. Nineteen years for the first improvement; three years for the second. The line of Indian middle-distance running had started to move.
+
+### The others on the road
+
+They are not alone. Parul Chaudhary, who started with a barefoot school race in a Meerut village, now holds national records at 3000 m, 5000 m and the steeplechase. After her double bronze in Nagoya she said: "It feels really good. Last time in Hangzhou, I also took two medals, but this time the colour has changed..." Priti Lamba, steeplechase bronze medallist at the Hangzhou Asian Games, once broke her ankle in two places at a water jump at the Patiala national camp, and still runs with a rod in it. Harmilan Bains had knee surgery in 2022 and missed both the Commonwealth Games and the World Championships.
+
+Each of these careers is also a trail of data: race times, injuries, camps, coaches, flights, hostels. Most of it lives in scattered places, and some of it is already lost.
+
+### What implementation means for them
+
+Look at Ankita Dhyani's path again, this time as a data problem. A hill village. A hostel in Rudraprayag. An elite programme in Bhopal with an annual camp in Kenya. A national centre. Junior championships in Nairobi, an Olympics in Paris, a Grand Slam meet in Jerusalem, World Championships in Tokyo, Asian Games in Nagoya. At every transition a new coach, doctor or physio met an athlete whose history arrived, at best, in someone's memory and a phone gallery.
+
+An athlete card of the kind described in Chapter 78 is a simple idea: one record that travels with the athlete, with her consent, from hostel to academy to national camp. It keeps raw measurements separate from derived scores, marks what is missing as missing, and dates everything. When a new coach meets her, the card tells them what altitude blocks she has done, how she responded, and which injuries have come and gone.
+
+A dashboard of the kind described in Chapter 79 asks a sharper question. Between Tokyo in September 2025 (10:03.22) and Nagoya a year later (9:19.24), something changed by 44 seconds. The public record does not say what. It might have been conditions, health, training, travel or tactics; nobody outside her team can know, and nobody should guess. A good dashboard would not guess either. It would show readiness, environment, load and recent interventions side by side, so that the people responsible for her could see the pattern, and learn from it.
+
+And safety, the subject of Chapter 81, is not abstract for this generation. A 2025 study of 104 female athletes in Tamil Nadu, from volleyball and ball badminton, found that about 53.8% were anaemic, against a background in which a large survey found anaemia in 44% of Indian adolescent girls and 41% of adult women. Those were not runners, and the numbers cannot be transferred directly. But any system that collects blood values from young Indian women athletes must put a clinician, not a coach and not an algorithm, in charge of interpreting them. In April 2026 the Athletics Integrity Unit also moved India into its highest-risk category, which means more out-of-competition testing, including blood tests, for distance runners. The athlete's body is becoming a data record whether she likes it or not. The question is whether that record is kept securely, read honestly and used for her benefit.
+
+The girl who ran with the recruits did not need a dashboard to get started. She needed hills, stubbornness and people who did not slow down. What she and the runners who follow her deserve now is a system that remembers what worked, notices early when something is wrong, and knows when to stop and call a doctor. The next four chapters describe how to build one.
+
+SOURCES: https://www.espn.in/athletics/story/_/id/30859627/no-turning-back-ankita-dhyani-mastery-improbable-chases-makes-unbeatable ; https://worldathletics.org/athletes/india/ankita-dhyani-14818406 ; https://worldathletics.org/news/feature/indian-endurance-project-kenya-netherlands-distance-running-broek-pal-murli ; https://www.olympics.com/en/news/grand-slam-jerusalem-2025-ankita-women-2000-m-steeplechase-report ; https://thebridge.in/athletics/world-chsips-2025-parul-chaudhary-ankita-dhyani-women-3000m-steeplechase-54592 ; https://www.deccanchronicle.com/sports/asian-games-2026-indias-parul-chaudhary-wins-bronze-in-womens-3000m-steeplechase-1991012 ; https://www.outlookindia.com/sports/others/seema-kumari-asian-games-2026-bronze-medal-mother-health-athletics-india ; https://www.tribuneindia.com/news/himachal/chamba-girl-strikes-gold-in-hong-kong/ ; https://worldathletics.org/athletes/india/.-seema-14734780 ; https://www.shethepeople.tv/shesport/athlete-k-m-deeksha-national-record-for-1500m-race-4564973 ; https://www.olympics.com/en/news/who-is-harmilan-bains-india-athlete-medals-records ; https://www.rediff.com/sports/report/asian-games-after-double-bronze-haul-parul-now-craves-family-time/20260928.htm ; https://indianexpress.com/article/sports/sport-others/priti-lamba-overcomes-injury-setback-to-triumph-at-federation-cup-athletics-8614902/ ; https://pubmed.ncbi.nlm.nih.gov/40443248/ ; https://pubmed.ncbi.nlm.nih.gov/39779946/ ; https://www.aljazeera.com/sports/2026/4/20/india-in-extremely-high-doping-risk-bracket-athletics-integrity-unit
+
 ## 78. The AEI Athlete Card
+
+Try to build an athlete card for Shivnath Singh. The headline number is easy: 2:12:00, run at Jalandhar in 1978, a national marathon record that stood for about 48 years until Sawan Barwal broke it in Rotterdam in April 2026. Then the fields start to go blank. His coach: unverified. His training base: unverified. He finished 11th in the marathon at the 1976 Montreal Olympics, but even that result comes down to us with two different times, depending on which source you read. He is reported to have run barefoot throughout his career. Of weekly mileage, heart rates, blood values or the weather on the day of the record, nothing survives in the public record. One of the greatest performances in the history of Indian running is, as data, almost empty. The athlete card exists so that the next record-breaker leaves behind more than a single number.
 
 Every athlete in the AKURA system should have one standardised card. It is the single place a coach, scientist or clinician can go to see who the athlete is, what they have done, how they have been tested, and how confident we are in each piece of information. Without a standard card, data scatters across watches, spreadsheets, message threads and memory. With one, the athlete becomes a coherent research record that grows over a career.
 
@@ -237,6 +345,8 @@ COACH: Start with a paper or spreadsheet version if needed. Fill in only the sec
 CHECK: If a colleague asked you tomorrow for the raw measurement behind your athlete's most important training decision, could you find it in less than a minute?
 
 ## 79. The AEI Dashboard
+
+It is 5:40 a.m. in a training hostel, and the coach's phone has already buzzed thirty times. Screenshots of watch data. A voice note about a sore calf. A photo of a thermometer on a verandah. Somebody's sleep score, somebody's resting heart rate, somebody's GPS track that cuts straight through a building. Each message is a fragment of truth, and together they are almost useless, because nobody can read thirty fragments before the 6 a.m. session begins. The modern Indian coach is not short of data. Watches are cheap, apps are free, and a squad of fifteen runners can generate thousands of numbers in a single week. What the coach is short of is attention. The real skill is no longer collecting information. It is knowing, in the few minutes before the athletes arrive at the track, which three facts matter today.
 
 A card holds everything; a dashboard shows what matters now. Coaches work under time pressure, often with many athletes and limited staff. A dashboard that tries to show every metric at once becomes noise. The AEI dashboard is designed around restraint: a small number of panels that together answer the coach's most urgent questions, with the raw card always one click away.
 
@@ -285,6 +395,8 @@ CHECK: Which single panel on your current dashboard do you look at most, and whi
 
 ## 80. The Coach's Interpretation Layer
 
+Look at the results of the Rio 2016 Olympic marathon and you will find Nitendra Singh Rawat in 84th place, in 2:22:52. An algorithm reading that line might conclude that he was unfit, badly paced or poorly prepared. Seven months earlier he had run 2:15:48 in Mumbai, an Indian course record that qualified him for Rio. The result sheet cannot tell you what the reporting did: that he ran in Rio with a hamstring injury. After recovering and training with the national camp in Bangalore, he ran 2:16:54 in Mumbai in 2018, and in 2019 he ran 2:15:52 there, four seconds outside his own course record. The Rio result is accurate. It is simply incomplete. Every coaching system faces this problem every day: numbers arrive without their stories, and a model that sees only numbers will sometimes be confidently wrong.
+
 No algorithm, however carefully validated, sees the whole athlete. It sees what it has been given. A runner's heart rate may be high because of fitness loss, but also because of a late shift at work, a family crisis, a fever starting, a new medication, a hot bus journey, or a watch strap worn loosely. The coach's interpretation layer exists so that this context is never lost and never overridden silently by a number.
 
 ### Context the algorithm cannot see
@@ -322,6 +434,8 @@ COACH: Build the habit of a one-line note whenever you change a planned session:
 CHECK: When did you last override a plan based on context the data could not see? Did you record it, and what happened afterwards?
 
 ## 81. Safety Rules
+
+Rio de Janeiro, August 2016. O. P. Jaisha, who a year earlier had set the Indian women's marathon record of 2:34:43 in Beijing, collapses after crossing the finish line of the Olympic marathon. Afterwards she says that Indian officials gave her no refreshments along the course. Scroll quoted her: "All the [other] countries had their stalls at every two kilometres, but our country's stall was empty." The Athletics Federation of India disputed her account, and her team-mate Kavita Raut said she had had enough water. Years later, what happened that morning is still argued over. That is exactly the point. When a safety plan exists only in people's heads, nobody can check afterwards what was planned, what was provided and where the chain broke. A written plan, briefed in advance and reviewed without blame afterwards, protects athletes and officials alike.
 
 Every measurement system eventually reaches a point where the right answer is not a number but a person. AKURA's safety rules define that point clearly. They apply to every protocol in this book, every dashboard, and every automated recommendation. They are not optional extras; they are the conditions under which the rest of the system is allowed to operate. Nothing in this book replaces the judgement of a qualified doctor.
 
@@ -387,7 +501,61 @@ PART XVI — PHILOSOPHY
 
 PARTINTRO: The final part steps back from protocols and dashboards to ask what the whole enterprise is for. Endurance communities everywhere carry myths, and many contain a real observation wrapped in an inaccurate explanation. AKURA's task is not to mock those beliefs but to test them, keeping what the evidence supports and letting go of what it does not. These closing chapters set out the attitude behind the method: humility before data, respect for the athlete, and a cycle of training, measuring, understanding and adapting that continues across a career. They end with the real goal of AEI, which is not a famous number but athletes who understand themselves better.
 
+## STORY: The Barefoot Record
+
+Montreal, July 1976. The Olympic 10,000 metres heats are under way, and among the vests and spikes of the world's best distance runners is a pair of bare feet. They belong to Hari Chand, a 23-year-old policeman from Hoshiarpur district in Punjab. He runs the whole race barefoot. He finishes eighth in his heat and does not reach the final.
+
+On the scoreboard, it looks like an ordinary early exit. In the Indian record books, it becomes something else. The time Hari Chand ran that day was a national record, and it stood for 32 years. Sources disagree on the exact figure: Wikipedia and other accounts give 28:48.72, while Olympics.com prints 29:48.72, almost certainly a typing error, since a slower time could hardly have survived as the record for three decades. Even the most famous run of his life comes down to us with a question mark attached.
+
+### A policeman who ran
+
+Hari Chand was born on 1 April 1953. The Times of India gives his village as Ghorewaha in Hoshiarpur district. He served with the Central Reserve Police Force, where Olympics.com describes him as an inspector, and he is reported to have retired as a Commandant. He ran the 5000 m and the 10,000 m, and later the marathon.
+
+Imagine the Punjab of his youth as any traveller would see it: flat, green wheat country stretching to the Shivalik foothills, winter fog lying on the fields, summers that bake the canal roads. That is a picture of the place, not of the man. What we know about Hari Chand himself comes almost entirely from results.
+
+And the results are remarkable. At the 1975 Asian Championships in Seoul, he won gold in the 10,000 m and bronze in the 5000 m, and received the Arjuna Award for them. The runner-up in that 10,000 m, according to Wikipedia, was Shivnath Singh, the Army runner who would soon set a marathon record of his own. After Montreal came 1978, the year Indian distance running seemed to catch fire. In May, Shivnath Singh ran 2:12:00 for the marathon at Jalandhar. At the Asian Games in Bangkok that year, Hari Chand won both the 5000 m and the 10,000 m. Double gold.
+
+He went to the Moscow Olympics in 1980 and went out in the heats of the 10,000 m; Wikipedia records that he also ran the marathon there, finishing 22nd. He missed the 1982 Asian Games in Delhi because of a viral fever. Then the record books go quiet.
+
+He died on 13 June 2022, aged 69. The Times of India's obituary headline said that he had died unsung.
+
+### What the record books do not say
+
+Try to reconstruct Hari Chand's training, and the pages turn blank almost immediately. Who coached him? Unverified. Where did he train? Unverified. How many kilometres did he run a week, on what surfaces, in what heat, with what food? Nothing survives in the public record. His coach and training base are among the most basic facts a sport could keep, and for one of its greatest runners, India did not keep them.
+
+The same is true of Shivnath Singh, reported to have run barefoot throughout his career. His 2:12:00 from 1978 was the longest-standing record in Indian athletics. It lasted about 48 years, until Sawan Barwal ran 2:11:58 in Rotterdam in April 2026 and then 2:11:37 for Asian Games silver in September. Shivnath Singh's coach and training base are also unverified. Even his 11th-place time at the Montreal Olympic marathon appears in two different versions.
+
+### The long view
+
+Line up the Indian distance records and a strange pattern appears. The 10,000 m record set by Hari Chand in 1976 stood until Surendra Singh ran 28:02.89 in Vigo, Spain, in 2008. Gopal Saini's steeplechase record from 1981 stood for 37 years, until Avinash Sable began breaking it in 2018. Bahadur Prasad's 5000 m record from 1992 stood about 30 years. Shivnath Singh's marathon stood 48.
+
+Then, in a rush, they fell. Gulveer Singh took the 10,000 m record to 27:41.81 in 2024 and then to 27:00.22 in California in 2025. Sable broke the steeplechase record ten times. The marathon record went twice in one year.
+
+Why the long silence, and why the sudden rush? The honest answer is that nobody can say for certain. What the evidence does show is a pattern: almost every record since 2022 was set at an overseas meet with fast pacing, in an era of foreign coaching, altitude camps abroad and racing against the world's best. That is an observation. It is not yet an explanation, and it certainly does not prove that the athletes of the 1970s were less talented. They ran what they ran with what they had.
+
+### How myths grow in empty space
+
+When measurements are missing, stories rush in to fill the space. Two of the great Indian distance records of the 1970s belong to men reported to have run barefoot. It is very tempting to build a theory on that. Perhaps bare feet made them tough, and modern shoes have made runners soft. Or perhaps the opposite: imagine what they could have done in proper shoes. Both stories are satisfying. Both are repeated. Neither can be tested, because we do not know how these men trained, how their bodies responded, or what the conditions were on the days they ran.
+
+Every endurance culture produces myths like this. They usually start with a real observation, such as a barefoot runner who was genuinely fast or a hill village that genuinely produced champions, and then attach an explanation that nobody has checked. Over time the explanation hardens into common sense. Coaches repeat it to athletes. Athletes repeat it to their own students. Fifty years later it is simply what everybody knows.
+
+Sawan Barwal, whose Asian Games silver in 2026 was India's first men's marathon medal at the Games since 1982, described his racing to the Tribune with an answer with no myth in it at all: "There was only one thing in my mind: I have to go till the finishing line and how I can maintain the pace."
+
+Consider the contrast with today. A club runner in Chennai with a cheap sports watch now collects more data in a single Sunday long run than survives about Hari Chand's entire career: pace for every kilometre, heart rate every second, temperature, elevation, cadence. The problem has flipped. The 1970s had champions and almost no data. The 2020s have oceans of data and, for most runners, very little understanding of what it means. Neither situation, on its own, turns observation into knowledge. That takes a method.
+
+### Legacy and patience
+
+Hari Chand's legacy is not only two gold medals in Bangkok and a record that outlived most of the careers that chased it. It is also a question he leaves behind: how many great Indian athletes have been reduced, in memory, to a single time and a single story, because nobody wrote down the rest?
+
+The answer to that question is not to mock the old stories. It is to take their kernel of truth seriously enough to test it, and to make sure that the next Hari Chand leaves behind not only a record but a record of how it was made. Patience is part of this. Records that stood for 32 and 48 years remind us that progress in endurance running is measured in decades, not seasons. A research system has to think on the same scale.
+
+That is where this final part of the book begins: with the move from myth to measurement.
+
+SOURCES: https://www.olympics.com/en/news/hari-chand-indian-athlete-runner-olympian-dies ; https://timesofindia.indiatimes.com/sports/more-sports/athletics/olympian-hari-chand-who-created-10000m-national-record-barefoot-in-montreal-dies-unsung/articleshow/92183859.cms ; https://en.wikipedia.org/wiki/Hari_Chand ; https://en.wikipedia.org/wiki/Shivnath_Singh ; https://www.olympics.com/en/news/sawan-barwal-breaks-marathon-national-record-india ; https://www.tribuneindia.com/news/sports/who-is-sawan-barwal-himachal-runner-who-challenged-marathon-myth-to-win-asian-games-silver/ ; https://www.hindustantimes.com/sports/others/after-asian-games-10-000m-silver-kartik-targets-national-record-101697292334456.html ; https://www.olympics.com/en/news/who-is-avinash-sable-india-athlete-steeplechase ; https://www.olympics.com/en/news/gulveer-singh-india-10000m-national-record-the-ten-2025-athletics-california ; https://www.olympics.com/en/news/athletics-list-of-indian-national-record-holders
+
 ## 82. From Myth to Measurement
+
+"Kavita Raut, Monica Atre… Sanjivani. I am telling you Nashik is the Kenya of India ... Remember, Kavita had to walk so many kilometres to reach school or fetch water." The speaker is Vijender Singh, the coach who has worked in Nashik since 1991, talking to the Indian Express. It is a wonderful line, and it contains a real observation: his group, drawn from Nashik and its surrounding villages, has produced a Commonwealth Games medallist, a World Championships marathoner and Asian medallists. It also contains the seed of a myth. Is the secret the long walks to school? The terrain? The coach himself? Or simply which children stayed in the sport long enough to be noticed? The same shape of explanation has been applied to Kenya, to Ethiopia and to the hills of Uttarakhand. A coach who loves his athletes is entitled to his metaphor. A scientist has to ask what would need to be measured to know whether it is true.
 
 Every endurance community has myths. In India we hear that runners from hill regions are naturally stronger, that Chennai's heat alone makes athletes tough, that a camp in Ooty automatically adds a minute to a marathon, that a certain diet or a certain shoe is the secret. Internationally, the myths are often about East African runners, about genes, about altitude, about poverty and hunger. Some contain a useful observation wrapped in an inaccurate explanation. This book has tried to treat every such belief with curiosity rather than contempt.
 
@@ -426,6 +594,8 @@ COACH: Write down three beliefs you hold about training that you have never test
 CHECK: Which training belief in your group is most widely accepted and least often questioned? What would it take to test it fairly?
 
 ## 83. Train. Measure. Understand. Adapt.
+
+In July 2025, at the Monaco Diamond League, Avinash Sable injured the ACL and meniscus of his right knee. He had surgery. He missed the World Championships in Tokyo that year and the Glasgow Commonwealth Games in 2026. Speaking about his injuries, he offered one of the most honest sentences an elite athlete can say in public: "I think I might have rushed my return a bit, which caused the injury to recur." In September 2026 he ran his first steeplechase back, 8:32.39, at the Indian Athletics Series final. Weeks later in Nagoya he ran 8:21.67, his best of the season, to finish fourth at the Asian Games. Train, test, learn, adjust, train again. The road back was a loop rather than a straight line, and one of its most valuable lessons came from a step that went wrong.
 
 Training without measurement can still work. Coaches have produced great athletes with a stopwatch, a notebook and years of experience. But measurement makes the learning process clearer. It shortens the time needed to discover what works for an individual, and it protects athletes from repeating mistakes that nobody noticed. Measurement without interpretation is just data. Interpretation without humility becomes dogma. AKURA's approach can be summarised in four words.
 
@@ -466,6 +636,8 @@ COACH: At the end of each training block, hold a fifteen-minute review with the 
 CHECK: Which of the four steps is weakest in your current coaching practice? What one habit would strengthen it?
 
 ## 84. The Real Goal of AEI
+
+In 2011, a schoolgirl from Iklauta village near Meerut lined up for an 800 m race without ever having trained. "Papa asked me if I wanted to run and I agreed. I had never practised before that school race," Parul Chaudhary told the Indian Express years later. She ran barefoot that day, and afterwards trained on the paths between sugarcane fields. Fifteen years later, on 27 September 2026 in Nagoya, she ran the steeplechase in 9:08.67 for Asian Games bronze and a national record, and followed it with bronze in the 5000 m. Between those two moments lie several coaches, a railway job, a police job, a training base in Colorado Springs and six national records in five seasons. No single number from that journey explains it. What explains it is a long accumulation of learning about one particular body, by the athlete and by the people around her.
 
 It is tempting for any new index to chase attention: a single number that can be compared, ranked and shared. That is not the purpose of the AKURA Endurance Index. The real goal is not to produce a famous number. The goal is to help athletes become more understandable to themselves and their coaches. An athlete who knows why a race went well or badly, which environments suit them, how they respond to heat or altitude, and what their early warning signs of overload look like is better equipped for a long career than one who simply knows a score.
 

@@ -86,7 +86,59 @@ PART I — THE QUESTION
 
 PARTINTRO: Every serious research programme begins with a well-framed question. Part I asks why some athletes reach world-class endurance, what we can honestly say about East African success, how birthplace, biology and genetics fit together, and whether Indian athletes can build comparable endurance in their own environments. It rejects both easy answers: that champions are simply born, and that a few weeks in the heat or the hills can reproduce their physiology. Instead, it sets out the AKURA method of turning coaching beliefs into measurable hypotheses, testing them in individual athletes, and accepting the result even when it disagrees with our expectations.
 
+## STORY: The Record That Waited Forty-Eight Years
+
+The number is 2:12:00. Two hours, twelve minutes, zero seconds. For most of the history of Indian distance running, it sat at the end of every serious marathon conversation like a milestone nobody could pass.
+
+It was set in 1978, at the National Inter-State Championship in Jalandhar, by an Army runner named Shivnath Singh. Biographical accounts say he was born in 1946 in Buxar district in Bihar, served in the Bihar Regiment and ran barefoot for his whole career. Two years before Jalandhar he had raced the marathon at the Montreal Olympics, where he is reported to have finished 11th, and he had reportedly won Asian Championship silver medals on the track at 5000 m and 10,000 m. On that day in Punjab he ran a time that no Indian would better for forty-eight years.
+
+Forty-eight years. Think about what fits inside that. Runners who were not yet born in 1978 grew up, joined the Army or the Railways, raced, retired and began coaching, and the record was still there. Other ancient marks fell one by one. Hari Chand's barefoot 10,000 m record from Montreal lasted 32 years. Gopal Saini's steeplechase record from 1981 lasted 37. Bahadur Prasad's 5000 m record from 1992 lasted about 30. The marathon outlived them all. By Olympics.com's reckoning it became the longest-standing record in Indian athletics.
+
+### The near misses
+
+People came close, and the closeness was part of the torment. At the 2016 Mumbai Marathon, three Army runners, Nitendra Singh Rawat, Thonakal Gopi and Kheta Ram, qualified for the Rio Olympics. In Rio, Gopi finished 25th in 2:15:25, a personal best, and Kheta Ram was one second behind him. Good runs. Still more than three minutes short.
+
+Then, on 7 December 2025, in Valencia, Gopi ran 2:12:23 after four months of altitude training in Ooty. Twenty-three seconds. That was all that stood between him and Shivnath Singh. In the same race Man Singh ran 2:13:25 and A.B. Belliappa 2:14:07. For the first time in a generation, the old number was not a distant rumour. It was within touching distance, and several men were reaching for it.
+
+### Two seconds in Rotterdam
+
+Sawan Barwal comes from the Joginder Nagar area of Mandi district in Himachal Pradesh. His father, Kuldeep, worked as a driver in New Delhi; his mother, Subhadra Devi, is a homemaker. He started with the 1500 m at fourteen and joined the Army in 2019. In 2024 he won the Indian elite men's race at the Delhi Half Marathon in 1:02:46. In early 2026 he finished 60th at the World Cross Country Championships in Tallahassee.
+
+He was also part of something new: a Reliance Foundation programme coached by Ajith Markose and named, with no false modesty, Project 2:09. The name was a target, and the target was more than three minutes faster than any Indian had ever run. According to Markose, Sawan spent about four months, from November to February, living and training around Ooty and Wellington in the Nilgiris, then moved to Bengaluru for pre-competition work. The Tribune reported a training load of about 200 kilometres a week, with long runs of 40 to 42 kilometres on alternate weeks.
+
+On 12 April 2026, Sawan ran his first marathon, in Rotterdam. He finished 20th, in 2:11:58. After forty-eight years, the record fell by two seconds. Gopi, still chasing, finished 23rd in the same race in 2:13:16, inside the Asian Games qualifying standard.
+
+Two seconds is a strange margin for a record that waited so long. It is less than the time it takes to tie a shoelace. And if the moment invites celebration, the wider picture invites humility. Two weeks later, in London, Kenya's Sabastian Sawe ran 1:59:30, reported as the first sub-two-hour marathon in a record-eligible race. When Sawe crossed the finish line, a runner holding Sawan's Rotterdam pace would still have had nearly four kilometres to go.
+
+### Nagoya
+
+Sawan did not stop at two seconds. On 26 September 2026, at the Asian Games in Aichi-Nagoya, he ran 2:11:37 and won the silver medal, India's first men's marathon medal at the Asian Games since 1982. He had lowered his own national record by another 21 seconds, this time in a championship race where medals mattered more than the clock.
+
+QUOTE: There was only one thing in my mind: I have to go till the finishing line and how I can maintain the pace. — Sawan Barwal, to The Tribune
+
+His coach had said it plainly months earlier, speaking to The Bridge: "When we started this Project 2:09, we knew that he is the one who is able to do 2:09." Even after Nagoya, that target is still more than two and a half minutes away. No Indian has ever run a marathon under 2:10. In 2019 alone, the world produced 293 performances under 2:10, and Kenyan men accounted for 123 of them.
+
+### Myth or measurement?
+
+So what finally moved the number? The easy answers arrive quickly, and they arrive in familiar forms.
+
+He is a hill boy, some will say, born for thin air. But Shivnath Singh, who set the old record, was reportedly born on the plains of Bihar. Gopi comes from Wayanad, about 1,000 metres up. Kheta Ram is reported to have grown up in the Barmer desert. If birthplace were destiny, these men would not share the same page of the record book.
+
+It was the altitude, others will say. Perhaps altitude played a part. Sawan spent months in the Nilgiris, and Gopi credits Ooty for his Valencia run. But those altitude blocks came bundled with other things: 200-kilometre weeks, 40-kilometre long runs, an Army job that allowed full-time training, a privately funded programme with a stated target, and fast, well-paced races in Europe. Almost every Indian distance record since 2022 has been set abroad, in races with the pacing and competition that home meets rarely offer. Avinash Sable has made the point, as reported by ESPN, that nobody in India could set the pace a record required. Altitude was one ingredient in a crowded recipe, and nobody has shown how much of the two seconds, or the 21 seconds that followed, it was responsible for.
+
+Here is what the public record contains: splits, finishing times, weekly kilometres, training bases. Here is what it does not contain: Sawan's haemoglobin mass before and after the Nilgiris, his running economy at marathon pace, his lactate curve, how his heart rate drifted in the heat, how much carbohydrate he took in and when. Those numbers may exist in a notebook or a laboratory somewhere. They are not part of the story India tells itself about its runners. Instead, the story is filled with birthplace, grit and mountain air.
+
+There is a systemic side too. The Army Sports Institute in Pune, set up in 2001, and the sports-quota jobs of the services and Railways have carried Indian distance running for decades. India now has high-altitude centres at Ooty and Shilaroo and a planned one in Shillong, yet a ministry official told Hindustan Times in 2026 that the country is "short of roughly 750 coaches". A national sports-science centre opened in New Delhi only in April 2025. And in April 2026 the Athletics Integrity Unit placed India in its highest doping-risk category, which means every fast Indian time must now also be a well-tested one before the world fully trusts it.
+
+This is the question the book is built on. Not whether Indians can run fast, because they plainly can, but what it actually takes, physiologically and systemically, for an Indian runner to go faster. Which parts of the engine limit performance? Which of them can be measured, which can be trained, and how large is the response in one particular athlete? What does heat do, what does altitude do, and what can a coach in Chennai or Pudukkottai do with that knowledge on an ordinary Tuesday morning?
+
+For forty-eight years the answer was mostly belief. The next record will be easier to understand, and perhaps easier to reach, if it comes with measurement. To see why, we need to start by asking the question properly.
+
+SOURCES: https://www.olympics.com/en/news/sawan-barwal-breaks-marathon-national-record-india ; https://www.tribuneindia.com/news/sports/who-is-sawan-barwal-himachal-runner-who-challenged-marathon-myth-to-win-asian-games-silver/ ; https://thebridge.in/athletics/ajith-markose-decode-sawan-barwal-48-year-old-record-breaking-run-56362 ; https://worldathletics.org/athletes/india/sawan-barwal-14734651 ; https://www.olympics.com/en/news/athletics-list-of-indian-national-record-holders ; https://en.wikipedia.org/wiki/Shivnath_Singh ; https://thecronica.substack.com/p/a-barefoot-record-of-an-indian-marathoner ; https://shyamgopan.com/2025/12/11/gopi-23-secs-short-of-national-record-sets-new-pb-at-valencia-marathon/ ; https://www.indiasportshub.com/articles/gopi-thonakals-valencia-marathon-run-rekindles-indian-marathon-hope ; https://www.firstpost.com/sports/rio-olympics-2016-thanackal-gopi-and-kheta-ram-clock-personal-best-to-finish-25th-26th-in-marathon-2969066.html ; https://www.npr.org/2026/04/27/nx-s1-5800113/kenya-sabastian-sawe-east-africa-london-marathon-2-hour-barrier ; https://tonireavis.com/2021/12/21/sub-210-marathoning-2021/ ; https://www.hindustantimes.com/sports/others/high-altitude-training-centre-to-come-up-in-shillong-101780588041378.html ; https://www.aljazeera.com/sports/2026/4/20/india-in-extremely-high-doping-risk-bracket-athletics-integrity-unit
+
 ## 1. Why This Book Exists
+
+It is 5:40 a.m. on the Marina, and the sea is the colour of weak tea. A club runner slows to a walk near the lighthouse, hands on knees, shirt dark with sweat after thirty kilometres in air that already feels like a steam room. His watch buzzes. Training load: high. Recovery: 42 hours. VO₂max estimate: down one point. Later that morning, over filter coffee, three people will explain his slow finish to him with complete confidence. A friend says he needs a month in Ooty. An uncle says some people simply have weak lungs. A stranger in an online running group says he was not born in the right place. Nobody asks what the temperature was, what he ate, how he slept or what his heart rate did at the same pace a month ago. Each explanation is a single sentence. His body, like every runner's body, is not. The distance between those two things, the one-line verdict and the many-sided athlete, is where this book begins.
 
 Endurance coaching is full of numbers: pace, heart rate, VO₂max, lactate, kilometres, elevation, sleep score and training load. A club runner in Bengaluru can finish a Sunday long run and receive, within a minute, a dozen metrics from a watch and an app. Yet athletes often receive a single conclusion from a complex body: "you need altitude," "your lungs are weak," "your haemoglobin is high," or "your VDOT is low." Real physiology is rarely that simple. This chapter explains why AKURA exists, and why it asks a different kind of question.
 
@@ -146,6 +198,8 @@ CHECK: Think of the last explanation you gave, or were given, for a poor race. W
 
 ## 2. The East African Marathon Question
 
+On 26 April 2026, on the streets of London, Sabastian Sawe of Kenya ran the marathon in 1:59:30, reported as the first sub-two-hour marathon in a record-eligible race. Ethiopia's Yomif Kejelcha finished eleven seconds behind him. Two men under two hours in one race, from two neighbouring countries. The numbers behind that morning are just as startling. In 2019 alone, runners broke 2:10 for the marathon on 293 occasions worldwide, and Kenyans accounted for 123 of them. An Indian man has never done it once. It is the kind of statistic that tempts people to reach for a single sentence, and the sentence is almost always the same: they are born for running. The town of Iten, at about 2,400 metres in Kenya's highlands, even calls itself the Home of Champions, which seems to settle the argument. It does not. The more closely scientists have looked, the less that one sentence has held up.
+
 Kenyan and Ethiopian runners have produced a remarkable body of elite distance-running performances, from Olympic medals on the track to world records on the roads. It is tempting to explain that success with one sentence: "they are born for running." That sentence is too small for the problem. This chapter explains why, and how AKURA uses the East African example as a source of questions rather than a stereotype.
 
 ### A performance built from many systems
@@ -192,6 +246,8 @@ CHECK: List three habits from successful endurance cultures that your athletes c
 
 ## 3. Birthplace Versus Biology
 
+In Mohi village in Satara district, in a drought-prone corner of Maharashtra, a girl from a farming family ran 4 kilometres each way to school and helped fetch water for a household of seventeen people. Her name was Lalita Babar, and in 2016 she reached the Olympic steeplechase final in Rio, finishing tenth. Further north, near Nashik, Kavita Raut, reportedly from a tribal family in Sawarpada village, went on to win 10,000 m silver at the 2010 Asian Games. Her Nashik coach, Vijender Singh, once told the Indian Express: "I am telling you Nashik is the Kenya of India." Stories like these are true, and they are moving. They are also easy to misread. Was it the village that made these runners, the water pots and the long road to school? Or was it the years of running, the coaches who found them and the jobs that let them keep training? The answer matters for every child who was born somewhere else.
+
 A birthplace can influence an athlete's developmental environment without being a biological destiny. Where a child grows up shapes how much they move, what they eat, how far they walk or run to school, what sport they see around them and what opportunities they receive. These are real influences. But they are not the same as a fixed biological ceiling, and confusing the two leads to poor coaching decisions.
 
 ### Environment during development
@@ -227,6 +283,8 @@ COACH: Use background information to understand the athlete, never to label them
 CHECK: What assumptions have you made about an athlete based on where they come from? Which modifiable determinants could you measure instead?
 
 ## 4. Genetics: A Contribution, Not a Shortcut
+
+Harmilan Bains grew up in a family of runners. Her mother, Madhuri Singh, won 800 m silver at the 2002 Asian Games. Her father, Amandeep Bains, is a South Asian Games medallist and a former national 1500 m champion. In September 2021, at the National Open in Warangal, Harmilan ran the 1500 m in 4:05.39, breaking a national record that had stood since 2002. Two years later she won silver in both the 800 m and the 1500 m at the Asian Games in Hangzhou. It is almost too neat a story: talent in the blood, passed from parents to daughter. But look again at what else passes through a family like that. Knowledge of training. Early access to a track. Parents who know what a good coach looks like, what an overloaded week feels like and why an injury must be respected. Genes and upbringing arrive in the same household at the same time, and no stopwatch can tell them apart.
 
 Genetics can influence endurance-related traits. Differences between people in heart size, muscle-fibre composition, trainability and many other characteristics have some inherited component. But a simple national or ethnic genetic explanation is not a sufficient model of elite performance. This chapter explains why genetic arguments are harder than they appear, and why AEI deliberately leaves genetics out of the score.
 
@@ -273,6 +331,8 @@ CHECK: Which of your athletes has improved most over the last year? Would you ha
 
 ## 5. Can Indian Athletes Build World-Class Endurance?
 
+Thonakal Gopi grew up in Sulthan Bathery in Wayanad, about 1,000 metres above the sea, the son of farmers who grew rice and ginger. He joined the Army through the sports quota. Before the Rio Olympics he spent ten months training at a high-altitude facility in Ooty, and in Rio he finished 25th in what was then a personal best. Nine years later, in 2025, he went back up the Nilgiri road for four months before the Valencia Marathon, and in December he ran 2:12:23, just 23 seconds outside the national record of the time. "I think the high altitude at Ooty helped my performance," he said afterwards. For the previous six years his base had been Bengaluru, a city on the Deccan plateau with a milder climate. Wayanad, Ooty, Bengaluru, Valencia: four environments in one career, three of them within a day's travel of each other. That variety is not a curiosity. Used carefully, it is one of the most valuable research tools a coach in India has.
+
 Yes, athletes can develop very high endurance performance in India, but the route is individual. There is no single Indian formula, just as there is no single East African one. What India offers, perhaps more than most countries, is variety: a wide range of climates and elevations within reach of most athletes. This chapter describes that variety and reframes the national question as an individual one.
 
 ### India as a natural laboratory
@@ -310,6 +370,8 @@ COACH: Before planning a hill camp or a summer heat block, write down the specif
 CHECK: What environments can your athletes realistically access within a season? For each one, what adaptation would you target, and how would you know if it happened?
 
 ## 6. From Belief to Measurement
+
+Every coach has a sentence they trust. On a school ground in Pudukkottai, a coach tells his runners that afternoon runs on hot tar roads will make them tough. In a college hostel in Coimbatore, another insists that a week in Kodaikanal before selection trials is worth a month of training anywhere else. Both may be right. Both may be wrong. Neither has written the sentence down in a form that could be proved wrong. Numbers alone do not solve the problem either. When Sawan Barwal broke the 48-year-old national marathon record in Rotterdam in April 2026, one published report gave his margin as "0.42 seconds". The real margin was two seconds: 2:11:58 against 2:12:00. It was a formatting slip, easily caught by anyone who checked. But it is a useful reminder. A belief becomes knowledge only when it is stated precisely, measured carefully and checked against something that could contradict it.
 
 Every coach holds beliefs about training. Many of them are valuable, built from years of watching athletes succeed and fail. But a belief only becomes useful knowledge when it can be tested. This chapter explains how a coaching belief becomes a research hypothesis, what every AKURA intervention must define, and why accepting an unwelcome result is the most important discipline in the whole system.
 

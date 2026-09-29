@@ -27,3 +27,18 @@ BOOK_LANG=ta node build.js ../AKURA_World_Athlete_Research_Book_Tamil_Edition.do
 BOOK_LANG=ta TA_BODY_FONT="Noto Serif Tamil" TA_HEAD_FONT="Noto Sans Tamil" node build.js ta_pdf.docx
 python3 topdf.py ta_pdf.docx ../AKURA_World_Athlete_Research_Book_Tamil_Edition.pdf
 ```
+
+## Story layer and India analysis
+
+- `STORY_GUIDE.md` — style and truth rules for the narrative ("Born to Run"-style) story chapters.
+- `research/` — sourced dossiers on Indian elite men, women and the Indian endurance system (every fact with a URL), plus `chart_data.json` for the Part XVIII charts.
+- Story chapters are written as `## STORY: <title>` and end with a `SOURCES:` line.
+
+## Tamil diagrams
+
+Tamil labels (`fig_labels_ta.py`) are drawn as SVG text and rendered by Chromium so Tamil script is shaped correctly:
+
+```bash
+FIG_LANG=ta FIG_OUT=figures_ta_svg python3 figures.py
+NODE_PATH=$(npm root -g) node render_svg.js figures_ta_svg figures_ta
+```

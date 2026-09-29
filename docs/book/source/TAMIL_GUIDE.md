@@ -41,3 +41,18 @@ Researcher names stay in English script (e.g. Joyner & Coyle, Levine, Gore).
 - `**bold**` markers: keep.
 - REFS: section: copy everything after `REFS:` VERBATIM in English (do not translate references).
 - One element per line, blank line between elements, no hard wraps. Translate EVERYTHING else; do not summarise or skip.
+
+## Story-layer additions (new)
+- `## STORY: <title>` → keep `## STORY: ` exactly, translate the title.
+- `SOURCES: url ; url` → keep `SOURCES: ` and all URLs/titles exactly as they are (do not translate).
+- QUOTE lines: translate the quote into Tamil, keep ` — Name` with the name in Tamil + English, e.g. ` — சாவன் பர்வால் (Sawan Barwal)`.
+- Athlete names: Tamil script with English in brackets on first mention in each story/chapter, e.g. அவினாஷ் சாப்லே (Avinash Sable).
+- Keep all times, dates, distances, records exactly (2:11:37, 9:08.67, 27:00.22 ...).
+- Keep the narrative, vivid, story-telling tone in Tamil — this is a Born-to-Run-style story layer.
+
+## Delta JSON job files
+Each job file is a JSON list of {"id","op","a_from","a_to","en":[lines],"ta":null}.
+Fill "ta" with a list of Tamil lines, EXACTLY the same number of lines as "en", line-by-line translations
+(each "en" line is one paragraph/element; keep its marker prefix as per the format rules). Do not touch other fields.
+Write the JSON back (ensure_ascii=False) and validate: every job has len(ta)==len(en) and each ta line keeps the same
+leading marker as its en line (##, ###, KEY:, COACH:, CHECK:, QUOTE:, SOURCES:, FIG:, |, -, 1), etc.).

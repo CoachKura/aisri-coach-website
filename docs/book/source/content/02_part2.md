@@ -2,7 +2,61 @@ PART II — THE HUMAN ENDURANCE ENGINE
 
 PARTINTRO: Before we can measure an endurance athlete, we have to understand what we are measuring. Part II opens the engine. It follows oxygen from the air of a Chennai beach road or an Ooty hillside into the lungs, across into blood, around the body on haemoglobin, through the heart and into the working muscle, where mitochondria turn fuel into movement. Each chapter takes one link of that chain, explains its physiology in plain language, separates evidence from myth, and shows how it becomes a variable inside the AKURA Endurance Index. The lesson throughout is the same: no single number is the athlete.
 
+## STORY: The Boy from Mandwa
+
+Mandwa is a village near Ashti in Beed district, in the Marathwada region of Maharashtra, a part of the Deccan where the land is dry for much of the year and the monsoon is watched anxiously. Avinash Sable was born there on 13 September 1994, the son of farmers. The detail that every profile of him repeats is the road to school. It was 6 kilometres away, and he ran.
+
+It is tempting to stop the story there, at the image of a boy on a dusty road, and declare that the road explains everything. It does not. The boy from Mandwa did not become a runner on that road. He became a soldier first.
+
+### The soldier
+
+After Class 12, Sable joined the Army and was posted to 5 Mahar Regiment. His postings took him to the Siachen region, to Rajasthan and to Sikkim. In one career he met some of the harshest environments on the subcontinent: the cold of Siachen and the desert heat of Rajasthan, where temperatures can reach 50 °C. None of it was a training plan. It was service.
+
+Running entered his life through Army cross country in 2015. Two years later, an Army coach named Amrish Kumar, himself a former South Asian Games steeplechase champion, spotted him and moved him into the 3000 m steeplechase, the event that asks a distance runner to clear 28 barriers and 7 water jumps while racing at close to full aerobic capacity.
+
+### The record that fell ten times
+
+The Indian steeplechase record then belonged to Gopal Saini: 8:30.88, set at the Asian Championships in Tokyo in 1981. It had stood for 37 years. In September 2018, at the Open National Championships in Bhubaneswar, Sable broke it with 8:29.80.
+
+What followed was one of the most sustained assaults on a national record in Indian athletics. In March 2019 he lowered it to 8:28.94 at the Federation Cup in Patiala. At the 2019 World Championships in Doha he ran 8:25.23 in the heats and then, after an appeal by the Athletics Federation of India got him into the final, 8:21.37 there, finishing 13th. At the Tokyo Olympics in 2021 he ran 8:18.12 in his heat, a national record that still was not enough for a place in the final. In 2022 came 8:16.21 at the Indian Grand Prix, 8:12.48 at the Rabat Diamond League and then, at the Commonwealth Games in Birmingham, 8:11.20 and a silver medal. He finished just 0.05 seconds behind Kenya's Abraham Kibiwot. It was India's first Commonwealth medal in the event and the first by a non-Kenyan since 1994.
+
+The tenth record came on 7 July 2024 at the Paris Diamond League: 8:09.91.
+
+Along the way he did things off the barriers too. In November 2020 he ran 1:00:30 at the Delhi Half Marathon, the first Indian under 61 minutes, and that remains the official national record. In 2022 he ran 13:25.65 for 5000 m, breaking a record Bahadur Prasad had set in Birmingham in 1992, and in 2023 he improved it to 13:19.30. At the 2023 Asian Games in Hangzhou he won steeplechase gold in a Games record of 8:19.50 and added silver in the 5000 m.
+
+### Coaches, and a change of air
+
+The coaching behind those numbers was not a straight line. At the national camp, Sable worked with the Belarusian coach Nikolai Snesarev, who had guided a generation of Indian distance runners. In 2018 Sable left him and returned to Amrish Kumar, and it was under Amrish that he ran 8:28.94 in 2019. Snesarev left the Athletics Federation of India in February 2019 in what were reported as acrimonious circumstances, with Sable's return to his Army coach reported as one factor. Snesarev was later re-appointed and died in March 2021.
+
+From 2022, Sable trained with the American coach Scott Simmons in Colorado Springs, at around 1,800 metres, as part of a camp that the federation and the government's sports schemes funded. Before the 2023 World Championships in Budapest he trained at altitude in Colorado Springs and in St. Moritz in Switzerland, alongside Paul Chelimo. In July 2024, before the Paris Olympics, he was in St. Moritz again.
+
+QUOTE: His adaptation upon his return to altitude this year was almost instant. — Scott Simmons, to Hindustan Times
+
+That sentence, casual as it sounds, is a physiological claim. What exactly adapted? His breathing? His blood volume? His red-cell mass? How was "instant" measured, and against what baseline? Hold on to those questions. They are the questions of this whole Part.
+
+In Paris in August 2024 Sable became the first Indian to reach the Olympic steeplechase final, finishing 11th in 8:14.18. In 2025 at Gumi, South Korea, he won the Asian Championships title in 8:20.92, India's first men's steeplechase gold at the championships in 36 years.
+
+### The knee
+
+Then the engine met its limit, not in the heart or lungs but in a joint. At the Monaco Diamond League in July 2025, Sable injured the anterior cruciate ligament and meniscus of his right knee and needed surgery. He missed the World Championships in Tokyo that September, and in 2026 he missed the Commonwealth Games in Glasgow. He did much of his rehabilitation and rebuilding at the SAI Southern Centre in Bengaluru.
+
+He has been candid about the comeback. "I think I might have rushed my return a bit, which caused the injury to recur," he told Olympics.com. His first steeplechase back, at the Indian Athletics Series final in September 2026, was 8:32.39, slower than the record he had first broken eight years earlier. Weeks later, at the Asian Games in Aichi-Nagoya, he ran 8:21.67, his best of the season, and finished fourth. He was entered in the 5000 m too, but did not start.
+
+### A window into the engine
+
+Why begin a Part about physiology with one man's career? Because a career like this is an experiment run in public, even if most of the measurements were never published.
+
+Look at what the record shows. An athlete who discovered serious running only in his twenties, after joining the Army, and who then lowered a national record by almost twenty seconds in six years. An athlete whose results moved when his coaching, his training base and his exposure to altitude changed, and whose coach believed his body responded to that altitude almost immediately. An athlete who ran fast from 5000 m to the half marathon, which says something about both his aerobic capacity and how economically he could run. And an athlete whose progress was stopped not by oxygen but by tissue, a reminder that the endurance engine has a chassis as well as a fuel line.
+
+Each of those observations points to a link in a chain. The heart that pumps the blood. The blood that carries oxygen, and the plasma it floats in. The red cells that altitude may or may not multiply. The ceiling of oxygen uptake, and the economy that decides how much of it each stride costs. The mitochondria that burn the fuel, the lactate that moves between fibres, the threshold that marks how hard a runner can go for how long, and the glycogen that decides how long the fast running can last.
+
+Nobody can yet explain Avinash Sable's career with a single number, and nobody should try. But every coach can learn to ask better questions of the next boy who runs 6 kilometres to school, or the next soldier who turns up at a cross-country race. To ask those questions well, we need to open the engine and look at it one link at a time, starting with the chain itself.
+
+SOURCES: https://www.olympics.com/en/news/who-is-avinash-sable-india-athlete-steeplechase ; https://worldathletics.org/athletes/india/avinash-mukund-sable-14778911 ; https://www.indiatoday.in/sports/other-sports/story/avinash-sable-shatters-national-record-for-10th-time-ahead-of-paris-olympics-2563569-2024-07-07 ; https://africa.espn.com/commonwealth-games/story/_/id/34355519/cwg-2022-india-athletics-avinash-sable-steeplechase-silver-just-005-seconds-short-gold-kenyan ; https://www.hindustantimes.com/sports/others/steeplechaser-avinash-sable-gets-set-for-a-third-world-championships-101692209605101.html ; https://www.theweek.in/news/sports/2022/06/10/sub-8-minute-timings-not-impossible-record-breaking-steeplechaser-avinash-sable.html ; https://www.olympics.com/en/news/paris-2024-olympics-athletics-india-avinash-sable-3000m-steeplechase-result ; https://sportskeeda.com/summer-olympics/news-paris-olympics-2024-3000m-steeplechasers-avinash-sable-parul-chaudhary-train-hard-switzerland ; https://www.olympics.com/en/news/avinash-sable-injury-comeback-asian-games-2026-steeplechase ; https://m.rediff.com/sports/report/avinash-sable-triumphant-return-to-steeplechase-after-injury/20260910.htm ; https://www.thestatesman.com/sports/gulveer-singh-adds-1500m-silver-to-asian-games-haul-sable-finishes-fourth-1503644118.html ; https://www.olympics.com/en/news/nikolai-snesarev-the-late-belarusian-coach-s-contribution-to-indian-athletics ; https://www.deccanherald.com/sports/snesarevs-return-leaves-two-indian-2176969 ; https://thebridge.in/athletics/avinash-sable-parul-chaudhary-to-train-in-colorado-springs-45778
+
 ## 7. The Endurance System as a Chain
+
+In the last week of September 2026, at the Asian Games in Aichi-Nagoya, Gulveer Singh did something that looks, on paper, like the work of three different athletes. He won silver in the 10,000 m in 28:29.38. He won silver in the 1500 m in 3:36.72. And on 29 September he took bronze in the 5000 m. Three medals, from a race that lasts well under four minutes to one that lasts nearly half an hour, won by a soldier from a farming family in Aligarh district who has said he "truly learned about competitive running only after joining the army." A 1500 m leans heavily on speed and anaerobic power. A 10,000 m depends on the steady, relentless delivery and use of oxygen. Yet it was one heart, one bloodstream and one set of muscles doing all of it. To understand how, we have to stop thinking of fitness as a single quality and start seeing it as a chain.
 
 Distance running is, at its core, an oxygen-and-energy delivery problem expressed through movement. A marathon runner leaving the Marina at dawn is solving that problem thousands of times a minute. Air must reach the lungs; oxygen must cross into the blood; haemoglobin must carry it; the heart must circulate that blood; the working muscle must receive the oxygen; mitochondria must use it, together with carbohydrate and fat, to generate ATP; and finally the athlete must convert that chemical energy into forward motion with as little waste as possible. Every one of those steps is a link. Performance is what happens when all the links work together under the stress of pace, distance, heat and fatigue.
 
@@ -43,6 +97,8 @@ CHECK: For one athlete you coach, list the five links in the table above. Which 
 
 ## 8. The Heart: Pump, Not Just Heart Rate
 
+Two friends leave the Besant Nagar beach road together at six on a May morning, matched stride for stride at 5:30 per kilometre. The sea breeze has not arrived yet. The air is thick, the kind of Chennai morning when a cotton vest is wet before the first kilometre is done. Forty minutes later they compare watches. One shows an average of 148 beats per minute. The other shows 163. Same pace, same road, same sun, and a fifteen-beat difference. The second runner is worried: is his heart weaker? The first is quietly pleased: is he fitter? Neither conclusion follows. The number on the wrist counts how often the heart beats. On its own, it says nothing about how much blood leaves the heart with each beat, how much of that blood is being sent to the skin to shed heat, or how much oxygen the leg muscles are pulling out of it. For that, we need to see the heart as what it really is: a pump.
+
 Heart rate is the most familiar number in endurance sport. It sits on every wrist, it is cheap to record and it responds quickly to effort, heat and stress. It is a genuinely useful field signal. But it is not the heart's entire story. The heart is a pump, and what matters for oxygen delivery is how much blood it moves each minute, not simply how often it beats.
 
 ### Cardiac output and the Fick principle
@@ -80,6 +136,8 @@ COACH: Do not change training zones on the basis of a single hot-day heart-rate 
 CHECK: On your athlete's last three easy runs, was the heart rate different because the athlete changed, or because the conditions changed? What data would let you tell the difference?
 
 ## 9. The Lungs and the Oxygen Myth
+
+In Maroda, a village in Pauri Garhwal about 1,400 metres up in the Uttarakhand hills, a farmer's daughter used to run the hill roads with young men training for the Army's physical tests. "I decided to run with them ... They never slowed down for me," Ankita Dhyani later told ESPN. She went on to the national centre in Bhopal, to the Paris Olympics and, in August 2025, to a national record in the 2000 m steeplechase. Her coach put part of her strength down to geography: "because she was running in Uttarakhand, she had already been doing a lot of high-altitude training." It is an interesting sentence, mostly for what people tend to hear in it. Mountain villages, the popular story goes, have thinner air, and people who train in thin air grow bigger lungs. Almost every part of that belief needs checking. The air in Maroda, in Ooty and on Marina Beach contains the same fraction of oxygen. What differs is something else entirely.
 
 Few ideas in endurance sport are repeated as confidently, or as inaccurately, as "there is less oxygen at altitude" and "hill running builds bigger lungs". Both contain a grain of truth wrapped in a misunderstanding. Getting the physics and physiology right matters, because a coach who misunderstands the stimulus will misjudge the dose.
 
@@ -120,6 +178,8 @@ COACH: Use hills for strength, economy and controlled intensity, and describe th
 CHECK: Can you explain to an athlete, in two sentences, why the air at altitude has the same percentage of oxygen but still makes running harder?
 
 ## 10. Haemoglobin Mass
+
+Between November and February, before his record run in Rotterdam, Sawan Barwal lived and trained in the Nilgiris, around Ooty and Wellington, for about four months. Only then did he come down to Bengaluru for his final preparation. "For Sawan, most of the time he was staying in high altitude," his coach Ajith Markose told The Bridge. Four months of sleeping in thinner air is a large dose, far larger than the weekend hill trips many club runners take. A reader might expect, somewhere, a neat pair of numbers: how many grams of haemoglobin he carried in October, and how many in February. If such measurements were made, they are not in the public record. More broadly, the research behind this book could find no peer-reviewed study of Indian athletes' blood adaptations at Ooty at all. That is a remarkable gap, because the most important blood number for an endurance runner is not the one printed on an ordinary laboratory report.
 
 Haemoglobin is the iron-containing protein inside red blood cells that binds oxygen. Each gram of fully saturated haemoglobin can carry roughly 1.34 mL of oxygen, so the total amount of haemoglobin in the body sets a large part of the blood's oxygen-carrying capacity. When the research question is oxygen-carrying capacity, haemoglobin mass, the total grams of haemoglobin circulating in the body, is more informative than haemoglobin concentration alone.
 
@@ -162,6 +222,8 @@ CHECK: If your athlete's haemoglobin concentration dropped after a heat block, w
 
 ## 11. Plasma Volume
 
+It is May in Chennai, and the long run starts at 4:45 a.m. to beat the sun. It does not beat the humidity. By the tenth kilometre along the East Coast Road, the runners in a small club group have stopped talking. By the twentieth, their shirts are so heavy that one of them wrings his out beside a tea stall. Back at the car, the coach, who has started carrying a bathroom scale in the boot, weighs everyone. One runner is 1.8 kg lighter than when he started, despite drinking at every stop. Most of that loss is water that left his body as sweat, and some of it was drawn from the liquid part of his blood. Three weeks later, running the same route at the same pace, the same runner finishes with a lower heart rate and says the run felt easier. Nothing about his heart or lungs has visibly changed. Part of the explanation may be flowing through his veins.
+
 Blood is not only red cells. Roughly half or more of it, depending on the individual, is plasma, the liquid portion of blood made mostly of water, together with proteins, electrolytes and other solutes. Plasma is easy to overlook because it does not carry much oxygen itself, yet it plays a central role in endurance performance and, for athletes training in India's heat, may be one of the most responsive parts of the whole system.
 
 ### What plasma does for the endurance athlete
@@ -199,6 +261,8 @@ COACH: If you run a heat block, schedule the post-test within a few days of fini
 CHECK: For your next heat-training block, which marker will you use for concentration, which for volume, and which for performance?
 
 ## 12. Red Blood Cells and Erythropoiesis
+
+The blood report arrives on a phone in a sports hostel: a single page of numbers, a few of them flagged in red. The athlete is a seventeen-year-old middle-distance runner who has felt tired for weeks. Her haemoglobin is low. She is far from unusual. A venous-blood survey across eight Indian states found anaemia in 44% of adolescent girls and 41% of adult women. A 2025 study of 104 female athletes in Tamil Nadu, volleyball and ball badminton players rather than runners, found that about 53.8% were anaemic. For a distance runner, whose sport depends on carrying oxygen, figures like these should stop a coach cold. Yet the response in many squads is either to ignore the red flags or to hand out iron tablets without a doctor's advice. Neither approach respects how the body actually builds blood. Red cells are made slowly, from raw materials, in response to signals, and every one of those steps can fail.
 
 Red blood cells are the delivery vehicles of the endurance system. They contain haemoglobin and transport oxygen from the lungs to the tissues, and help carry carbon dioxide back. They are produced in the bone marrow through erythropoiesis and, in healthy adults, circulate for roughly four months before being removed and recycled. That slow turnover is the first thing a coach must understand: changing the red-cell population takes weeks, not days.
 
@@ -241,6 +305,8 @@ CHECK: Does your athlete have a baseline ferritin and full blood count taken und
 
 ## 13. VO₂max
 
+Put two numbers side by side and they seem to tell a story on their own. In 1991, researchers testing Bengali female athletes on a cycle ergometer found that the long-distance runners among them had the highest relative VO₂max of any group: 43.0 mL/kg/min. In 1995, Bengt Saltin and colleagues reported that Kenyan senior runners averaged 79.9 mL/kg/min when tested at sea level. The gap looks enormous, and it is easy to draw a sweeping conclusion from it about who can and cannot run. That conclusion would be wrong in almost every way. The two studies tested different sexes, different generations and very different levels of training, and pedalling a bicycle is not the same task as carrying a body over the ground; many runners score lower on a cycle than they would running. Neither number says how anyone would perform on race day. VO₂max is a real and important measurement. It is also the most over-interpreted number in the sport.
+
 VO₂max is probably the most famous number in endurance physiology. It describes the maximum rate at which the body can take up and use oxygen during severe exercise, usually expressed in millilitres of oxygen per kilogram of body mass per minute. It is important: elite endurance athletes almost always have high values, and a low VO₂max limits what an athlete can achieve at race pace. But it is not a complete description of running ability, and treating it as the master number leads to poor coaching decisions.
 
 ### What VO₂max actually represents
@@ -281,6 +347,8 @@ CHECK: Do you know whether the VO₂max values you hear about for your athletes 
 
 ## 14. Running Economy
 
+On 29 March 2025, at The TEN meeting in San Juan Capistrano, California, Gulveer Singh ran 10,000 metres in 27:00.22. That is 25 laps of the track at an average of about 64.8 seconds each, or roughly 2 minutes 42 seconds for every kilometre, held for twenty-seven minutes. It made him, according to the Sports Authority of India, the third-fastest Asian of all time, and it left him just 0.22 seconds outside the 27-minute barrier he had been aiming for. At that speed, the difference between a good race and a great one is not only how much oxygen a runner can take in. It is also how little oxygen each stride costs. A runner who wastes a few percent on every step, by bouncing too high, braking at each landing or tightening the shoulders, pays that tax thousands of times over. Across 10,000 metres, and even more across 42.2 kilometres, the tax adds up to minutes.
+
 Running economy is the oxygen cost of running at a given submaximal speed. If two athletes run at the same pace but one uses less oxygen, the more economical runner has more physiological reserve: more room below the ceiling, less heat produced for the same speed and potentially slower use of carbohydrate. The marathon is not only about how much oxygen you can take in. It is also about how little oxygen you need for the speed you want.
 
 ### Measuring economy
@@ -320,6 +388,8 @@ CHECK: How many of your athlete's weekly sessions develop economy directly, thro
 
 ## 15. Mitochondria and Muscle Oxygen Use
 
+The training numbers Sawan Barwal's camp reported to The Tribune are not glamorous. About 200 kilometres a week. A long run of 40 to 42 kilometres every other week. Months of it, in camps in the Nilgiris, Kannur and Bengaluru. In most distance programmes, a large share of volume like that is run at an easy, conversational effort. Watch any group of distance runners on an ordinary easy morning and you might wonder what the point is. Nobody is racing. Nobody is gasping. Yet this is the kind of running that builds the deepest part of the endurance engine, the part no watch can display. Inside each working muscle fibre, week after week, the machinery that uses oxygen is expanded, and the network of tiny blood vessels that feeds it is extended. Whatever else went into Sawan's 2:11:37 for Asian Games silver in Nagoya, a marathon at that speed is impossible without that invisible machinery, built one unremarkable kilometre at a time.
+
 The heart, lungs and blood deliver oxygen, but oxygen only creates energy when a muscle cell uses it. That happens inside mitochondria, the cellular machinery that supports aerobic ATP production. Mitochondria oxidise fatty acids and the products of carbohydrate breakdown, including pyruvate and lactate, to generate most of the ATP needed for sustained running. If delivery is the supply chain, mitochondria are the factory floor.
 
 ### What endurance training does to muscle
@@ -357,6 +427,8 @@ COACH: Judge muscle adaptation by what the athlete can sustain, not by a single 
 CHECK: Over the last eight weeks, has your athlete's training included enough consistent aerobic volume and enough sustained threshold work to stimulate the muscle, or has it relied on one type of session?
 
 ## 16. Lactate Is a Messenger
+
+On a school ground in Madurai, a PE teacher blows his whistle after the last of eight fast 400s. Twelve teenagers bend over, hands on knees, faces twisted. Their legs are burning. "Jog it out," he shouts. "Flush out the lactic acid, or you won't be able to walk tomorrow." The runners obediently shuffle a lap. It is advice that has been handed down on Indian grounds for decades, and at first glance it makes perfect sense. The burning is real, the soreness two days later is real, and the substance being blamed has a name that sounds suitably sinister. But almost every part of the explanation is wrong. The molecule in question is not the villain of the piece. It is not what makes the legs sore later in the week, and the body does not need to be rinsed of it like a dirty pan. In fact, trained muscle takes it up and uses it.
 
 For much of the twentieth century, lactate was cast as the villain of endurance sport: a toxic waste product that made legs burn and caused fatigue. That picture is now considered outdated. Lactate is a normal metabolic intermediate, not simply a toxic waste product. It can be produced in active muscle, transported between tissues and used as a fuel. Understanding this changes how a coach thinks about threshold training, lactate testing and the language used with athletes.
 
@@ -399,6 +471,8 @@ CHECK: If your athlete produced a lactate reading of 4 mmol/L today, what six pi
 
 ## 17. Lactate Threshold
 
+Tuesday is threshold day for a running club in Bengaluru, and three members arrive at Cubbon Park with three different ideas of what that means. The first has a laboratory report that puts her threshold at 4 mmol/L of lactate and a pace of 4:35 per kilometre. The second has a watch that announces his threshold pace every morning, a number that seems to move with his mood. The third has only her coach's instruction: run comfortably hard, at the pace you could hold for about an hour in a race. All three are using the same word. They may be describing three different intensities. By the second repetition the first runner is fighting, the second is chatting, and the third is exactly where her coach wanted her. The problem is not that any of them is foolish. It is that one word has been asked to carry too many meanings, and each meaning comes from a different method.
+
 Few words in coaching are used as loosely as "threshold". Athletes talk about "threshold runs", laboratories report "thresholds" and watches estimate "threshold pace", yet these often refer to different things. The term "threshold" can describe several related concepts, including fixed blood-lactate definitions and individual physiological breakpoints, and different laboratories may use different protocols and terminology.
 
 ### Many thresholds, one idea
@@ -439,6 +513,8 @@ COACH: Prescribe threshold by a combination of pace range, heart-rate range and 
 CHECK: Which threshold definition have you been using for your athletes, and would another coach or laboratory reproduce the same number from your notes?
 
 ## 18. Fuel, Glycogen and Fat Oxidation
+
+At the Rio Olympics in August 2016, O.P. Jaisha, India's national record holder in the marathon, collapsed after crossing the finish line of the women's race in 89th place. Afterwards she said Indian officials had not provided her with refreshments along the course. "All the [other] countries had their stalls at every two kilometres, but our country's stall was empty," she was quoted as saying by Scroll. The Athletics Federation of India disputed her account, and her teammate Kavita Raut said she herself had had enough water. What exactly happened at those drinks tables may never be settled. But the episode put a public spotlight on a question every marathoner eventually faces. Fitness gets a runner to the start line. What she has stored in her muscles, what she drinks and what she eats along the way decide how much of that fitness survives to the finish. A marathon is a fuel problem as much as a fitness problem.
 
 The marathon is where physiology meets the kitchen. Marathon performance depends heavily on substrate management: which fuels the athlete uses, how much is stored and how well it is replaced during the race. Carbohydrate supports high-intensity work efficiently, while fat oxidation contributes increasingly as intensity and duration change. Training can influence substrate use, but race-day fuelling remains essential.
 

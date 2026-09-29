@@ -6,7 +6,9 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 from matplotlib.patches import FancyBboxPatch, Circle, FancyArrowPatch, Wedge, Rectangle
 
-OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "figures")
+OUT = os.environ.get("FIG_OUT") or os.path.join(os.path.dirname(os.path.abspath(__file__)), "figures")
+LANG = os.environ.get("FIG_LANG", "en")
+EXT = ".svg" if LANG == "ta" else ".png"
 os.makedirs(OUT, exist_ok=True)
 NAVY, TEAL, SAFF, GREY, RED, LIGHT = "#0B2545", "#13807A", "#D9731A", "#6B7280", "#B23A3A", "#F3F6F9"
 TEAL_L, SAFF_L, NAVY_L = "#E6F4F2", "#FDF1E6", "#E8EDF4"
@@ -15,10 +17,26 @@ plt.rcParams.update({
     "xtick.color": GREY, "ytick.color": GREY, "axes.spines.top": False, "axes.spines.right": False,
     "axes.titleweight": "bold", "axes.titlecolor": NAVY, "axes.titlesize": 11,
 })
+if LANG == "ta":
+    # Tamil labels: text stays as SVG text so a browser engine can shape the script (see render_svg.js)
+    import sys, matplotlib.text as _mt
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+    from fig_labels_ta import TA
+    _orig_set_text = _mt.Text.set_text
+    def _tr(self, s):
+        if isinstance(s, str) and s in TA: s = TA[s]
+        return _orig_set_text(self, s)
+    _mt.Text.set_text = _tr
+    _orig_set_size = _mt.Text.set_fontsize
+    def _sz(self, size=None):
+        if isinstance(size, (int, float)): size = size * 0.84
+        return _orig_set_size(self, size)
+    _mt.Text.set_fontsize = _sz
+    plt.rcParams.update({"font.family": ["Noto Sans Tamil", "DejaVu Sans"], "svg.fonttype": "none", "font.size": 8.4, "axes.titlesize": 9.5})
 FIGS = {}
 
 def save(fig, name, chapter, caption):
-    path = os.path.join(OUT, name + ".png")
+    path = os.path.join(OUT, name + EXT)
     fig.savefig(path, dpi=200, bbox_inches="tight", facecolor="white")
     plt.close(fig)
     FIGS.setdefault(str(chapter), []).append({"file": name + ".png", "caption": caption})
@@ -361,12 +379,12 @@ for c in range(8, 100, 18):
 ax.plot(xs, ecg, color=SAFF, lw=2.4)
 ax.text(3, 38, "CHENNAI  ·  SEA LEVEL", color="#9FB6CF", fontsize=8, fontweight="bold")
 ax.text(97, 38, "OOTY  ·  ~2,240 m", color="#9FB6CF", fontsize=8, fontweight="bold", ha="right")
-fig.savefig(os.path.join(OUT, "cover.png"), dpi=220, bbox_inches="tight", pad_inches=0, facecolor=NAVY); plt.close(fig)
+fig.savefig(os.path.join(OUT, "cover" + EXT), dpi=220, bbox_inches="tight", pad_inches=0, facecolor=NAVY); plt.close(fig)
 
 
 # ---------- toolkit figures (placed explicitly with FIG: lines) ----------
 def save_free(fig, name):
-    fig.savefig(os.path.join(OUT, name + ".png"), dpi=200, bbox_inches="tight", facecolor="white"); plt.close(fig)
+    fig.savefig(os.path.join(OUT, name + EXT), dpi=200, bbox_inches="tight", facecolor="white"); plt.close(fig)
 
 def pace_for(T5, t, E=1.06):
     d = 5000 * (t / T5) ** (1 / E); return t / d * 1000
@@ -442,6 +460,56 @@ for i, (a, b) in enumerate(ph):
     ax.text(x, 31, a.upper(), ha="center", fontsize=7.5, color=GREY, fontweight="bold"); ax.text(x, 12, b, ha="center", va="center", fontsize=8.2, color=NAVY)
 ax.text(10, 3, "AEI v0.1 (this book)", ha="center", fontsize=8, color=SAFF, fontweight="bold"); ax.text(90, 3, "AEI v1.0", ha="center", fontsize=8, color=SAFF, fontweight="bold")
 save_free(fig, "f33_aei_roadmap")
+
+# ---------- Part XVIII India figures (data from research/chart_data.json) ----------
+_cd = os.path.join(os.path.dirname(os.path.abspath(__file__)), "research", "chart_data.json")
+if os.path.exists(_cd):
+    CD = json.load(open(_cd))
+    def hms(x):
+        x = round(x); h, r = divmod(x, 3600); m, s_ = divmod(r, 60)
+        return f"{h}:{m:02d}:{s_:02d}" if h else f"{m}:{s_:02d}"
+    # f34 national-record progressions: one small panel per event
+    ev = list(CD.get("nr_progression", {}).items())
+    if ev:
+        n = len(ev); cols = 2 if n > 1 else 1; rows = (n + cols - 1) // cols
+        fig, axs = plt.subplots(rows, cols, figsize=(7.2, 2.1 * rows), squeeze=False)
+        for k, (name, pts) in enumerate(ev):
+            ax = axs[k // cols][k % cols]
+            pts = sorted(pts, key=lambda p: p[0])
+            ys = [p[0] for p in pts]; ts = [p[1] for p in pts]
+            ax.step(ys + [2026.8], ts + [ts[-1]], where="post", color=[NAVY, TEAL, SAFF, RED, "#C0561A"][k % 5], lw=2)
+            ax.scatter(ys, ts, color=[NAVY, TEAL, SAFF, RED, "#C0561A"][k % 5], s=18, zorder=5)
+            ax.set_title(name, fontsize=9); ax.invert_yaxis()
+            yt = ax.get_yticks(); ax.set_yticks(yt, [hms(v) for v in yt], fontsize=7)
+            ax.tick_params(axis="x", labelsize=7)
+            from matplotlib.ticker import MaxNLocator
+            ax.xaxis.set_major_locator(MaxNLocator(integer=True, nbins=5))
+            last = ts[-1]; lab = hms(last) if last >= 1200 else f"{int(last // 60)}:{last % 60:05.2f}"
+            ax.annotate(lab + f"\n{int(ys[-1])}", (ys[-1], ts[-1]), xytext=(4, 6), textcoords="offset points", fontsize=7, color=NAVY)
+        for k in range(n, rows * cols): axs[k // cols][k % cols].axis("off")
+        fig.suptitle("Indian national records over time (faster is higher)", color=NAVY, fontweight="bold", fontsize=10.5)
+        fig.tight_layout(); save_free(fig, "f34_nr_progression")
+    # f35 gap to world record
+    gp = CD.get("gap", [])
+    if gp:
+        gp = sorted(gp, key=lambda g: (g["indian_nr_s"] - g["world_record_s"]) / g["world_record_s"])
+        fig, ax = plt.subplots(figsize=(7, 0.42 * len(gp) + 1.0))
+        vals = [(g["indian_nr_s"] - g["world_record_s"]) / g["world_record_s"] * 100 for g in gp]
+        ax.barh([g["event"] for g in gp], vals, color=[TEAL if v < 6 else SAFF if v < 10 else RED for v in vals], height=0.6)
+        for i, v in enumerate(vals): ax.text(v + 0.2, i, f"{v:.1f}%", va="center", fontsize=8, color=NAVY)
+        ax.set_xlabel("Indian national record slower than world record (%)"); ax.set_xlim(0, max(vals) * 1.18)
+        ax.set_title("How far from the world? Gap between Indian and world records")
+        save_free(fig, "f35_gap_to_world")
+    # f36 pathways
+    pw = CD.get("pathways", [])
+    if pw:
+        pw = sorted(pw, key=lambda p: p["count"])
+        fig, ax = plt.subplots(figsize=(7, 0.45 * len(pw) + 1.0))
+        ax.barh([p["label"] for p in pw], [p["count"] for p in pw], color=NAVY, height=0.6)
+        for i, p in enumerate(pw): ax.text(p["count"] + 0.1, i, str(p["count"]), va="center", fontsize=8.5, color=NAVY)
+        ax.set_xlabel("Number of elite athletes profiled in this book")
+        ax.set_title("Pathways into Indian elite distance running")
+        save_free(fig, "f36_pathways")
 
 json.dump(FIGS, open(os.path.join(OUT, "figures.json"), "w"), indent=1, ensure_ascii=False)
 print(sum(len(v) for v in FIGS.values()), "figures")

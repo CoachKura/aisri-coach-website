@@ -1,0 +1,281 @@
+{
+  "nr_progression": {
+    "Men's marathon": [
+      [
+        1978,
+        7920.0,
+        "Shivnath Singh"
+      ],
+      [
+        2026,
+        7918.0,
+        "Sawan Barwal"
+      ],
+      [
+        2026,
+        7897.0,
+        "Sawan Barwal"
+      ]
+    ],
+    "Men's 3000 m steeplechase": [
+      [
+        1981,
+        510.88,
+        "Gopal Saini"
+      ],
+      [
+        2018,
+        509.8,
+        "Avinash Sable"
+      ],
+      [
+        2019,
+        508.94,
+        "Avinash Sable"
+      ],
+      [
+        2019,
+        505.23,
+        "Avinash Sable"
+      ],
+      [
+        2019,
+        501.37,
+        "Avinash Sable"
+      ],
+      [
+        2021,
+        500.2,
+        "Avinash Sable"
+      ],
+      [
+        2021,
+        498.12,
+        "Avinash Sable"
+      ],
+      [
+        2022,
+        496.21,
+        "Avinash Sable"
+      ],
+      [
+        2022,
+        492.48,
+        "Avinash Sable"
+      ],
+      [
+        2022,
+        491.2,
+        "Avinash Sable"
+      ],
+      [
+        2024,
+        489.91,
+        "Avinash Sable"
+      ]
+    ],
+    "Men's 10,000 m": [
+      [
+        1976,
+        1728.72,
+        "Hari Chand"
+      ],
+      [
+        2008,
+        1682.89,
+        "Surendra Singh"
+      ],
+      [
+        2024,
+        1661.81,
+        "Gulveer Singh"
+      ],
+      [
+        2024,
+        1634.88,
+        "Gulveer Singh"
+      ],
+      [
+        2025,
+        1620.22,
+        "Gulveer Singh"
+      ]
+    ],
+    "Women's 3000 m steeplechase": [
+      [
+        2010,
+        609.56,
+        "Sudha Singh"
+      ],
+      [
+        2010,
+        603.05,
+        "O. P. Jaisha"
+      ],
+      [
+        2010,
+        595.67,
+        "Sudha Singh"
+      ],
+      [
+        2012,
+        587.7,
+        "Sudha Singh"
+      ],
+      [
+        2014,
+        575.37,
+        "Lalita Babar"
+      ],
+      [
+        2015,
+        567.86,
+        "Lalita Babar"
+      ],
+      [
+        2016,
+        567.09,
+        "Lalita Babar"
+      ],
+      [
+        2016,
+        566.55,
+        "Sudha Singh"
+      ],
+      [
+        2016,
+        559.76,
+        "Lalita Babar"
+      ],
+      [
+        2023,
+        555.31,
+        "Parul Chaudhary"
+      ],
+      [
+        2025,
+        553.39,
+        "Parul Chaudhary"
+      ],
+      [
+        2025,
+        552.46,
+        "Parul Chaudhary"
+      ],
+      [
+        2026,
+        548.67,
+        "Parul Chaudhary"
+      ]
+    ],
+    "Women's 5000 m": [
+      [
+        2010,
+        915.89,
+        "Preeja Sreedharan"
+      ],
+      [
+        2023,
+        910.35,
+        "Parul Chaudhary"
+      ],
+      [
+        2026,
+        904.26,
+        "Parul Chaudhary"
+      ]
+    ]
+  },
+  "gap": [
+    {
+      "event": "Men 1500 m",
+      "indian_nr_s": 215.24,
+      "world_record_s": 206.0
+    },
+    {
+      "event": "Men 3000 m",
+      "indian_nr_s": 454.49,
+      "world_record_s": 437.55
+    },
+    {
+      "event": "Men 5000 m (outdoor)",
+      "indian_nr_s": 783.93,
+      "world_record_s": 755.36
+    },
+    {
+      "event": "Men 10,000 m",
+      "indian_nr_s": 1620.22,
+      "world_record_s": 1571.0
+    },
+    {
+      "event": "Men 3000 m steeplechase",
+      "indian_nr_s": 489.91,
+      "world_record_s": 472.11
+    },
+    {
+      "event": "Men marathon",
+      "indian_nr_s": 7897.0,
+      "world_record_s": 7235.0
+    },
+    {
+      "event": "Women 1500 m",
+      "indian_nr_s": 244.78,
+      "world_record_s": 229.04
+    },
+    {
+      "event": "Women 3000 m",
+      "indian_nr_s": 537.19,
+      "world_record_s": 486.11
+    },
+    {
+      "event": "Women 5000 m",
+      "indian_nr_s": 904.26,
+      "world_record_s": 838.06
+    },
+    {
+      "event": "Women 10,000 m",
+      "indian_nr_s": 1910.47,
+      "world_record_s": 1734.14
+    },
+    {
+      "event": "Women 3000 m steeplechase",
+      "indian_nr_s": 548.67,
+      "world_record_s": 524.32
+    },
+    {
+      "event": "Women marathon",
+      "indian_nr_s": 9283.0,
+      "world_record_s": 7796.0
+    }
+  ],
+  "pathways": [
+    {
+      "label": "Army/Services",
+      "count": 10
+    },
+    {
+      "label": "Railways",
+      "count": 4
+    },
+    {
+      "label": "Police/CRPF",
+      "count": 2
+    },
+    {
+      "label": "Nashik coach group",
+      "count": 3
+    },
+    {
+      "label": "SAI hostels and state academies",
+      "count": 3
+    },
+    {
+      "label": "Village clubs and independents",
+      "count": 3
+    },
+    {
+      "label": "Other/unverified",
+      "count": 3
+    }
+  ]
+}
