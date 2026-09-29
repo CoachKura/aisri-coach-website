@@ -8,9 +8,32 @@ const {
 } = require("docx");
 
 const OUT = process.argv[2] || "AKURA_World_Athlete_Research_Book_Complete_Edition.docx";
-const CONTENT_DIR = process.env.CONTENT_DIR || path.join(__dirname, "content");
+const LANG = process.env.BOOK_LANG || "en";
+const TA = LANG === "ta";
+const CONTENT_DIR = process.env.CONTENT_DIR || path.join(__dirname, TA ? "content_ta" : "content");
 const FIG_DIR = process.env.FIG_DIR || path.join(__dirname, "figures");
-const FIGS = fs.existsSync(path.join(FIG_DIR, "figures.json")) ? JSON.parse(fs.readFileSync(path.join(FIG_DIR, "figures.json"), "utf8")) : {};
+const FIG_JSON = TA ? path.join(CONTENT_DIR, "figures_ta.json") : path.join(FIG_DIR, "figures.json");
+const FIGS = fs.existsSync(FIG_JSON) ? JSON.parse(fs.readFileSync(FIG_JSON, "utf8")) : {};
+const EN = {
+  keyIdea: "Key idea", coachCorner: "Coach's corner", fieldProtocol: "Field protocol", mythVsEvidence: "Myth vs evidence",
+  myth: "Myth:", evidence: "Evidence:", checkpoint: "Checkpoint", chapter: "CHAPTER", part: "PART", inThisPart: "IN THIS PART",
+  atAGlance: "AT A GLANCE", glanceSub: "The key idea from each chapter, for quick revision.", figure: "Figure", contents: "Contents",
+  header: "AKURA World Athlete Research Book  •  The AKURA Endurance Index™",
+  refsTitle: "References and Further Reading",
+  refsIntro: "The sources below were used as starting points for the evidence discussed in this book. Readers should consult the original papers; inclusion here does not imply that the authors endorse the AKURA Endurance Index.",
+  coverBrand: "WORLD ATHLETE RESEARCH BOOK", coverTitle: "The AKURA Endurance Index™ (AEI)", coverSubtitle: "From Myth to Measurement",
+  coverTagline: "MEASURE THE ATHLETE  •  UNDERSTAND THE BODY  •  BUILD THE PERFORMANCE", coverEdition: "Complete English Edition  •  Indian Sports Context",
+  coverAuthor: "KURA", coverSystem: "AKURA Endurance Research System", coverProto: "Prototype Edition 0.1  •  2026",
+  copyright: [
+    "**AKURA World Athlete Research Book — The AKURA Endurance Index™ (AEI): From Myth to Measurement**",
+    "Complete English Edition. Prototype Edition 0.1, 2026.",
+    "© 2026 Kura / AKURA Endurance Research System. All rights reserved. No part of this publication may be reproduced without the prior written permission of the author, except for brief quotations in reviews and academic work with attribution.",
+    "AKURA, AKURA Endurance Index™, AEI and AISRi are names used by the AKURA Endurance Research System. VDOT is associated with Jack Daniels and V.O2; it is referenced for educational comparison only. Garmin and Strava are trademarks of their respective owners.",
+    "**Important notice.** This book is an educational and research document. It is not medical advice. The AKURA Endurance Index is a proposed research framework that has not yet been validated; its equations and categories must not be used for high-stakes selection, medical or safety decisions. Blood testing, cardiac screening, hypoxic exposure and heat-acclimation interventions should be conducted only with appropriate medical oversight and, for research, with informed consent and ethics committee approval.",
+    "Chennai, Tamil Nadu, India.",
+  ],
+};
+const S = TA ? { ...EN, ...JSON.parse(fs.readFileSync(path.join(CONTENT_DIR, "strings.json"), "utf8")) } : EN;
 let figNo = 0;
 // PNG pixel size from the IHDR chunk
 function pngSize(buf) { return { w: buf.readUInt32BE(16), h: buf.readUInt32BE(20) }; }
@@ -21,9 +44,9 @@ function figure(file, caption) {
   figNo++;
   return [
     new Paragraph({ alignment: AlignmentType.CENTER, keepNext: true, spacing: { before: 200, after: 80 },
-      children: [new ImageRun({ type: "png", data, transformation: { width, height }, altText: { title: `Figure ${figNo}`, description: caption, name: file } })] }),
+      children: [new ImageRun({ type: "png", data, transformation: { width, height }, altText: { title: `${S.figure} ${figNo}`, description: caption, name: file } })] }),
     new Paragraph({ spacing: { after: 240, line: 264 }, border: { bottom: { style: BorderStyle.SINGLE, size: 4, color: "C9D3DE", space: 6 } },
-      children: [new TextRun({ text: `Figure ${figNo}.  `, bold: true, color: C.saffron, font: HEAD_FONT, size: 17 }), ...runs(caption, { italics: true, color: C.grey, size: 18 })] }),
+      children: [new TextRun({ text: `${S.figure} ${figNo}.  `, bold: true, color: C.saffron, font: HEAD_FONT, size: 17 }), ...runs(caption, { italics: true, color: C.grey, size: 18 })] }),
   ];
 }
 
@@ -32,8 +55,11 @@ const C = {
   navy: "0B2545", teal: "13807A", saffron: "D9731A", ink: "222222", grey: "666666",
   light: "F3F6F9", tealLight: "E6F4F2", saffronLight: "FDF1E6", navyLight: "E8EDF4", redLight: "FBEAEA", red: "B23A3A",
 };
-const BODY_FONT = "Georgia";
-const HEAD_FONT = "Arial";
+// Tamil script uses the complex-script (cs) font slot; Latin keeps Georgia/Arial.
+const TA_BODY = process.env.TA_BODY_FONT || "Nirmala UI", TA_HEAD = process.env.TA_HEAD_FONT || "Nirmala UI";
+const BODY_FONT = TA ? { ascii: "Georgia", hAnsi: "Georgia", cs: TA_BODY, eastAsia: "Georgia" } : "Georgia";
+const HEAD_FONT = TA ? { ascii: "Arial", hAnsi: "Arial", cs: TA_HEAD, eastAsia: "Arial" } : "Arial";
+const LINE = TA ? 360 : 312;
 const PAGE_W = 11906, PAGE_H = 16838, MARGIN = 1440;
 const CW = PAGE_W - 2 * MARGIN; // content width (DXA)
 
@@ -51,7 +77,7 @@ function runs(text, base = {}) {
 const tamil = (s) => /[஀-௿]/.test(s);
 
 // ---------- element builders ----------
-const body = (t) => new Paragraph({ children: runs(t), spacing: { after: 160, line: 312 }, alignment: AlignmentType.JUSTIFIED });
+const body = (t) => new Paragraph({ children: runs(t), spacing: { after: 160, line: LINE }, alignment: TA ? AlignmentType.LEFT : AlignmentType.JUSTIFIED });
 
 function box(label, text, fill, accent, extraParas = []) {
   const children = [
@@ -128,7 +154,7 @@ function listItem(t, numbered, inst) {
 
 function quote(t) {
   let [q, who] = t.split(/\s+—\s+(?=[^—]*$)/);
-  const cs = tamil(q) ? { font: { ascii: BODY_FONT, hAnsi: BODY_FONT, cs: "Nirmala UI" } } : {};
+  const cs = tamil(q) ? { font: { ascii: "Georgia", hAnsi: "Georgia", cs: TA ? TA_BODY : "Nirmala UI" } } : {};
   const out = [
     new Paragraph({ alignment: AlignmentType.CENTER, spacing: { before: 240, after: 80, line: 340 },
       border: { top: { style: BorderStyle.SINGLE, size: 6, color: C.saffron, space: 10 } },
@@ -149,7 +175,7 @@ function partPage(label, title, intro, chapters = []) {
       border: { bottom: { style: BorderStyle.SINGLE, size: 18, color: C.saffron, space: 12 } },
       children: [new TextRun({ text: label + " — ", color: C.saffron }), new TextRun({ text: title })] }),
     ...(intro ? [new Paragraph({ spacing: { after: 200, line: 360 }, children: runs(intro, { size: 24, color: C.grey, italics: true }) })] : []),
-    ...(chapters.length ? [new Paragraph({ spacing: { before: 360, after: 120 }, children: [new TextRun({ text: "IN THIS PART", font: HEAD_FONT, size: 18, bold: true, color: C.teal, characterSpacing: 40 })] })] : []),
+    ...(chapters.length ? [new Paragraph({ spacing: { before: 360, after: 120 }, children: [new TextRun({ text: S.inThisPart, font: HEAD_FONT, size: 18, bold: true, color: C.teal, characterSpacing: 40 })] })] : []),
     ...chapters.map(([n, t]) => new Paragraph({ spacing: { after: 70 }, indent: { left: 0 },
       children: [new TextRun({ text: `${n}   `, font: HEAD_FONT, size: 22, bold: true, color: C.saffron }), new TextRun({ text: t, font: HEAD_FONT, size: 22, color: C.navy })] })),
   ];
@@ -169,8 +195,8 @@ function partSummary(state) {
   ] }));
   return [
     new Paragraph({ keepNext: true, spacing: { before: 520, after: 60 }, shading: { type: ShadingType.CLEAR, fill: C.navy, color: "auto" },
-      children: [new TextRun({ text: "  " + state.currentPart.split(" — ")[0] + " AT A GLANCE", font: HEAD_FONT, bold: true, size: 22, color: "FFFFFF", characterSpacing: 40 })] }),
-    new Paragraph({ keepNext: true, spacing: { after: 120 }, children: [new TextRun({ text: "The key idea from each chapter, for quick revision.", italics: true, size: 19, color: C.grey })] }),
+      children: [new TextRun({ text: "  " + state.currentPart.split(" — ")[0] + " " + S.atAGlance, font: HEAD_FONT, bold: true, size: 22, color: "FFFFFF", characterSpacing: 40 })] }),
+    new Paragraph({ keepNext: true, spacing: { after: 120 }, children: [new TextRun({ text: S.glanceSub, italics: true, size: 19, color: C.grey })] }),
     new Table({ width: { size: CW, type: WidthType.DXA }, columnWidths: [1100, CW - 1100], rows }),
   ];
 }
@@ -202,7 +228,7 @@ function parseFile(txt, state) {
       flushPart(); endList();
       out.push(...partSummary(state));
       state.section = "PART";
-      pendingPart = { label: "PART " + m[1], title: m[2].trim() };
+      pendingPart = { label: S.part + " " + m[1], title: m[2].trim() };
       state.parts.push(pendingPart.label + " — " + pendingPart.title);
       state.currentPart = pendingPart.label + " — " + pendingPart.title;
       continue;
@@ -214,7 +240,9 @@ function parseFile(txt, state) {
       const t = m[1].trim();
       const isFrontBack = state.section !== "PART";
       if (isFrontBack) {
-        const newPage = /^(Author|Appendix A|Glossary|Final Research|About the Author)/.test(t) || state.section === "FRONT";
+        const idx = state.section === "BACKMATTER" ? (state.backIdx = (state.backIdx ?? -1) + 1) : (state.frontIdx = (state.frontIdx ?? -1) + 1);
+        const newPage = state.section === "BACKMATTER" ? [0, 5, 6, 7].includes(idx) : idx === 0;
+        if (state.section === "BACKMATTER" && idx === 7) out.push({ __refs: true });
         out.push(new Paragraph({ heading: HeadingLevel.HEADING_1, pageBreakBefore: newPage, keepNext: true,
           spacing: newPage ? undefined : { before: 600, after: 280 }, children: [new TextRun(t)] }));
         state.leadNext = false;
@@ -224,7 +252,7 @@ function parseFile(txt, state) {
         const brk = !!state.afterPart; state.afterPart = false;
         out.push(new Paragraph({ pageBreakBefore: brk, keepNext: true, keepLines: true, spacing: { before: brk ? 0 : 560, after: 0 },
           border: brk ? undefined : { top: { style: BorderStyle.SINGLE, size: 12, color: C.saffron, space: 18 } },
-          children: [new TextRun({ text: cm ? "CHAPTER " + cm[1] : "", font: HEAD_FONT, size: 20, bold: true, color: C.saffron, characterSpacing: 40 })] }));
+          children: [new TextRun({ text: cm ? S.chapter + " " + cm[1] : "", font: HEAD_FONT, size: 20, bold: true, color: C.saffron, characterSpacing: 40 })] }));
         out.push(new Paragraph({ heading: HeadingLevel.HEADING_2, keepNext: true, children: [new TextRun(t)] }));
         out.push(new Paragraph({ keepNext: true, spacing: { after: 240 }, children: [new TextRun({ text: state.currentPart || "", font: HEAD_FONT, size: 17, color: C.grey })] }));
         state.chTitle = cm ? [cm[1], cm[2]] : null; state.keyTaken = false;
@@ -238,21 +266,21 @@ function parseFile(txt, state) {
     endList();
     if ((m = line.match(/^KEY:\s*(.+)$/))) {
       if (state.section === "PART" && state.chTitle && !state.keyTaken) { (state.partKeys = state.partKeys || []).push([state.chTitle[0], state.chTitle[1], m[1]]); state.keyTaken = true; }
-      out.push(...box("Key idea", m[1], C.navyLight, C.navy)); continue; }
-    if ((m = line.match(/^COACH:\s*(.+)$/))) { out.push(...box("Coach's corner", m[1], C.tealLight, C.teal)); continue; }
+      out.push(...box(S.keyIdea, m[1], C.navyLight, C.navy)); continue; }
+    if ((m = line.match(/^COACH:\s*(.+)$/))) { out.push(...box(S.coachCorner, m[1], C.tealLight, C.teal)); continue; }
     if ((m = line.match(/^FIELD:\s*(.+)$/))) {
       const steps = m[1].split(/\s+;\s+/);
-      out.push(...box("Field protocol", steps.length > 1 ? steps.map((s, i) => `${i + 1}. ${s.trim()}`) : steps, C.saffronLight, C.saffron));
+      out.push(...box(S.fieldProtocol, steps.length > 1 ? steps.map((s, i) => `${i + 1}. ${s.trim()}`) : steps, C.saffronLight, C.saffron));
       continue;
     }
     if ((m = line.match(/^MYTH:\s*(.+)$/))) {
       const [myth, fact] = m[1].split(/\s*\|\|\s*/);
-      out.push(...box("Myth vs evidence", [`**Myth:** ${myth.trim()}`, `**Evidence:** ${(fact || "").trim()}`], C.redLight, C.red));
+      out.push(...box(S.mythVsEvidence, [`**${S.myth}** ${myth.trim()}`, `**${S.evidence}** ${(fact || "").trim()}`], C.redLight, C.red));
       continue;
     }
     if ((m = line.match(/^FIG:\s*([^|]+)\|\s*(.+)$/))) { out.push(...figure(m[1].trim(), m[2].trim())); continue; }
     if ((m = line.match(/^QUOTE:\s*(.+)$/))) { out.push(...quote(m[1])); continue; }
-    if ((m = line.match(/^CHECK:\s*(.+)$/))) { out.push(...box("Checkpoint", m[1], C.light, C.grey)); continue; }
+    if ((m = line.match(/^CHECK:\s*(.+)$/))) { out.push(...box(S.checkpoint, m[1], C.light, C.grey)); continue; }
     if (state.leadNext) {
       state.leadNext = false;
       out.push(new Paragraph({ children: runs(line, { size: 25, color: C.navy }), spacing: { after: 200, line: 336 } }));
@@ -280,8 +308,8 @@ function refsSection(refs) {
   for (const k of [...seen.keys()]) if (!/\d{4}$/.test(k) && [...seen.keys()].some((o) => o !== k && o.startsWith(k))) seen.delete(k);
   const list = [...seen.values()].sort((a, b) => a.localeCompare(b));
   return [
-    new Paragraph({ heading: HeadingLevel.HEADING_1, pageBreakBefore: true, children: [new TextRun("References and Further Reading")] }),
-    body("The sources below were used as starting points for the evidence discussed in this book. Readers should consult the original papers; inclusion here does not imply that the authors endorse the AKURA Endurance Index."),
+    new Paragraph({ heading: HeadingLevel.HEADING_1, pageBreakBefore: true, children: [new TextRun(S.refsTitle)] }),
+    body(S.refsIntro),
     ...list.map((r) => new Paragraph({ spacing: { after: 100, line: 276 }, indent: { left: 360, hanging: 360 }, children: runs(r, { size: 19 }) })),
   ];
 }
@@ -295,14 +323,14 @@ function cover() {
   return [
     ...art,
     new Paragraph({ spacing: { before: 200, after: 0 }, children: [t("AKURA", { size: 72, bold: true, color: C.saffron, characterSpacing: 200 })] }),
-    new Paragraph({ spacing: { after: 600 }, border: { bottom: { style: BorderStyle.SINGLE, size: 24, color: C.saffron, space: 8 } }, children: [t("WORLD ATHLETE RESEARCH BOOK", { size: 30, bold: true, color: C.navy, characterSpacing: 60 })] }),
-    new Paragraph({ spacing: { after: 200 }, children: [t("The AKURA Endurance Index™ (AEI)", { size: 56, bold: true, color: C.navy })] }),
-    new Paragraph({ spacing: { after: 900 }, children: [t("From Myth to Measurement", { size: 40, color: C.teal, italics: true })] }),
-    new Paragraph({ spacing: { after: 120 }, children: [t("MEASURE THE ATHLETE  •  UNDERSTAND THE BODY  •  BUILD THE PERFORMANCE", { size: 20, bold: true, color: C.grey, characterSpacing: 30 })] }),
-    new Paragraph({ spacing: { after: 1400 }, children: [t("Complete English Edition  •  Indian Sports Context", { size: 22, color: C.grey })] }),
-    new Paragraph({ spacing: { after: 60 }, children: [t("KURA", { size: 32, bold: true, color: C.navy, characterSpacing: 80 })] }),
-    new Paragraph({ spacing: { after: 60 }, children: [t("AKURA Endurance Research System", { size: 22, color: C.navy })] }),
-    new Paragraph({ children: [t("Prototype Edition 0.1  •  2026", { size: 20, color: C.grey })] }),
+    new Paragraph({ spacing: { after: 600 }, border: { bottom: { style: BorderStyle.SINGLE, size: 24, color: C.saffron, space: 8 } }, children: [t(S.coverBrand, { size: 30, bold: true, color: C.navy, characterSpacing: 60 })] }),
+    new Paragraph({ spacing: { after: 200 }, children: [t(S.coverTitle, { size: 56, bold: true, color: C.navy })] }),
+    new Paragraph({ spacing: { after: 900 }, children: [t(S.coverSubtitle, { size: 40, color: C.teal, italics: true })] }),
+    new Paragraph({ spacing: { after: 120 }, children: [t(S.coverTagline, { size: 20, bold: true, color: C.grey, characterSpacing: 30 })] }),
+    new Paragraph({ spacing: { after: 1400 }, children: [t(S.coverEdition, { size: 22, color: C.grey })] }),
+    new Paragraph({ spacing: { after: 60 }, children: [t(S.coverAuthor, { size: 32, bold: true, color: C.navy, characterSpacing: 80 })] }),
+    new Paragraph({ spacing: { after: 60 }, children: [t(S.coverSystem, { size: 22, color: C.navy })] }),
+    new Paragraph({ children: [t(S.coverProto, { size: 20, color: C.grey })] }),
   ];
 }
 
@@ -310,19 +338,14 @@ function copyright() {
   const small = (text, o = {}) => new Paragraph({ spacing: { after: 140, line: 288 }, children: runs(text, { size: 18, color: C.grey, font: HEAD_FONT, ...o }) });
   return [
     new Paragraph({ pageBreakBefore: true, spacing: { before: 6000 }, children: [] }),
-    small("**AKURA World Athlete Research Book — The AKURA Endurance Index™ (AEI): From Myth to Measurement**"),
-    small("Complete English Edition. Prototype Edition 0.1, 2026."),
-    small("© 2026 Kura / AKURA Endurance Research System. All rights reserved. No part of this publication may be reproduced without the prior written permission of the author, except for brief quotations in reviews and academic work with attribution."),
-    small("AKURA, AKURA Endurance Index™, AEI and AISRi are names used by the AKURA Endurance Research System. VDOT is associated with Jack Daniels and V.O2; it is referenced for educational comparison only. Garmin and Strava are trademarks of their respective owners."),
-    small("**Important notice.** This book is an educational and research document. It is not medical advice. The AKURA Endurance Index is a proposed research framework that has not yet been validated; its equations and categories must not be used for high-stakes selection, medical or safety decisions. Blood testing, cardiac screening, hypoxic exposure and heat-acclimation interventions should be conducted only with appropriate medical oversight and, for research, with informed consent and ethics committee approval."),
-    small("Chennai, Tamil Nadu, India."),
+    ...S.copyright.map((c) => small(c)),
   ];
 }
 
 function tocPage() {
   return [
-    new Paragraph({ pageBreakBefore: true, spacing: { after: 300 }, children: [new TextRun({ text: "Contents", font: HEAD_FONT, size: 44, bold: true, color: C.navy })] }),
-    new TableOfContents("Contents", { hyperlink: true, headingStyleRange: "1-2" }),
+    new Paragraph({ pageBreakBefore: true, spacing: { after: 300 }, children: [new TextRun({ text: S.contents, font: HEAD_FONT, size: 44, bold: true, color: C.navy })] }),
+    new TableOfContents(S.contents, { hyperlink: true, headingStyleRange: "1-2" }),
   ];
 }
 
@@ -348,11 +371,12 @@ for (const f of files) {
   main.push(...els);
 }
 // Insert references before "About the Author" if present
-const aboutIdx = main.findIndex((p) => p instanceof Paragraph && JSON.stringify(p).includes("About the Author"));
+const aboutIdx = main.findIndex((p) => p && p.__refs);
+if (aboutIdx >= 0) main.splice(aboutIdx, 1);
 const refEls = refsSection(state.refs);
 if (aboutIdx > 0) main.splice(aboutIdx, 0, ...refEls); else main.push(...refEls);
 
-const header = new Header({ children: [new Paragraph({ alignment: AlignmentType.RIGHT, children: [new TextRun({ text: "AKURA World Athlete Research Book  •  The AKURA Endurance Index™", font: HEAD_FONT, size: 16, color: "999999" })] })] });
+const header = new Header({ children: [new Paragraph({ alignment: AlignmentType.RIGHT, children: [new TextRun({ text: S.header, font: HEAD_FONT, size: 16, color: "999999" })] })] });
 const footer = new Footer({ children: [new Paragraph({ alignment: AlignmentType.CENTER, children: [new TextRun({ children: [PageNumber.CURRENT], font: HEAD_FONT, size: 18, color: C.grey })] })] });
 const page = { size: { width: PAGE_W, height: PAGE_H }, margin: { top: MARGIN, bottom: MARGIN, left: MARGIN, right: MARGIN, header: 700, footer: 700 } };
 

@@ -14,3 +14,16 @@ python3 figures.py
 node build.js ../AKURA_World_Athlete_Research_Book_Complete_Edition.docx
 python3 topdf.py ../AKURA_World_Athlete_Research_Book_Complete_Edition.docx ../AKURA_World_Athlete_Research_Book_Complete_Edition.pdf
 ```
+
+## Tamil edition
+
+- `content_ta/` — Tamil translation (same line format), plus `strings.json` (labels, cover, copyright) and `figures_ta.json` (figure captions).
+- `TAMIL_GUIDE.md` — terminology and style guide used for the translation.
+
+```bash
+# Word file (Nirmala UI, built into Windows)
+BOOK_LANG=ta node build.js ../AKURA_World_Athlete_Research_Book_Tamil_Edition.docx
+# PDF (Noto Serif/Sans Tamil fonts)
+BOOK_LANG=ta TA_BODY_FONT="Noto Serif Tamil" TA_HEAD_FONT="Noto Sans Tamil" node build.js ta_pdf.docx
+python3 topdf.py ta_pdf.docx ../AKURA_World_Athlete_Research_Book_Tamil_Edition.pdf
+```
